@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "name": "Tyson Popcorn Chicken - Frozen - 25oz",
+      "price": "$6.69",
+      "unit_price": "$0.27/ounce"
+    },
+    {
+      "name": "Tyson Lightly Breaded Chicken Strips - Frozen - 20oz",
+      "price": "$8.99",
+      "unit_price": "$0.45/ounce"
+    },
+    {
+      "name": "Tyson Any'tizers Buffalo Style Boneless Chicken Bites - Frozen - 24oz",
+      "price": "$8.99",
+      "unit_price": "$0.37/ounce"
+    },
+    {
+      "name": "Just Bare Lightly Breaded Spicy Chicken Breast Strips - Frozen - 24oz",
+      "price": "$12.99",
+      "unit_price": "$0.54/ounce"
+    },
+    {
+      "name": "Kidfresh Frozen Chicken Nuggets - 16.35oz",
+      "price": "$9.99",
+      "unit_price": "$0.61/ounce"
+    },
+    {
+      "name": "Kevin's Natural Foods Korean BBQ-Style Chicken - 16oz",
+      "price": "$10.99",
+      "unit_price": "$0.69/ounce"
+    },
+    {
+      "name": "Tyson Buffalo Style Chicken Strips - Frozen - 25oz",
+      "price": "$8.49",
+      "unit_price": "$0.34/ounce"
+    },
+    {
+      "name": "Tyson Blackened Flavored Chicken Breast Strips - Frozen - 20oz",
+      "price": "$8.99",
+      "unit_price": "$0.45/ounce"
+    },
+    {
+      "name": "Tyson Honey Battered Breast Tenders - Frozen - 25.5oz",
+      "price": "$6.69",
+      "unit_price": "$0.26/ounce"
+    },
+    {
+      "name": "Foster Farms No Antibiotics Ever Boneless Skinless Chicken Breast Tenders - 1-2lbs - price per lb",
+      "price": "$13.98 max price",
+      "unit_price": "$6.99/lb"
+    },
+    {
+      "name": "Real Good Foods Low Carb Chicken Strips - Frozen - 20oz",
+      "price": "$7.99",
+      "unit_price": "$0.40/ounce"
+    },
+    {
+      "name": "Applegate Naturals Gluten Free Family Size Chicken Nuggets - Frozen - 16oz",
+      "price": "$13.99",
+      "unit_price": "$0.87/ounce"
+    },
+    {
+      "name": "Kevin's Natural Foods Roasted Garlic Chicken - 16oz",
+      "price": "$10.99",
+      "unit_price": null
+    },
+    {
+      "name": "Tyson Spicy Chicken Patties - Frozen - 23oz",
+      "price": "$6.69",
+      "unit_price": "$0.29/ounce"
+    },
+    {
+      "name": "Cajun Seasoned Grilled Chicken Breast Strips - 12oz - Good & Gather™",
+      "price": "$7.99",
+      "unit_price": "$0.67/ounce"
+    },
+    {
+      "name": "All Natural Boneless & Skinless Chicken Breast Value Pack - 2.5-5.25lbs - price per lb - Good & Gather™",
+      "price": "$13.45 max price",
+      "unit_price": "$2.69/lb"
+    },
+    {
+      "name": "Grilled Chicken Breast Strips - Good & Gather™",
+      "price": "$7.99 - $8.99",
+      "unit_price": null
+    },
+    {
+      "name": "Tyson All Natural White Meat Fun Nuggets - Frozen - 29oz",
+      "price": "$6.69",
+      "unit_price": "$0.23/ounce"
+    },
+    {
+      "name": "Shredded Rotisserie Seasoned Chicken - 12oz - Good & Gather™",
+      "price": "$7.99",
+      "unit_price": "$0.67/ounce"
+    },
+    {
+      "name": "Tyson All Natural All Natural Chicken Nuggets - Frozen - 29oz",
+      "price": "$6.69",
+      "unit_price": "$0.23/ounce"
+    },
+    {
+      "name": "Kevin's Natural Foods Chicken",
+      "price": "$10.99",
+      "unit_price": null
+    },
+    {
+      "name": "Just Bare Lightly Breaded Chicken Breast Bites - Frozen - 24oz",
+      "price": "$12.99",
+      "unit_price": "$0.54/ounce"
+    },
+    {
+      "name": "Shredded Chicken - 12oz - Good & Gather™",
+      "price": "$7.99",
+      "unit_price": "$0.67/ounce"
+    },
+    {
+      "name": "Tyson All Natural Chicken Breast Patties - Frozen - 23oz",
+      "price": "$6.69",
+      "unit_price": "$0.29/ounce"
+    },
+    {
+      "name": "Tyson All Natural Crispy Chicken Strips - Frozen - 25oz",
+      "price": "$8.49",
+      "unit_price": "$0.34/ounce"
+    },
+    {
+      "name": "Kidfresh Frozen Chicken Meatballs - 16.45oz",
+      "price": "$10.99",
+      "unit_price": "$0.67/ounce"
+    },
+    {
+      "name": "All Natural Boneless & Skinless Chicken Breast - 1.5-3.2lbs - price per lb - Good & Gather™",
+      "price": "$12.77 max price",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "No Antibiotics Every Dinosaur Shaped Frozen Chicken Nuggets - 29oz - Good & Gather™",
+      "price": "$5.49",
+      "unit_price": "$0.19/ounce"
+    },
+    {
+      "name": "Just Bare Lightly Breaded Chicken Breast Strips - Frozen - 24oz",
+      "price": "$12.99",
+      "unit_price": "$0.54/ounce"
+    },
+    {
+      "name": "Parmesan Chicken Breast Cutlets - 20oz - Good & Gather™",
+      "price": "$11.99",
+      "unit_price": "$0.60/ounce"
+    },
+    {
+      "name": "No Antibiotics Ever Chicken Nuggets - Frozen - 29oz - Good & Gather™",
+      "price": "$5.49",
+      "unit_price": "$0.19/ounce"
+    },
+    {
+      "name": "Tyson Baked Chicken Nuggets - Frozen - 25oz",
+      "price": "$6.69",
+      "unit_price": "$0.27/ounce"
+    },
+    {
+      "name": "Yummy Dino Buddies Chicken Breast Nuggets - Frozen - 35oz",
+      "price": "$8.99",
+      "unit_price": "$0.26/ounce"
+    },
+    {
+      "name": "No Antibiotics Ever Boneless & Skinless Chicken Breast - Frozen - 40oz - Good & Gather™",
+      "price": "$8.49",
+      "unit_price": "$0.21/ounce"
+    },
+    {
+      "name": "Tyson Grilled & Ready Oven Roasted Diced Chicken Breast - Frozen - 22oz",
+      "price": "$8.99",
+      "unit_price": "$0.41/ounce"
+    },
+    {
+      "name": "No Antibiotics Ever Popcorn Chicken - Frozen - 25.5oz - Good & Gather™",
+      "price": "$7.99",
+      "unit_price": "$0.31/ounce"
+    }
+  ]
+}
