@@ -1,0 +1,59 @@
+{
+  "products": [
+    {
+      "name": "Hillshire Farm Ultra Thin Honey Ham - 16oz",
+      "price": "$6.29",
+      "unit_price": "$0.39/ounce"
+    },
+    {
+      "name": "Wellshire Black Forest Uncured Seasonal Deli Ham - 7oz",
+      "price": "$4.99",
+      "unit_price": null
+    },
+    {
+      "name": "Oscar Mayer Deli Fresh Honey Uncured Ham Sliced Lunch Meat - 9oz",
+      "price": "$4.29",
+      "unit_price": "$0.48/ounce"
+    },
+    {
+      "name": "Hickory Smoked Uncured Ham Steak - 8oz - Good & Gather™",
+      "price": "$3.29",
+      "unit_price": "$0.41/ounce"
+    },
+    {
+      "name": "Hickory Smoked Uncured Boneless Sliced Quarter Ham - price per lb - Good & Gather™",
+      "price": "$17.47 max price",
+      "unit_price": "$4.99/lb"
+    },
+    {
+      "name": "Uncured Honey Ham Ultra-Thin Deli Slices - 9oz - Good & Gather™",
+      "price": "$3.59",
+      "unit_price": "$0.40/ounce"
+    },
+    {
+      "name": "Hillshire Farm Ultra Thin Honey Roasted Turkey Breast & Smoked Ham Variety Pack - 16oz",
+      "price": "$6.29",
+      "unit_price": "$0.39/ounce"
+    },
+    {
+      "name": "Wellshire Virginia Brand Uncured Seasonal Deli Ham - 7oz",
+      "price": "$4.99",
+      "unit_price": null
+    },
+    {
+      "name": "Oscar Mayer Carving Board Slow Cooked Ham Sliced Lunch Meat - 7.5oz",
+      "price": "$4.29",
+      "unit_price": "$0.57/ounce"
+    },
+    {
+      "name": "Uncured Black Forest Ham Ultra-Thin Deli Slices - 9oz - Good & Gather™",
+      "price": "$3.59",
+      "unit_price": "$0.40/ounce"
+    },
+    {
+      "name": "Applegate Natural Uncured Black Forest Ham - 7oz",
+      "price": "$5.99",
+      "unit_price": "$0.86/ounce"
+    }
+  ]
+}

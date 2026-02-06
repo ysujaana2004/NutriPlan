@@ -1,0 +1,129 @@
+{
+  "products": [
+    {
+      "name": "Annie's Organic Real Aged Cheddar Mac and Cheese Microwavable Cups - 8.04oz/4pk",
+      "price": "$6.59",
+      "unit_price": "$0.82/ounce"
+    },
+    {
+      "name": "3 Farm Daughters High Fiber Cavatappi Pasta - 12oz",
+      "price": "$4.99",
+      "unit_price": "$0.42/ounce"
+    },
+    {
+      "name": "Velveeta Shells & Cheese Original Mac and Cheese Cups Easy Microwavable Dinner - 9.56oz/4ct",
+      "price": "$5.49",
+      "unit_price": "$0.57/ounce"
+    },
+    {
+      "name": "Barilla ProteinPLUS Multigrain Penne Pasta - 14.5oz",
+      "price": "$2.69",
+      "unit_price": "$0.19/ounce"
+    },
+    {
+      "name": "Dinosaur Shaped Organic Kids' Pasta - 12oz - Good & Gather\u2122",
+      "price": "$2.49",
+      "unit_price": "$0.21/ounce"
+    },
+    {
+      "name": "Gluten Free Red Lentil Rotini - 8oz - Good & Gather\u2122",
+      "price": "$2.99",
+      "unit_price": "$0.37/ounce"
+    },
+    {
+      "name": "Carbe Diem Foods Penne Pasta - 12oz",
+      "price": "$3.99",
+      "unit_price": "$0.33/ounce"
+    },
+    {
+      "name": "Velveeta Gluten Free Liquid Mac & Cheese - 12oz",
+      "price": "$5.99",
+      "unit_price": "$0.50/ounce"
+    },
+    {
+      "name": "Gluten Free Spaghetti - 12oz - Good & Gather\u2122",
+      "price": "$2.39",
+      "unit_price": "$0.20/ounce"
+    },
+    {
+      "name": "Alphabet Shaped Organic Kids' Pasta - 12oz - Good & Gather\u2122",
+      "price": "$2.49",
+      "unit_price": "$0.21/ounce"
+    },
+    {
+      "name": "Jasmine Rice - 32oz - Good & Gather\u2122",
+      "price": "$3.49",
+      "unit_price": "$0.11/ounce"
+    },
+    {
+      "name": "Barilla Spaghetti Pasta - 16oz",
+      "price": "$1.89",
+      "unit_price": "$0.12/ounce"
+    },
+    {
+      "name": "Wide Egg Noodles - 12oz - Good & Gather\u2122",
+      "price": "$1.29",
+      "unit_price": "$0.11/ounce"
+    },
+    {
+      "name": "Rotini - 16oz - Good & Gather\u2122",
+      "price": "$0.99",
+      "unit_price": "$0.06/ounce"
+    },
+    {
+      "name": "Rigatoni - 16oz - Good & Gather\u2122",
+      "price": null,
+      "unit_price": "$0.06/ounce"
+    },
+    {
+      "name": "Barilla Penne Pasta - 16oz",
+      "price": null,
+      "unit_price": "$0.12/ounce"
+    },
+    {
+      "name": "Farfalle - 16oz - Good & Gather\u2122",
+      "price": null,
+      "unit_price": "$0.07/ounce"
+    },
+    {
+      "name": "Fettuccine - 16oz - Good & Gather\u2122",
+      "price": null,
+      "unit_price": "$0.06/ounce"
+    },
+    {
+      "name": "90 Second Long Grain White Rice Microwavable Pouch - 8.8oz - Good & Gather\u2122",
+      "price": null,
+      "unit_price": "$0.17/ounce"
+    },
+    {
+      "name": "90 Second Whole Grain Brown Rice Microwavable Pouch - 8.8oz - Good & Gather\u2122",
+      "price": null,
+      "unit_price": "$0.17/ounce"
+    },
+    {
+      "name": "Angel Hair - 16oz - Good & Gather\u2122",
+      "price": null,
+      "unit_price": "$0.06/ounce"
+    },
+    {
+      "name": "90 Second Organic Jasmine Rice Microwavable Pouch - 8.8oz - Good & Gather\u2122",
+      "price": null,
+      "unit_price": "$0.28/ounce"
+    },
+    {
+      "name": "Barilla ProteinPLUS Multigrain Spaghetti Pasta - 14.5oz",
+      "price": null,
+      "unit_price": "$0.19/ounce"
+    },
+    {
+      "name": "Barilla Rotini Pasta - 16oz",
+      "price": null,
+      "unit_price": "$0.12/ounce"
+    },
+    {
+      "name": "Medium Shells - 16oz - Good & Gather\u2122",
+      "price": null,
+      "unit_price": "$0.06/ounce"
+    }
+  ]
+}
