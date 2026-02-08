@@ -1,0 +1,314 @@
+{
+  "products": [
+    {
+      "name": "Fresh Sugarbee Apples - 2lb Bag",
+      "price": "$5.89",
+      "unit_price": "$0.18/ounce"
+    },
+    {
+      "name": "Watermelon Spears - 1lb",
+      "price": "$5.99",
+      "unit_price": "$0.37/ounce"
+    },
+    {
+      "name": "Fresh Organic Mandarin Oranges - 2lb Bag",
+      "price": "$5.49",
+      "unit_price": "$0.17/ounce"
+    },
+    {
+      "name": "Once Upon a Farm Organic Smart Blend Kids' Snack Variety Pack - 12.8oz/4ct Pouches",
+      "price": "$12.89",
+      "unit_price": "$1.01/ounce"
+    },
+    {
+      "name": "Fresh Organic Lemons - 2lb - Good & Gather™",
+      "price": "$6.19",
+      "unit_price": "$0.19/ounce"
+    },
+    {
+      "name": "Mango Spears - 1lb",
+      "price": "$6.99",
+      "unit_price": "$0.44/ounce"
+    },
+    {
+      "name": "Pineapple Spears - 1lb",
+      "price": "$5.99",
+      "unit_price": "$0.37/ounce"
+    },
+    {
+      "name": "Fresh Organic Navel Oranges - 3lb - Good & Gather™",
+      "price": "$5.79",
+      "unit_price": "$0.12/ounce"
+    },
+    {
+      "name": "Fresh Organic Sweet Apples - 2lbs",
+      "price": "$5.49",
+      "unit_price": "$0.17/ounce"
+    },
+    {
+      "name": "Once Upon a Farm Wild Rumpus Avocado, Pineapple Banana Organic Kids' Snack - 3.2oz Pouch",
+      "price": "$3.39",
+      "unit_price": "$1.06/ounce"
+    },
+    {
+      "name": "Crunch Pak Organic Sweet Apple Slices - 11oz/5ct",
+      "price": "$4.99",
+      "unit_price": "$0.45/ounce"
+    },
+    {
+      "name": "Fresh Garden Highway Cantaloupe Spears - 16oz",
+      "price": "$5.99",
+      "unit_price": "$0.37/ounce"
+    },
+    {
+      "name": "Fresh Candy Hearts Red Seedless Grapes - 1lb",
+      "price": "$5.29",
+      "unit_price": null
+    },
+    {
+      "name": "Pineapple Chunks - 1.25lb",
+      "price": "$6.99",
+      "unit_price": "$0.35/ounce"
+    },
+    {
+      "name": "Fresh Organic Cosmic Crisp Apple - 2lbs",
+      "price": "$7.79",
+      "unit_price": "$0.24/ounce"
+    },
+    {
+      "name": "POM Wonderful Ready-to-Eat Pomegranate Arils - 4oz",
+      "price": "$4.99",
+      "unit_price": "$1.25/ounce"
+    },
+    {
+      "name": "Once Upon A Farm Immunity Blend Variety Pack - 12.8oz/4ct",
+      "price": "$12.89",
+      "unit_price": "$1.01/ounce"
+    },
+    {
+      "name": "Once Upon a Farm Organic Immunity Blends Variety Pack - 12.8oz/4ct",
+      "price": "$12.89",
+      "unit_price": "$1.01/ounce"
+    },
+    {
+      "name": "Fresh Strawberries - 2lb",
+      "price": null,
+      "unit_price": "$0.30/ounce"
+    },
+    {
+      "name": "Fresh Extra Large Green Seedless Grapes - 1.5lbs Bag",
+      "price": null,
+      "unit_price": "$0.12/ounce"
+    },
+    {
+      "name": "Fresh Blueberries - 18oz",
+      "price": null,
+      "unit_price": "$0.27/fluid ounce"
+    },
+    {
+      "name": "Once Upon a Farm Berry Berry Organic Dairy-Free Kids' Smoothie - 4oz Pouch",
+      "price": "$3.39",
+      "unit_price": "$0.85/ounce"
+    },
+    {
+      "name": "Once Upon a Farm Coco for Mangoes Organic Dairy-Free Kids' Smoothie - 4oz Pouch",
+      "price": "$3.39",
+      "unit_price": "$0.85/ounce"
+    },
+    {
+      "name": "Avocado - each",
+      "price": "$0.79",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Navel Oranges - 4lb Bag - Good & Gather™",
+      "price": "$4.79",
+      "unit_price": "$0.07/ounce"
+    },
+    {
+      "name": "Green Bell Peppers - 2ct - Good & Gather™",
+      "price": "$2.39",
+      "unit_price": "$1.20/count"
+    },
+    {
+      "name": "Fresh Green Kiwi Fruit - 1lb",
+      "price": "$3.69",
+      "unit_price": "$0.23/ounce"
+    },
+    {
+      "name": "Fresh Fuji Apples - 3lb Bag - Good & Gather™",
+      "price": "$4.39",
+      "unit_price": "$0.09/ounce"
+    },
+    {
+      "name": "Fresh Organic Blackberries - 6oz",
+      "price": "$4.99",
+      "unit_price": "$0.83/ounce"
+    },
+    {
+      "name": "Fresh Cosmic Crisp Apples - 2lb Bag",
+      "price": "$3.99",
+      "unit_price": "$0.12/ounce"
+    },
+    {
+      "name": "Fresh Granny Smith Apples - 3lb Bag - Good & Gather™",
+      "price": "$4.49",
+      "unit_price": "$0.09/ounce"
+    },
+    {
+      "name": "Fresh Cara Cara Oranges - 3lb Bag - Brand May Vary",
+      "price": "$5.29",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Dekopon Mandarin Oranges - 2lb Bag",
+      "price": "$5.99",
+      "unit_price": "$0.19/ounce"
+    },
+    {
+      "name": "Once Upon a Farm Organic Berry Bundle Variety Pack Kids' Snacks - 4ct/3.2oz Pouches",
+      "price": "$10.89",
+      "unit_price": "$0.85/ounce"
+    },
+    {
+      "name": "Fresh Rockit Miniature Apples - 3lb Bag",
+      "price": "$9.79",
+      "unit_price": "$0.20/ounce"
+    },
+    {
+      "name": "Fresh Strawberries - 1lb",
+      "price": "$4.49",
+      "unit_price": "$0.28/ounce"
+    },
+    {
+      "name": "Fresh Blueberries - 11.2oz",
+      "price": "$4.49",
+      "unit_price": "$0.40/ounce"
+    },
+    {
+      "name": "Once Upon a Farm Organic Smart Blend Kids' Snack Variety Pack - 12.8oz/4ct Pouches",
+      "price": "$10.99",
+      "unit_price": "$0.86/ounce"
+    },
+    {
+      "name": "Fresh Raspberries - 6oz",
+      "price": "$3.99",
+      "unit_price": "$0.67/ounce"
+    },
+    {
+      "name": "Fresh Organic Bananas - 2lb - Good & Gather™",
+      "price": "$1.99",
+      "unit_price": "$0.06/ounce"
+    },
+    {
+      "name": "Fresh Sun Beams Mandarin Oranges - 3lbs - Good & Gather™",
+      "price": "$4.49",
+      "unit_price": "$0.09/ounce"
+    },
+    {
+      "name": "Fresh Organic Strawberries - 16oz",
+      "price": "$7.89",
+      "unit_price": "$0.49/ounce"
+    },
+    {
+      "name": "Fresh Extra Large Red Seedless Grapes - 1.5lbs Bag",
+      "price": null,
+      "unit_price": "$0.12/ounce"
+    },
+    {
+      "name": "Fresh Extra Large Bi-Color Seedless Grapes - 2lb",
+      "price": "$7.39",
+      "unit_price": "$0.23/ounce"
+    },
+    {
+      "name": "Fresh Blackberries - 6oz",
+      "price": "$3.19",
+      "unit_price": "$0.53/ounce"
+    },
+    {
+      "name": "Fresh Honeycrisp Apples - 3lb Bag - Good & Gather™",
+      "price": "$7.39",
+      "unit_price": "$0.15/ounce"
+    },
+    {
+      "name": "Mini Sweet Peppers - 16oz - Good & Gather™ (Packaging May Vary)",
+      "price": "$3.99",
+      "unit_price": "$0.25/ounce"
+    },
+    {
+      "name": "Fresh Organic Raspberries - 6oz",
+      "price": "$5.39",
+      "unit_price": "$0.90/ounce"
+    },
+    {
+      "name": "Fresh Banana - each - Good & Gather™",
+      "price": "$0.39",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Limes - 1lb Bag - Good & Gather™",
+      "price": "$3.89",
+      "unit_price": "$0.24/ounce"
+    },
+    {
+      "name": "Organic Hass Avocados - 4ct - Good & Gather™",
+      "price": "$5.19",
+      "unit_price": "$1.30/count"
+    },
+    {
+      "name": "Fresh Navel Orange - each",
+      "price": "$0.99",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Honeycrisp Apple - each",
+      "price": "$1.49",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Green Grapes - 1.5lb Bag",
+      "price": "$3.29",
+      "unit_price": "$0.14/ounce"
+    },
+    {
+      "name": "Hass Avocados - 4ct - Good & Gather™",
+      "price": "$2.99",
+      "unit_price": "$0.75/count"
+    },
+    {
+      "name": "Fresh Gala Apple - each",
+      "price": "$0.99",
+      "unit_price": null
+    },
+    {
+      "name": "Rainbow Bell Peppers 3ct - Good & Gather™",
+      "price": "$2.79",
+      "unit_price": "$0.93/count"
+    },
+    {
+      "name": "Fresh Red Grapes - 1.5lb Bag",
+      "price": "$3.29",
+      "unit_price": "$0.14/ounce"
+    },
+    {
+      "name": "Fresh Organic Blueberries - 1pt",
+      "price": "$5.99",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Mango Fruit - each",
+      "price": "$1.49",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Lemons - 2lb Bag - Good & Gather™",
+      "price": "$5.19",
+      "unit_price": "$0.16/ounce"
+    },
+    {
+      "name": "Fresh Pink Lady Apples - 3lb Bag - Good & Gather™",
+      "price": "$4.39",
+      "unit_price": "$0.09/ounce"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "products": [
+    {
+      "name": "Chobani Sweet Cream Dairy Creamer - 24 fl oz",
+      "price": "$5.79",
+      "unit_price": "$0.24/fluid ounce"
+    },
+    {
+      "name": "Starbucks Creamer Dairy Sweet Cream White Chocolate Macadamia - 24oz",
+      "price": "$5.29",
+      "unit_price": null
+    },
+    {
+      "name": "Horizon Organic Sweet Cream Coffee Creamer - 24oz",
+      "price": "$6.49",
+      "unit_price": null
+    },
+    {
+      "name": "Heavy Whipping Cream - 16 fl oz (1pt) - Good & Gather™",
+      "price": "$2.99",
+      "unit_price": "$0.19/fluid ounce"
+    },
+    {
+      "name": "Chobani Raspberry Rose Dairy Creamer - 24 fl oz",
+      "price": "$5.21",
+      "unit_price": null
+    },
+    {
+      "name": "Heavy Whipping Cream - 32 fl oz (1qt) - Good & Gather™",
+      "price": "$5.29",
+      "unit_price": "$0.17/fluid ounce"
+    },
+    {
+      "name": "Chobani Toasted Coconut Vanilla Dairy Creamer - 24 floz",
+      "price": "$5.79",
+      "unit_price": null
+    },
+    {
+      "name": "Horizon Organic Caramel Coffee Creamer - 24oz",
+      "price": "$6.49",
+      "unit_price": null
+    },
+    {
+      "name": "Starbucks Oatmilk Coffee Creamer",
+      "price": "$4.99",
+      "unit_price": null
+    },
+    {
+      "name": "Cold Foam - Favorite Day™",
+      "price": "$4.59",
+      "unit_price": null
+    },
+    {
+      "name": "Natural Bliss Creamer - 32 fl oz",
+      "price": "$4.99",
+      "unit_price": null
+    },
+    {
+      "name": "Starbucks Non-Dairy Coffee Creamer - 28 fl oz",
+      "price": "$4.99",
+      "unit_price": null
+    },
+    {
+      "name": "Silk Dairy-Free Oat Creamer",
+      "price": "$3.99",
+      "unit_price": null
+    },
+    {
+      "name": "Reddi-wip Whipped Dairy Cream Topping",
+      "price": "$4.89",
+      "unit_price": null
+    },
+    {
+      "name": "Silk Almond Creamer - 32 fl oz",
+      "price": "$4.89",
+      "unit_price": null
+    },
+    {
+      "name": "Starbucks Zero Sugar Coffee Creamer",
+      "price": "$4.99",
+      "unit_price": null
+    },
+    {
+      "name": "Starbucks Coffee Creamer - 28 fl oz",
+      "price": "$4.99",
+      "unit_price": null
+    },
+    {
+      "name": "Coffee mate Natural Bliss Oat Milk Creamer - 32 fl oz",
+      "price": "$4.99",
+      "unit_price": null
+    },
+    {
+      "name": "nutpods Creamer - 25.4 fl oz",
+      "price": "$5.19",
+      "unit_price": null
+    },
+    {
+      "name": "Horizon Organic Heavy Whipping Cream - 16 fl oz (1pt)",
+      "price": "$5.79",
+      "unit_price": "$0.36/fluid ounce"
+    },
+    {
+      "name": "Chobani Creamer Zero Sugar",
+      "price": "$5.79",
+      "unit_price": null
+    },
+    {
+      "name": "Coffee Creamer - 32 fl oz - Good & Gather™",
+      "price": "$5.49",
+      "unit_price": null
+    },
+    {
+      "name": "Dunkin' Extra Extra Coffee Creamer - 32 fl oz",
+      "price": "$5.19",
+      "unit_price": "$0.16/fluid ounce"
+    },
+    {
+      "name": "Horizon Organic Vanilla Coffee Creamer - 24oz",
+      "price": "$6.49",
+      "unit_price": null
+    },
+    {
+      "name": "Starbucks Creamer Dairy Zero Sugar Mocha Coffee Creamer - 28 fl oz",
+      "price": "$4.99",
+      "unit_price": "$0.18/fluid ounce"
+    },
+    {
+      "name": "Chobani Birthday Cake Dairy Creamer - 24 fl oz",
+      "price": "$5.79",
+      "unit_price": "$0.24/fluid ounce"
+    },
+    {
+      "name": "International Delight French Vanilla Coffee Creamer - 32 fl oz (1qt) Bottle",
+      "price": "$3.89",
+      "unit_price": "$0.12/fluid ounce"
+    },
+    {
+      "name": "Coffee mate Sugar Free French Vanilla Coffee Creamer - 32 fl oz (1qt)",
+      "price": "$3.99",
+      "unit_price": "$0.12/fluid ounce"
+    },
+    {
+      "name": "Starbucks Creamer Dairy Cinnamon Dolce Coffee Creamer - 28 fl oz",
+      "price": "$4.99",
+      "unit_price": "$0.18/fluid ounce"
+    },
+    {
+      "name": "Dunkin' Donuts Coffee Creamer Cold Foam Extra Extra Creamer - 14oz",
+      "price": "$5.29",
+      "unit_price": "$0.38/ounce"
+    },
+    {
+      "name": "Natural Bliss Vanilla Creamer - 32 fl oz",
+      "price": "$4.99",
+      "unit_price": "$0.16/fluid ounce"
+    },
+    {
+      "name": "International Delight Sweet & Creamy Coffee Creamer - 32 fl oz",
+      "price": "$3.89",
+      "unit_price": "$0.12/fluid ounce"
+    },
+    {
+      "name": "Cool Whip Zero Sugar Frozen Whipped Topping - 8oz",
+      "price": "$1.99",
+      "unit_price": "$0.25/ounce"
+    },
+    {
+      "name": "Chobani Cookie Dough Dairy Creamer - 24 fl oz",
+      "price": "$5.79",
+      "unit_price": "$0.24/fluid ounce"
+    },
+    {
+      "name": "Starbucks Creamer Dairy Zero Sugar Caramel Macchiato Coffee Creamer - 28 fl oz",
+      "price": "$4.99",
+      "unit_price": "$0.18/fluid ounce"
+    },
+    {
+      "name": "International Delight Caramel Macchiato Coffee Creamer - 1qt (32 fl oz) Bottle",
+      "price": "$3.89",
+      "unit_price": "$0.12/fluid ounce"
+    },
+    {
+      "name": "Starbucks Creamer Dairy Caramel Macchiato Coffee Creamer - 28 fl oz",
+      "price": "$4.99",
+      "unit_price": "$0.18/fluid ounce"
+    },
+    {
+      "name": "Coffee mate Hazelnut Coffee Creamer - 32 fl oz (1qt)",
+      "price": "$3.99",
+      "unit_price": "$0.12/fluid ounce"
+    }
+  ]
+}

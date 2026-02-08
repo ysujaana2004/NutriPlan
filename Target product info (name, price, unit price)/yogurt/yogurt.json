@@ -1,0 +1,159 @@
+{
+  "products": [
+    {
+      "name": "Chobani High Protein Cherry Berry Greek Yogurt - 20g Protein 26.8oz/4ct Cups",
+      "price": "$4.19",
+      "unit_price": "$0.16/ounce"
+    },
+    {
+      "name": "Chobani 20g Protein Strawberries and Cream Yogurt Drink - 20g Protein 10 fl oz",
+      "price": "$2.89",
+      "unit_price": "$0.29/fluid ounce"
+    },
+    {
+      "name": "Chobani Mango Greek Yogurt - 20g Protein 6.7oz/4ct",
+      "price": "$4.19",
+      "unit_price": null
+    },
+    {
+      "name": "Chobani 20g Protein Mixed Berry Vanilla Yogurt Drink - 20g Protein 10 fl oz",
+      "price": "$2.89",
+      "unit_price": "$0.29/fluid ounce"
+    },
+    {
+      "name": "Chobani Chocolate Covered Strawberry Greek Yogurt - 9g Protein 4.5oz/4ct",
+      "price": "$5.19",
+      "unit_price": null
+    },
+    {
+      "name": "Chobani Strawberry Kiwi Greek Yogurt - 20g Protein 6.7oz/4ct",
+      "price": "$4.19",
+      "unit_price": null
+    },
+    {
+      "name": ":ratio ProFiber Lemon Meringue Traditional Yogurt - 20g Protein 5.3oz",
+      "price": "$1.79",
+      "unit_price": "$0.34/ounce"
+    },
+    {
+      "name": ":ratio ProFiber Vanilla Traditional Yogurt - 20g Protein 5.3oz",
+      "price": "$1.79",
+      "unit_price": "$0.34/ounce"
+    },
+    {
+      "name": "Chobani Plain Greek Yogurt - 20g Protein 32oz",
+      "price": "$4.68",
+      "unit_price": "$0.15/ounce"
+    },
+    {
+      "name": "The Coconut Cult Organic Banana Cream Pie Coconut Yogurt - 4oz",
+      "price": "$3.99",
+      "unit_price": null
+    },
+    {
+      "name": ":ratio ProFiber Blueberry Traditional Yogurt - 20g Protein 5.3oz",
+      "price": "$1.79",
+      "unit_price": "$0.34/ounce"
+    },
+    {
+      "name": "The Coconut Cult Organic Berry Basket Coconut Yogurt - 4oz",
+      "price": "$3.99",
+      "unit_price": null
+    },
+    {
+      "name": "The Coconut Cult Organic Chocolate Mousse Coconut Yogurt- 8oz",
+      "price": "$8.99",
+      "unit_price": null
+    },
+    {
+      "name": "The Coconut Cult Organic Lemon Meringue Coconut Yogurt - 4oz",
+      "price": "$3.99",
+      "unit_price": null
+    },
+    {
+      "name": "The Coconut Cult Organic Original Coconut Yogurt - 8oz",
+      "price": "$8.99",
+      "unit_price": null
+    },
+    {
+      "name": "Stonyfield Organic Kids' Strawberry Banana Yogurt - 4ct/3.5oz Pouches",
+      "price": "$6.49",
+      "unit_price": "$1.62/ounce"
+    },
+    {
+      "name": "Clio Snacks Strawberry Greek Yogurt Mini-Bars - 6.2oz/8ct",
+      "price": "$4.59",
+      "unit_price": "$0.74/ounce"
+    },
+    {
+      "name": "Silk Unsweetened Vanilla Almond Milk Yogurt Alternative - 24oz Tub",
+      "price": "$6.29",
+      "unit_price": "$0.26/ounce"
+    },
+    {
+      "name": "Chobani Greek Yogurt Flip Cookie Dough - 4pk/4.5oz Cups",
+      "price": "$5.19",
+      "unit_price": null
+    },
+    {
+      "name": "Siggi's Vanilla Cinnamon Plant-Based Coconut Blend Yogurt Alternative - 5.3oz",
+      "price": "$1.89",
+      "unit_price": "$0.36/ounce"
+    },
+    {
+      "name": "Stonyfield Organic Lowfat Cherry Apple Traditional Kids' Yogurt Smoothies - 3.1 fl oz/6ct",
+      "price": "$4.49",
+      "unit_price": "$1.45/fluid ounce"
+    },
+    {
+      "name": "Stonyfield Organic YoBaby Pear & Peach Whole Milk Kids' Probiotic Yogurt - 6ct/4oz Cups",
+      "price": "$5.19",
+      "unit_price": "$0.22/ounce"
+    },
+    {
+      "name": "Stonyfield Organic Probiotic Vanilla Whole Milk Yogurt - 32oz",
+      "price": "$5.49",
+      "unit_price": "$0.17/ounce"
+    },
+    {
+      "name": "Yoplait Simply Go-Gurt Mixed Berry/Strawberry Fat Free Kids' Yogurt - 40oz/20ct",
+      "price": "$7.49",
+      "unit_price": "$0.19/ounce"
+    },
+    {
+      "name": "Light + Fit Nonfat Gluten-Free Vanilla Greek Yogurt - 12g Protein 4ct/5.3oz Cups",
+      "price": "$4.29",
+      "unit_price": "$0.20/ounce"
+    },
+    {
+      "name": "YoCrunch Low Fat Vanilla with M&Ms Yogurt - 4ct/4oz Cups",
+      "price": "$3.99",
+      "unit_price": "$0.25/ounce"
+    },
+    {
+      "name": "Vanilla Honey Blended Greek Whole Milk Yogurt - 14g Protein 32oz - Good & Gather™",
+      "price": "$4.29",
+      "unit_price": "$0.13/ounce"
+    },
+    {
+      "name": "Chobani Whole Milk Plain Greek Yogurt - 15g Protein 32oz",
+      "price": "$5.99",
+      "unit_price": "$0.19/ounce"
+    },
+    {
+      "name": "Oikos Pro Fat Free Strawberry Banana Cultured Dairy Drink - 23g Protein 7 fl oz",
+      "price": "$1.99",
+      "unit_price": "$0.28/fluid ounce"
+    },
+    {
+      "name": "Oikos Pro Fat Free Mango Pineapple Cultured Dairy Drink - 23g Protein 7 fl oz",
+      "price": "$1.99",
+      "unit_price": "$0.28/fluid ounce"
+    },
+    {
+      "name": "Yogurt Pouches - 3.5oz/4ct - Good & Gather™",
+      "price": "$4.29",
+      "unit_price": null
+    }
+  ]
+}
