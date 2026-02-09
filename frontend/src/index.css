@@ -1,0 +1,41 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4CAF50;
+  --primary-light: #A3E4A6;
+  --surface: #F5F0E8;
+  --accent-orange: #FFB74D;
+  --accent-yellow: #FFD54F;
+}
+
+.dark {
+  --surface: #2D2A26;
+}
+
+body {
+  @apply bg-surface text-gray-800 font-sans antialiased;
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+* {
+  @apply transition-colors duration-200;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 rounded;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded hover:bg-gray-400;
+}
