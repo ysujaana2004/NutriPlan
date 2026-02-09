@@ -1,0 +1,149 @@
+{
+  "products": [
+    {
+      "product": "Spice World Kickin' Chili Onion Crunch Cooking & Seasoning Blend - 6oz",
+      "price": "$3.49",
+      "unit_price": "$0.58/ounce"
+    },
+    {
+      "product": "Once Upon a Farm Green Kale & Apples Organic Kids' Snack - 4ct/3.2oz Pouches",
+      "price": "$9.19",
+      "unit_price": "$0.72/ounce"
+    },
+    {
+      "product": "Gourmet Garden Garlic Stir-In Paste - 4oz",
+      "price": "$4.99",
+      "unit_price": "$1.25/ounce"
+    },
+    {
+      "product": "Fresh Mini Cucumbers - 16oz Bag - Good & Gather™ (Packaging May Vary)",
+      "price": "$1.99",
+      "unit_price": "$0.12/ounce"
+    },
+    {
+      "product": "Chopped Caesar Salad Kit - 11.15oz - Good & Gather™",
+      "price": "$3.69",
+      "unit_price": "$0.33/ounce"
+    },
+    {
+      "product": "Fresh Broccoli Florets - 12oz - Good & Gather™",
+      "price": "$2.49",
+      "unit_price": "$0.21/ounce"
+    },
+    {
+      "product": "Gourmet Garden Ginger Stir-In Paste - 4oz",
+      "price": "$4.99",
+      "unit_price": "$1.25/ounce"
+    },
+    {
+      "product": "Gourmet Garden Lightly Dried Basil - 0.42oz",
+      "price": "$4.99",
+      "unit_price": "$11.88/ounce"
+    },
+    {
+      "product": "Fresh Baby-Cut Carrots - 1lb - Good & Gather™",
+      "price": "$1.29",
+      "unit_price": "$0.08/ounce"
+    },
+    {
+      "product": "Fresh Yellow Onion - each",
+      "price": "$0.99",
+      "unit_price": null
+    },
+    {
+      "product": "Fresh Russet Potatoes - 5lbs - (Brand May Vary)",
+      "price": "$2.59",
+      "unit_price": "$0.03/ounce"
+    },
+    {
+      "product": "Classic Caesar Salad Kit - 10.3oz - Good & Gather™",
+      "price": "$3.69",
+      "unit_price": "$0.36/ounce"
+    },
+    {
+      "product": "Fresh Russet Potato - each",
+      "price": "$0.79",
+      "unit_price": null
+    },
+    {
+      "product": "Fresh English Cucumber - Each",
+      "price": "$0.99",
+      "unit_price": null
+    },
+    {
+      "product": "Fresh Red Onion - each",
+      "price": "$0.99",
+      "unit_price": null
+    },
+    {
+      "product": "Fresh White Onion - each",
+      "price": "$0.99",
+      "unit_price": null
+    },
+    {
+      "product": "Fresh Baking Sweet Potato - each",
+      "price": "$0.99",
+      "unit_price": null
+    },
+    {
+      "product": "Fresh Iceberg Lettuce Head - each",
+      "price": "$2.69",
+      "unit_price": null
+    },
+    {
+      "product": "Fresh Shredded Iceberg Lettuce - 8oz - Good & Gather™",
+      "price": "$2.39",
+      "unit_price": "$0.30/ounce"
+    },
+    {
+      "product": "Fresh Romaine Hearts - 3ct/22oz - Good & Gather™",
+      "price": "$3.99",
+      "unit_price": "$0.18/ounce"
+    },
+    {
+      "product": "Fresh Green Onions - 5.5oz - Good & Gather™",
+      "price": "$0.99",
+      "unit_price": "$0.18/ounce"
+    },
+    {
+      "product": "Cilantro Bunch - each",
+      "price": "$0.89",
+      "unit_price": "$0.22/ounce"
+    },
+    {
+      "product": "Fresh Organic Spring Mix Lettuce - Good & Gather™",
+      "price": "$3.19 - $5.29",
+      "unit_price": null
+    },
+    {
+      "product": "Fresh Beefsteak Tomatoes - 13oz/2ct - Good & Gather™ (Packaging May Vary)",
+      "price": "$2.99",
+      "unit_price": "$1.50/count"
+    },
+    {
+      "product": "Fresh Organic Carrots - 1lb - Good & Gather™",
+      "price": "$1.49",
+      "unit_price": "$0.09/ounce"
+    },
+    {
+      "product": "Fresh Shredded Green Leaf Lettuce - 4.5oz - Good & Gather™",
+      "price": "$2.59",
+      "unit_price": "$0.58/ounce"
+    },
+    {
+      "product": "Fresh Steam-in-Bag Spinach - 9oz - Good & Gather™",
+      "price": "$2.39",
+      "unit_price": "$0.27/ounce"
+    },
+    {
+      "product": "Fresh Premium Grape Tomatoes - 10oz - Good & Gather™ (Packaging May Vary)",
+      "price": "$2.59",
+      "unit_price": "$0.26/ounce"
+    },
+    {
+      "product": "Fresh Celery Sticks - 20oz - Good & Gather™ (Packaging May Vary)",
+      "price": "$3.19",
+      "unit_price": "$0.16/ounce"
+    }
+  ]
+}

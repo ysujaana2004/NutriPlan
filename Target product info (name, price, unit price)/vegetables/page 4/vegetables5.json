@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "product": "Tasteful Selections Sunburst Blend Nibbles - 16oz",
+      "price": "$3.59",
+      "unit_price": "$0.22/ounce"
+    },
+    {
+      "product": "Thai-Style Chili Mango Chopped Salad Kit - 11.25oz - Good & Gather™",
+      "price": "$3.69",
+      "unit_price": "$0.33/ounce"
+    },
+    {
+      "product": "Cranberry Almond Chicken Salad Cups - 16oz/4ct - Good & Gather™",
+      "price": "$8.49",
+      "unit_price": "$0.53/ounce"
+    },
+    {
+      "product": "Maple Bourbon Bacon Chopped Salad Kit - 12.8oz - Good & Gather™",
+      "price": "$3.49",
+      "unit_price": "$0.27/ounce"
+    },
+    {
+      "product": "Little Leaf Farms Fresh Sweet Baby Butter Lettuce - 4oz",
+      "price": "$3.99",
+      "unit_price": "$1.00/ounce"
+    },
+    {
+      "product": "Spice World Minced Garlic - 32oz",
+      "price": "$7.99",
+      "unit_price": "$0.25/ounce"
+    },
+    {
+      "product": "Earthbound Farm Fresh Organic Chopped Kale - 10oz",
+      "price": "$4.59",
+      "unit_price": "$0.46/ounce"
+    },
+    {
+      "product": "Fresh Seedless Rainbow Sweet Mini Peppers - 1lb",
+      "price": "$4.69",
+      "unit_price": "$0.29/ounce"
+    },
+    {
+      "product": "Rotisserie Chicken Salad - 12oz - Good & Gather™",
+      "price": "$7.99",
+      "unit_price": "$0.67/ounce"
+    },
+    {
+      "product": "Rosemary Chicken Salad - 12oz - Good & Gather™",
+      "price": "$7.99",
+      "unit_price": "$0.67/ounce"
+    },
+    {
+      "product": "Spicy Jalapeno Chopped Salad Kit - 12.65oz - Tabitha Brown for Target",
+      "price": "$3.69",
+      "unit_price": "$0.29/ounce"
+    },
+    {
+      "product": "Dill Pickle Chopped Salad Kit - 12.07oz - Tabitha Brown for Target",
+      "price": "$3.69",
+      "unit_price": "$0.31/ounce"
+    },
+    {
+      "product": "Nature Fresh Farms Ombre Cherry Tomatoes On The Vine - 12oz",
+      "price": "$5.99",
+      "unit_price": "$0.50/ounce"
+    },
+    {
+      "product": "Fresh Little Leaf Farms Baby Red & Green Leaf Lettuce Blend - 4oz",
+      "price": "$3.99",
+      "unit_price": "$1.00/ounce"
+    },
+    {
+      "product": "Deviled Egg Potato Salad - 1lb - Market Pantry™",
+      "price": "$4.59",
+      "unit_price": "$0.29/ounce"
+    },
+    {
+      "product": "Chicken Caesar Salad Bowl - 6.5oz - Good & Gather™",
+      "price": "$3.59",
+      "unit_price": "$0.55/ounce"
+    },
+    {
+      "product": "Garden Salad Blend - 12oz - Good & Gather™",
+      "price": "$2.39",
+      "unit_price": "$0.20/ounce"
+    },
+    {
+      "product": "Fresh Green Beans - Good & Gather™",
+      "price": "$2.79 - $5.39",
+      "unit_price": null
+    }
+  ]
+}

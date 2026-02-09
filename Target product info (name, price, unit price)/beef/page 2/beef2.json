@@ -1,0 +1,119 @@
+{
+  "products": [
+    {
+      "name": "USDA Choice Angus Petite Sirloin Steak - 0.60-1.06 lbs - price per lb - Good & Gather™",
+      "price": "$15.89",
+      "unit_price": "$14.99/lb"
+    },
+    {
+      "name": "Demakes Bros. Shaved Beef Steak - 14oz",
+      "price": "$7.39",
+      "unit_price": "$0.53/ounce"
+    },
+    {
+      "name": "USDA Choice Angus Beef Ribeye Steak - 0.62-1.13 lbs - price per lb - Good & Gather™",
+      "price": "$29.68",
+      "unit_price": "$17.99/lb"
+    },
+    {
+      "name": "USDA Choice Angus Beef Stew Meat - 24oz - Good & Gather™",
+      "price": "$13.99",
+      "unit_price": "$0.58/ounce"
+    },
+    {
+      "name": "USDA Choice Angus Petite Sirloin Steak - 1.49-2.73 lbs - price per lb - Good & Gather™",
+      "price": "$38.19",
+      "unit_price": "$13.99/lb"
+    },
+    {
+      "name": "93% Lean Ground Beef - 3lb - Good & Gather™",
+      "price": "$21.99",
+      "unit_price": "$0.46/ounce"
+    },
+    {
+      "name": "Bourbon Black Pepper Beef Sirloin Steak Tips - 13oz - Good & Gather™",
+      "price": "$13.99",
+      "unit_price": "$1.08/ounce"
+    },
+    {
+      "name": "Peppercorn Crusted Beef Sirloin Petite Steak - price per lb - Good & Gather™",
+      "price": "$13.99 max price",
+      "unit_price": "$13.99/lb"
+    },
+    {
+      "name": "USDA Choice Angus Beef Ribeye Family Pack - 1.24-2.27 lbs - price per lb - Good & Gather™",
+      "price": "$38.57",
+      "unit_price": "$16.99/lb"
+    },
+    {
+      "name": "Carne Asada Seasoned Beef Skirt Steak - 19.84oz - Good & Gather™",
+      "price": "$17.99",
+      "unit_price": "$0.91/ounce"
+    },
+    {
+      "name": "USDA Choice Angus Beef T-Bone Steak - 1.36-3.50 lbs - price per lb - Good & Gather™",
+      "price": "$45.47",
+      "unit_price": "$12.99/lb"
+    },
+    {
+      "name": "USDA Choice Angus Top Sirloin Steak - 1.62-2.97 lbs - price per lb - Good & Gather™",
+      "price": "$41.55 max price",
+      "unit_price": "$13.99/lb"
+    },
+    {
+      "name": "USDA Choice Angus Beef Tri Tips - 1.59-3.80 lbs - price per lb - Good & Gather™",
+      "price": "$37.96 max price",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "All Natural 93/7 Ground Beef - Good & Gather™",
+      "price": "$7.99 - $14.79",
+      "unit_price": null
+    },
+    {
+      "name": "All Natural 85/15 Ground Beef - Good & Gather™",
+      "price": "$7.49 - $13.69",
+      "unit_price": null
+    },
+    {
+      "name": "All Natural 80/20 Ground Beef - Good & Gather™",
+      "price": "$6.99 - $12.99",
+      "unit_price": null
+    },
+    {
+      "name": "73/27 Ground Beef - 1lb - Good & Gather™",
+      "price": "$6.49",
+      "unit_price": "$0.41/ounce"
+    },
+    {
+      "name": "USDA Choice Angus Chuck Tender Steak - 1.09-2.0 lbs - price per lb - Good & Gather™",
+      "price": "$23.98 max price",
+      "unit_price": "$11.99/lb"
+    },
+    {
+      "name": "Organic 100% Grassfed Ground Beef Twin Pack - 2lbs - Good & Gather™",
+      "price": "$14.99",
+      "unit_price": "$0.47/ounce"
+    },
+    {
+      "name": "85/15 All Natural Beef Burger Patties - Frozen - 48oz/12ct - Good & Gather™",
+      "price": "$14.99",
+      "unit_price": "$0.31/ounce"
+    },
+    {
+      "name": "All Natural 85/15 Ground Round Burger Patties - 4pk/1lb - Good & Gather™",
+      "price": "$7.99",
+      "unit_price": "$0.50/ounce"
+    },
+    {
+      "name": "USDA Choice Angus Beef Skirt Steak - 1.13-2.06 lbs - price per lb - Good & Gather™",
+      "price": "$26.76 max price",
+      "unit_price": "$12.99/lb"
+    },
+    {
+      "name": "Cracked Peppercorn Crusted Beef Sirloin Petite Steak - 16oz - Good & Gather™",
+      "price": "$13.99",
+      "unit_price": "$0.87/ounce"
+    }
+  ]
+}
