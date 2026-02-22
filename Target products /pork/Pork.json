@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "name": "Tyson Savory Campfire Pork Chop - 12oz",
+      "price": "$5.00",
+      "unit_price": "$0.42/ounce"
+    },
+    {
+      "name": "Del Real Carnitas - 12oz",
+      "price": "$8.99",
+      "unit_price": "$0.75/ounce"
+    },
+    {
+      "name": "Tyson Seasoned Steakhouse Pork Griller Steak - 12oz",
+      "price": "$5.00",
+      "unit_price": "$0.42/ounce"
+    },
+    {
+      "name": "Hickory Smoked Spiral-Cut Bone-In Ham - 6-10lbs",
+      "price": "$14.90 max price",
+      "unit_price": "$1.49/lb"
+    },
+    {
+      "name": "Seasoned Pulled Pork in Bourbon Barbecue Sauce - 16oz - Good & Gather",
+      "price": "$7.99",
+      "unit_price": "$0.50/ounce"
+    },
+    {
+      "name": "Mild Flavor Mixes Ground Pork - 1lb - Good & Gather",
+      "price": "$4.49",
+      "unit_price": "$0.28/ounce"
+    },
+    {
+      "name": "Tyson Fajita Seasoned Pork Strips - 20oz",
+      "price": "$8.00",
+      "unit_price": "$0.40/ounce"
+    },
+    {
+      "name": "Oscar Mayer Chili Cheese Hot Dogs - 16oz",
+      "price": "$5.49",
+      "unit_price": "$0.34/ounce"
+    },
+    {
+      "name": "Oscar Mayer Jalapeno Cheddar Hot Dogs - 16oz",
+      "price": "$5.49",
+      "unit_price": "$0.34/ounce"
+    },
+    {
+      "name": "Uncured Diced Ham - 8oz - Good & Gather",
+      "price": "$3.29",
+      "unit_price": "$0.41/ounce"
+    },
+    {
+      "name": "Hickory Smoked Spiral-Sliced Half Bone-In Uncured Ham - price per lb - Good & Gather",
+      "price": "$19.90 max price",
+      "unit_price": "$1.99/lb"
+    },
+    {
+      "name": "Johnsonville Mild Italian Ground Pork Sausage - 16oz",
+      "price": "$4.99",
+      "unit_price": "$0.31/ounce"
+    },
+    {
+      "name": "Baby Back Pork Ribs - 3.02-4.02 lbs - price per lb - Good & Gather",
+      "price": null,
+      "unit_price": "$3.49/lb"
+    },
+    {
+      "name": "Hickory Smoked Uncured Ham Steak - 8oz - Good & Gather",
+      "price": null,
+      "unit_price": "$0.41/ounce"
+    },
+    {
+      "name": "All Natural Pork Tenderloin - price per lb - Good & Gather2",
+      "price": null,
+      "unit_price": "$4.99/lb"
+    },
+    {
+      "name": "Custom Made Meals Boneless Breaded Pork Chops - 16oz",
+      "price": null,
+      "unit_price": "$0.44/ounce"
+    },
+    {
+      "name": "Hickory Smoked Uncured Boneless Sliced Quarter Ham - price per lb - Good & Gather",
+      "price": null,
+      "unit_price": "$4.99/lb"
+    },
+    {
+      "name": "Garlic & Herb Seasoned Pork Tenderloin - 1-1.5lbs - price per lb - Good & Gather",
+      "price": null,
+      "unit_price": "$4.99/lb"
+    },
+    {
+      "name": "Lemon Herb Seasoned Pork Tenderloin - price per lb - Good & Gather\u2122",
+      "price": null,
+      "unit_price": "$4.99/lb"
+    },
+    {
+      "name": "Boneless Thin-Cut Center Cut Pork Loin Chops - price per lb - Good & Gather\u2122",
+      "price": null,
+      "unit_price": "$6.79/lb"
+    },
+    {
+      "name": "Bone-In Pork Loin Chops - price per lb - Good & Gather\u2122",
+      "price": null,
+      "unit_price": "$4.99/lb"
+    },
+    {
+      "name": "Boneless Butt Roast Pork Shoulder - price per lb - Good & Gather\u2122",
+      "price": null,
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Boneless Center Cut Pork Loin Chops Family Pack - price per lb - Good & Gather\u2122",
+      "price": null,
+      "unit_price": "$6.19/lb"
+    },
+    {
+      "name": "Bone-In Thin Cut Center Cut Pork Loin Chop - price per lb - Good & Gather\u2122",
+      "price": null,
+      "unit_price": "$5.49/lb"
+    },
+    {
+      "name": "Boneless Diced Pork Sirloin - 16oz - Good & Gather\u2122",
+      "price": null,
+      "unit_price": "$0.27/ounce"
+    },
+    {
+      "name": "Gourmet Specialty Foods Pineapple Teriyaki Loin Pork Skewers Boneless - 1lb",
+      "price": null,
+      "unit_price": "$0.56/ounce"
+    },
+    {
+      "name": "Gourmet Specialty Foods Char Siu Chinese Style Loin Pork Skewers Boneless - 1lb",
+      "price": null,
+      "unit_price": "$0.56/ounce"
+    }
+  ]
+}

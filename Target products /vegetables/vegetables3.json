@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "name": "Fresh Cucumber - 2ct",
+      "price": "$1.49",
+      "unit_price": "$0.07/ounce"
+    },
+    {
+      "name": "Fresh Green Cabbage - each",
+      "price": "$2.19",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Organic Petite Baby-Cut Carrots - 12oz - Good & Gather™",
+      "price": "$2.19",
+      "unit_price": "$0.18/ounce"
+    },
+    {
+      "name": "Fresh Red Potatoes - 3lb - Good & Gather™",
+      "price": "$2.99",
+      "unit_price": "$0.06/ounce"
+    },
+    {
+      "name": "Fresh Baby Bella Mushrooms - 8oz - Good & Gather™",
+      "price": "$2.39",
+      "unit_price": "$0.30/ounce"
+    },
+    {
+      "name": "Sunflower Crunch Chopped Salad Kit - 12.85oz - Good & Gather™",
+      "price": "$3.69",
+      "unit_price": "$0.29/ounce"
+    },
+    {
+      "name": "Fresh Whole White Mushrooms - 8oz - Good & Gather™",
+      "price": "$2.19",
+      "unit_price": "$0.27/ounce"
+    },
+    {
+      "name": "American Blend - 11oz - Good & Gather™",
+      "price": "$3.49",
+      "unit_price": "$0.32/ounce"
+    },
+    {
+      "name": "Fresh Baby Gold Potatoes - 1.5lbs - Good & Gather™",
+      "price": "$3.59",
+      "unit_price": "$0.15/ounce"
+    },
+    {
+      "name": "Spice World Organic Minced Garlic - 4.5oz",
+      "price": "$2.99",
+      "unit_price": "$0.66/ounce"
+    },
+    {
+      "name": "Once Upon a Farm Green Kale & Apples Organic Kids' Snack - 4ct/3.2oz Pouches",
+      "price": "$9.19",
+      "unit_price": "$0.72/ounce"
+    },
+    {
+      "name": "Fresh Italian Blend - 9oz - Good & Gather™",
+      "price": "$3.49",
+      "unit_price": "$0.39/ounce"
+    },
+    {
+      "name": "Fresh Shaved Brussels Sprouts - 9oz - Good & Gather™",
+      "price": "$2.99",
+      "unit_price": "$0.33/ounce"
+    },
+    {
+      "name": "Fresh Broccoli Bunch - each",
+      "price": "$3.99",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Butter Lettuce Blend - 6oz - Good & Gather™",
+      "price": "$2.79",
+      "unit_price": "$0.47/ounce"
+    },
+    {
+      "name": "Single Cut Romaine Lettuce - 7oz",
+      "price": "$3.29",
+      "unit_price": null
+    }
+  ]
+}
