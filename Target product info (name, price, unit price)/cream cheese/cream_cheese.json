@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "name": "Philadelphia Whipped Cream Cheese Spread - 12oz",
+      "price": "$5.89",
+      "unit_price": "$0.49/ounce"
+    },
+    {
+      "name": "Philadelphia Garden Vegetable Cream Cheese Spread - 7.5oz",
+      "price": "$3.99",
+      "unit_price": "$0.53/ounce"
+    },
+    {
+      "name": "Philadelphia Original Cream Cheese - 8oz",
+      "price": "$3.19",
+      "unit_price": "$0.40/ounce"
+    },
+    {
+      "name": "Plain Cream Cheese Spread - 8oz - Good & Gather™",
+      "price": "$1.99",
+      "unit_price": "$0.25/ounce"
+    },
+    {
+      "name": "Philadelphia Original Cream Cheese Spread- 8oz",
+      "price": "$3.99",
+      "unit_price": "$0.50/ounce"
+    },
+    {
+      "name": "Plain Block Cream Cheese Bar - 8oz - Good & Gather™",
+      "price": "$1.69",
+      "unit_price": "$0.21/ounce"
+    },
+    {
+      "name": "Whipped Plain Cream Cheese Spread - 8oz - Good & Gather™",
+      "price": "$1.99",
+      "unit_price": "$0.25/ounce"
+    },
+    {
+      "name": "Philadelphia Original Cream Cheese - 16oz/2ct",
+      "price": "$4.99",
+      "unit_price": "$0.31/ounce"
+    },
+    {
+      "name": "Philadelphia Whipped Cream Cheese Spread - 8oz",
+      "price": "$3.99",
+      "unit_price": "$0.50/ounce"
+    },
+    {
+      "name": "Strawberry Cream Cheese Spread - 8oz - Good & Gather™",
+      "price": "$1.99",
+      "unit_price": "$0.25/ounce"
+    },
+    {
+      "name": "Philadelphia Original Cream Cheese Spread - 16oz",
+      "price": "$6.99",
+      "unit_price": "$0.44/ounce"
+    },
+    {
+      "name": "Buffalo-Style Chicken Dip - 10oz - Good & Gather™",
+      "price": "$4.79",
+      "unit_price": "$0.48/ounce"
+    },
+    {
+      "name": "Neufchatel Cream Cheese Bar - 8oz - Good & Gather™",
+      "price": "$1.69",
+      "unit_price": "$0.21/ounce"
+    }
+  ]
+}

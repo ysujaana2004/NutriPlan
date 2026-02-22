@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "name": "Land O Lakes Salted Butter - 1lb",
+      "price": "$4.79",
+      "unit_price": "$0.30/ounce"
+    },
+    {
+      "name": "Kerrygold Grass-Fed Pure Irish Block Salted Butter - 8oz Foil",
+      "price": "$5.49",
+      "unit_price": "$0.69/ounce"
+    },
+    {
+      "name": "Kerrygold Grass-Fed Naturally Softer Spreadable Pure Irish Butter - 8oz Tub",
+      "price": "$6.29",
+      "unit_price": "$0.79/ounce"
+    },
+    {
+      "name": "Salted Stick Butter - 1lb - Good & Gather™",
+      "price": "$4.19",
+      "unit_price": "$0.26/ounce"
+    },
+    {
+      "name": "Unsalted Butter - 16oz/4ct - Good & Gather™",
+      "price": "$4.19",
+      "unit_price": "$0.26/ounce"
+    },
+    {
+      "name": "Kerrygold Grass-Fed Pure Irish Salted Butter Sticks - 8oz/2ct",
+      "price": "$5.39",
+      "unit_price": "$0.67/ounce"
+    },
+    {
+      "name": "Kerrygold Grass-Fed Pure Irish Unsalted Butter Sticks - 8oz/2ct",
+      "price": "$5.39",
+      "unit_price": "$0.67/ounce"
+    },
+    {
+      "name": "Land O Lakes Spreadable Butter with Canola Oil",
+      "price": "$5.59 - $8.39",
+      "unit_price": null
+    },
+    {
+      "name": "Country Crock Original Vegetable Oil Spread Tub - 15oz",
+      "price": "$4.59",
+      "unit_price": "$0.31/ounce"
+    }
+  ]
+}

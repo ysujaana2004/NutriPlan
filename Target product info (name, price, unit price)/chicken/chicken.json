@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "name": "Kevin's Natural Foods Roasted Garlic Chicken - 16oz",
+      "price": "$10.99",
+      "unit_price": "$8.79 Get this deal"
+    },
+    {
+      "name": "Just Bare Lightly Breaded Chicken Breast Strips - Frozen - 24oz",
+      "price": "$11.49",
+      "unit_price": "$0.48/ounce"
+    },
+    {
+      "name": "Just Bare Lightly Breaded Chicken Breast Bites - Frozen - 24oz",
+      "price": "$11.49",
+      "unit_price": "$0.48/ounce"
+    },
+    {
+      "name": "Oberto Chicken Bites - Buffalo - 4oz",
+      "price": "$3.99",
+      "unit_price": "$1.00/ounce"
+    },
+    {
+      "name": "Perdue Simply Smart Lightly Breaded Frozen Chicken Strips - 22oz",
+      "price": "$9.99",
+      "unit_price": "$0.45/ounce"
+    },
+    {
+      "name": "Perdue Chicken Breast Tenderloins Antibiotic Free - 0.8-1.4lbs - price per lb",
+      "price": "$7.69 max price",
+      "unit_price": "$5.49/lb"
+    },
+    {
+      "name": "All-Natural Boneless & Skinless Chicken Breast - 2.25-3.25lbs - price per lb - Good & Gather™",
+      "price": "$12.97 max price",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Perdue Boneless & Skinless Antibiotic Free Chicken Breast - 1.3-2.4lbs - price per lb",
+      "price": "$11.98 max price",
+      "unit_price": "$4.99/lb"
+    },
+    {
+      "name": "Perdue Simply Smart Organics Gluten Free Breaded Chicken Breast Tenders - Frozen - 22oz",
+      "price": "$10.59",
+      "unit_price": "$0.48/ounce"
+    },
+    {
+      "name": "Perdue Thin Sliced Antibiotic Free Chicken Breast - 0.85-1.6lbs - price per lb",
+      "price": "$8.78 max price",
+      "unit_price": "$5.49/lb"
+    },
+    {
+      "name": "Perdue Ground Chicken - 16oz",
+      "price": "$3.99",
+      "unit_price": "$0.25/ounce"
+    },
+    {
+      "name": "Perdue Chicken Plus Panko Breaded Dino Chicken Nuggets - Frozen - 22oz",
+      "price": "$7.99",
+      "unit_price": "$0.36/ounce"
+    },
+    {
+      "name": "Perdue Boneless & Skinless Antibiotic Free Chicken Thigh Filets - 1.4-2.2lbs - price per lb",
+      "price": "$8.78 max price",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Perdue Fresh Cuts Diced Chicken Breast - 20oz",
+      "price": "$6.99",
+      "unit_price": "$0.35/ounce"
+    },
+    {
+      "name": "Dino Chicken Nuggets - Frozen - 29oz - Good & Gather™",
+      "price": "$5.49",
+      "unit_price": "$0.19/ounce"
+    },
+    {
+      "name": "Perdue Antibiotic Free Chicken Drumsticks - 1.6-2.2lbs - price per lb",
+      "price": "$3.72 max price",
+      "unit_price": "$1.69/lb"
+    }
+  ]
+}
