@@ -16,7 +16,23 @@ const MEAL_LABELS: Record<MealType, string> = {
 
 export function MealPlans() {
   const navigate = useNavigate();
-  const [plan, setPlan] = useState<DayPlan[]>(MOCK_WEEK_PLAN);
+  
+  // Check for generated plan from sessionStorage, otherwise use mock data
+  const getInitialPlan = (): DayPlan[] => {
+    try {
+      const stored = sessionStorage.getItem('generatedPlan');
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        sessionStorage.removeItem('generatedPlan'); // Clear after reading
+        return parsed;
+      }
+    } catch (e) {
+      console.error('Failed to parse stored plan:', e);
+    }
+    return MOCK_WEEK_PLAN;
+  };
+
+  const [plan, setPlan] = useState<DayPlan[]>(getInitialPlan);
   const [activeDay, setActiveDay] = useState(0);
   const [recipeModal, setRecipeModal] = useState<string | null>(null);
   const [changeMealSlot, setChangeMealSlot] = useState<MealSlot | null>(null);

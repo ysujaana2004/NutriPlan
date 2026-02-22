@@ -1,23 +1,69 @@
 import { useState } from 'react';
 import { X } from 'lucide-react';
+import { fetchMealPlan } from '../../services/api';
+import { transformBackendPlanToFrontend } from '../../utils/transform';
+import type { DayPlan } from '../../types';
 
 interface GeneratePlanModalProps {
   open: boolean;
   onClose: () => void;
-  onDone: () => void;
+  onDone: (plan: DayPlan[]) => void;
+}
+
+// Map frontend goal values to backend diet values
+function mapGoalToDiet(goal: string): 'none' | 'vegetarian' | 'high_protein' | 'low_carb' {
+  switch (goal) {
+    case 'muscle':
+      return 'high_protein';
+    case 'low-carb':
+      return 'low_carb';
+    case 'weight-loss':
+      return 'low_carb'; // Weight loss often aligns with low carb
+    default:
+      return 'none';
+  }
 }
 
 export function GeneratePlanModal({ open, onClose, onDone }: GeneratePlanModalProps) {
   const [budget, setBudget] = useState('100');
+  const [calories, setCalories] = useState('2000');
   const [goal, setGoal] = useState('balanced');
   const [location, setLocation] = useState('');
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const handleGenerate = async () => {
+    setError(null);
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 1500));
-    setLoading(false);
-    onDone();
+    
+    try {
+      const budgetNum = parseFloat(budget);
+      const caloriesNum = parseInt(calories, 10);
+      
+      if (isNaN(budgetNum) || budgetNum <= 0) {
+        setError('Please enter a valid budget greater than 0');
+        setLoading(false);
+        return;
+      }
+      
+      if (isNaN(caloriesNum) || caloriesNum <= 0) {
+        setError('Please enter a valid calorie target greater than 0');
+        setLoading(false);
+        return;
+      }
+
+      const backendPlan = await fetchMealPlan({
+        budget: budgetNum,
+        calories: caloriesNum,
+        diet: mapGoalToDiet(goal),
+      });
+
+      const frontendPlan = transformBackendPlanToFrontend(backendPlan);
+      onDone(frontendPlan);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to generate meal plan');
+      setLoading(false);
+    }
   };
 
   if (!open) return null;
@@ -39,6 +85,15 @@ export function GeneratePlanModal({ open, onClose, onDone }: GeneratePlanModalPr
               type="number"
               value={budget}
               onChange={(e) => setBudget(e.target.value)}
+              className="w-full rounded-lg border border-gray-200 px-3 py-2 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+            />
+          </div>
+          <div>
+            <label className="mb-1 block text-sm font-medium text-gray-700">Daily calories</label>
+            <input
+              type="number"
+              value={calories}
+              onChange={(e) => setCalories(e.target.value)}
               className="w-full rounded-lg border border-gray-200 px-3 py-2 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
             />
           </div>
@@ -65,6 +120,11 @@ export function GeneratePlanModal({ open, onClose, onDone }: GeneratePlanModalPr
               className="w-full rounded-lg border border-gray-200 px-3 py-2 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
             />
           </div>
+          {error && (
+            <div className="rounded-lg bg-red-50 border border-red-200 p-3 text-sm text-red-700">
+              {error}
+            </div>
+          )}
         </div>
         <div className="mt-6 flex gap-3">
           <button

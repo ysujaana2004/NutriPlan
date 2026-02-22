@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { DollarSign, Flame, Award, Plus } from 'lucide-react';
 import { USER_NAME } from '../data/mock';
 import { GeneratePlanModal } from '../components/Modals/GeneratePlanModal';
+import type { DayPlan } from '../types';
 
 const stats = [
   { label: 'Weekly Spend', value: '$72', sub: 'of $100 budget', icon: DollarSign, color: 'text-accent-orange' },
@@ -14,8 +15,10 @@ export function Dashboard() {
   const navigate = useNavigate();
   const [generateOpen, setGenerateOpen] = useState(false);
 
-  const handleGenerateDone = () => {
+  const handleGenerateDone = (plan: DayPlan[]) => {
     setGenerateOpen(false);
+    // Store plan in sessionStorage to pass to MealPlans page
+    sessionStorage.setItem('generatedPlan', JSON.stringify(plan));
     navigate('/meal-plans');
   };
 
