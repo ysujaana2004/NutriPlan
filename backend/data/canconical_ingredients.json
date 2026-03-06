@@ -1,0 +1,85 @@
+[
+  { "id": "beef_ground", "canonical": "ground beef", "category": "beef", "aliases": ["beef mince", "ground sirloin", "hamburger", "hamburger meat"] },
+  { "id": "beef_steak", "canonical": "steak", "category": "beef", "aliases": ["new york strip", "t-bone", "ribeye", "sirloin steak", "strip steak"] },
+  { "id": "beef_stew", "canonical": "stew beef", "category": "beef", "aliases": ["beef stew meat", "stew meat"] },
+  { "id": "beef_meatballs", "canonical": "beef meatballs", "category": "beef", "aliases": ["meatballs"] },
+  { "id": "beef_burger_patties", "canonical": "beef burger patties", "category": "beef", "aliases": ["burger patties", "beef patties"] },
+
+  { "id": "chicken_breast", "canonical": "chicken breast", "category": "chicken", "aliases": ["chicken breasts", "boneless skinless chicken breast", "bone-in chicken breat"] },
+  { "id": "chicken_thigh", "canonical": "chicken thighs", "category": "chicken", "aliases": ["chicken thigh"] },
+  { "id": "chicken_drumsticks", "canonical": "chicken drumsticks", "category": "chicken", "aliases": ["chicken drumstick", "drumsticks"] },
+
+  { "id": "turkey_ground", "canonical": "ground turkey", "category": "turkey", "aliases": ["turkey mince"] },
+
+  { "id": "pork_chops", "canonical": "pork chops", "category": "pork", "aliases": ["pork chop"] },
+  { "id": "pork_tenderloin", "canonical": "pork tenderloin", "category": "pork", "aliases": [] },
+  { "id": "pork_ribs", "canonical": "pork ribs", "category": "pork", "aliases": ["rib"] },
+
+  { "id": "ham", "canonical": "ham", "category": "ham", "aliases": [] },
+
+  { "id": "seafood_salmon", "canonical": "salmon", "category": "fish and seafood", "aliases": [] },
+  { "id": "seafood_shrimp", "canonical": "shrimp", "category": "fish and seafood", "aliases": ["prawns"] },
+
+  { "id": "butter", "canonical": "butter", "category": "butter", "aliases": [] },
+
+  { "id": "milk", "canonical": "milk", "category": "milk", "aliases": ["whole milk", "2% milk", "nonfat milk", "skim milk"] },
+  { "id": "milk_alt", "canonical": "milk substitute", "category": "milk substitute", "aliases": ["almond milk", "soy milk", "oat milk"] },
+
+  { "id": "cheddar", "canonical": "cheddar cheese", "category": "cheese", "aliases": ["cheddar"] },
+  { "id": "mozzarella", "canonical": "mozzarella cheese", "category": "cheese", "aliases": ["mozzarella"] },
+  { "id": "parmesan", "canonical": "parmesan cheese", "category": "cheese", "aliases": ["parmesan", "parmigiano reggiano"] },
+  { "id": "romano", "canonical": "romano cheese", "category": "cheese", "aliases": ["pecorino romano", "pecorino romano cheese"] },
+
+  { "id": "cream", "canonical": "cream", "category": "cream", "aliases": ["double cream", "thickened cream"] },
+  { "id": "heavy_cream", "canonical": "heavy cream", "category": "cream", "aliases": ["heavy whipping cream", "whipping cream"] },
+  { "id": "cream_cheese", "canonical": "cream cheese", "category": "cream cheese", "aliases": [] },
+  { "id": "cottage_cheese", "canonical": "cottage cheese", "category": "cottage cheese", "aliases": [] },
+  { "id": "sour_cream", "canonical": "sour cream", "category": "sour cream", "aliases": [] },
+  { "id": "yogurt", "canonical": "yogurt", "category": "yogurt", "aliases": ["greek yogurt", "natural yoghurt"] },
+
+  { "id": "eggs", "canonical": "eggs", "category": "eggs", "aliases": ["egg"] },
+
+  { "id": "rice", "canonical": "rice", "category": "pasta_rice_grains", "aliases": ["white rice", "brown rice", "arborio rice"] },
+  { "id": "pasta", "canonical": "pasta", "category": "pasta_rice_grains", "aliases": ["spaghetti", "macaroni", "penne", "farfalle", "cavatelli"] },
+  { "id": "quinoa", "canonical": "quinoa", "category": "pasta_rice_grains", "aliases": [] },
+
+  { "id": "onion", "canonical": "onion", "category": "vegetables", "aliases": ["yellow onion", "red onion", "white onion"] },
+  { "id": "garlic", "canonical": "garlic", "category": "vegetables", "aliases": ["garlic clove"] },
+  { "id": "bell_pepper", "canonical": "bell pepper", "category": "vegetables", "aliases": ["red bell pepper", "green bell pepper", "orange bell pepper"] },
+  { "id": "broccoli", "canonical": "broccoli", "category": "vegetables", "aliases": [] },
+  { "id": "spinach", "canonical": "spinach", "category": "vegetables", "aliases": [] },
+  { "id": "tomato", "canonical": "tomato", "category": "vegetables", "aliases": ["roma tomato", "plum tomato", "canned tomato", "tomatoes"] },
+  { "id": "potato", "canonical": "potato", "category": "vegetables", "aliases": ["potatoes"] },
+  { "id": "carrot", "canonical": "carrot", "category": "vegetables", "aliases": ["carrots"] },
+  { "id": "mushroom", "canonical": "mushroom", "category": "vegetables", "aliases": ["porcini mushroom", "portabella mushroom"] },
+  { "id": "zucchini", "canonical": "zucchini", "category": "vegetables", "aliases": ["courgette"] },
+
+  { "id": "apple", "canonical": "apple", "category": "fruit", "aliases": ["granny smith apple", "tart apple"] },
+  { "id": "banana", "canonical": "banana", "category": "fruit", "aliases": ["bananas"] }
+
+  ,
+{ "id": "olive_oil", "canonical": "olive oil", "category": "pantry", "aliases": ["extra virgin olive oil", "virgin olive oil"] },
+{ "id": "flour", "canonical": "flour", "category": "pantry", "aliases": ["all purpose flour", "all-purpose flour", "unbleached flour", "all purpose unbleached flour"] },
+{ "id": "soy_sauce", "canonical": "soy sauce", "category": "pantry", "aliases": [] },
+{ "id": "maple_syrup", "canonical": "maple syrup", "category": "pantry", "aliases": [] },
+{ "id": "honey", "canonical": "honey", "category": "pantry", "aliases": [] },
+{ "id": "bread_crumbs", "canonical": "bread crumbs", "category": "pantry", "aliases": ["breadcrumbs", "bread crumb", "panko"] },
+{ "id": "red_wine_vinegar", "canonical": "red wine vinegar", "category": "pantry", "aliases": ["wine vinegar"] },
+
+{ "id": "vanilla_extract", "canonical": "vanilla extract", "category": "pantry", "aliases": ["vanilla", "vanilla essence"] },
+
+{ "id": "cinnamon", "canonical": "cinnamon", "category": "spices", "aliases": ["ground cinnamon"] },
+{ "id": "turmeric", "canonical": "turmeric", "category": "spices", "aliases": [] },
+{ "id": "rosemary", "canonical": "rosemary", "category": "spices", "aliases": [] },
+
+{ "id": "basil", "canonical": "basil", "category": "vegetables", "aliases": ["basil leaves", "basil leave"] },
+{ "id": "parsley", "canonical": "parsley", "category": "vegetables", "aliases": [] },
+
+{ "id": "blueberries", "canonical": "blueberries", "category": "fruit", "aliases": ["blueberry"] },
+
+{ "id": "feta", "canonical": "feta cheese", "category": "cheese", "aliases": ["feta"] },
+{ "id": "mascarpone", "canonical": "mascarpone", "category": "cheese", "aliases": [] },
+
+{ "id": "almond_extract", "canonical": "almond extract", "category": "pantry", "aliases": [] },
+{ "id": "chocolate", "canonical": "chocolate", "category": "pantry", "aliases": ["bittersweet chocolate"] }
+]
