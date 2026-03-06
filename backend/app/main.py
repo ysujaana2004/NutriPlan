@@ -29,13 +29,16 @@ Why this matters:
 
 from __future__ import annotations
 
+import json
 import hashlib
 from dataclasses import dataclass
+from functools import lru_cache
 
 from datetime import date, timedelta
+from pathlib import Path
 from typing import List, Literal, Optional, Tuple
 
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -183,6 +186,99 @@ DINNER_CATALOG: list[MealTemplate] = [
     MealTemplate("Shrimp Tacos", 850, 0.050, 0.080, 0.025),
 ]
 
+RECIPES_NUTRITION_PATH = Path(__file__).resolve().parent.parent / "data" / "recipes-nutrition.json"
+MEAL_SPLITS: dict[Literal["breakfast", "lunch", "dinner"], float] = {
+    "breakfast": 0.30,
+    "lunch": 0.35,
+    "dinner": 0.35,
+}
+
+BREAKFAST_HINTS = {
+    "breakfast",
+    "oat",
+    "smoothie",
+    "pancake",
+    "omelet",
+    "toast",
+    "yogurt",
+    "muffin",
+    "egg",
+}
+DINNER_HINTS = {
+    "steak",
+    "salmon",
+    "chicken",
+    "pasta",
+    "curry",
+    "stir",
+    "taco",
+    "soup",
+    "burger",
+    "rice",
+}
+SWEET_HINTS = {
+    "cake",
+    "pie",
+    "cookie",
+    "brownie",
+    "chocolate",
+    "cupcake",
+    "frosting",
+    "treat",
+}
+
+
+@dataclass(frozen=True)
+class RealRecipe:
+    id: str
+    title: str
+    calories: float
+    protein_g: float
+    carbs_g: float
+    fat_g: float
+
+
+@lru_cache(maxsize=1)
+def _load_real_recipes() -> list[RealRecipe]:
+    """
+    Load nutrition-ready recipes from backend/data/recipes-nutrition.json.
+    Cached in-process because this dataset is static during normal development runs.
+    """
+    if not RECIPES_NUTRITION_PATH.exists():
+        return []
+
+    try:
+        raw_items = json.loads(RECIPES_NUTRITION_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+
+    recipes: list[RealRecipe] = []
+    for item in raw_items:
+        nutrition = item.get("nutrition", {})
+        try:
+            calories = float(nutrition.get("calories"))
+            protein = float(nutrition.get("protein"))
+            carbs = float(nutrition.get("carbs"))
+            fat = float(nutrition.get("fat"))
+        except (TypeError, ValueError):
+            continue
+
+        if calories <= 0:
+            continue
+
+        recipes.append(
+            RealRecipe(
+                id=str(item.get("id", "")),
+                title=(item.get("title") or "Untitled Recipe").strip(),
+                calories=calories,
+                protein_g=protein,
+                carbs_g=carbs,
+                fat_g=fat,
+            )
+        )
+
+    return recipes
+
 
 def _stable_int_seed(*parts: str) -> int:
     """
@@ -309,6 +405,272 @@ def parse_start_date(start_date: Optional[str]) -> date:
 
     year, month, day = map(int, start_date.split("-"))
     return date(year, month, day)
+
+
+def _default_daily_macro_targets(calories_per_day: int) -> tuple[float, float, float]:
+    """
+    Derive macro targets from calories using a simple 30/40/30 split.
+    """
+    protein_g = (calories_per_day * 0.30) / 4.0
+    carbs_g = (calories_per_day * 0.40) / 4.0
+    fat_g = (calories_per_day * 0.30) / 9.0
+    return protein_g, carbs_g, fat_g
+
+
+def _slot_name_penalty(recipe_title: str, meal_type: Literal["breakfast", "lunch", "dinner"]) -> float:
+    """
+    Lightly nudges obvious breakfast/dinner names into more plausible slots.
+    """
+    title = recipe_title.lower()
+
+    has_breakfast_hint = any(word in title for word in BREAKFAST_HINTS)
+    has_dinner_hint = any(word in title for word in DINNER_HINTS)
+    has_sweet_hint = any(word in title for word in SWEET_HINTS)
+
+    if meal_type == "breakfast":
+        if has_breakfast_hint:
+            return -0.20
+        if has_dinner_hint:
+            return 0.20
+
+    if meal_type == "dinner" and has_dinner_hint:
+        return -0.10
+
+    if meal_type in ("lunch", "dinner") and has_sweet_hint:
+        return 1.20
+
+    return 0.0
+
+
+def _is_sweet_title(title: str) -> bool:
+    return any(word in title.lower() for word in SWEET_HINTS)
+
+
+def _recipe_nutrition_score(
+    recipe: RealRecipe,
+    meal_type: Literal["breakfast", "lunch", "dinner"],
+    target_calories: float,
+    target_protein_g: float,
+    target_carbs_g: float,
+    target_fat_g: float,
+    times_used: int,
+) -> float:
+    """
+    Lower score is better: calorie fit + macro fit + repeat penalty + mild title heuristic.
+    """
+    cal_err = abs(recipe.calories - target_calories) / max(target_calories, 1.0)
+    protein_err = abs(recipe.protein_g - target_protein_g) / max(target_protein_g, 1.0)
+    carbs_err = abs(recipe.carbs_g - target_carbs_g) / max(target_carbs_g, 1.0)
+    fat_err = abs(recipe.fat_g - target_fat_g) / max(target_fat_g, 1.0)
+
+    macro_err = (protein_err + carbs_err + fat_err) / 3.0
+    repeat_penalty = times_used * 0.15
+    low_protein_penalty = 0.60 if meal_type in ("lunch", "dinner") and recipe.protein_g < 15 else 0.0
+
+    return (
+        2.0 * cal_err
+        + 1.0 * macro_err
+        + repeat_penalty
+        + low_protein_penalty
+        + _slot_name_penalty(recipe.title, meal_type)
+    )
+
+
+def _pick_optimized_recipe(
+    candidates: list[RealRecipe],
+    meal_type: Literal["breakfast", "lunch", "dinner"],
+    target_calories: float,
+    target_protein_g: float,
+    target_carbs_g: float,
+    target_fat_g: float,
+    times_used_by_id: dict[str, int],
+    used_today: set[str],
+    seed: int,
+) -> RealRecipe:
+    """
+    Deterministic best-pick selection for one meal slot.
+    """
+    def _best_from(pool: list[RealRecipe]) -> Optional[RealRecipe]:
+        best_recipe: Optional[RealRecipe] = None
+        best_score = float("inf")
+        best_tiebreak = float("inf")
+
+        for recipe in pool:
+            if recipe.id in used_today:
+                continue
+
+            score = _recipe_nutrition_score(
+                recipe=recipe,
+                meal_type=meal_type,
+                target_calories=target_calories,
+                target_protein_g=target_protein_g,
+                target_carbs_g=target_carbs_g,
+                target_fat_g=target_fat_g,
+                times_used=times_used_by_id.get(recipe.id, 0),
+            )
+            tiebreak = _stable_int_seed(recipe.id, meal_type, str(seed))
+
+            if score < best_score or (score == best_score and tiebreak < best_tiebreak):
+                best_recipe = recipe
+                best_score = score
+                best_tiebreak = tiebreak
+
+        return best_recipe
+
+    if meal_type in ("lunch", "dinner"):
+        savory_only = [r for r in candidates if not _is_sweet_title(r.title)]
+        best_recipe = _best_from(savory_only) if savory_only else None
+        if best_recipe is not None:
+            return best_recipe
+
+    best_recipe = _best_from(candidates)
+    if best_recipe is None:
+        raise HTTPException(status_code=500, detail="No usable recipes found for optimization.")
+    return best_recipe
+
+
+# ------------------------------------------------------------------------------
+# 3C) Real nutrition-only optimizer endpoint (v1)
+# ------------------------------------------------------------------------------
+
+@app.get("/optimize/meal-plan", response_model=WeeklyPlan)
+def optimized_meal_plan(
+    budget: float = Query(..., gt=0, description="Weekly budget in USD (currently not optimized yet)."),
+    calories: int = Query(..., gt=0, description="Target calories per day (must be > 0)."),
+    diet: Diet = Query("none", description="Diet preference (reserved for next optimizer iteration)."),
+    start_date: Optional[str] = Query(
+        None,
+        description="Optional start date in YYYY-MM-DD. If omitted, today is used.",
+    ),
+    protein_target_g: Optional[float] = Query(
+        None,
+        gt=0,
+        description="Optional daily protein target in grams. Must be provided with carbs/fat targets.",
+    ),
+    carbs_target_g: Optional[float] = Query(
+        None,
+        gt=0,
+        description="Optional daily carbs target in grams. Must be provided with protein/fat targets.",
+    ),
+    fat_target_g: Optional[float] = Query(
+        None,
+        gt=0,
+        description="Optional daily fat target in grams. Must be provided with protein/carbs targets.",
+    ),
+) -> WeeklyPlan:
+    """
+    Build a weekly plan using real recipe nutrition data and a simple deterministic scorer.
+
+    v1 scope:
+    - optimizes for calories + macros only
+    - ignores prices and grocery availability (added in later iterations)
+    """
+    recipes = _load_real_recipes()
+    if not recipes:
+        raise HTTPException(
+            status_code=500,
+            detail=f"No recipes loaded from {RECIPES_NUTRITION_PATH}",
+        )
+
+    explicit_macros = [protein_target_g, carbs_target_g, fat_target_g]
+    provided_macro_count = sum(1 for value in explicit_macros if value is not None)
+    if provided_macro_count not in (0, 3):
+        raise HTTPException(
+            status_code=400,
+            detail="If overriding macros, provide protein_target_g, carbs_target_g, and fat_target_g together.",
+        )
+
+    if provided_macro_count == 3:
+        daily_protein_target = float(protein_target_g)
+        daily_carbs_target = float(carbs_target_g)
+        daily_fat_target = float(fat_target_g)
+    else:
+        daily_protein_target, daily_carbs_target, daily_fat_target = _default_daily_macro_targets(calories)
+
+    start = parse_start_date(start_date)
+    seed = _stable_int_seed(
+        str(start),
+        str(budget),
+        str(calories),
+        str(diet),
+        str(daily_protein_target),
+        str(daily_carbs_target),
+        str(daily_fat_target),
+    )
+
+    times_used_by_id: dict[str, int] = {}
+    days: list[DayPlan] = []
+
+    for i in range(7):
+        day_date = start + timedelta(days=i)
+        used_today: set[str] = set()
+        meals: list[Meal] = []
+
+        for meal_type in ("breakfast", "lunch", "dinner"):
+            split = MEAL_SPLITS[meal_type]
+            recipe = _pick_optimized_recipe(
+                candidates=recipes,
+                meal_type=meal_type,
+                target_calories=calories * split,
+                target_protein_g=daily_protein_target * split,
+                target_carbs_g=daily_carbs_target * split,
+                target_fat_g=daily_fat_target * split,
+                times_used_by_id=times_used_by_id,
+                used_today=used_today,
+                seed=seed + i,
+            )
+
+            used_today.add(recipe.id)
+            times_used_by_id[recipe.id] = times_used_by_id.get(recipe.id, 0) + 1
+
+            meals.append(
+                Meal(
+                    meal_type=meal_type,
+                    name=recipe.title,
+                    servings=1,
+                    nutrition=Nutrition(
+                        calories=int(round(recipe.calories)),
+                        protein_g=int(round(recipe.protein_g)),
+                        carbs_g=int(round(recipe.carbs_g)),
+                        fat_g=int(round(recipe.fat_g)),
+                    ),
+                    estimated_cost_usd=0.0,
+                )
+            )
+
+        totals, total_cost = compute_day_totals(meals)
+        days.append(
+            DayPlan(
+                date=day_date.isoformat(),
+                meals=meals,
+                totals=totals,
+                total_cost_usd=total_cost,
+            )
+        )
+
+    week_totals = Nutrition(
+        calories=sum(d.totals.calories for d in days),
+        protein_g=sum(d.totals.protein_g for d in days),
+        carbs_g=sum(d.totals.carbs_g for d in days),
+        fat_g=sum(d.totals.fat_g for d in days),
+    )
+    week_total_cost = round(sum(d.total_cost_usd for d in days), 2)
+
+    return WeeklyPlan(
+        inputs={
+            "budget": budget,
+            "calories": calories,
+            "diet": diet,
+            "start_date": start_date,
+            "optimizer": "nutrition_v1",
+            "protein_target_g": round(daily_protein_target, 2),
+            "carbs_target_g": round(daily_carbs_target, 2),
+            "fat_target_g": round(daily_fat_target, 2),
+        },
+        days=days,
+        week_totals=week_totals,
+        week_total_cost_usd=week_total_cost,
+    )
 
 
 # ------------------------------------------------------------------------------
