@@ -45,7 +45,7 @@ export interface MealPlanParams {
 }
 
 /**
- * Fetches a meal plan from the backend /demo/meal-plan endpoint
+ * Fetches a meal plan from the backend /optimize/meal-plan endpoint
  */
 export async function fetchMealPlan(params: MealPlanParams): Promise<BackendWeeklyPlan> {
   const queryParams = new URLSearchParams({
@@ -55,7 +55,7 @@ export async function fetchMealPlan(params: MealPlanParams): Promise<BackendWeek
     ...(params.start_date && { start_date: params.start_date }),
   });
 
-  const response = await fetch(`${API_BASE_URL}/demo/meal-plan?${queryParams}`);
+  const response = await fetch(`${API_BASE_URL}/optimize/meal-plan?${queryParams}`);
 
   if (!response.ok) {
     const errorText = await response.text();
@@ -64,4 +64,3 @@ export async function fetchMealPlan(params: MealPlanParams): Promise<BackendWeek
 
   return response.json();
 }
-
