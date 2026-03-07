@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ShoppingCart, Plus, Trash2, RefreshCw, Settings2 } from 'lucide-react';
 import { MOCK_WEEK_PLAN, MOCK_RECIPES } from '../data/mock';
-import type { DayPlan, MealSlot, MealType } from '../types';
+import type { DayPlan, MealSlot, MealType, Recipe } from '../types';
 import { RecipeDetailModal } from '../components/Modals/RecipeDetailModal';
 import { ChangeMealModal } from '../components/Modals/ChangeMealModal';
 import { WeekPreferencesModal } from '../components/Modals/WeekPreferencesModal';
@@ -34,7 +34,7 @@ export function MealPlans() {
 
   const [plan, setPlan] = useState<DayPlan[]>(getInitialPlan);
   const [activeDay, setActiveDay] = useState(0);
-  const [recipeModal, setRecipeModal] = useState<string | null>(null);
+  const [recipeModal, setRecipeModal] = useState<Recipe | null>(null);
   const [changeMealSlot, setChangeMealSlot] = useState<MealSlot | null>(null);
   const [weekPrefsOpen, setWeekPrefsOpen] = useState(false);
 
@@ -153,7 +153,7 @@ export function MealPlans() {
                   </div>
                   <div className="flex flex-wrap gap-2">
                     <button
-                      onClick={() => setRecipeModal(slot.recipe.id)}
+                      onClick={() => setRecipeModal(slot.recipe)}
                       className="rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-sm font-medium text-gray-700 hover:bg-gray-50"
                     >
                       View Recipe
@@ -223,7 +223,7 @@ export function MealPlans() {
       </div>
 
       <RecipeDetailModal
-        recipeId={recipeModal}
+        recipe={recipeModal}
         onClose={() => setRecipeModal(null)}
         onAddToShoppingList={() => {}}
       />

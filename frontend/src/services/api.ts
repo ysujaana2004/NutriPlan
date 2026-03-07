@@ -10,12 +10,22 @@ export interface BackendNutrition {
   fat_g: number;
 }
 
+export interface BackendIngredientLine {
+  id: string;
+  name: string;
+  amount: string;
+}
+
 export interface BackendMeal {
+  recipe_id: string;
   meal_type: 'breakfast' | 'lunch' | 'dinner';
   name: string;
   servings: number;
   nutrition: BackendNutrition;
   estimated_cost_usd: number;
+  image_url?: string | null;
+  ingredients?: BackendIngredientLine[];
+  instructions?: string[];
 }
 
 export interface BackendDayPlan {
@@ -23,6 +33,29 @@ export interface BackendDayPlan {
   meals: BackendMeal[];
   totals: BackendNutrition;
   total_cost_usd: number;
+}
+
+export interface BackendShoppingListItem {
+  canonical_id: string;
+  canonical_name: string;
+  product_name: string;
+  category: string;
+  unit_price_usd: number;
+  estimated_units: number;
+  estimated_total_cost_usd: number;
+  recipes: string[];
+}
+
+export interface BackendMissingShoppingItem {
+  canonical_id: string;
+  canonical_name: string;
+  recipes: string[];
+}
+
+export interface BackendShoppingListSummary {
+  items: BackendShoppingListItem[];
+  missing_items: BackendMissingShoppingItem[];
+  total_estimated_cost_usd: number;
 }
 
 export interface BackendWeeklyPlan {
@@ -35,6 +68,7 @@ export interface BackendWeeklyPlan {
   days: BackendDayPlan[];
   week_totals: BackendNutrition;
   week_total_cost_usd: number;
+  shopping_list?: BackendShoppingListSummary | null;
 }
 
 export interface MealPlanParams {

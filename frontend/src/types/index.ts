@@ -11,6 +11,7 @@ export interface Recipe {
   fats: number;
   cost: number;
   ingredients: RecipeIngredient[];
+  instructions?: string[];
   nutritionScore?: number;
 }
 

@@ -4,6 +4,7 @@ import { DollarSign, Flame, Award, Plus } from 'lucide-react';
 import { USER_NAME } from '../data/mock';
 import { GeneratePlanModal } from '../components/Modals/GeneratePlanModal';
 import type { DayPlan } from '../types';
+import type { BackendWeeklyPlan } from '../services/api';
 
 const stats = [
   { label: 'Weekly Spend', value: '$72', sub: 'of $100 budget', icon: DollarSign, color: 'text-accent-orange' },
@@ -15,10 +16,11 @@ export function Dashboard() {
   const navigate = useNavigate();
   const [generateOpen, setGenerateOpen] = useState(false);
 
-  const handleGenerateDone = (plan: DayPlan[]) => {
+  const handleGenerateDone = (plan: DayPlan[], backendPlan: BackendWeeklyPlan) => {
     setGenerateOpen(false);
-    // Store plan in sessionStorage to pass to MealPlans page
+    // Store generated plan data so other pages can use the same backend payload.
     sessionStorage.setItem('generatedPlan', JSON.stringify(plan));
+    sessionStorage.setItem('generatedShoppingList', JSON.stringify(backendPlan.shopping_list ?? null));
     navigate('/meal-plans');
   };
 

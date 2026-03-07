@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { X } from 'lucide-react';
-import { fetchMealPlan } from '../../services/api';
+import { fetchMealPlan, type BackendWeeklyPlan } from '../../services/api';
 import { transformBackendPlanToFrontend } from '../../utils/transform';
 import type { DayPlan } from '../../types';
 
 interface GeneratePlanModalProps {
   open: boolean;
   onClose: () => void;
-  onDone: (plan: DayPlan[]) => void;
+  onDone: (frontendPlan: DayPlan[], backendPlan: BackendWeeklyPlan) => void;
 }
 
 // Map frontend goal values to backend diet values
@@ -59,7 +59,7 @@ export function GeneratePlanModal({ open, onClose, onDone }: GeneratePlanModalPr
       });
 
       const frontendPlan = transformBackendPlanToFrontend(backendPlan);
-      onDone(frontendPlan);
+      onDone(frontendPlan, backendPlan);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to generate meal plan');
       setLoading(false);

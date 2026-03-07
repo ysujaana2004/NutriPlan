@@ -7,16 +7,23 @@ import type { DayPlan, MealSlot, Recipe } from '../types';
  */
 function backendMealToRecipe(meal: BackendMeal, index: number): Recipe {
   return {
-    id: `recipe-${meal.meal_type}-${index}`,
+    id: meal.recipe_id || `recipe-${meal.meal_type}-${index}`,
     name: meal.name,
     description: `${meal.name} - ${meal.meal_type}`,
-    image: `https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&sig=${index}`, // Placeholder image
+    image: meal.image_url || `https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&sig=${index}`,
     calories: meal.nutrition.calories,
     protein: meal.nutrition.protein_g,
     carbs: meal.nutrition.carbs_g,
     fats: meal.nutrition.fat_g,
     cost: meal.estimated_cost_usd,
-    ingredients: [], // Backend doesn't provide ingredients yet
+    ingredients: (meal.ingredients ?? []).map((ingredient) => ({
+      id: ingredient.id,
+      name: ingredient.name,
+      amount: ingredient.amount,
+      // Ingredient-level prices are not currently returned by backend.
+      price: 0,
+    })),
+    instructions: meal.instructions ?? [],
   };
 }
 
@@ -59,4 +66,3 @@ export function transformBackendPlanToFrontend(backendPlan: BackendWeeklyPlan): 
     };
   });
 }
-
