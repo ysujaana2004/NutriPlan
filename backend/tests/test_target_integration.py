@@ -152,6 +152,7 @@ class TestTargetIntegration(unittest.TestCase):
                     "id": 101,
                     "title": "Oatmeal Bowl",
                     "image": "https://example.com/oatmeal.jpg",
+                    "dishTypes": ["breakfast", "morning meal"],
                     "extendedIngredients": [
                         {"name": "rice", "original": "1 cup rice"},
                         {"name": "olive oil", "original": "1 tbsp olive oil"},
@@ -165,6 +166,7 @@ class TestTargetIntegration(unittest.TestCase):
                     "id": 102,
                     "title": "Chicken Rice Bowl",
                     "image": "https://example.com/chicken-rice.jpg",
+                    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
                     "extendedIngredients": [
                         {"name": "chicken breast", "original": "8 oz chicken breast"},
                         {"name": "rice", "original": "1 cup rice"},
@@ -178,6 +180,7 @@ class TestTargetIntegration(unittest.TestCase):
                     "id": 103,
                     "title": "Salmon Dinner",
                     "image": "https://example.com/salmon.jpg",
+                    "dishTypes": ["main course", "main dish", "dinner"],
                     "extendedIngredients": [
                         {"name": "salmon", "original": "2 salmon fillets"},
                         {"name": "rice", "original": "1 cup rice"},
@@ -270,6 +273,22 @@ class TestTargetIntegration(unittest.TestCase):
         self.assertGreater(len(plan.shopping_list.items), 0)
         self.assertGreater(len(plan.days[0].meals[0].ingredients), 0)
         self.assertGreater(len(plan.days[0].meals[0].instructions), 0)
+
+    def test_optimizer_prefers_breakfast_dish_types_for_breakfast_slot(self) -> None:
+        """Breakfast slot should favor recipes tagged as breakfast/morning meal."""
+        plan = api_main.optimized_meal_plan(
+            budget=90,
+            calories=2200,
+            diet="none",
+            start_date="2026-03-07",
+            protein_target_g=None,
+            carbs_target_g=None,
+            fat_target_g=None,
+        )
+
+        breakfast_names = [meal.name for day in plan.days for meal in day.meals if meal.meal_type == "breakfast"]
+        self.assertEqual(len(breakfast_names), 7)
+        self.assertTrue(all(name == "Oatmeal Bowl" for name in breakfast_names))
 
 
 if __name__ == "__main__":

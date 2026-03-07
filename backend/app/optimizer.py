@@ -54,6 +54,19 @@ MEAL_SPLITS: dict[Literal["breakfast", "lunch", "dinner"], float] = {
     "lunch": 0.35,
     "dinner": 0.35,
 }
+MAX_WEEKLY_REPEATS_PER_SLOT: dict[Literal["breakfast", "lunch", "dinner"], int] = {
+    "breakfast": 2,
+    "lunch": 2,
+    "dinner": 2,
+}
+RECENT_SLOT_WINDOW_DAYS = 2
+CALORIE_ERROR_WEIGHT = 5.0
+CALORIE_UNDERSHOOT_MULTIPLIER = 1.45
+MACRO_ERROR_WEIGHT = 0.60
+INTEGRATION_PENALTY_WEIGHT = 0.70
+GLOBAL_REPEAT_PENALTY_WEIGHT = 0.08
+SLOT_REPEAT_PENALTY_WEIGHT = 0.35
+SLOT_REPEAT_EXTRA_AFTER_FIRST = 0.30
 
 BREAKFAST_HINTS = {
     "breakfast",
@@ -90,6 +103,82 @@ SWEET_HINTS = {
     "frosting",
     "treat",
 }
+
+BREAKFAST_DISH_TYPES = {"breakfast", "morning meal", "brunch"}
+LUNCH_DISH_TYPES = {"lunch"}
+DINNER_DISH_TYPES = {"dinner"}
+MAIN_MEAL_DISH_TYPES = {"main course", "main dish"}
+NON_BREAKFAST_DISH_TYPES = LUNCH_DISH_TYPES | DINNER_DISH_TYPES | MAIN_MEAL_DISH_TYPES
+
+
+def has_dish_type(recipe: RealRecipe, tags: set[str]) -> bool:
+    """Return True when the recipe has any of the requested normalized dish-type tags."""
+
+    return any(tag in tags for tag in recipe.dish_types)
+
+
+def meal_slot_metadata_penalty(recipe: RealRecipe, meal_type: Literal["breakfast", "lunch", "dinner"]) -> float:
+    """Apply slot-fit adjustment using recipe dish-type metadata when available."""
+
+    has_breakfast = has_dish_type(recipe, BREAKFAST_DISH_TYPES)
+    has_lunch = has_dish_type(recipe, LUNCH_DISH_TYPES)
+    has_dinner = has_dish_type(recipe, DINNER_DISH_TYPES)
+    has_main = has_dish_type(recipe, MAIN_MEAL_DISH_TYPES)
+
+    # If structured dish types are missing, do not force a guess.
+    if not (has_breakfast or has_lunch or has_dinner or has_main):
+        return 0.0
+
+    if meal_type == "breakfast":
+        if has_breakfast:
+            return -0.35
+        if has_lunch or has_dinner or has_main:
+            return 2.0
+        return 0.40
+
+    if meal_type == "lunch":
+        if has_lunch or has_main:
+            return -0.15
+        if has_breakfast:
+            return 1.0
+        return 0.0
+
+    if has_dinner or has_main:
+        return -0.15
+    if has_breakfast:
+        return 1.0
+    return 0.0
+
+
+def preferred_pool_for_slot(
+    candidates: list[RealRecipe],
+    meal_type: Literal["breakfast", "lunch", "dinner"],
+) -> list[RealRecipe]:
+    """Prefer meal-slot-compatible recipes, but keep graceful fallback pools."""
+
+    if meal_type == "breakfast":
+        tagged_breakfast = [recipe for recipe in candidates if has_dish_type(recipe, BREAKFAST_DISH_TYPES)]
+        if tagged_breakfast:
+            return tagged_breakfast
+
+        # If no explicit breakfast options are tagged, at least avoid explicit lunch/dinner mains.
+        no_explicit_non_breakfast = [recipe for recipe in candidates if not has_dish_type(recipe, NON_BREAKFAST_DISH_TYPES)]
+        return no_explicit_non_breakfast if no_explicit_non_breakfast else candidates
+
+    if meal_type == "lunch":
+        tagged_lunch = [
+            recipe
+            for recipe in candidates
+            if has_dish_type(recipe, LUNCH_DISH_TYPES) or has_dish_type(recipe, MAIN_MEAL_DISH_TYPES)
+        ]
+        return tagged_lunch if tagged_lunch else candidates
+
+    tagged_dinner = [
+        recipe
+        for recipe in candidates
+        if has_dish_type(recipe, DINNER_DISH_TYPES) or has_dish_type(recipe, MAIN_MEAL_DISH_TYPES)
+    ]
+    return tagged_dinner if tagged_dinner else candidates
 
 
 def slot_name_penalty(recipe_title: str, meal_type: Literal["breakfast", "lunch", "dinner"]) -> float:
@@ -140,6 +229,27 @@ def coverage_and_cost_penalty(recipe: RealRecipe, target_meal_budget_usd: float)
     return coverage_penalty + missing_penalty + budget_penalty
 
 
+def variety_candidate_pools(
+    pool: list[RealRecipe],
+    meal_type: Literal["breakfast", "lunch", "dinner"],
+    times_used_by_slot_and_id: dict[tuple[Literal["breakfast", "lunch", "dinner"], str], int],
+    recent_recipe_ids_for_slot: list[str],
+) -> list[list[RealRecipe]]:
+    """Build fallback pools that prioritize variety but never block final selection."""
+
+    max_repeats = MAX_WEEKLY_REPEATS_PER_SLOT[meal_type]
+    recent_ids = set(recent_recipe_ids_for_slot[-RECENT_SLOT_WINDOW_DAYS:])
+
+    under_cap = [
+        recipe for recipe in pool if times_used_by_slot_and_id.get((meal_type, recipe.id), 0) < max_repeats
+    ]
+    not_recent = [recipe for recipe in pool if recipe.id not in recent_ids]
+    under_cap_and_not_recent = [recipe for recipe in under_cap if recipe.id not in recent_ids]
+
+    candidate_pools = [under_cap_and_not_recent, under_cap, not_recent, pool]
+    return [candidate_pool for candidate_pool in candidate_pools if candidate_pool]
+
+
 def recipe_nutrition_score(
     recipe: RealRecipe,
     meal_type: Literal["breakfast", "lunch", "dinner"],
@@ -148,26 +258,35 @@ def recipe_nutrition_score(
     target_carbs_g: float,
     target_fat_g: float,
     target_meal_budget_usd: float,
-    times_used: int,
+    times_used_total: int,
+    times_used_for_slot: int,
 ) -> float:
     """Score one recipe for one meal slot; lower score is better."""
 
-    cal_err = abs(recipe.calories - target_calories) / max(target_calories, 1.0)
+    cal_delta = recipe.calories - target_calories
+    cal_err = abs(cal_delta) / max(target_calories, 1.0)
+    if cal_delta < 0:
+        cal_err *= CALORIE_UNDERSHOOT_MULTIPLIER
     protein_err = abs(recipe.protein_g - target_protein_g) / max(target_protein_g, 1.0)
     carbs_err = abs(recipe.carbs_g - target_carbs_g) / max(target_carbs_g, 1.0)
     fat_err = abs(recipe.fat_g - target_fat_g) / max(target_fat_g, 1.0)
 
     macro_err = (protein_err + carbs_err + fat_err) / 3.0
-    repeat_penalty = times_used * 0.15
+    global_repeat_penalty = times_used_total * GLOBAL_REPEAT_PENALTY_WEIGHT
+    slot_repeat_penalty = (times_used_for_slot * SLOT_REPEAT_PENALTY_WEIGHT) + (
+        max(times_used_for_slot - 1, 0) * SLOT_REPEAT_EXTRA_AFTER_FIRST
+    )
     low_protein_penalty = 0.60 if meal_type in ("lunch", "dinner") and recipe.protein_g < 15 else 0.0
     integration_penalty = coverage_and_cost_penalty(recipe, target_meal_budget_usd)
 
     return (
-        2.0 * cal_err
-        + 1.0 * macro_err
-        + repeat_penalty
+        CALORIE_ERROR_WEIGHT * cal_err
+        + MACRO_ERROR_WEIGHT * macro_err
+        + global_repeat_penalty
+        + slot_repeat_penalty
         + low_protein_penalty
-        + integration_penalty
+        + (INTEGRATION_PENALTY_WEIGHT * integration_penalty)
+        + meal_slot_metadata_penalty(recipe, meal_type)
         + slot_name_penalty(recipe.title, meal_type)
     )
 
@@ -181,6 +300,8 @@ def pick_optimized_recipe(
     target_fat_g: float,
     target_meal_budget_usd: float,
     times_used_by_id: dict[str, int],
+    times_used_by_slot_and_id: dict[tuple[Literal["breakfast", "lunch", "dinner"], str], int],
+    recent_recipe_ids_for_slot: list[str],
     used_today: set[str],
     seed: int,
 ) -> RealRecipe:
@@ -204,7 +325,8 @@ def pick_optimized_recipe(
                 target_carbs_g=target_carbs_g,
                 target_fat_g=target_fat_g,
                 target_meal_budget_usd=target_meal_budget_usd,
-                times_used=times_used_by_id.get(recipe.id, 0),
+                times_used_total=times_used_by_id.get(recipe.id, 0),
+                times_used_for_slot=times_used_by_slot_and_id.get((meal_type, recipe.id), 0),
             )
             tiebreak = stable_int_seed(recipe.id, meal_type, str(seed))
 
@@ -217,14 +339,29 @@ def pick_optimized_recipe(
 
     fully_covered = [recipe for recipe in candidates if recipe.missing_canonical_count == 0 and recipe.coverage_ratio > 0]
     candidate_pool = fully_covered if fully_covered else candidates
+    candidate_pool = preferred_pool_for_slot(candidate_pool, meal_type)
+
+    def best_with_variety(pool: list[RealRecipe]) -> Optional[RealRecipe]:
+        """Try increasingly relaxed pools to improve variety without causing hard failure."""
+
+        for candidate_subpool in variety_candidate_pools(
+            pool=pool,
+            meal_type=meal_type,
+            times_used_by_slot_and_id=times_used_by_slot_and_id,
+            recent_recipe_ids_for_slot=recent_recipe_ids_for_slot,
+        ):
+            best_recipe = best_from(candidate_subpool)
+            if best_recipe is not None:
+                return best_recipe
+        return None
 
     if meal_type in ("lunch", "dinner"):
         savory_only = [recipe for recipe in candidate_pool if not is_sweet_title(recipe.title)]
-        best_recipe = best_from(savory_only) if savory_only else None
+        best_recipe = best_with_variety(savory_only) if savory_only else None
         if best_recipe is not None:
             return best_recipe
 
-    best_recipe = best_from(candidate_pool)
+    best_recipe = best_with_variety(candidate_pool)
     if best_recipe is None:
         raise HTTPException(status_code=500, detail="No usable recipes found for optimization.")
     return best_recipe
@@ -348,6 +485,12 @@ def build_optimized_weekly_plan(
     )
 
     times_used_by_id: dict[str, int] = {}
+    times_used_by_slot_and_id: dict[tuple[Literal["breakfast", "lunch", "dinner"], str], int] = {}
+    recent_recipe_ids_by_slot: dict[Literal["breakfast", "lunch", "dinner"], list[str]] = {
+        "breakfast": [],
+        "lunch": [],
+        "dinner": [],
+    }
     days: list[DayPlan] = []
     selected_recipe_ids: list[str] = []
     recipe_name_by_id: dict[str, str] = {}
@@ -368,12 +511,18 @@ def build_optimized_weekly_plan(
                 target_fat_g=daily_fat_target * split,
                 target_meal_budget_usd=target_meal_budget_usd,
                 times_used_by_id=times_used_by_id,
+                times_used_by_slot_and_id=times_used_by_slot_and_id,
+                recent_recipe_ids_for_slot=recent_recipe_ids_by_slot[meal_type],
                 used_today=used_today,
                 seed=seed + day_index,
             )
 
             used_today.add(recipe.id)
             times_used_by_id[recipe.id] = times_used_by_id.get(recipe.id, 0) + 1
+            slot_key = (meal_type, recipe.id)
+            times_used_by_slot_and_id[slot_key] = times_used_by_slot_and_id.get(slot_key, 0) + 1
+            recent_recipe_ids_by_slot[meal_type].append(recipe.id)
+            recent_recipe_ids_by_slot[meal_type] = recent_recipe_ids_by_slot[meal_type][-RECENT_SLOT_WINDOW_DAYS:]
             selected_recipe_ids.append(recipe.id)
             recipe_name_by_id[recipe.id] = recipe.title
 

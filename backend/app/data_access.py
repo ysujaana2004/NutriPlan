@@ -52,6 +52,7 @@ class RealRecipe:
     missing_canonical_count: int
     coverage_ratio: float
     image_url: str
+    dish_types: tuple[str, ...]
     ingredient_lines: tuple[tuple[str, str], ...]
     instruction_steps: tuple[str, ...]
 
@@ -81,6 +82,7 @@ class RecipeDetailSummary:
     """Renderable details for one recipe id, pulled from recipes-random-full.json."""
 
     image_url: str
+    dish_types: tuple[str, ...]
     ingredient_lines: tuple[tuple[str, str], ...]
     instruction_steps: tuple[str, ...]
 
@@ -155,6 +157,21 @@ def _extract_instruction_steps(recipe_row: dict) -> tuple[str, ...]:
     return tuple(cleaned)
 
 
+def _extract_dish_types(recipe_row: dict) -> tuple[str, ...]:
+    """Extract normalized dish types (lowercased, de-duplicated)."""
+
+    raw_values = recipe_row.get("dishTypes", []) or []
+    seen: set[str] = set()
+    dish_types: list[str] = []
+    for raw_value in raw_values:
+        normalized = str(raw_value).strip().lower()
+        if not normalized or normalized in seen:
+            continue
+        seen.add(normalized)
+        dish_types.append(normalized)
+    return tuple(dish_types)
+
+
 @lru_cache(maxsize=1)
 def load_canonical_name_by_id() -> dict[str, str]:
     """Load canonical ingredient display names keyed by canonical ID."""
@@ -201,6 +218,7 @@ def load_recipe_details_by_id() -> dict[str, RecipeDetailSummary]:
 
         details_by_id[recipe_id] = RecipeDetailSummary(
             image_url=str(row.get("image") or "").strip(),
+            dish_types=_extract_dish_types(row),
             ingredient_lines=_extract_ingredient_lines(row),
             instruction_steps=_extract_instruction_steps(row),
         )
@@ -372,6 +390,7 @@ def load_real_recipes() -> list[RealRecipe]:
             recipe_id,
             RecipeDetailSummary(
                 image_url="",
+                dish_types=tuple(),
                 ingredient_lines=tuple(),
                 instruction_steps=tuple(),
             ),
@@ -390,6 +409,7 @@ def load_real_recipes() -> list[RealRecipe]:
                 missing_canonical_count=len(coverage.missing_canonical),
                 coverage_ratio=coverage.coverage_ratio,
                 image_url=details.image_url,
+                dish_types=details.dish_types,
                 ingredient_lines=details.ingredient_lines,
                 instruction_steps=details.instruction_steps,
             )
