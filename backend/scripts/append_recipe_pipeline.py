@@ -10,6 +10,12 @@ The script is append-safe:
 - never deletes existing rows
 - de-dupes by recipe id
 - creates timestamped backups before writing
+
+Point-efficiency note:
+- We fetch bulk recipe data ONLY ONCE per chunk with includeNutrition=true.
+- From that single response, we build:
+  - recipes-random-full.json (full details, nutrition block removed)
+  - recipes-nutrition.json (just id/title/macros)
 """
 
 from __future__ import annotations
@@ -29,6 +35,7 @@ from dotenv import load_dotenv
 SCRIPT_DIR = Path(__file__).resolve().parent
 BACKEND_DIR = SCRIPT_DIR.parent
 DATA_DIR = BACKEND_DIR / "data"
+BACKUP_DIR = DATA_DIR / "recipes-backups"
 
 RANDOM_PATH = DATA_DIR / "recipes-random.json"
 FULL_PATH = DATA_DIR / "recipes-random-full.json"
@@ -43,6 +50,7 @@ SLEEP_SECONDS = 0.25
 
 
 def parse_args() -> argparse.Namespace:
+    """Parse CLI flags that control how many recipes to append and run mode."""
     parser = argparse.ArgumentParser(
         description="Append new recipes to random/full/nutrition files without overwriting existing data."
     )
@@ -67,10 +75,12 @@ def parse_args() -> argparse.Namespace:
 
 
 def chunk_list(items: List[int], size: int) -> List[List[int]]:
+    """Split a list of IDs into fixed-size chunks for bulk API calls."""
     return [items[i : i + size] for i in range(0, len(items), size)]
 
 
 def load_json_list(path: Path) -> List[Dict[str, Any]]:
+    """Load a JSON list file; return empty list if file does not exist."""
     if not path.exists():
         return []
     data = json.loads(path.read_text(encoding="utf-8"))
@@ -80,6 +90,7 @@ def load_json_list(path: Path) -> List[Dict[str, Any]]:
 
 
 def row_id(row: Dict[str, Any]) -> int | None:
+    """Safely convert row['id'] to int; return None for missing/invalid IDs."""
     rid = row.get("id")
     try:
         return int(rid)
@@ -88,6 +99,7 @@ def row_id(row: Dict[str, Any]) -> int | None:
 
 
 def id_set(rows: List[Dict[str, Any]]) -> set[int]:
+    """Collect all valid integer IDs from a list of recipe-like rows."""
     out: set[int] = set()
     for row in rows:
         rid = row_id(row)
@@ -97,6 +109,7 @@ def id_set(rows: List[Dict[str, Any]]) -> set[int]:
 
 
 def dedupe_by_id_keep_first(rows: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Remove duplicate IDs while preserving the first occurrence order."""
     out: List[Dict[str, Any]] = []
     seen: set[int] = set()
     for row in rows:
@@ -109,15 +122,18 @@ def dedupe_by_id_keep_first(rows: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
 
 def backup_file(path: Path) -> Path | None:
+    """Create a timestamped backup copy in backend/data/recipes-backups."""
     if not path.exists():
         return None
+    BACKUP_DIR.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    backup_path = path.with_name(f"{path.stem}.backup_{stamp}{path.suffix}")
+    backup_path = BACKUP_DIR / f"{path.stem}.backup_{stamp}{path.suffix}"
     backup_path.write_text(path.read_text(encoding="utf-8"), encoding="utf-8")
     return backup_path
 
 
 def fetch_random_id_rows(api_key: str, number: int) -> List[Dict[str, Any]]:
+    """Fetch random recipe IDs/titles from Spoonacular complexSearch."""
     params = {
         "number": number,
         "sort": "random",
@@ -133,10 +149,17 @@ def fetch_random_id_rows(api_key: str, number: int) -> List[Dict[str, Any]]:
     return [{"id": r["id"], "title": r.get("title", "")} for r in results if "id" in r]
 
 
-def fetch_bulk(api_key: str, ids: List[int], include_nutrition: bool) -> List[Dict[str, Any]]:
+def fetch_bulk_with_nutrition(api_key: str, ids: List[int]) -> List[Dict[str, Any]]:
+    """
+    Fetch detailed recipe info in bulk, including nutrition.
+
+    We intentionally always request nutrition here so one API call can power:
+    - full recipe output (Step 2)
+    - nutrition output (Step 3)
+    """
     params = {
         "ids": ",".join(map(str, ids)),
-        "includeNutrition": "true" if include_nutrition else "false",
+        "includeNutrition": "true",
         "apiKey": api_key,
     }
     resp = requests.get(BULK_INFO_URL, params=params, timeout=30)
@@ -149,6 +172,7 @@ def fetch_bulk(api_key: str, ids: List[int], include_nutrition: bool) -> List[Di
 
 
 def extract_macros(recipe: Dict[str, Any]) -> Dict[str, float]:
+    """Extract calories/protein/carbs/fat from Spoonacular nutrient payload."""
     nutrients = (recipe.get("nutrition") or {}).get("nutrients") or []
     wanted = {"Calories", "Protein", "Carbohydrates", "Fat"}
     found: Dict[str, float] = {}
@@ -165,6 +189,7 @@ def extract_macros(recipe: Dict[str, Any]) -> Dict[str, float]:
 
 
 def main() -> None:
+    """Run append workflow: discover new IDs, fetch bulk data, merge, backup, and save."""
     args = parse_args()
     if args.add_count <= 0:
         raise ValueError("--add-count must be > 0")
@@ -222,22 +247,26 @@ def main() -> None:
 
     new_ids = [int(r["id"]) for r in new_id_rows]
 
-    # Step 2: full recipe details for the NEW IDs
+    # Step 2 + Step 3:
+    # One bulk request per chunk (with nutrition) then split into:
+    # - full recipe rows (without nutrition field)
+    # - nutrition summary rows
     new_full_rows: List[Dict[str, Any]] = []
+    new_nutrition_rows: List[Dict[str, Any]] = []
     id_chunks = chunk_list(new_ids, BULK_CHUNK_SIZE)
     for idx, chunk in enumerate(id_chunks, start=1):
-        print(f"[full {idx}/{len(id_chunks)}] fetching {len(chunk)} recipes...")
-        rows = fetch_bulk(api_key, chunk, include_nutrition=False)
-        new_full_rows.extend(rows)
-        if idx < len(id_chunks):
-            time.sleep(SLEEP_SECONDS)
+        print(f"[bulk {idx}/{len(id_chunks)}] fetching {len(chunk)} recipes with nutrition...")
+        rows = fetch_bulk_with_nutrition(api_key, chunk)
 
-    # Step 3: nutrition for the NEW IDs
-    new_nutrition_rows: List[Dict[str, Any]] = []
-    for idx, chunk in enumerate(id_chunks, start=1):
-        print(f"[nutrition {idx}/{len(id_chunks)}] fetching {len(chunk)} recipes...")
-        rows = fetch_bulk(api_key, chunk, include_nutrition=True)
         for recipe in rows:
+            # Build "full recipe" row while keeping file size predictable.
+            # We remove the heavy nutrition block here because nutrition is
+            # stored separately in recipes-nutrition.json.
+            full_recipe = dict(recipe)
+            full_recipe.pop("nutrition", None)
+            new_full_rows.append(full_recipe)
+
+            # Build compact nutrition row.
             rid = recipe.get("id")
             if rid is None:
                 continue
@@ -288,4 +317,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
