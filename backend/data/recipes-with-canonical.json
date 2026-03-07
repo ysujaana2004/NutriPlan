@@ -4676,5 +4676,2723 @@
       "less chives",
       "other optional mix-ins: cilantro"
     ]
+  },
+  {
+    "id": 646565,
+    "title": "Hearty Chicken Tortilla Soup",
+    "canonical_ingredients": [
+      "carrot",
+      "chicken_breast",
+      "feta",
+      "garlic",
+      "onion",
+      "tomato",
+      "zucchini"
+    ],
+    "covered_canonical": [
+      "carrot",
+      "chicken_breast",
+      "feta",
+      "garlic",
+      "onion",
+      "tomato",
+      "zucchini"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "carrot",
+      "celery stalk",
+      "onion",
+      "garlic cloves",
+      "jalapeno pepper",
+      "guajillo chile powder",
+      "arbol chili powder",
+      "cumin",
+      "oregano",
+      "cilantro",
+      "black beans",
+      "corn",
+      "zucchini",
+      "squash",
+      "canned tomatoes",
+      "chicken broth",
+      "chicken breasts",
+      "juice of lime",
+      "tortilla strips",
+      "avocado"
+    ]
+  },
+  {
+    "id": 654436,
+    "title": "Pan Seared Scallops",
+    "canonical_ingredients": [
+      "olive_oil"
+    ],
+    "covered_canonical": [],
+    "missing_canonical": [
+      "olive_oil"
+    ],
+    "ignored_pantry_items": [
+      "salt and pepper"
+    ],
+    "raw_ingredients_sample": [
+      "scallops",
+      "salt and pepper",
+      "olive oil",
+      "wine",
+      "balsamic vinegar",
+      "some salad mix to serve"
+    ]
+  },
+  {
+    "id": 651232,
+    "title": "Mashed Sweet Potatoes",
+    "canonical_ingredients": [
+      "butter",
+      "cinnamon",
+      "cream",
+      "maple_syrup",
+      "potato",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "butter",
+      "cinnamon",
+      "cream",
+      "potato",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [
+      "maple_syrup"
+    ],
+    "ignored_pantry_items": [
+      "brown sugar",
+      "kosher salt"
+    ],
+    "raw_ingredients_sample": [
+      "brown sugar",
+      "butter",
+      "cardamom",
+      "cayenne pepper",
+      "cinnamon",
+      "cream",
+      "kosher salt",
+      "maple syrup",
+      "orange zest",
+      "sweet potatoes",
+      "vanilla"
+    ]
+  },
+  {
+    "id": 650812,
+    "title": "Mango Peach Cobbler",
+    "canonical_ingredients": [
+      "butter",
+      "cinnamon",
+      "flour"
+    ],
+    "covered_canonical": [
+      "butter",
+      "cinnamon"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "baking powder",
+      "salt",
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "mango",
+      "peaches",
+      "nectarines",
+      "juice of lemon",
+      "juice of orange",
+      "sugar",
+      "cinnamon",
+      "butter",
+      "sugar",
+      "flour",
+      "baking powder",
+      "sprinkle of ground and nutmeg",
+      "salt",
+      "half and half"
+    ]
+  },
+  {
+    "id": 655314,
+    "title": "Peanut butter ice cream",
+    "canonical_ingredients": [
+      "butter",
+      "chocolate",
+      "eggs",
+      "heavy_cream",
+      "milk",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "butter",
+      "chocolate",
+      "eggs",
+      "heavy_cream",
+      "milk",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "salt",
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "milk",
+      "sugar",
+      "salt",
+      "eggs",
+      "smooth peanut butter",
+      "heavy cream",
+      "vanilla extract",
+      "peanuts",
+      "bits of bitter chocolate"
+    ]
+  },
+  {
+    "id": 652754,
+    "title": "Mussels In Curry Sauce",
+    "canonical_ingredients": [
+      "butter",
+      "garlic",
+      "heavy_cream"
+    ],
+    "covered_canonical": [
+      "butter",
+      "garlic",
+      "heavy_cream"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "butter",
+      "curry powder",
+      "garlic",
+      "clear cherry brandy - kirsch",
+      "whipping cream",
+      "debeared",
+      "debeared"
+    ]
+  },
+  {
+    "id": 649407,
+    "title": "Lebanese Falafel",
+    "canonical_ingredients": [
+      "feta",
+      "flour",
+      "garlic",
+      "onion",
+      "parsley",
+      "tomato"
+    ],
+    "covered_canonical": [
+      "feta",
+      "garlic",
+      "onion",
+      "parsley",
+      "tomato"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "chickpeas",
+      "parsley",
+      "onion",
+      "garlic cloves",
+      "ground cumin",
+      "ground coriander",
+      "bulgar wheat",
+      "flour",
+      "lemon tahini sauce",
+      "tahini",
+      "juice from lemons",
+      "paprika",
+      "garlic clove",
+      "wrap",
+      "pitas",
+      "tomato",
+      "onion",
+      "cucumber",
+      "romaine lettuce",
+      "tzatziki"
+    ]
+  },
+  {
+    "id": 682619,
+    "title": "Shrimp Fried Rice",
+    "canonical_ingredients": [
+      "basil",
+      "butter",
+      "eggs",
+      "garlic",
+      "olive_oil",
+      "onion",
+      "rice",
+      "seafood_shrimp",
+      "soy_sauce"
+    ],
+    "covered_canonical": [
+      "basil",
+      "butter",
+      "eggs",
+      "garlic",
+      "onion",
+      "rice",
+      "seafood_shrimp"
+    ],
+    "missing_canonical": [
+      "olive_oil",
+      "soy_sauce"
+    ],
+    "ignored_pantry_items": [
+      "pepper",
+      "salt"
+    ],
+    "raw_ingredients_sample": [
+      "basil leaves",
+      "pepper",
+      "butter",
+      "chicken bouillon cube",
+      "curry powder",
+      "egg",
+      "garlic",
+      "ginger",
+      "cooking spoon of olive oil",
+      "bulb of onions",
+      "rice",
+      "vegetables",
+      "salt",
+      "shrimps",
+      "soy sauce",
+      "thyme",
+      "pepper"
+    ]
+  },
+  {
+    "id": 639397,
+    "title": "Cider Roasted Carrot and Apple Fall Side Dish",
+    "canonical_ingredients": [
+      "apple",
+      "carrot",
+      "honey",
+      "olive_oil",
+      "rosemary"
+    ],
+    "covered_canonical": [
+      "apple",
+      "carrot",
+      "honey",
+      "rosemary"
+    ],
+    "missing_canonical": [
+      "olive_oil"
+    ],
+    "ignored_pantry_items": [
+      "salt and pepper"
+    ],
+    "raw_ingredients_sample": [
+      "apple",
+      "apple cider",
+      "baby carrots",
+      "rosemary",
+      "honey",
+      "olive oil",
+      "salt and pepper"
+    ]
+  },
+  {
+    "id": 641978,
+    "title": "Easy Granola",
+    "canonical_ingredients": [
+      "butter",
+      "chocolate"
+    ],
+    "covered_canonical": [
+      "butter",
+      "chocolate"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "pkt semi-sweet chocolate chips",
+      "pkt butterscotch chips",
+      "quaker 100%% natural cereal",
+      "nuts",
+      "peanut butter"
+    ]
+  },
+  {
+    "id": 632569,
+    "title": "Apple Pears and Dates Chutney / Compote",
+    "canonical_ingredients": [
+      "cinnamon"
+    ],
+    "covered_canonical": [
+      "cinnamon"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "chilli powder :",
+      "cinnamon : 1 big",
+      "cumin powder : take the cumin seeds in a pan and roast on low flame",
+      "pear : big",
+      "regular : or",
+      "pepper and salt"
+    ]
+  },
+  {
+    "id": 647578,
+    "title": "How To Make Kesari Rice Kheer With Step By Step Pictures",
+    "canonical_ingredients": [
+      "milk",
+      "rice"
+    ],
+    "covered_canonical": [
+      "milk",
+      "rice"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "basmati rice",
+      "milk",
+      "sugar",
+      "condensed milk",
+      "saffron strings",
+      "cardamom powder",
+      "cashew nuts",
+      "raisins",
+      "pistachio"
+    ]
+  },
+  {
+    "id": 633321,
+    "title": "Bacon Potato Cake with Cheese",
+    "canonical_ingredients": [
+      "onion",
+      "potato"
+    ],
+    "covered_canonical": [
+      "onion",
+      "potato"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "salt"
+    ],
+    "raw_ingredients_sample": [
+      "streaky bacon",
+      "cheese",
+      "herbs",
+      "ground pepper",
+      "onion",
+      "add a little more if you find the potato mixture still a little we",
+      "potatoes",
+      "salt",
+      "seasoning"
+    ]
+  },
+  {
+    "id": 655778,
+    "title": "Persimmon Margarita",
+    "canonical_ingredients": [
+      "cinnamon"
+    ],
+    "covered_canonical": [
+      "cinnamon"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "tequila reposado",
+      "non-astringent persimmons",
+      "simple syrup",
+      "lime juice",
+      "ice cubes",
+      "cinnamon-sugar",
+      "lime wheel"
+    ]
+  },
+  {
+    "id": 659581,
+    "title": "Scotch Eggs",
+    "canonical_ingredients": [
+      "eggs"
+    ],
+    "covered_canonical": [
+      "eggs"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "bulk sausage",
+      "corn meal",
+      "eggs"
+    ]
+  },
+  {
+    "id": 636875,
+    "title": "Candy Cane Chocolate Ice Cream",
+    "canonical_ingredients": [
+      "chocolate",
+      "cream",
+      "eggs",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "chocolate",
+      "cream",
+      "eggs",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "chocolate chips",
+      "full cream milk",
+      "thickened cream",
+      "vanilla essence",
+      "mint leaves",
+      "egg yolks",
+      "caster sugar",
+      "pink food colouring",
+      "candy canes"
+    ]
+  },
+  {
+    "id": 660024,
+    "title": "Shrimp, Pea and Radish Salad with Herb Yogurt Dressing",
+    "canonical_ingredients": [
+      "garlic",
+      "seafood_shrimp"
+    ],
+    "covered_canonical": [
+      "garlic",
+      "seafood_shrimp"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "avocado",
+      "dill",
+      "garlic cloves",
+      "salt and ground pepper",
+      "greek yoghurt",
+      "mayonnaise",
+      "peas",
+      "radishes",
+      "romaine lettuce torn or",
+      "shrimp"
+    ]
+  },
+  {
+    "id": 641842,
+    "title": "Easy Beef Bourguignon",
+    "canonical_ingredients": [
+      "carrot",
+      "flour",
+      "mushroom",
+      "olive_oil",
+      "onion",
+      "rosemary"
+    ],
+    "covered_canonical": [
+      "carrot",
+      "mushroom",
+      "onion",
+      "rosemary"
+    ],
+    "missing_canonical": [
+      "flour",
+      "olive_oil"
+    ],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "beef chuck",
+      "carrots",
+      "onion",
+      "button mushrooms",
+      "red wine",
+      "beef broth",
+      "thyme",
+      "rosemary",
+      "cayenne pepper",
+      "all purpose flour",
+      "extra virgin olive oil"
+    ]
+  },
+  {
+    "id": 655858,
+    "title": "Petit Pain Au Chocolat",
+    "canonical_ingredients": [
+      "butter",
+      "chocolate",
+      "eggs"
+    ],
+    "covered_canonical": [
+      "butter",
+      "chocolate",
+      "eggs"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "powdered sugar",
+      "water"
+    ],
+    "raw_ingredients_sample": [
+      "butter",
+      "egg",
+      "nestle milk chocolate morsels",
+      "powdered sugar",
+      "puff pastry sheets",
+      "nestle toll house semi-sweet chocolate baking bar",
+      "water"
+    ]
+  },
+  {
+    "id": 1681385,
+    "title": "Milk Chocolate Florentine Cookies",
+    "canonical_ingredients": [
+      "butter",
+      "chocolate",
+      "flour",
+      "milk",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "butter",
+      "chocolate",
+      "milk",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "granulated sugar",
+      "salt"
+    ],
+    "raw_ingredients_sample": [
+      "foil and amount of vegetable shortening",
+      "butter",
+      "quick-cooking oats",
+      "granulated sugar",
+      "flour",
+      "salt",
+      "corn syrup",
+      "milk",
+      "vanilla extract",
+      "milk chocolate",
+      "tip: use standard measuring and spoons"
+    ]
+  },
+  {
+    "id": 652976,
+    "title": "Naturally Sweet Apple Turnovers",
+    "canonical_ingredients": [
+      "apple",
+      "butter",
+      "cinnamon",
+      "cream_cheese",
+      "eggs",
+      "flour",
+      "maple_syrup",
+      "milk"
+    ],
+    "covered_canonical": [
+      "apple",
+      "butter",
+      "cinnamon",
+      "cream_cheese",
+      "eggs",
+      "milk"
+    ],
+    "missing_canonical": [
+      "flour",
+      "maple_syrup"
+    ],
+    "ignored_pantry_items": [
+      "brown sugar",
+      "kosher salt",
+      "powdered sugar",
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "apples",
+      "brown sugar",
+      "cream cheese",
+      "egg yolk",
+      "dough",
+      "flour",
+      "ground allspice",
+      "ground cardamom",
+      "ground cinnamon",
+      "ground ginger",
+      "juice of lemon",
+      "kosher salt",
+      "maple syrup",
+      "milk",
+      "powdered sugar",
+      "sugar",
+      "butter",
+      "frangelico",
+      "frangelico"
+    ]
+  },
+  {
+    "id": 665273,
+    "title": "Whole Wheat Blueberry Muffins",
+    "canonical_ingredients": [
+      "banana",
+      "blueberries",
+      "butter",
+      "eggs",
+      "flour"
+    ],
+    "covered_canonical": [
+      "banana",
+      "blueberries",
+      "butter",
+      "eggs"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "baking powder",
+      "baking soda",
+      "brown sugar",
+      "sea salt",
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "baking powder",
+      "baking soda",
+      "bananas",
+      "blueberries",
+      "butter",
+      "buttermilk",
+      "egg",
+      "brown sugar",
+      "sugar",
+      "sea salt",
+      "flour"
+    ]
+  },
+  {
+    "id": 662231,
+    "title": "Summer Kale, Orange & Pomegranate Salad with Moscato Dressing",
+    "canonical_ingredients": [
+      "bell_pepper",
+      "butter",
+      "olive_oil",
+      "onion",
+      "parsley"
+    ],
+    "covered_canonical": [
+      "bell_pepper",
+      "butter",
+      "onion",
+      "parsley"
+    ],
+    "missing_canonical": [
+      "olive_oil"
+    ],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "butter lettuce",
+      "dijon mustard",
+      "extra virgin olive oil",
+      "ground pepper",
+      "dinosaur kale",
+      "presto moscato dolce",
+      "orange juice",
+      "to 2 oranges",
+      "curley parsley",
+      "garnish: pomegranate molasses",
+      "bell pepper",
+      "cabbage",
+      "onion",
+      "sunflower seeds"
+    ]
+  },
+  {
+    "id": 655347,
+    "title": "Peanut Butter-Oatmeal Chocolate Chip Cookies",
+    "canonical_ingredients": [
+      "butter",
+      "chocolate",
+      "cinnamon",
+      "eggs",
+      "flour",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "butter",
+      "chocolate",
+      "cinnamon",
+      "eggs",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "baking soda",
+      "brown sugar",
+      "granulated sugar",
+      "salt"
+    ],
+    "raw_ingredients_sample": [
+      "flour",
+      "baking soda",
+      "salt",
+      "ground cinnamon",
+      "butter",
+      "creamy peanut butter",
+      "granulated sugar",
+      "brown sugar",
+      "vanilla extract",
+      "egg",
+      "rolled oats",
+      "chocolate chips"
+    ]
+  },
+  {
+    "id": 659463,
+    "title": "Savory Cheese Dill Scones",
+    "canonical_ingredients": [
+      "butter",
+      "cheddar",
+      "cottage_cheese",
+      "flour"
+    ],
+    "covered_canonical": [
+      "butter",
+      "cheddar",
+      "cottage_cheese"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "baking powder",
+      "pepper",
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "baking powder",
+      "a pinch of baking soda",
+      "pepper",
+      "tablespoons butter",
+      "buttermilk",
+      "coarsely cheddar cheese",
+      "cottage cheese",
+      "dill",
+      "shallot",
+      "sugar",
+      "unbleached flour",
+      "flour"
+    ]
+  },
+  {
+    "id": 1487863,
+    "title": "Baked Macaroni and Cheese",
+    "canonical_ingredients": [
+      "butter",
+      "cheddar",
+      "flour",
+      "milk",
+      "mozzarella",
+      "parsley",
+      "pasta"
+    ],
+    "covered_canonical": [
+      "butter",
+      "cheddar",
+      "milk",
+      "mozzarella",
+      "parsley",
+      "pasta"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "pepper",
+      "salt"
+    ],
+    "raw_ingredients_sample": [
+      "mild cheddar",
+      "mozzarella",
+      "milk",
+      "butter",
+      "salt",
+      "pepper",
+      "flour",
+      "parsley to garnish",
+      "elbow macaroni"
+    ]
+  },
+  {
+    "id": 637229,
+    "title": "Carrot Spice Cake",
+    "canonical_ingredients": [
+      "apple",
+      "butter",
+      "carrot",
+      "cinnamon",
+      "eggs",
+      "flour",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "apple",
+      "butter",
+      "carrot",
+      "cinnamon",
+      "eggs",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "baking soda",
+      "powdered sugar",
+      "salt"
+    ],
+    "raw_ingredients_sample": [
+      "unbleached flour",
+      "flour",
+      "evaporated cane juice",
+      "baking soda",
+      "salt",
+      "ground cinnamon",
+      "ground nutmeg",
+      "coconut oil",
+      "egg",
+      "ground flax seed",
+      "carrot",
+      "pineapple",
+      "applesauce",
+      "golden raisins",
+      "butter",
+      "block",
+      "powdered sugar",
+      "vanilla extract"
+    ]
+  },
+  {
+    "id": 632891,
+    "title": "Asian Style Meatballs",
+    "canonical_ingredients": [
+      "bread_crumbs",
+      "eggs",
+      "garlic",
+      "rice",
+      "soy_sauce"
+    ],
+    "covered_canonical": [
+      "bread_crumbs",
+      "eggs",
+      "garlic",
+      "rice"
+    ],
+    "missing_canonical": [
+      "soy_sauce"
+    ],
+    "ignored_pantry_items": [
+      "water"
+    ],
+    "raw_ingredients_sample": [
+      "beef",
+      "panko breadcrumbs",
+      "garlic powder",
+      "sesame oil",
+      "ground ginger",
+      "scallions",
+      "egg",
+      "water",
+      "hoisin sauce",
+      "rice vinegar",
+      "garlic powder",
+      "soy sauce",
+      "sesame oil",
+      "scallions"
+    ]
+  },
+  {
+    "id": 637761,
+    "title": "Cherry ice cream",
+    "canonical_ingredients": [
+      "cream",
+      "milk"
+    ],
+    "covered_canonical": [
+      "cream",
+      "milk"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "salt",
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "cherries",
+      "corn starch",
+      "cream",
+      "lemon juice",
+      "milk",
+      "salt",
+      "sugar"
+    ]
+  },
+  {
+    "id": 653275,
+    "title": "North African Chickpea Soup",
+    "canonical_ingredients": [
+      "garlic",
+      "onion",
+      "rice",
+      "spinach",
+      "tomato"
+    ],
+    "covered_canonical": [
+      "garlic",
+      "onion",
+      "rice",
+      "spinach",
+      "tomato"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "water"
+    ],
+    "raw_ingredients_sample": [
+      "canola oil",
+      "garlic",
+      "onion",
+      "celery leek",
+      "chickpeas",
+      "tomato paste",
+      "harissa",
+      "water",
+      "a handful of rice noodles in",
+      "spinach leaves",
+      "lemon juice"
+    ]
+  },
+  {
+    "id": 637290,
+    "title": "Cauliflower and Broccoli Gratin With Camembert Cheese",
+    "canonical_ingredients": [
+      "bread_crumbs",
+      "broccoli",
+      "butter",
+      "flour"
+    ],
+    "covered_canonical": [
+      "bread_crumbs",
+      "broccoli",
+      "butter"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "salt"
+    ],
+    "raw_ingredients_sample": [
+      "breadcrumbs",
+      "broccoli",
+      "butter",
+      "camembert cheese cut cubes plus extra to put on top",
+      "cauliflower",
+      "flour",
+      "salt"
+    ]
+  },
+  {
+    "id": 654902,
+    "title": "Pasta with Butternut Squash, Sausage and Sage Pesto",
+    "canonical_ingredients": [
+      "butter",
+      "garlic",
+      "olive_oil",
+      "parmesan",
+      "pasta"
+    ],
+    "covered_canonical": [
+      "butter",
+      "garlic",
+      "parmesan",
+      "pasta"
+    ],
+    "missing_canonical": [
+      "olive_oil"
+    ],
+    "ignored_pantry_items": [
+      "kosher salt",
+      "pepper",
+      "salt and pepper"
+    ],
+    "raw_ingredients_sample": [
+      "butternut squash",
+      "olive oil",
+      "kosher salt",
+      "pepper",
+      "pasta",
+      "sausage",
+      "sage leaves",
+      "garlic cloves",
+      "parmesan",
+      "pine nuts",
+      "extra virgin olive oil",
+      "salt and pepper"
+    ]
+  },
+  {
+    "id": 637645,
+    "title": "Cheesy Cauliflower Pancakes",
+    "canonical_ingredients": [
+      "bell_pepper",
+      "bread_crumbs",
+      "butter",
+      "cheddar",
+      "eggs",
+      "onion",
+      "parmesan",
+      "parsley"
+    ],
+    "covered_canonical": [
+      "bell_pepper",
+      "bread_crumbs",
+      "butter",
+      "cheddar",
+      "eggs",
+      "onion",
+      "parmesan",
+      "parsley"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "salt"
+    ],
+    "raw_ingredients_sample": [
+      "butter",
+      "cauliflower",
+      "egg",
+      "parsley",
+      "onion",
+      "panko breadcrumbs",
+      "paprika",
+      "parmesan cheese",
+      "bell pepper",
+      "salt",
+      "sharp cheddar cheese",
+      "vegetable oil"
+    ]
+  },
+  {
+    "id": 830027,
+    "title": "Chocolate-Dipped Peanut Butter Cookies w. Pretzels",
+    "canonical_ingredients": [
+      "butter",
+      "chocolate",
+      "eggs",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "butter",
+      "chocolate",
+      "eggs",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "baking soda",
+      "brown sugar"
+    ],
+    "raw_ingredients_sample": [
+      "creamy peanut butter",
+      "brown sugar",
+      "baking soda",
+      "egg",
+      "vanilla extract",
+      "chocolate chips",
+      "coconut oil",
+      "pretzels"
+    ]
+  },
+  {
+    "id": 1697575,
+    "title": "Crispy Chicken Burger",
+    "canonical_ingredients": [
+      "butter",
+      "chicken_breast",
+      "flour",
+      "garlic",
+      "onion"
+    ],
+    "covered_canonical": [
+      "butter",
+      "chicken_breast",
+      "garlic",
+      "onion"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "baking powder",
+      "kosher salt",
+      "pepper"
+    ],
+    "raw_ingredients_sample": [
+      "chicken breasts",
+      "brioche buns",
+      "american cheese",
+      "cole slaw",
+      "butter",
+      "vegetable oil",
+      "buttermilk",
+      "hot sauce",
+      "paprika",
+      "onion powder",
+      "garlic powder",
+      "kosher salt",
+      "pepper",
+      "flour",
+      "paprika",
+      "baking powder",
+      "cayenne pepper",
+      "oregano"
+    ]
+  },
+  {
+    "id": 1098303,
+    "title": "Zesty Taco Casserole",
+    "canonical_ingredients": [
+      "beef_ground",
+      "cheddar",
+      "cream",
+      "onion",
+      "tomato"
+    ],
+    "covered_canonical": [
+      "beef_ground",
+      "cheddar",
+      "cream",
+      "onion",
+      "tomato"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "pepper",
+      "salt"
+    ],
+    "raw_ingredients_sample": [
+      "corn tortillas",
+      "ground beef",
+      "salt",
+      "pepper",
+      "onion",
+      "jalapenos",
+      "taco seasoning",
+      "chili powder",
+      "onion powder",
+      "chiles",
+      "olives",
+      "favorite salsa",
+      "refried beans",
+      "cream",
+      "coarsely broken tortilla chips",
+      "sharp cheddar cheese",
+      "avocado",
+      "cherry tomatoes"
+    ]
+  },
+  {
+    "id": 657000,
+    "title": "Potato Soup With Peppers and Olives",
+    "canonical_ingredients": [
+      "garlic",
+      "olive_oil",
+      "potato"
+    ],
+    "covered_canonical": [
+      "garlic",
+      "potato"
+    ],
+    "missing_canonical": [
+      "olive_oil"
+    ],
+    "ignored_pantry_items": [
+      "salt and pepper"
+    ],
+    "raw_ingredients_sample": [
+      "potatoes",
+      "garlic",
+      "olive oil",
+      "roasted and marinated peppers",
+      "blacks olives",
+      "oregano",
+      "salt and pepper"
+    ]
+  },
+  {
+    "id": 638593,
+    "title": "Chilled Cucumber Avocado Soup With Fresh Goat Cheese",
+    "canonical_ingredients": [
+      "milk"
+    ],
+    "covered_canonical": [
+      "milk"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "goat cheese",
+      "ea. cucumber",
+      "ea. avocados",
+      "coconut milk",
+      "ea. lime juice",
+      "cumin",
+      "tabasco",
+      "ginger",
+      "salt and pepper to season"
+    ]
+  },
+  {
+    "id": 648866,
+    "title": "Kicked Up Broccoli Rabe & Ham Hero",
+    "canonical_ingredients": [
+      "broccoli",
+      "garlic",
+      "ham",
+      "olive_oil",
+      "onion",
+      "romano"
+    ],
+    "covered_canonical": [
+      "broccoli",
+      "garlic",
+      "ham",
+      "onion"
+    ],
+    "missing_canonical": [
+      "olive_oil",
+      "romano"
+    ],
+    "ignored_pantry_items": [
+      "sea salt"
+    ],
+    "raw_ingredients_sample": [
+      "bread",
+      "broccoli rabe",
+      "deli ham",
+      "garlic - crushed&",
+      "ground pepper",
+      "juice of lemon",
+      "olive oil",
+      "pepper flakes",
+      "roasted marinated peppers",
+      "romano cheese",
+      "sea salt",
+      "onion"
+    ]
+  },
+  {
+    "id": 635477,
+    "title": "Blueberry Ginger Salsa with Grilled Halibut",
+    "canonical_ingredients": [
+      "blueberries",
+      "honey",
+      "olive_oil"
+    ],
+    "covered_canonical": [
+      "blueberries",
+      "honey"
+    ],
+    "missing_canonical": [
+      "olive_oil"
+    ],
+    "ignored_pantry_items": [
+      "salt and pepper"
+    ],
+    "raw_ingredients_sample": [
+      "blueberries",
+      "ginger",
+      "mint",
+      "honey",
+      "lemon",
+      "olive oil",
+      "salt and pepper",
+      "shallots"
+    ]
+  },
+  {
+    "id": 642255,
+    "title": "Eggless Chocolate Brownies",
+    "canonical_ingredients": [
+      "butter",
+      "chocolate",
+      "flour",
+      "milk",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "butter",
+      "chocolate",
+      "milk",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "baking powder",
+      "salt"
+    ],
+    "raw_ingredients_sample": [
+      "all purpose flour",
+      "baking powder",
+      "chocolate extract",
+      "chocolate",
+      "coffee powder",
+      "milk",
+      "salt",
+      "caster sugar",
+      "butter",
+      "vanilla essence",
+      "walnuts"
+    ]
+  },
+  {
+    "id": 1096272,
+    "title": "Crockpot Spaghetti and Pesto Meatballs",
+    "canonical_ingredients": [
+      "basil",
+      "beef_ground",
+      "zucchini"
+    ],
+    "covered_canonical": [
+      "basil",
+      "beef_ground",
+      "zucchini"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "sea salt"
+    ],
+    "raw_ingredients_sample": [
+      "ground beef",
+      "basil pesto",
+      "avocado oil",
+      "beef broth",
+      "zucchinis",
+      "sea salt",
+      "basil leaves"
+    ]
+  },
+  {
+    "id": 636295,
+    "title": "Brown Rice Vegetable Pulao",
+    "canonical_ingredients": [
+      "carrot",
+      "onion",
+      "rice"
+    ],
+    "covered_canonical": [
+      "carrot",
+      "onion",
+      "rice"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "salt and pepper"
+    ],
+    "raw_ingredients_sample": [
+      "brown basmati rice",
+      "carrot",
+      "celery stalks",
+      "chilly",
+      "lentils",
+      "onion",
+      "orange juice",
+      "salt and pepper",
+      "spring onion including the part",
+      "vegetable oil",
+      "vegetable stock",
+      "almonds",
+      "to garnish"
+    ]
+  },
+  {
+    "id": 654563,
+    "title": "Panko Crusted Shrimp Rolls",
+    "canonical_ingredients": [
+      "bread_crumbs",
+      "eggs",
+      "flour",
+      "onion",
+      "seafood_shrimp",
+      "tomato"
+    ],
+    "covered_canonical": [
+      "bread_crumbs",
+      "eggs",
+      "onion",
+      "seafood_shrimp",
+      "tomato"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "water"
+    ],
+    "raw_ingredients_sample": [
+      "barbecue sauce",
+      "celery stalk",
+      "creole seasoning",
+      "eggs",
+      "flour",
+      "lettuce leaves",
+      "onion",
+      "panko bread crumbs",
+      "ranch dressing",
+      "shrimp",
+      "spicy mustard",
+      "hoagie rolls",
+      "tomato",
+      "vegetable oil",
+      "water",
+      "mayonaisse",
+      "mayonaisse"
+    ]
+  },
+  {
+    "id": 641815,
+    "title": "Easy and Delicious Taco Soup",
+    "canonical_ingredients": [
+      "cream",
+      "onion",
+      "tomato",
+      "turkey_ground"
+    ],
+    "covered_canonical": [
+      "cream",
+      "onion",
+      "tomato",
+      "turkey_ground"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "ground turkey",
+      "onion",
+      "pinto beans",
+      "kidney beans",
+      "regular corn",
+      "tomato sauce",
+      "tomatoes",
+      "chiles",
+      "olives",
+      "taco seasoning",
+      "cayenne pepper",
+      "cilantro",
+      "cheese",
+      "tortilla chips",
+      "cream"
+    ]
+  },
+  {
+    "id": 664174,
+    "title": "Twice-Cooked Pork",
+    "canonical_ingredients": [
+      "flour",
+      "garlic",
+      "onion",
+      "soy_sauce"
+    ],
+    "covered_canonical": [
+      "garlic",
+      "onion"
+    ],
+    "missing_canonical": [
+      "flour",
+      "soy_sauce"
+    ],
+    "ignored_pantry_items": [
+      "salt",
+      "water"
+    ],
+    "raw_ingredients_sample": [
+      "chicken broth",
+      "chillies",
+      "cooking oil",
+      "cornflour dissolved in",
+      "garlic",
+      "hoisin sauce",
+      "soy sauce",
+      "napa cabbage cut bite-size",
+      "pork butt",
+      "salt",
+      "soy sauce",
+      "spring onions cut 1\" lengths",
+      "water"
+    ]
+  },
+  {
+    "id": 632737,
+    "title": "Arroz Con Leche",
+    "canonical_ingredients": [
+      "cinnamon",
+      "heavy_cream",
+      "milk",
+      "rice"
+    ],
+    "covered_canonical": [
+      "cinnamon",
+      "heavy_cream",
+      "milk",
+      "rice"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "salt",
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "heavy cream",
+      "milk",
+      "arborio rice",
+      "cinnamon sticks",
+      "lemon zest",
+      "salt",
+      "sugar"
+    ]
+  },
+  {
+    "id": 664025,
+    "title": "Turkey Enchilada Bake",
+    "canonical_ingredients": [
+      "cream",
+      "garlic",
+      "onion",
+      "tomato",
+      "turkey_ground"
+    ],
+    "covered_canonical": [
+      "cream",
+      "garlic",
+      "onion",
+      "tomato",
+      "turkey_ground"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "avocados",
+      "black beans",
+      "chili powder",
+      "chipotles in adobo",
+      "cilantro",
+      "corn tortillas",
+      "canned tomatoes",
+      "garlic",
+      "chilies",
+      "tsp ground coriander",
+      "ground cumin",
+      "juice of lime",
+      "ground turkey",
+      "a onion",
+      "paprika",
+      "salsa",
+      "a mexican blend",
+      "cream",
+      "tomatillos",
+      "onion"
+    ]
+  },
+  {
+    "id": 648502,
+    "title": "Japanese Steamed Sweetcorn Bun",
+    "canonical_ingredients": [
+      "eggs",
+      "flour"
+    ],
+    "covered_canonical": [
+      "eggs"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "baking powder",
+      "water"
+    ],
+    "raw_ingredients_sample": [
+      "cake/plain flour",
+      "baking powder",
+      "caster sugar",
+      "egg",
+      "water",
+      "fresh/frozen sweetcorn kernels",
+      "vegetable/corn oil"
+    ]
+  },
+  {
+    "id": 649541,
+    "title": "Lemon Cake Roll With Lemon Curd Filling",
+    "canonical_ingredients": [
+      "butter",
+      "eggs",
+      "flour",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "butter",
+      "eggs",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "baking powder",
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "baking powder",
+      "butter",
+      "confectioners' sugar",
+      "egg yolks",
+      "eggs",
+      "juice of lemon",
+      "rind of a lemon",
+      "sugar",
+      "unbleached flour",
+      "vanilla extract"
+    ]
+  },
+  {
+    "id": 641443,
+    "title": "Detox Orange Carrot Juice",
+    "canonical_ingredients": [
+      "carrot",
+      "honey",
+      "turmeric"
+    ],
+    "covered_canonical": [
+      "carrot",
+      "honey"
+    ],
+    "missing_canonical": [
+      "turmeric"
+    ],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "carrots",
+      "oranges",
+      "ginger",
+      "ground turmeric",
+      "honey"
+    ]
+  },
+  {
+    "id": 632208,
+    "title": "Almost Heaven Cake",
+    "canonical_ingredients": [
+      "apple",
+      "cream_cheese",
+      "milk",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "apple",
+      "cream_cheese",
+      "milk",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "cake mix",
+      "mandarin oranges",
+      "pineapple",
+      "vanilla pudding- 4 serving size",
+      "milk",
+      "cream cheese",
+      "cool whip"
+    ]
+  },
+  {
+    "id": 662208,
+    "title": "Summer Berry Pudding",
+    "canonical_ingredients": [],
+    "covered_canonical": [],
+    "missing_canonical": [],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "bread",
+      "punnets each raspberries",
+      "cherries",
+      "castor sugar",
+      "pomegranate juice"
+    ]
+  },
+  {
+    "id": 716379,
+    "title": "Chocolate Coconut Banana Bread",
+    "canonical_ingredients": [
+      "banana",
+      "butter",
+      "chocolate",
+      "eggs",
+      "flour"
+    ],
+    "covered_canonical": [
+      "banana",
+      "butter",
+      "chocolate",
+      "eggs"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "baking powder",
+      "baking soda",
+      "salt",
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "all purpose flour",
+      "baking powder",
+      "baking soda",
+      "bananas",
+      "butter",
+      "coconut flakes",
+      "eggs",
+      "salt",
+      "semi-sweet chocolate chips",
+      "sugar"
+    ]
+  },
+  {
+    "id": 654045,
+    "title": "Organic Berry Crostata",
+    "canonical_ingredients": [
+      "blueberries",
+      "eggs"
+    ],
+    "covered_canonical": [
+      "blueberries",
+      "eggs"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "strawberries",
+      "blueberries",
+      "pre-made pie crusts",
+      "egg",
+      "sugar"
+    ]
+  },
+  {
+    "id": 716272,
+    "title": "Nutella Crepes and Ice Cream",
+    "canonical_ingredients": [
+      "banana",
+      "butter",
+      "cinnamon",
+      "cream",
+      "eggs",
+      "flour",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "banana",
+      "butter",
+      "cinnamon",
+      "cream",
+      "eggs",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "strawberries/ bananas",
+      "butter",
+      "butter milk",
+      "cinnamon",
+      "eggs",
+      "flour",
+      "ice cream",
+      "nutella",
+      "oil",
+      "sugar",
+      "tea spoon of vanilla extract"
+    ]
+  },
+  {
+    "id": 656227,
+    "title": "Pink Grapefruit Slaw",
+    "canonical_ingredients": [
+      "onion"
+    ],
+    "covered_canonical": [
+      "onion"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "pepper"
+    ],
+    "raw_ingredients_sample": [
+      "pepper",
+      "pink grapefruit",
+      "cabbage",
+      "mayonnaise",
+      "onion",
+      "salt or",
+      "to 2 sugar"
+    ]
+  },
+  {
+    "id": 662271,
+    "title": "Summertime Seafood Pie",
+    "canonical_ingredients": [
+      "bread_crumbs",
+      "butter",
+      "garlic",
+      "onion",
+      "parsley",
+      "seafood_shrimp"
+    ],
+    "covered_canonical": [
+      "bread_crumbs",
+      "butter",
+      "garlic",
+      "onion",
+      "parsley",
+      "seafood_shrimp"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "kosher salt"
+    ],
+    "raw_ingredients_sample": [
+      "lobsters",
+      "eachs sea scallops.",
+      "eachs shrimp",
+      "fennel bulb",
+      "butter. 4 tbsp",
+      "onion",
+      "lemon juice plus 1 tbsp",
+      "wine",
+      "1/4 cup lobster juice (optional",
+      "panko bread crumbs",
+      "flat leaf parsley",
+      "garlic",
+      "kosher salt",
+      "several pepper"
+    ]
+  },
+  {
+    "id": 664058,
+    "title": "Turkey Pot Pie With Cornbread Crust",
+    "canonical_ingredients": [
+      "carrot",
+      "eggs",
+      "flour",
+      "garlic",
+      "milk",
+      "olive_oil",
+      "onion"
+    ],
+    "covered_canonical": [
+      "carrot",
+      "eggs",
+      "garlic",
+      "milk",
+      "onion"
+    ],
+    "missing_canonical": [
+      "flour",
+      "olive_oil"
+    ],
+    "ignored_pantry_items": [
+      "baking powder",
+      "salt",
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "baking powder",
+      "canola oil",
+      "carrots",
+      "celery",
+      "chicken stock",
+      "egg",
+      "flour",
+      "flour",
+      "garlic",
+      "green beans",
+      "ground sage",
+      "ground thyme",
+      "milk",
+      "olive oil",
+      "onion",
+      "cracked pepper",
+      "salt",
+      "sugar",
+      "turkey",
+      "cornmeal"
+    ]
+  },
+  {
+    "id": 636574,
+    "title": "Buttermilk Skillet Fried Chicken",
+    "canonical_ingredients": [
+      "butter",
+      "chicken_drumsticks",
+      "eggs",
+      "flour"
+    ],
+    "covered_canonical": [
+      "butter",
+      "chicken_drumsticks",
+      "eggs"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "pepper",
+      "salt"
+    ],
+    "raw_ingredients_sample": [
+      "buttermilk",
+      "chicken pieces : drumsticks",
+      "cornstarch",
+      "egg",
+      "paprika",
+      "pepper",
+      "flour",
+      "salt",
+      "vegetable oil"
+    ]
+  },
+  {
+    "id": 657719,
+    "title": "Radish & Snap Pea Quinoa Salad",
+    "canonical_ingredients": [
+      "parsley",
+      "quinoa",
+      "yogurt"
+    ],
+    "covered_canonical": [
+      "parsley",
+      "yogurt"
+    ],
+    "missing_canonical": [
+      "quinoa"
+    ],
+    "ignored_pantry_items": [
+      "sea salt",
+      "water"
+    ],
+    "raw_ingredients_sample": [
+      "quinoa",
+      "water",
+      "snap peas",
+      "radishes",
+      "flat leaf parsley",
+      "yogurt",
+      "tahini",
+      "juice of lemon",
+      "sea salt",
+      "water"
+    ]
+  },
+  {
+    "id": 634189,
+    "title": "Banana Split Pudding",
+    "canonical_ingredients": [
+      "banana",
+      "butter",
+      "heavy_cream"
+    ],
+    "covered_canonical": [
+      "banana",
+      "butter",
+      "heavy_cream"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "bananas",
+      "\u00bc - fudge sauce",
+      "honey roasted super chunky peanut butter",
+      "strawberries",
+      "nilla wafer cookies",
+      "whipping cream"
+    ]
+  },
+  {
+    "id": 642133,
+    "title": "Easy Turtle Pumpkin Pie",
+    "canonical_ingredients": [
+      "butter",
+      "chocolate",
+      "cinnamon",
+      "heavy_cream",
+      "milk",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "butter",
+      "chocolate",
+      "cinnamon",
+      "heavy_cream",
+      "milk",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "chocolate sandwich cookies",
+      "butter",
+      "heavy whipping cream",
+      "sugar",
+      "caramel sauce",
+      "pecans",
+      "vanilla pudding",
+      "milk",
+      "pumpkin puree",
+      "cinnamon"
+    ]
+  },
+  {
+    "id": 640443,
+    "title": "Cranberry-Ginger Oatmeal With Toasted Hazelnuts",
+    "canonical_ingredients": [
+      "cinnamon"
+    ],
+    "covered_canonical": [
+      "cinnamon"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "salt",
+      "water"
+    ],
+    "raw_ingredients_sample": [
+      "cinnamon stick",
+      "cranberries",
+      "ginger root",
+      "hazelnuts",
+      "nutmeg",
+      "rolled oats",
+      "salt",
+      "water"
+    ]
+  },
+  {
+    "id": 633998,
+    "title": "Banana Blueberry Pancakes",
+    "canonical_ingredients": [
+      "banana",
+      "blueberries",
+      "cinnamon",
+      "cream",
+      "eggs",
+      "flour"
+    ],
+    "covered_canonical": [
+      "banana",
+      "blueberries",
+      "cinnamon",
+      "cream",
+      "eggs"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "water"
+    ],
+    "raw_ingredients_sample": [
+      "eggs",
+      "water",
+      "liquid coconut oil",
+      "coconut flour",
+      "cream of tartar",
+      "ground cinnamon",
+      "bananas",
+      "blueberries"
+    ]
+  },
+  {
+    "id": 646442,
+    "title": "Healthy Black Forest Baked Oatmeal",
+    "canonical_ingredients": [
+      "apple",
+      "chocolate",
+      "milk",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "apple",
+      "chocolate",
+      "milk",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "rolled oats",
+      "applesauce",
+      "milk",
+      "cherries",
+      "vanilla extract",
+      "chocolate chips",
+      "chia seeds",
+      "cocoa powder"
+    ]
+  },
+  {
+    "id": 637697,
+    "title": "Chelley's Thai Style Chicken Satay",
+    "canonical_ingredients": [
+      "butter",
+      "garlic",
+      "milk",
+      "onion"
+    ],
+    "covered_canonical": [
+      "butter",
+      "garlic",
+      "milk",
+      "onion"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "brown sugar",
+      "pepper"
+    ],
+    "raw_ingredients_sample": [
+      "pepper",
+      "brown sugar",
+      "pack of bamboo sticks",
+      "breast meat",
+      "cucumber",
+      "brown sugar",
+      "extra oil",
+      "fish sauce",
+      "fish sauce",
+      "garlic",
+      "grill griddle pan",
+      "ground coriander",
+      "ground cumin",
+      "lemon juice",
+      "lemon juice",
+      "soya sauce",
+      "onion",
+      "peanut butter",
+      "peanut sauce",
+      "curry paste"
+    ]
+  },
+  {
+    "id": 642556,
+    "title": "Fall Farro Salad with Pomegranate, Walnut & Truffles",
+    "canonical_ingredients": [
+      "mushroom",
+      "olive_oil",
+      "parmesan"
+    ],
+    "covered_canonical": [
+      "mushroom",
+      "parmesan"
+    ],
+    "missing_canonical": [
+      "olive_oil"
+    ],
+    "ignored_pantry_items": [
+      "salt and pepper"
+    ],
+    "raw_ingredients_sample": [
+      "extra virgin olive oil",
+      "farro",
+      "parmesan into ribbons",
+      "pomegranate",
+      "radicchio thinly",
+      "salt and pepper",
+      "truffle mushroom",
+      "vinegar",
+      "walnuts"
+    ]
+  },
+  {
+    "id": 640338,
+    "title": "Cracked Wheat Salad with Dates & Tahini Yogurt",
+    "canonical_ingredients": [
+      "olive_oil",
+      "onion",
+      "parsley",
+      "yogurt",
+      "zucchini"
+    ],
+    "covered_canonical": [
+      "onion",
+      "parsley",
+      "yogurt",
+      "zucchini"
+    ],
+    "missing_canonical": [
+      "olive_oil"
+    ],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "lentils",
+      "cracked wheat",
+      "dates",
+      "extra virgin olive oil",
+      "parsley",
+      "greek yogurt",
+      "ground coriander",
+      "ground cumin",
+      "lemon",
+      "onion",
+      "sesame seeds",
+      "paprika",
+      "tahini",
+      "zucchini"
+    ]
+  },
+  {
+    "id": 652130,
+    "title": "Mixed Mushroom Sauce Over Tagliatelle Pasta",
+    "canonical_ingredients": [
+      "butter",
+      "garlic",
+      "mushroom",
+      "olive_oil",
+      "pasta"
+    ],
+    "covered_canonical": [
+      "butter",
+      "garlic",
+      "mushroom",
+      "pasta"
+    ],
+    "missing_canonical": [
+      "olive_oil"
+    ],
+    "ignored_pantry_items": [
+      "salt"
+    ],
+    "raw_ingredients_sample": [
+      "butter",
+      "olive oil infused",
+      "morels",
+      "shitake mushrooms",
+      "cornstarch",
+      "tagliatelle pasta",
+      "garlic",
+      "chives",
+      "salt"
+    ]
+  },
+  {
+    "id": 644907,
+    "title": "Gluten-Free Tres Leches Cake",
+    "canonical_ingredients": [
+      "butter",
+      "cinnamon",
+      "cream",
+      "eggs",
+      "flour",
+      "heavy_cream",
+      "milk",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "butter",
+      "cinnamon",
+      "cream",
+      "eggs",
+      "heavy_cream",
+      "milk",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "baking powder",
+      "salt",
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "baking powder",
+      "butter",
+      "cinnamon",
+      "cream of tartar",
+      "eggs",
+      "evaporated milk",
+      "half-and-half",
+      "masa harina",
+      "milk",
+      "strawberries and mint leaves",
+      "orange zest",
+      "salt",
+      "sorghum flour",
+      "sugar",
+      "sugar",
+      "condensed milk",
+      "vanilla",
+      "vanilla extract",
+      "whipping cream",
+      "xanthan gum"
+    ]
+  },
+  {
+    "id": 661522,
+    "title": "Steak With Blue Cheese Sherry Sauce",
+    "canonical_ingredients": [
+      "olive_oil",
+      "parsley"
+    ],
+    "covered_canonical": [
+      "parsley"
+    ],
+    "missing_canonical": [
+      "olive_oil"
+    ],
+    "ignored_pantry_items": [],
+    "raw_ingredients_sample": [
+      "cheese crumbles",
+      "olive oil",
+      "parsley",
+      "sherry",
+      "top round"
+    ]
+  },
+  {
+    "id": 645572,
+    "title": "Griet's vegetable soup",
+    "canonical_ingredients": [
+      "carrot",
+      "onion",
+      "potato"
+    ],
+    "covered_canonical": [
+      "carrot",
+      "onion",
+      "potato"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "pepper",
+      "salt",
+      "water"
+    ],
+    "raw_ingredients_sample": [
+      "cabbage",
+      "onion",
+      "leeks",
+      "carrot",
+      "turnip root",
+      "potatoes",
+      "salt",
+      "pepper",
+      "vegetable oil",
+      "water"
+    ]
+  },
+  {
+    "id": 653185,
+    "title": "No-Bake Chocolate Peanut Butter Pie",
+    "canonical_ingredients": [
+      "butter",
+      "chocolate",
+      "cream_cheese",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "butter",
+      "chocolate",
+      "cream_cheese",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "powdered sugar"
+    ],
+    "raw_ingredients_sample": [
+      "non-dairy cream cheese",
+      "creamy peanut butter",
+      "chocolate chips",
+      "peanut butter cups",
+      "powdered sugar",
+      "roasted peanuts",
+      "earth balance soy free spread",
+      "vanilla coconut yogurt",
+      "non-dairy whipped topping"
+    ]
+  },
+  {
+    "id": 1095713,
+    "title": "Coconut Flour Muffins",
+    "canonical_ingredients": [
+      "eggs",
+      "flour",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "eggs",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "baking soda",
+      "sea salt"
+    ],
+    "raw_ingredients_sample": [
+      "sea salt",
+      "baking soda",
+      "coco treasure organics extra virgin coconut oil",
+      "coco treasure organics coconut nectar syrup",
+      "coco treasure organics coconut flour",
+      "vanilla extract",
+      "eggs"
+    ]
+  },
+  {
+    "id": 654468,
+    "title": "Pan-Seared Duck With Blueberry Glaze",
+    "canonical_ingredients": [
+      "apple",
+      "blueberries",
+      "butter",
+      "rosemary"
+    ],
+    "covered_canonical": [
+      "apple",
+      "blueberries",
+      "butter",
+      "rosemary"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "salt",
+      "sugar",
+      "water"
+    ],
+    "raw_ingredients_sample": [
+      "salt",
+      "ground pepper",
+      "thyme leaves",
+      "rosemary",
+      "vegetable oil",
+      "butter",
+      "duck breast halves",
+      "blueberries",
+      "water",
+      "apple juice",
+      "sugar",
+      "jalapeno pepper"
+    ]
+  },
+  {
+    "id": 1077393,
+    "title": "Easter Sugar Cookie Bars",
+    "canonical_ingredients": [
+      "almond_extract",
+      "butter",
+      "chocolate",
+      "cream",
+      "eggs",
+      "flour",
+      "vanilla_extract"
+    ],
+    "covered_canonical": [
+      "butter",
+      "chocolate",
+      "cream",
+      "eggs",
+      "vanilla_extract"
+    ],
+    "missing_canonical": [
+      "almond_extract",
+      "flour"
+    ],
+    "ignored_pantry_items": [
+      "baking powder",
+      "salt",
+      "sugar"
+    ],
+    "raw_ingredients_sample": [
+      "egg",
+      "egg white",
+      "sugar",
+      "flour",
+      "butter",
+      "cream",
+      "vanilla",
+      "almond extract",
+      "baking powder",
+      "salt",
+      "chocolate chips",
+      "m&ms",
+      "sprinkles"
+    ]
+  },
+  {
+    "id": 640990,
+    "title": "Cuban Flank Steak With Avocado and Tomato Salad",
+    "canonical_ingredients": [
+      "beef_steak",
+      "garlic",
+      "olive_oil",
+      "onion",
+      "tomato"
+    ],
+    "covered_canonical": [
+      "beef_steak",
+      "garlic",
+      "onion",
+      "tomato"
+    ],
+    "missing_canonical": [
+      "olive_oil"
+    ],
+    "ignored_pantry_items": [
+      "pepper",
+      "salt",
+      "water"
+    ],
+    "raw_ingredients_sample": [
+      "\u00bc olive oil",
+      "\u00bc lime juice",
+      "orange juice",
+      "garlic cloves",
+      "water",
+      "\u00bd cumin",
+      "\u00bd salt",
+      "\u00bd pepper",
+      "\u00bd oregano",
+      "hand full of cilantro",
+      "flank steak",
+      "avocado",
+      "tomato",
+      "onion"
+    ]
+  },
+  {
+    "id": 643848,
+    "title": "Frikkadels",
+    "canonical_ingredients": [
+      "bread_crumbs",
+      "eggs",
+      "garlic",
+      "parsley",
+      "tomato",
+      "turmeric"
+    ],
+    "covered_canonical": [
+      "bread_crumbs",
+      "eggs",
+      "garlic",
+      "parsley",
+      "tomato"
+    ],
+    "missing_canonical": [
+      "turmeric"
+    ],
+    "ignored_pantry_items": [
+      "pepper",
+      "salt",
+      "sugar",
+      "water"
+    ],
+    "raw_ingredients_sample": [
+      "balsamic vinegar",
+      "beef",
+      "pepper",
+      "breadcrumbs",
+      "cooking oil",
+      "egg",
+      "garlic",
+      "oyster sauce",
+      "parsley",
+      "salt",
+      "shaoxing huatiao wine",
+      "sugar",
+      "tomatoes",
+      "turmeric",
+      "water",
+      "worcestershire sauce",
+      "bisto gravy mix",
+      "bisto gravy mix"
+    ]
+  },
+  {
+    "id": 659069,
+    "title": "Salmon En Papillote With Mangos and Orange Supr\u00eames",
+    "canonical_ingredients": [
+      "butter",
+      "onion",
+      "seafood_salmon"
+    ],
+    "covered_canonical": [
+      "butter",
+      "onion",
+      "seafood_salmon"
+    ],
+    "missing_canonical": [],
+    "ignored_pantry_items": [
+      "kosher salt",
+      "pepper"
+    ],
+    "raw_ingredients_sample": [
+      "chives",
+      "cranberries",
+      "kosher salt",
+      "mango",
+      "onion",
+      "oranges",
+      "pepper",
+      "coho salmon",
+      "butter"
+    ]
   }
 ]
