@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "name": "GREAT VALUE RAW JUMBO TAIL-OFF SHRIMP, 16 OZ BAG (21-30 COUNT PER LB) (FROZEN)",
+      "price": "$10.97",
+      "unit_price": "68.6¢/OZ"
+    },
+    {
+      "name": "MARKETSIDE FROZEN COOKED SNOW CRAB LEGS, 1.5 LB BOX, CONTAINS SHELLFISH",
+      "price": "$28.96",
+      "unit_price": "$1.21/OZ"
+    },
+    {
+      "name": "FRESH SNOW CRAB SEAFOOD CLUSTERS TRAY (1LB, 3 COUNT, 20G PROTEIN PER SERVING, SHELLFISH)",
+      "price": "$13.77",
+      "unit_price": "86.1¢/OZ"
+    },
+    {
+      "name": "TRANSOCEAN SEAFOOD SNACKERS IMITATION CRAB, STICK STYLE, 3 OZ PLASTIC BAG, GLUTEN-FREE, FULLY COOKED",
+      "price": "$1.00",
+      "unit_price": "33.3¢/OZ"
+    },
+    {
+      "name": "SAM'S CHOICE FROZEN MUSSELS, 2 LB",
+      "price": "$6.72",
+      "unit_price": "21.0¢/OZ"
+    },
+    {
+      "name": "AQUAMAR SURIMI, FLAKE STYLE FRESH IMITATION CRAB, 1- 24 OZ, LARGE PLASTIC BAG 24OZ SIZE PLASTIC BAG. 5GR OF PROTEIN PER SERVING.",
+      "price": "$4.76",
+      "unit_price": "19.8¢/OZ"
+    },
+    {
+      "name": "BOS'N FROZEN LANGOSTINO LOBSTER 8 OZ. BAG, CONTAINS SHELLFISH",
+      "price": "$11.24",
+      "unit_price": "$1.41/OZ"
+    },
+    {
+      "name": "BOUDREAUX'S FROZEN COOKED PEELED & DEVEINED, CRAWFISH TAIL MEAT, 12 OZ.",
+      "price": "$8.96",
+      "unit_price": "74.7¢/OZ"
+    },
+    {
+      "name": "MARKETSIDE FROZEN COOKED JONAH CRAB CLAWS & ARMS, 32 OZ BAG CONTAINS CRAB.",
+      "price": "$19.94",
+      "unit_price": "62.3¢/OZ"
+    }
+  ]
+}

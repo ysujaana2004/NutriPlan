@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "name": "Extra Lean Ground Beef 96% Lean/4% Fat, All Natural*, 1 lb",
+      "price": "$7.96",
+      "unit_price": "49.8¢/oz"
+    },
+    {
+      "name": "80% Lean / 20% Fat Ground Beef Chuck, 2.25 lb Tray, Fresh, All Natural*",
+      "price": "$15.93",
+      "unit_price": "$7.08/lb"
+    },
+    {
+      "name": "80% Lean / 20% Fat Ground Beef Chuck, 1 lb Tray, Fresh, All Natural*",
+      "price": "$7.23",
+      "unit_price": "$7.23/lb"
+    },
+    {
+      "name": "93% Lean / 7% Fat Lean Ground Beef, 1 lb Tray, Fresh, All Natural*",
+      "price": "$7.47",
+      "unit_price": "$7.47/lb"
+    },
+    {
+      "name": "73% Lean / 27% Fat Ground Beef, 1 lb Roll, Fresh, All Natural*",
+      "price": "$5.94",
+      "unit_price": "$5.94/lb"
+    },
+    {
+      "name": "73% Lean / 27% Fat Ground Beef, 3 lb Roll, Fresh, All Natural*",
+      "price": "$16.84",
+      "unit_price": "$5.61/lb"
+    },
+    {
+      "name": "80% Lean / 20% Fat Ground Beef Chuck, 1 lb Roll, Fresh, All Natural*",
+      "price": "$6.93",
+      "unit_price": "$6.93/lb"
+    },
+    {
+      "name": "80% Lean / 20% Fat Ground Beef Chuck, 4.5 lb Tray, Fresh, All Natural*",
+      "price": "$28.73",
+      "unit_price": "$6.38/lb"
+    },
+    {
+      "name": "93% Lean / 7% Fat Lean Ground Beef, 1 lb Roll, Fresh, All Natural*",
+      "price": "$7.37",
+      "unit_price": "$7.37/lb"
+    }
+  ]
+}

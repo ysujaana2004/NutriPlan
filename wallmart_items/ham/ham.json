@@ -1,0 +1,234 @@
+{
+  "products": [
+    {
+      "name": "Johnsonville Smoked Beef Rope Sausage 12oz Package",
+      "price": "$3.96",
+      "unit_price": null
+    },
+    {
+      "name": "Johnsonville Polish Kielbasa Smoked Rope Pork Sausage, 13.5 oz, Refigerated",
+      "price": "$3.77",
+      "unit_price": null
+    },
+    {
+      "name": "Johnsonville Andouille Smoked Rope Sausage, 13.5 oz",
+      "price": "$3.77",
+      "unit_price": null
+    },
+    {
+      "name": "HORMEL CURE 81 Classic Sliced Boneless Quarter Ham, Refrigerated, 1.5-3.0 lb Plastic Vacuum Package",
+      "price": "$10.94",
+      "unit_price": "$5.47/lb"
+    },
+    {
+      "name": "HORMEL CURE 81 Brown Sugar Sliced Boneless Quarter Ham, 1.5-3.0 lb Plastic Vacuum Package",
+      "price": "$11.27",
+      "unit_price": "$5.47/lb"
+    },
+    {
+      "name": "Upper Cut Sliced Mortadella Ham, 4oz Tray, 9g Protein per Serving, Ready to Eat Charcuterie Meat (Deli), Refrigerated",
+      "price": "$4.97",
+      "unit_price": "$1.24/oz"
+    },
+    {
+      "name": "Falls Brand™ Mild Italian Sausage, Ground Pork, 1.5lbs",
+      "price": "$5.67",
+      "unit_price": "$3.78/lb"
+    },
+    {
+      "name": "Pork Center Cut Loin Chops Thin Boneless, 5 count, 0.83 - 1.03 lb",
+      "price": "$5.61",
+      "unit_price": "$5.97/lb"
+    },
+    {
+      "name": "Farmer John, Pork Shoulder Butt Roast, 4.9-8.5lb (Fresh), 20 Grams of Protein per 4 oz Serving",
+      "price": "$18.31",
+      "unit_price": "$2.18/lb"
+    },
+    {
+      "name": "Pork Assorted Loin Chops, Bone-In, 8 count, 3.99 - 5.4 lb Tray",
+      "price": "$13.13",
+      "unit_price": "$2.77/lb"
+    },
+    {
+      "name": "Pork Center Cut Loin Chops, Bone-In, 4 count, 1.51 - 2.04 lb Tray",
+      "price": "$9.48",
+      "unit_price": "$3.87/lb"
+    },
+    {
+      "name": "Farmer John Fresh Pork Tenderloin, 2 Pieces",
+      "price": "$8.21",
+      "unit_price": "$4.56/lb"
+    },
+    {
+      "name": "Farmer John Applewood Smoked Bacon Fresh Pork Loin Filet, 1-2.5 lb, 20 grams of Protein per 4 oz. serving",
+      "price": "$7.66",
+      "unit_price": "$4.23/lb"
+    },
+    {
+      "name": "Farmer John Classic Cooked Ham, 12 oz, Sliced Deli Meat in Easy Peel Package",
+      "price": "$3.77",
+      "unit_price": "31.4¢/oz"
+    },
+    {
+      "name": "Sunnyvalley Fresh Hickory Smoked Pork Bacon, 40 oz, Vacuum Sealed in Plastic, Ready to Cook",
+      "price": "$22.38",
+      "unit_price": "56.0¢/oz"
+    },
+    {
+      "name": "Jack Daniels Pulled Pork, Seasoned and Fully Cooked, Refrigerated, 16 oz Tray",
+      "price": "$10.92",
+      "unit_price": "68.3¢/oz"
+    },
+    {
+      "name": "Villari Brothers Hickory Smoked Pork Neckbones, Gluten Free, 2.0lb - 2.5lb Tray Pack",
+      "price": "$7.48",
+      "unit_price": "$3.74/lb"
+    },
+    {
+      "name": "Butcher's Select 24 oz Smoked and Fully-Cooked Seasoned Pork Baby Back Ribs with BBQ Sauce",
+      "price": "$9.97",
+      "unit_price": "41.5¢/oz"
+    },
+    {
+      "name": "Smithfield Applewood Smoked Bacon Fresh Seasoned Pork Loin Filet, 2.03 - 2.30 lb, 20 Grams of Protein per Serving",
+      "price": "$7.46",
+      "unit_price": "$3.73/lb"
+    },
+    {
+      "name": "Smithfield All Natural Fresh Pork Chops, Boneless, 0.6 - 1.3 lb, 23 Grams of Protein per 4 oz Serving",
+      "price": "$5.74",
+      "unit_price": "$6.38/lb"
+    },
+    {
+      "name": "Smithfield Roasted Garlic & Herb Fresh Seasoned Pork Loin Filet, 1.98 - 2.17lb, 20 Grams of Protein per 4 oz Serving",
+      "price": "$7.46",
+      "unit_price": "$3.73/lb"
+    },
+    {
+      "name": "Kentucky Legend Hickory Smoked Quarter Boneless Ham, Sliced, Fully Cooked, 1.5-2.0 lb",
+      "price": "$12.31",
+      "unit_price": "$5.47/lb"
+    },
+    {
+      "name": "Marketside Natural Juice Boneless Spiral-Cut Brown Sugar Double Glazed Ham, Whole Muscle Cut, Pork, 3 - 4.8 lbs, 13g grams of protein per serving",
+      "price": "$12.74",
+      "unit_price": "$3.98/lb"
+    },
+    {
+      "name": "Jack Daniel's Tennessee Honey Boneless Pork Ribs, Fully Cooked, Ready to Heat, 16oz Tray (Refrigerated)",
+      "price": "$10.57",
+      "unit_price": "66.1¢/oz"
+    },
+    {
+      "name": "Brookwood Farms, Sweet Carolina, Pork Baby Back Ribs, 24 oz (Fresh)",
+      "price": "$13.48",
+      "unit_price": "56.2¢/oz"
+    },
+    {
+      "name": "Great Value Honey Ham Lunchmeat Plastic Tub, 9 oz",
+      "price": "$3.57",
+      "unit_price": "39.7¢/oz"
+    },
+    {
+      "name": "Great Value Naturally Hickory Smoked Thick Cut Sliced Bacon, Mega Pack, 24 oz",
+      "price": "$5.94",
+      "unit_price": "24.8¢/oz"
+    },
+    {
+      "name": "Lunchables Ham & American with Chocolate Creme Cookies, 3.2 oz Pack",
+      "price": "$1.87",
+      "unit_price": "58.4¢/oz"
+    },
+    {
+      "name": "Great Value Hickory Smoked Fully Cooked, Refrigerated Bacon, 6.3 oz",
+      "price": "$9.97",
+      "unit_price": "$1.58/oz"
+    },
+    {
+      "name": "Great Value Black Forest Ham Lunchmeat, 9 oz Plastic Tub, 10 Grams of Protein Per 2oz Serving",
+      "price": "$3.57",
+      "unit_price": "39.7¢/oz"
+    },
+    {
+      "name": "Hillshire Farm Ultra Thin Black Forest Ham Lunchmeat, 16 oz Plastic Tub, Refrigerated",
+      "price": "$6.27",
+      "unit_price": "39.2¢/oz"
+    },
+    {
+      "name": "Yellowstone Beef Stew with Potatos & Carrots, 15 oz. Can, Shelf-Stable",
+      "price": "$3.13",
+      "unit_price": "20.9¢/oz"
+    },
+    {
+      "name": "HORMEL BLACK LABEL Thick Cut Bacon, Gluten Free, Refrigerated, 24 oz Plastic Package",
+      "price": "$12.18",
+      "unit_price": "50.8¢/oz"
+    },
+    {
+      "name": "Tulip Jamonilla 12oz, Can",
+      "price": "$10.99",
+      "unit_price": "91.6¢/oz"
+    },
+    {
+      "name": "HORMEL CURE 81 Honey Cured Sliced Boneless Quarter Ham, Refrigerated, 1.5-3.0 lb Plastic Vacuum Pack",
+      "price": "$11.27",
+      "unit_price": "$5.47/lb"
+    },
+    {
+      "name": "Marketside Natural Juice Bone-in Spiral Cut Brown Sugar Double Glazed Ham, Pork, 8 - 12 lb, 14g of protein per serving",
+      "price": "$24.80",
+      "unit_price": "$2.48/lb"
+    },
+    {
+      "name": "Farmland Diced Ham 16oz",
+      "price": "$4.96",
+      "unit_price": "$4.96/lb"
+    },
+    {
+      "name": "Land O'Frost Premium Sandwich Sliced Fresh Deli Lunch Meat, Honey Ham, 1 lb Resealable Pouch",
+      "price": "$6.24",
+      "unit_price": null
+    },
+    {
+      "name": "Land O'Frost Premium Sandwich Sliced Deli Lunch Meat, Honey Smoked Turkey Breast, 1 lb Resealable Pouch",
+      "price": "$6.24",
+      "unit_price": null
+    },
+    {
+      "name": "Land O' Frost Premium Meat, Sandwich Sliced Fresh Deli Lunch Meat, Oven Roasted Turkey Breast, 1 lb",
+      "price": "$6.24",
+      "unit_price": null
+    },
+    {
+      "name": "Land O' Frost Premium Pork, Smoked Ham, Deli Lunch Meat, 1 lb, Resealable Plastic Pouch",
+      "price": "$6.24",
+      "unit_price": null
+    },
+    {
+      "name": "Sara Lee Premium Meats Gluten Free Honey Ham, Deli Sliced",
+      "price": "$8.47",
+      "unit_price": null
+    },
+    {
+      "name": "Great Value Thin Sliced Smoked Ham Lunchmeat, 9 oz, Plastic Tub",
+      "price": "$3.57",
+      "unit_price": "39.7¢/oz"
+    },
+    {
+      "name": "Great Value Black Forest Ham, Sliced 32 oz Plastic Pouch",
+      "price": "$8.24",
+      "unit_price": "25.8¢/oz"
+    },
+    {
+      "name": "Prima Della Fully Cooked off-the-Bone Ham, Deli-Sliced",
+      "price": "$7.97",
+      "unit_price": null
+    },
+    {
+      "name": "Great Value, Fully Cooked Honey Ham, Sliced 32 oz Plastic Pouch",
+      "price": "$9.42",
+      "unit_price": "29.4¢/oz"
+    }
+  ]
+}

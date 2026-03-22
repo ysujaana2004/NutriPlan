@@ -1,0 +1,464 @@
+{
+  "products": [
+    {
+      "name": "FRESH NAVEL ORANGE, EACH",
+      "price": "$0.88",
+      "unit_price": null
+    },
+    {
+      "name": "FRESH MANDARIN ORANGES, 3 LB BAG",
+      "price": "$3.19",
+      "unit_price": "$1.06/LB"
+    },
+    {
+      "name": "FRESH NAVEL ORANGES, 4 LB BAG",
+      "price": "$3.76",
+      "unit_price": "94.0¢/LB"
+    },
+    {
+      "name": "FRESH CARA CARA ORANGES, 3 LB BAG",
+      "price": "$3.97",
+      "unit_price": "$1.32/EA"
+    },
+    {
+      "name": "FRESH MANDARIN ORANGES, 5 LB BAG",
+      "price": "$5.82",
+      "unit_price": "$1.16/LB"
+    },
+    {
+      "name": "FRESH BLOOD ORANGES, 2 LB BAG",
+      "price": "$2.97",
+      "unit_price": "$1.49/EA"
+    },
+    {
+      "name": "FRESH ORGANIC CLEMENTINES, 2 LB BAG",
+      "price": "$3.98",
+      "unit_price": "$1.99/LB"
+    },
+    {
+      "name": "FRESH ORGANIC ORANGES, 3 LB BAG",
+      "price": "$5.97",
+      "unit_price": "$1.99/LB"
+    },
+    {
+      "name": "FRESH MINNEOLAS, 3 LB BAG",
+      "price": "$3.98",
+      "unit_price": "$1.33/EA"
+    },
+    {
+      "name": "FRESH LIME, EACH",
+      "price": "$0.20",
+      "unit_price": null
+    },
+    {
+      "name": "FRESH LIMES, 2 LB BAG",
+      "price": "$4.90",
+      "unit_price": "$2.45/LB"
+    },
+    {
+      "name": "CONCORD FOODS LIME JUICE, NO PULP, FROM CONCENTRATE 4.5 OZ",
+      "price": "$0.98",
+      "unit_price": "$3.48/PT"
+    },
+    {
+      "name": "FRESH KEYLIMES, 1 LB BAG",
+      "price": "$2.98",
+      "unit_price": "$2.98/LB"
+    },
+    {
+      "name": "FRESH LEMON, EACH",
+      "price": "$0.64",
+      "unit_price": null
+    },
+    {
+      "name": "FRESH LEMONS, 2 LB BAG",
+      "price": "$3.92",
+      "unit_price": "$1.96/LB"
+    },
+    {
+      "name": "FRESH SEEDLESS LEMONS, 1 LB BAG",
+      "price": "$2.98",
+      "unit_price": "$2.98/LB"
+    },
+    {
+      "name": "FRESH ORGANIC LEMONS, 2 LB BAG",
+      "price": "$4.54",
+      "unit_price": "$2.27/LB"
+    },
+    {
+      "name": "SICILIA LEMON SQUEEZE, 4 OZ.",
+      "price": "$8.82",
+      "unit_price": "$2.21/OZ"
+    },
+    {
+      "name": "INGRILLI 100% LEMON JUICE FROM CONCENTRATE, 4 FL OZ SQUEEZE BOTTLES (PACK OF 3)",
+      "price": "$12.40",
+      "unit_price": null
+    },
+    {
+      "name": "INGRILLI 100% LEMON JUICE FROM CONCENTRATE, 4 FL OZ SQUEEZE BOTTLES (PACK OF 24)",
+      "price": "$31.92",
+      "unit_price": null
+    },
+    {
+      "name": "INGRILLI 100% LEMON JUICE FROM CONCENTRATE, 4 FL OZ SQUEEZE BOTTLES (PACK OF 6)",
+      "price": "$15.43",
+      "unit_price": null
+    },
+    {
+      "name": "FRESH GRAPEFRUIT, EACH",
+      "price": "$1.24",
+      "unit_price": null
+    },
+    {
+      "name": "FRESH RED GRAPEFRUIT, 5 LB BAG",
+      "price": "$5.48",
+      "unit_price": "$1.10/LB"
+    },
+    {
+      "name": "DEL MONTE NO SUGAR ADDED RED GRAPEFRUIT, 52 OZ JAR",
+      "price": "$8.97",
+      "unit_price": "17.3¢/OZ"
+    },
+    {
+      "name": "FRESH ORGANIC GRAPEFRUIT, 4 LB BAG",
+      "price": "$5.88",
+      "unit_price": "$1.47/LB"
+    },
+    {
+      "name": "DEL MONTE RED GRAPEFRUIT FRUIT CUP SNACKS, NO SUGAR ADDED, 6.5 OZ CUP",
+      "price": "$1.97",
+      "unit_price": "30.3¢/OZ"
+    },
+    {
+      "name": "DEL MONTE RED GRAPEFRUIT FRUIT CUP SNACKS, 7 OZ",
+      "price": "$1.97",
+      "unit_price": "28.1¢/OZ"
+    },
+    {
+      "name": "DEL MONTE RED GRAPEFRUIT IN 100% JUICE, 20 OZ BOWL",
+      "price": "$4.28",
+      "unit_price": "21.4¢/OZ"
+    },
+    {
+      "name": "MARKETSIDE RUBY GRAPEFRUIT SEGMENTS, 7 OZ",
+      "price": "$1.97",
+      "unit_price": "28.1¢/OZ"
+    },
+    {
+      "name": "Fresh Banana, Each",
+      "price": "$0.20",
+      "unit_price": "50.0¢/lb"
+    },
+    {
+      "name": "Marketside Fresh Organic Bananas, Bunch",
+      "price": "$1.71",
+      "unit_price": "74.0¢/lb"
+    },
+    {
+      "name": "Concord Foods, Chiquita Banana Bread Mix, 13.7 oz",
+      "price": "$2.64",
+      "unit_price": "$3.08/lb"
+    },
+    {
+      "name": "Natures Way Banana Keeper, Banana Holder",
+      "price": "$3.98",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Plantain, Each",
+      "price": "$0.58",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Green Seedless Grapes, Bag (2.25 lbs/Bag Est.)",
+      "price": "$4.43",
+      "unit_price": "$1.97/lb"
+    },
+    {
+      "name": "Fresh Red Seedless Grapes, Bag (2.25 lbs/Bag Est.)",
+      "price": "$3.76",
+      "unit_price": "$1.67/lb"
+    },
+    {
+      "name": "Fresh Black Seedless Grapes, Bag (2.25 lbs/Bag Est.)",
+      "price": "$5.11",
+      "unit_price": "$2.27/lb"
+    },
+    {
+      "name": "Fresh Red Globe Seeded Grapes, Bag (2.25 lbs/Bag Est.)",
+      "price": "$5.11",
+      "unit_price": "$2.27/lb"
+    },
+    {
+      "name": "Fresh Sweet Carnival Grapes, 1 Lb",
+      "price": "$3.97",
+      "unit_price": "$3.97/lb"
+    },
+    {
+      "name": "Fresh Organic Green Seedless Grapes from California, 2 lb Package",
+      "price": "$6.97",
+      "unit_price": "$3.49/lb"
+    },
+    {
+      "name": "Rainier Cherries Frescos, 16 oz",
+      "price": "$7.99",
+      "unit_price": "49.9¢/oz"
+    },
+    {
+      "name": "Fresh Cantaloupe, Each",
+      "price": "$2.97",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Seedless Watermelon, Each",
+      "price": "$9.42",
+      "unit_price": null
+    },
+    {
+      "name": "Marketside Fresh Cut Watermelon, 16 oz Tray",
+      "price": "$3.97",
+      "unit_price": "24.8¢/oz"
+    },
+    {
+      "name": "Fresh Honeydew Melon, Each",
+      "price": "$4.46",
+      "unit_price": null
+    },
+    {
+      "name": "Marketside Fresh Cut Watermelon Chunks, 10 oz Tray",
+      "price": "$2.87",
+      "unit_price": "28.7¢/oz"
+    },
+    {
+      "name": "Marketside Fresh Cut Watermelon Chunks, 42 oz Tray",
+      "price": "$9.48",
+      "unit_price": "22.6¢/oz"
+    },
+    {
+      "name": "Marketside Fresh Cut Cantaloupe Chunks, 16 oz Tray",
+      "price": "$4.84",
+      "unit_price": "30.3¢/oz"
+    },
+    {
+      "name": "Fresh Golden Melon, Each",
+      "price": "$4.48",
+      "unit_price": null
+    },
+    {
+      "name": "Marketside Pineapple, 32 oz Tray",
+      "price": "$8.66",
+      "unit_price": "27.1¢/oz"
+    },
+    {
+      "name": "Fresh Strawberries, 1 lb",
+      "price": "$2.96",
+      "unit_price": "18.5¢/oz"
+    },
+    {
+      "name": "Fresh Strawberries, 2 lb, Container",
+      "price": "$5.87",
+      "unit_price": "18.3¢/oz"
+    },
+    {
+      "name": "Fresh Blueberries, 18 oz. Container",
+      "price": "$2.48",
+      "unit_price": "13.8¢/oz"
+    },
+    {
+      "name": "Fresh Blueberries, 1 Pint Container",
+      "price": "$3.37",
+      "unit_price": "30.6¢/oz"
+    },
+    {
+      "name": "Fresh Raspberries, 6 oz. Container",
+      "price": "$3.27",
+      "unit_price": "54.5¢/oz"
+    },
+    {
+      "name": "Fresh Blackberries, 6 oz. Container",
+      "price": "$2.22",
+      "unit_price": "37.0¢/oz"
+    },
+    {
+      "name": "Fresh Blackberries, 12 oz. Container",
+      "price": "$4.34",
+      "unit_price": "36.2¢/oz"
+    },
+    {
+      "name": "Fresh Raspberries, 12 oz. Container",
+      "price": "$6.44",
+      "unit_price": "53.7¢/oz"
+    },
+    {
+      "name": "Fresh Strawberries, 8.8 oz Container",
+      "price": "$1.76",
+      "unit_price": "20.0¢/oz"
+    },
+    {
+      "name": "Fresh Gala Apples, 3 lb Bag",
+      "price": "$2.43",
+      "unit_price": "81.0¢/lb"
+    },
+    {
+      "name": "Fresh Honeycrisp Apple, Each",
+      "price": "$1.16",
+      "unit_price": "$2.14/lb"
+    },
+    {
+      "name": "Fresh Honeycrisp Apples, 3 lb Bag",
+      "price": "$8.24",
+      "unit_price": "$2.75/lb"
+    },
+    {
+      "name": "Fresh Gala Apple, Each",
+      "price": "$0.95",
+      "unit_price": "$1.94/lb"
+    },
+    {
+      "name": "Fresh Cosmic Crisp Apples, 3 lb Bag",
+      "price": "$5.46",
+      "unit_price": "$1.82/lb"
+    },
+    {
+      "name": "Fresh Fuji Apples, 3 lb Bag",
+      "price": "$3.37",
+      "unit_price": "$1.12/lb"
+    },
+    {
+      "name": "Fresh Granny Smith Apples, 3 lb Bag",
+      "price": "$4.00",
+      "unit_price": "$1.33/lb"
+    },
+    {
+      "name": "Fresh Pink Lady Apples, 3lb Bag",
+      "price": "$3.42",
+      "unit_price": "$1.14/lb"
+    },
+    {
+      "name": "Fresh Red Delicious Apple, Each",
+      "price": "$0.74",
+      "unit_price": "$1.52/lb"
+    },
+    {
+      "name": "Dried Pitted Dates – 5 Pound Bulk Bag by Sunbest Natural – Chewy & Caramel Natural Fruit",
+      "price": "$25.99",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Pineapple, Each",
+      "price": "$1.98",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Kiwi, 1lb Package",
+      "price": "$2.62",
+      "unit_price": "$2.62/lb"
+    },
+    {
+      "name": "Fresh Hass Avocados, Each",
+      "price": "$0.50",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Papaya, Each",
+      "price": "$3.10",
+      "unit_price": "97.0¢/lb"
+    },
+    {
+      "name": "Marketside Pineapple, 16 oz Tray",
+      "price": "$4.97",
+      "unit_price": "31.1¢/oz"
+    },
+    {
+      "name": "Marketside Fresh Cut Mango, 10 oz Tray",
+      "price": "$3.97",
+      "unit_price": "39.7¢/oz"
+    },
+    {
+      "name": "Sambazon, Organic, Amazon Superberry Acai Bowl, 6.1 oz Plant Fiber Container (Frozen)",
+      "price": "$3.52",
+      "unit_price": null
+    },
+    {
+      "name": "Sambazon Berry Bliss Acai Bowl, Plant-Based Meal, 6.1 oz, 1 Count (Frozen)",
+      "price": "$3.52",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Small Hass Avocados, 5-6 Count Bag",
+      "price": "$2.97",
+      "unit_price": "59.4¢/ea"
+    },
+    {
+      "name": "Fresh Large Hass Avocado Bag, 3-4 Count",
+      "price": "$4.17",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Hass Organic Bagged Avocados, 3-4 Count",
+      "price": "$3.93",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Produce Tropical Avocado, Each",
+      "price": "$2.68",
+      "unit_price": null
+    },
+    {
+      "name": "Freshness Guaranteed Spicy Guacamole, 8 oz Tub",
+      "price": "$3.02",
+      "unit_price": "37.8¢/oz"
+    },
+    {
+      "name": "Sabra Smart Snackers Classic Fresh Guacamole Dip with Rolled Tortilla Chips, Non-GMO, Gluten Free, Chunky On-the-Go Guac, 2.8oz Cup (1 Count)",
+      "price": "$2.47",
+      "unit_price": "88.2¢/oz"
+    },
+    {
+      "name": "Simplot Harvest Fresh Avocados - Avocado Dices, 2 Pound -- 12 per case",
+      "price": "$214.95",
+      "unit_price": null
+    },
+    {
+      "name": "Simplot Harvest Fresh Avocado Halves, 2 Pound -- 12 per case",
+      "price": "$218.36",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Pears Bartlett Bulk, Each",
+      "price": "$1.07",
+      "unit_price": "$2.13/lb"
+    },
+    {
+      "name": "Fresh Bartlett Pears, 3 lb Bag",
+      "price": "$3.78",
+      "unit_price": "$1.26/lb"
+    },
+    {
+      "name": "Fresh Bosc Pears, Each",
+      "price": "$0.99",
+      "unit_price": "$1.63/lb"
+    },
+    {
+      "name": "Fresh Anjou Pears, 3 lb Bag",
+      "price": "$4.16",
+      "unit_price": "$1.39/lb"
+    },
+    {
+      "name": "Fresh Anjou Pears, Each",
+      "price": "$1.05",
+      "unit_price": "$1.50/lb"
+    },
+    {
+      "name": "Fresh Asian Pears, Each",
+      "price": "$1.97",
+      "unit_price": null
+    },
+    {
+      "name": "That's Tasty Puree Basil 2.8 oz",
+      "price": "$3.94",
+      "unit_price": "$1.41/oz"
+    }
+  ]
+}

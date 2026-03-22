@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "name": "Louisiana Select Wild Gulf Shrimp 71-100 Peeled & Deveined All-Natural, 16oz bag",
+      "price": "$6.97",
+      "unit_price": null
+    },
+    {
+      "name": "Beyond Meat Beyond Steak Plant-Based Seared Tips Frozen 10 oz",
+      "price": "$6.46",
+      "unit_price": "64.6¢/oz"
+    },
+    {
+      "name": "MorningStar Farms Original Plant Based Chik'n Nuggets, Vegan Chicken, 10.5 oz Bag",
+      "price": "$4.97",
+      "unit_price": "47.3¢/oz"
+    },
+    {
+      "name": "MorningStar Farms Buffalo Plant Based Chik'n Patties, Vegan Chicken, 10 oz, 4 Count Bag",
+      "price": "$4.58",
+      "unit_price": "45.8¢/oz"
+    },
+    {
+      "name": "MorningStar Farms Veggie Breakfast Original Vegan Plant Based Sausage Patties, 16 oz, 12 Count Bag",
+      "price": "$8.54",
+      "unit_price": "53.4¢/oz"
+    },
+    {
+      "name": "Marketside Organic Grass-Fed Ground Beef, 85% Lean/15% Fat, 1 lb",
+      "price": "$6.72",
+      "unit_price": "$6.72/lb"
+    },
+    {
+      "name": "Marketside Organic Grass-Fed Ground Beef, 93% Lean/7% Fat, 1 lb",
+      "price": "$7.97",
+      "unit_price": "$7.97/lb"
+    },
+    {
+      "name": "Marketside Organic Grass-Fed Ground Beef, 85% Lean/15% Fat, 1 lb, 3 Count",
+      "price": "$19.97",
+      "unit_price": "$6.66/lb"
+    },
+    {
+      "name": "Foster Farms Organic Free Range Fresh Boneless Skinless Chicken Thighs",
+      "price": "$8.75",
+      "unit_price": "$8.18/lb"
+    },
+    {
+      "name": "Foster Farms Organic Free Range Fresh Boneless Skinless Chicken Breast Tenders",
+      "price": "$10.91",
+      "unit_price": "$8.87/lb"
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "products": [
+    {
+      "name": "Marketside Broccoli Florets, 12 oz",
+      "price": "$2.47",
+      "unit_price": "20.6¢/oz"
+    },
+    {
+      "name": "Marketside Fresh Cauliflower Florets, 12 oz",
+      "price": "$2.47",
+      "unit_price": "20.6¢/oz"
+    },
+    {
+      "name": "Fresh Marketside Organic Vegetable Medley, 12 oz",
+      "price": "$3.87",
+      "unit_price": "32.3¢/oz"
+    },
+    {
+      "name": "Marketside Fresh Asparagus Spears, 10 oz",
+      "price": "$3.84",
+      "unit_price": "38.4¢/oz"
+    },
+    {
+      "name": "Marketside Fresh Halved Brussels Sprouts, 12 oz",
+      "price": "$3.47",
+      "unit_price": "28.9¢/oz"
+    },
+    {
+      "name": "Fresh Sliced Mushrooms, 16 oz",
+      "price": "$3.64",
+      "unit_price": "22.8¢/oz"
+    },
+    {
+      "name": "Marketside Fresh Green Beans, 12 oz",
+      "price": "$2.47",
+      "unit_price": "20.6¢/oz"
+    },
+    {
+      "name": "Freshness Guaranteed Sliced White Mushrooms, 8 oz",
+      "price": "$1.97",
+      "unit_price": "24.6¢/oz"
+    },
+    {
+      "name": "Marketside Fresh Vegetable Medley Blend, 12 oz",
+      "price": "$2.47",
+      "unit_price": "20.6¢/oz"
+    },
+    {
+      "name": "Fresh Roma Tomato, Each",
+      "price": "$0.23",
+      "unit_price": "92.0¢/lb"
+    },
+    {
+      "name": "Fresh Slicing Tomato, Each",
+      "price": "$1.42",
+      "unit_price": "$1.97/lb"
+    },
+    {
+      "name": "Fresh Grape Tomato, 10 oz Package",
+      "price": "$2.27",
+      "unit_price": "22.7¢/oz"
+    },
+    {
+      "name": "Fresh Slicing Tomato, 2 Pack",
+      "price": "$2.80",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Cherubs Grape Tomatoes, 10 oz Package",
+      "price": "$2.72",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Organic Roma Tomato, 1 lb Bag",
+      "price": "$2.98",
+      "unit_price": "$2.98/lb"
+    },
+    {
+      "name": "Fresh Glorys Cherry Tomatoes, 10 oz Package",
+      "price": "$2.72",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Constellation Medley Tomato, 16.5 oz Package",
+      "price": "$4.62",
+      "unit_price": "28.0¢/oz"
+    },
+    {
+      "name": "Fresh Organic Grape Tomato, 10 oz Package",
+      "price": "$2.83",
+      "unit_price": "28.3¢/oz"
+    },
+    {
+      "name": "Fresh Romaine Lettuce Hearts 3 Count, Each",
+      "price": "$3.32",
+      "unit_price": "$1.11/count"
+    },
+    {
+      "name": "Fieldpack Unbranded Fresh Iceberg Lettuce",
+      "price": "$2.18",
+      "unit_price": null
+    },
+    {
+      "name": "Marketside Fresh Shredded Iceberg Lettuce, 8 oz Bag",
+      "price": "$1.97",
+      "unit_price": "24.6¢/oz"
+    },
+    {
+      "name": "Fresh Organic Rainbow Kale, 1 lb Bag",
+      "price": "$4.76",
+      "unit_price": "29.8¢/oz"
+    },
+    {
+      "name": "Marketside Fresh Spinach, 10 oz Bag (Fresh)",
+      "price": "$1.78",
+      "unit_price": "17.8¢/oz"
+    },
+    {
+      "name": "Organic Fresh Red Cabbage, Each",
+      "price": "$4.55",
+      "unit_price": "$1.96/lb"
+    },
+    {
+      "name": "Fresh Green Cabbage, Each",
+      "price": "$2.70",
+      "unit_price": "78.0¢/lb"
+    },
+    {
+      "name": "Green Giant Fresh Washed & Trimmed Green Leaf Lettuce, 7 oz",
+      "price": "$3.07",
+      "unit_price": "43.9¢/oz"
+    },
+    {
+      "name": "Fresh Butter Lettuce, Each",
+      "price": "$3.12",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Sweet Corn on the Cob (1 each)",
+      "price": "$0.97",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Sweet Corn on the Cob, 4 Count Tray",
+      "price": "$4.26",
+      "unit_price": "21.3¢/oz"
+    },
+    {
+      "name": "Green Giant Extra Sweet Corn on The Cob, 12 Count Bag (Frozen Vegetables)",
+      "price": "$4.64",
+      "unit_price": "38.7¢/count"
+    },
+    {
+      "name": "Marketside Fresh Sugar Snap Peas, 8 oz",
+      "price": "$2.53",
+      "unit_price": "31.6¢/oz"
+    },
+    {
+      "name": "Fresh Organic Green Beans, 12 oz",
+      "price": "$3.87",
+      "unit_price": "32.3¢/oz"
+    },
+    {
+      "name": "Marketside Fresh Snow Peas, 8 oz",
+      "price": "$2.53",
+      "unit_price": "31.6¢/oz"
+    },
+    {
+      "name": "Marketside Fresh Green Beans, 32 oz",
+      "price": "$5.98",
+      "unit_price": "18.7¢/oz"
+    },
+    {
+      "name": "Fresh Chinese Long Beans, Bunch",
+      "price": "$4.42",
+      "unit_price": "$3.68/lb"
+    },
+    {
+      "name": "Fresh Whole Russet Potatoes 5 lb Bag",
+      "price": "$2.47",
+      "unit_price": "49.4¢/lb"
+    },
+    {
+      "name": "Yellow Potatoes Whole Fresh, 3lb Bag",
+      "price": "$2.54",
+      "unit_price": "84.7¢/lb"
+    },
+    {
+      "name": "Fresh Idaho Russet Potatoes, 5 lb Bag",
+      "price": "$2.47",
+      "unit_price": "49.4¢/lb"
+    },
+    {
+      "name": "Russet Potatoes, 10 lb Bag, Whole",
+      "price": "$3.94",
+      "unit_price": null
+    },
+    {
+      "name": "Russet Baking Potatoes Whole Fresh, Each",
+      "price": "$0.75",
+      "unit_price": "88.0¢/lb"
+    },
+    {
+      "name": "Fresh Yellow Baby Potatoes, 1.5 lb Bag",
+      "price": "$3.33",
+      "unit_price": "13.9¢/oz"
+    },
+    {
+      "name": "Sweet Potatoes Whole Fresh, 3 lb Bag",
+      "price": "$4.54",
+      "unit_price": "$1.51/lb"
+    },
+    {
+      "name": "Fresh Red Baby Potatoes, 1.5 lb Bag",
+      "price": "$3.33",
+      "unit_price": "$2.22/lb"
+    },
+    {
+      "name": "Red Potatoes Whole Fresh, 3lb Bag",
+      "price": "$2.64",
+      "unit_price": "88.0¢/lb"
+    },
+    {
+      "name": "Fresh Produce, Baby Peeled Carrots, 1lb Bag",
+      "price": "$1.19",
+      "unit_price": "7.4¢/oz"
+    },
+    {
+      "name": "Fresh Whole Carrots, 2 lb Bag",
+      "price": "$1.44",
+      "unit_price": "72.0¢/lb"
+    },
+    {
+      "name": "Organic Fresh Whole Carrots, 2 lb Bag",
+      "price": "$2.62",
+      "unit_price": "$1.31/lb"
+    },
+    {
+      "name": "Fresh Baby-Cut Carrots, 2 lb Bag",
+      "price": "$1.82",
+      "unit_price": "91.0¢/lb"
+    },
+    {
+      "name": "Fresh Shredded Orange Carrots, 10 Oz Bag",
+      "price": "$1.87",
+      "unit_price": "$2.99/lb"
+    },
+    {
+      "name": "Fresh Whole Carrots, 5 lb Bag",
+      "price": "$3.58",
+      "unit_price": "71.6¢/lb"
+    },
+    {
+      "name": "Bolthouse Fresh Carrot Soup and Stew Mix, Washed and Ready, 12oz Bag",
+      "price": "$1.97",
+      "unit_price": null
+    },
+    {
+      "name": "Bolthouse Fresh Carrot Party Sticks, 12oz Bag",
+      "price": "$2.04",
+      "unit_price": null
+    },
+    {
+      "name": "Organic Fresh Rainbow Baby Carrots, 12 oz, Bag",
+      "price": "$2.16",
+      "unit_price": "$2.88/lb"
+    },
+    {
+      "name": "Dehydrated Dried Red and Green Bell Peppers Mix by It's Delish - 16 Oz 1 lb Jumbo Reusable Container - Sealed to Maintain Freshness - Chopped & Dried Vegetable Spice Seasoning",
+      "price": "$39.99",
+      "unit_price": null
+    },
+    {
+      "name": "Dried Red Bell Peppers by Its Delish, 8 oz.",
+      "price": "$14.99",
+      "unit_price": null
+    },
+    {
+      "name": "Dried Green Bell Peppers by Its Delish, Medium Jar",
+      "price": "$16.99",
+      "unit_price": null
+    },
+    {
+      "name": "Green Bell Pepper, 1 each",
+      "price": "$0.86",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Red Bell Pepper, 1 Each",
+      "price": "$1.52",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Produce Whole Color Bell Peppers, 3 Count Bag",
+      "price": "$2.48",
+      "unit_price": "82.7¢/count"
+    },
+    {
+      "name": "Fresh Jalapeno Pepper, Approx. 3-5 per 0.25 Pound",
+      "price": "$0.43",
+      "unit_price": "$1.72/lb"
+    },
+    {
+      "name": "Sweet Mini Peppers, Each",
+      "price": "$3.28",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Serrano Pepper, 4 Ounce Bag",
+      "price": "$1.45",
+      "unit_price": "36.3¢/oz"
+    },
+    {
+      "name": "Fresh Whole Green Broccoli Crowns, 1 Each",
+      "price": "$1.84",
+      "unit_price": "$1.98/lb"
+    },
+    {
+      "name": "Fresh Whole White Cauliflower, 1 Each",
+      "price": "$3.26",
+      "unit_price": null
+    },
+    {
+      "name": "Marketside Fresh Broccoli Florets, 32 oz",
+      "price": "$5.98",
+      "unit_price": "18.7¢/oz"
+    },
+    {
+      "name": "Fresh Green Whole Broccoli Bunch, 1 Bunch Wrapped",
+      "price": "$3.53",
+      "unit_price": null
+    },
+    {
+      "name": "Marketside Organic Fresh Broccoli Slaw, 16 oz",
+      "price": "$3.87",
+      "unit_price": "24.2¢/oz"
+    },
+    {
+      "name": "Fresh Whole Sweet Baby Broccoli, 1 Bunch",
+      "price": "$2.27",
+      "unit_price": "$2.27/count"
+    },
+    {
+      "name": "Fresh Produce, Whole Leafy Gai Lan, 1 Bunch Bundle",
+      "price": "$3.27",
+      "unit_price": "$3.27/lb"
+    },
+    {
+      "name": "Fresh Cucumber, Each",
+      "price": "$0.66",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Marketside Mini Cucumbers, 1 lb Bag",
+      "price": "$1.97",
+      "unit_price": "$1.97/lb"
+    },
+    {
+      "name": "Fresh Whole Celery Stalk, 1 Each Bag",
+      "price": "$1.88",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Long English Cucumber, Each",
+      "price": "$0.97",
+      "unit_price": null
+    },
+    {
+      "name": "Marketside Fresh Celery Sticks, 1.6 oz, 4 Pack",
+      "price": "$1.97",
+      "unit_price": "30.8¢/oz"
+    },
+    {
+      "name": "Fresh Celery Sticks, 20 oz Bag",
+      "price": "$2.96",
+      "unit_price": "14.8¢/oz"
+    },
+    {
+      "name": "Fresh Celery Hearts, Each",
+      "price": "$2.97",
+      "unit_price": null
+    },
+    {
+      "name": "Marketside Fresh Organic Mini Cucumbers, 1 lb Bag",
+      "price": "$3.46",
+      "unit_price": "$3.46/lb"
+    },
+    {
+      "name": "Organic Marketside Fresh Celery Stalk, Each",
+      "price": "$2.87",
+      "unit_price": null
+    },
+    {
+      "name": "Dried Mushroom Slices Boletus Luteus by It's Delish, 8 Oz Jumbo Reusable Container Chilean Sundried Dehydrated and Sliced Mushrooms for Cooking and Flavoring",
+      "price": "$44.99",
+      "unit_price": null
+    },
+    {
+      "name": "Dried Mushroom Kibble by Its Delish, 15 Oz Jumbo Container Dark Chilean Dehydrated and Chopped Boletus Luteus Mushrooms for Cooking and Flavoring",
+      "price": "$49.99",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Sliced Baby Bella Mushrooms, 8 oz",
+      "price": "$2.17",
+      "unit_price": "27.1¢/oz"
+    },
+    {
+      "name": "Fresh Sliced Baby Bella Mushrooms, 16 oz",
+      "price": "$4.07",
+      "unit_price": "25.4¢/oz"
+    },
+    {
+      "name": "Fresh Whole White Mushrooms, 8 oz",
+      "price": "$1.76",
+      "unit_price": "22.0¢/oz"
+    },
+    {
+      "name": "Fresh Whole Brown Mushrooms, 8 oz",
+      "price": "$2.04",
+      "unit_price": "25.5¢/oz"
+    },
+    {
+      "name": "Fresh Whole Brown Mushrooms, 16 oz",
+      "price": "$3.84",
+      "unit_price": "24.0¢/oz"
+    },
+    {
+      "name": "Great Value Frozen Sliced Mushrooms, 10 oz",
+      "price": "$2.74",
+      "unit_price": "27.4¢/oz"
+    },
+    {
+      "name": "Fresh Produce, Whole Red Radish, 1 Bunch",
+      "price": "$1.94",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Produce, Bagged Whole Red Radish, 1 Bag Each",
+      "price": "$1.94",
+      "unit_price": "32.3¢/oz"
+    },
+    {
+      "name": "Fresh Ginger Root, Each",
+      "price": "$0.99",
+      "unit_price": "$3.97/lb"
+    },
+    {
+      "name": "Fresh Whole Red Beets, 1 Bunch Bundle",
+      "price": "$2.67",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Whole Turnip Root, 1 lb Bag",
+      "price": "$2.66",
+      "unit_price": "16.6¢/oz"
+    },
+    {
+      "name": "Fresh Whole Yellow Onion, Each",
+      "price": "$0.74",
+      "unit_price": "93.0¢/lb"
+    },
+    {
+      "name": "Fresh Whole Red Onion, Each",
+      "price": "$0.99",
+      "unit_price": "$1.24/lb"
+    },
+    {
+      "name": "Fresh Green Onions Bunch, Each",
+      "price": "$0.67",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Yellow Onions, 3 lb Bag",
+      "price": "$2.84",
+      "unit_price": "5.9¢/oz"
+    },
+    {
+      "name": "Fresh Whole Sweet Onion, Each",
+      "price": "$1.32",
+      "unit_price": "$1.37/lb"
+    },
+    {
+      "name": "Fresh Sweet Onions, 3 lb, Bag",
+      "price": "$4.06",
+      "unit_price": "$1.35/lb"
+    },
+    {
+      "name": "Fresh Whole White Onions, Each",
+      "price": "$1.03",
+      "unit_price": "$1.12/lb"
+    },
+    {
+      "name": "Freshness Guaranteed Diced Fresh Yellow Onions, 8 oz",
+      "price": "$2.94",
+      "unit_price": "36.8¢/oz"
+    },
+    {
+      "name": "Fresh Red Onions, 3 lb, Bag",
+      "price": "$3.64",
+      "unit_price": "$1.21/lb"
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "products": [
+    {
+      "name": "Lactaid Whole Milk, 64 oz",
+      "price": "$4.48",
+      "unit_price": null
+    },
+    {
+      "name": "Lactaid Whole Milk, Calcium Enriched, 64 oz",
+      "price": "$4.48",
+      "unit_price": null
+    },
+    {
+      "name": "Lactaid Whole Milk, 96 oz",
+      "price": "$6.38",
+      "unit_price": "6.6¢/fl oz"
+    },
+    {
+      "name": "Lactaid 2% Reduced Fat Milk, 64 oz",
+      "price": "$4.48",
+      "unit_price": null
+    },
+    {
+      "name": "Lactaid 2% Reduced Fat Milk, Calcium Enriched, 64 oz",
+      "price": "$4.48",
+      "unit_price": null
+    },
+    {
+      "name": "Lactaid 2% Reduced Fat Milk, 96 oz",
+      "price": "$6.38",
+      "unit_price": "6.6¢/fl oz"
+    },
+    {
+      "name": "Lactaid Fat Free Milk, 64 oz",
+      "price": "$4.48",
+      "unit_price": null
+    },
+    {
+      "name": "Lactaid Fat Free Milk, Calcium Enriched, 64 oz",
+      "price": "$4.48",
+      "unit_price": null
+    },
+    {
+      "name": "Horizon Organic DHA Omega-3 Whole Milk, DHA Whole, 64 fl oz Carton",
+      "price": "$6.46",
+      "unit_price": "10.1¢/fl oz"
+    },
+    {
+      "name": "NIDO Fortificada Dry Whole Milk Powder with Vitamins A, C, D, Iron & Calcium, 12.6 oz Canister",
+      "price": "$6.76",
+      "unit_price": "53.7¢/oz"
+    },
+    {
+      "name": "Organic Valley Organic Whole Vitamin D Milk, Half Gallon, 64 fl oz",
+      "price": "$6.26",
+      "unit_price": "9.8¢/fl oz"
+    },
+    {
+      "name": "Gya Tea Co Whole Milk Powder 1.1lb (17.64 Oz) - Pasture Raised Source, Non-GMO, Gluten Free - Shelf Stable Premium Grade Powdered Milk for Baking, Cooking, Smoothies - Rich in Protein & Calcium",
+      "price": "$19.20",
+      "unit_price": null
+    },
+    {
+      "name": "Great Value Whole Vitamin D Milk, Gallon, 128 fl oz",
+      "price": "$2.46",
+      "unit_price": "1.9¢/fl oz"
+    },
+    {
+      "name": "Great Value Milk Whole Vitamin D, Half Gallon, 64 fl oz",
+      "price": "$1.47",
+      "unit_price": "2.3¢/fl oz"
+    },
+    {
+      "name": "Hiland Whole, Vitamin D Milk, Gallon, 128 fl oz",
+      "price": "$5.12",
+      "unit_price": "4.0¢/fl oz"
+    },
+    {
+      "name": "Hiland Whole, Vitamin D Milk, Half Gallon, 64 fl oz",
+      "price": "$2.94",
+      "unit_price": "4.6¢/fl oz"
+    },
+    {
+      "name": "Parmalat Whole Milk, 32 fl oz (Shelf-Stable)",
+      "price": "$3.28",
+      "unit_price": "10.3¢/fl oz"
+    },
+    {
+      "name": "Crystal Creamery 2% Reduced Fat Milk, Real California Milk, Gluten Free, 64 fl oz Jug",
+      "price": "$2.92",
+      "unit_price": "4.6¢/fl oz"
+    },
+    {
+      "name": "Crystal Creamery Lactose Free Reduced Fat Milk with Vitamin A & D, 0.5 Gallon Carton",
+      "price": "$4.48",
+      "unit_price": "7.0¢/fl oz"
+    },
+    {
+      "name": "Organic Valley Organic 2% Reduced Fat Milk, Gallon, 128 fl oz",
+      "price": "$9.97",
+      "unit_price": "7.8¢/fl oz"
+    },
+    {
+      "name": "Organic Valley Organic 2% Reduced Fat Milk, Half Gallon, 64 fl oz",
+      "price": "$6.26",
+      "unit_price": "9.8¢/fl oz"
+    },
+    {
+      "name": "Great Value Milk, 2% Reduced Fat, Half Gallon, 64 fl oz",
+      "price": "$1.72",
+      "unit_price": "2.7¢/fl oz"
+    },
+    {
+      "name": "Great Value, 2% Reduced Fat Milk, Gallon, 128 fl oz",
+      "price": "$3.00",
+      "unit_price": "2.3¢/fl oz"
+    },
+    {
+      "name": "Crystal Creamery, Real California Milk, 2% Reduced Fat, Gluten Free Milk, Plastic Jug, Gallon128 fl oz",
+      "price": "$5.12",
+      "unit_price": "4.0¢/fl oz"
+    },
+    {
+      "name": "fairlife Lactose Free 2% Reduced Fat Ultra Filtered Milk, 52 fl oz",
+      "price": "$5.32",
+      "unit_price": "10.2¢/fl oz"
+    },
+    {
+      "name": "Horizon Organic Shelf Stable 1% Lowfat Strawberry Milk Boxes, 8 fl oz, 12 Count",
+      "price": "$13.18",
+      "unit_price": "13.7¢/fl oz"
+    },
+    {
+      "name": "Horizon Organic Shelf Stable 1% Lowfat Milk Boxes, 8 fl oz, 12 Count",
+      "price": "$14.47",
+      "unit_price": "15.1¢/fl oz"
+    },
+    {
+      "name": "Great Value Milk 1% Low-fat, Half Gallon, 64 fl oz",
+      "price": "$1.97",
+      "unit_price": "3.1¢/fl oz"
+    },
+    {
+      "name": "Great Value 1% Low-Fat Milk, Gallon, 128 fl oz",
+      "price": "$3.12",
+      "unit_price": "2.4¢/fl oz"
+    },
+    {
+      "name": "Great Value 1% Low-fat Chocolate Milk, Gallon, 128 fl oz",
+      "price": "$3.72",
+      "unit_price": "2.9¢/fl oz"
+    },
+    {
+      "name": "Alta Dena 1% Lowfat Milk - 32 fl oz",
+      "price": "$1.96",
+      "unit_price": "6.1¢/fl oz"
+    },
+    {
+      "name": "Alta Dena 1% Milk with Vitamin A and D, Low Fat Milk Gallon - 1 Jug",
+      "price": "$4.76",
+      "unit_price": "3.7¢/fl oz"
+    },
+    {
+      "name": "Alta Dena 1% Milk with Vitamin A and D, Low Fat Milk Half Gallon - 1 Jug",
+      "price": "$3.12",
+      "unit_price": "4.9¢/fl oz"
+    },
+    {
+      "name": "Great Value 1% Low-fat Chocolate Milk, Half Gallon, 64 fl oz",
+      "price": "$2.29",
+      "unit_price": "3.6¢/fl oz"
+    },
+    {
+      "name": "Great Value Fat-Free Milk, Gallon, 128 fl oz",
+      "price": "$2.86",
+      "unit_price": "2.2¢/fl oz"
+    },
+    {
+      "name": "Great Value Lactose Free Skim Fat-Free Milk, Half Gallon, 64 fl oz",
+      "price": "$3.16",
+      "unit_price": "4.9¢/fl oz"
+    },
+    {
+      "name": "a2 Milk 2% Reduced Fat Milk, 59 oz",
+      "price": "$4.37",
+      "unit_price": "7.4¢/fl oz"
+    },
+    {
+      "name": "DairySky Nonfat Plain Dry Milk Powder, 26 oz (1.6 lb), Leche En Polvo Descremada, Grade a Skim Milk, Resealable Pouch, 1 pack",
+      "price": "$14.99",
+      "unit_price": "57.7¢/oz"
+    },
+    {
+      "name": "Healthier Comforts Lactose Free Skim Milk Powder 7oz | High Protein, Fat Free, Non-GMO, Kosher, Gluten Free, No Fillers | Baking, Coffee Creamer, Shakes",
+      "price": "$12.50",
+      "unit_price": null
+    },
+    {
+      "name": "Great Value Instant Nonfat Dry Milk, 64 oz Bag",
+      "price": "$20.66",
+      "unit_price": "32.3¢/oz"
+    },
+    {
+      "name": "DairySky Nonfat Dry Milk Powder, Original Flavor, Grade a Skim Milk, Resealable Pouch, 64 oz (1 pack) | Leche En Polvo Descremada",
+      "price": "$28.50",
+      "unit_price": "44.5¢/oz"
+    },
+    {
+      "name": "Healthier Comforts Lactose Free Skim Milk Powder 21oz | High Protein, Fat Free, Non-GMO, Kosher, Gluten Free, No Fillers | Baking, Coffee Creamer, Shakes",
+      "price": "$25.00",
+      "unit_price": null
+    },
+    {
+      "name": "DairySky Lactose Free Nonfat Dry Skim Milk Powder, 11 oz Tri Pack, Non-GMO Fat Free for Baking & Coffee, Kosher",
+      "price": "$33.45",
+      "unit_price": "$16.73/lb"
+    },
+    {
+      "name": "Califia Farms Organic Unsweetened Almond Milk 48 Fluid Ounces",
+      "price": "$5.93",
+      "unit_price": null
+    },
+    {
+      "name": "Pecana USDA Organic Pecana Unsweetened Pecan Milk 32 fl oz Carton",
+      "price": "$5.68",
+      "unit_price": "17.8¢/fl oz"
+    },
+    {
+      "name": "West Life Organic Original Unsweetened Soymilk Shelf-Stable 64 fl. oz. (Pack Count 1)",
+      "price": "$4.98",
+      "unit_price": "7.8¢/fl oz"
+    },
+    {
+      "name": "Horizon Organic Vitamin D Whole Milk, Vitamin D Whole, 64 fl oz Carton",
+      "price": "$5.96",
+      "unit_price": "9.3¢/fl oz"
+    },
+    {
+      "name": "Great Value Organic Reduced Fat 2% Milk, 1 Gallon, 128 fl oz",
+      "price": "$7.87",
+      "unit_price": "6.1¢/fl oz"
+    },
+    {
+      "name": "Horizon Organic Grassfed Whole Milk, Vitamin D Whole, 59 fl oz Carton",
+      "price": "$6.96",
+      "unit_price": "10.9¢/fl oz"
+    },
+    {
+      "name": "Horizon Organic Growing Years Organic Whole Milk, 59 fl oz Carton",
+      "price": "$6.96",
+      "unit_price": "11.8¢/fl oz"
+    },
+    {
+      "name": "Horizon Organic Shelf Stable Whole Milk Boxes, 8 fl oz, 12 Count",
+      "price": "$14.47",
+      "unit_price": "15.1¢/fl oz"
+    },
+    {
+      "name": "Planet Oat Oat Milk, Velvety & Smooth, Barista Lovers, 52 fl oz",
+      "price": "$3.38",
+      "unit_price": "6.5¢/fl oz"
+    },
+    {
+      "name": "Planet Oat Extra Creamy Original Oat Milk, 52 oz",
+      "price": "$3.38",
+      "unit_price": "6.5¢/fl oz"
+    },
+    {
+      "name": "Planet Oat, Original Oatmilk, Dairy Free, 52 oz, Refrigerated Cardboard Carton",
+      "price": "$3.38",
+      "unit_price": "6.5¢/fl oz"
+    },
+    {
+      "name": "Silk Dairy Free, Gluten Free Unsweet Soy Milk, Plant Based Milk Half Gallon, 64 fl oz",
+      "price": "$3.97",
+      "unit_price": "6.2¢/fl oz"
+    },
+    {
+      "name": "bettergoods Plant-Based Unsweetened Original Almond Milk, Half Gallon",
+      "price": "$2.34",
+      "unit_price": "3.7¢/fl oz"
+    },
+    {
+      "name": "bettergoods Plant-Based Vanilla Almond Milk, Half Gallon",
+      "price": "$2.34",
+      "unit_price": "3.7¢/fl oz"
+    },
+    {
+      "name": "So Delicious Dairy Free Shelf Stable Vegan and Gluten Free Unsweetened Organic Coconut Milk Carton, 32 fl oz",
+      "price": "$2.82",
+      "unit_price": "8.8¢/fl oz"
+    },
+    {
+      "name": "Thai Kitchen Unsweetened Coconut Milk, 13.66 fl oz Can",
+      "price": "$3.97",
+      "unit_price": "29.0¢/fl oz"
+    },
+    {
+      "name": "Almond Breeze Reduced Sugar Vanilla Almond Milk, 64 oz",
+      "price": null,
+      "unit_price": null
+    },
+    {
+      "name": "Almond Breeze Original Almond Milk, 96 oz",
+      "price": "$4.68",
+      "unit_price": null
+    },
+    {
+      "name": "Almond Breeze Unsweetened Original Almond Milk, 64 oz",
+      "price": "$3.84",
+      "unit_price": null
+    },
+    {
+      "name": "Almond Breeze Unsweetened Vanilla Almond Milk Refrigerated, 64 oz",
+      "price": "$3.84",
+      "unit_price": null
+    },
+    {
+      "name": "Almond Breeze Vanilla Almond Milk, 96 oz",
+      "price": "$4.68",
+      "unit_price": "4.9¢/fl oz"
+    },
+    {
+      "name": "Almond Breeze Unsweetened Original Almond Milk, 96 oz",
+      "price": "$4.68",
+      "unit_price": "4.9¢/fl oz"
+    },
+    {
+      "name": "Almond Breeze Vanilla Almond Milk, 64 oz",
+      "price": "$3.84",
+      "unit_price": "6.0¢/fl oz"
+    },
+    {
+      "name": "Almond Breeze Unsweetened Vanilla Almond Milk Refrigerated, 64 oz",
+      "price": "$3.84",
+      "unit_price": "6.0¢/fl oz"
+    },
+    {
+      "name": "Silk Dairy Free, Gluten Free Vanilla Almond Milk, Plant Based Milk Half Gallon, 64 fl oz",
+      "price": "$3.47",
+      "unit_price": "5.4¢/fl oz"
+    },
+    {
+      "name": "Oatly Original Oatmilk, Dairy-Free Milk, 64 fl oz Refrigerated Carton",
+      "price": "$5.27",
+      "unit_price": "8.2¢/fl oz"
+    },
+    {
+      "name": "bettergoods Plant-Based Extra Creamy Oat Milk, 59 fl oz",
+      "price": "$3.83",
+      "unit_price": "6.5¢/fl oz"
+    },
+    {
+      "name": "Califia Farms Extra Creamy Oat Milk 48 Fluid Ounces",
+      "price": "$3.97",
+      "unit_price": "8.3¢/fl oz"
+    },
+    {
+      "name": "Chobani Oatmilk Extra Creamy 52 fl oz Carton",
+      "price": "$4.17",
+      "unit_price": "8.0¢/fl oz"
+    }
+  ]
+}

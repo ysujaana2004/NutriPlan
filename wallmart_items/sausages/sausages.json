@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "name": "Evergood Hot Link Sausage, 4 Count, 12 oz",
+      "price": "$6.22",
+      "unit_price": "51.8¢/oz"
+    },
+    {
+      "name": "Johnsonville Original Breakfast Sausage, 8 Patties, 12 oz (Fresh)",
+      "price": "$3.97",
+      "unit_price": "$5.29/lb"
+    },
+    {
+      "name": "Wright Brand Real Wood Smoked White Cheddar & Bacon Smoked Sausage, 12 oz, 4 Count (Refrigerated)",
+      "price": "$5.67",
+      "unit_price": "47.3¢/oz"
+    },
+    {
+      "name": "Johnsonville Smoked Beef Rope Sausage 12oz Package",
+      "price": "$3.96",
+      "unit_price": "33.0¢/oz"
+    },
+    {
+      "name": "Johnsonville Beddar With Cheddar Smoked Sausage, 6 Links, 14 oz",
+      "price": "$4.46",
+      "unit_price": "31.9¢/oz"
+    },
+    {
+      "name": "Johnsonville Jalapeno & Cheddar Smoked Sausage, 6 Links, 14 oz",
+      "price": "$4.46",
+      "unit_price": "$5.07/lb"
+    },
+    {
+      "name": "Great Value Uncooked Original Breakfast Pork Sausage Links, 12 oz Package",
+      "price": "$2.52",
+      "unit_price": "21.0¢/oz"
+    },
+    {
+      "name": "Farmer John Classic Pork Breakfast Sausage Links, 8 Count, 8 oz",
+      "price": "$2.28",
+      "unit_price": "28.5¢/oz"
+    },
+    {
+      "name": "Great Value Original Premium Sausage Roll, 16 oz, Plastic Wrapped (Refrigerated)",
+      "price": "$3.12",
+      "unit_price": "19.5¢/oz"
+    }
+  ]
+}

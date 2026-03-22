@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "name": "Nellie's Free-Range Large Brown Eggs, 12 Count",
+      "price": "$4.96",
+      "unit_price": "20.7¢/oz"
+    },
+    {
+      "name": "Vital Farms Pasture Raised Grade A Brown Eggs, Large, 12 Ct",
+      "price": "$7.46",
+      "unit_price": "62.2¢/ea"
+    },
+    {
+      "name": "Happy Egg Co. Organic Free-Range Large Brown Eggs, 12 Count (Dozen)",
+      "price": "$5.96",
+      "unit_price": "49.7¢/count"
+    },
+    {
+      "name": "Judee's Gluten Free Dried Whole Egg Powder - Versatile Baking with Egg Powder - Camping & Backpacking with Protein Mix - Long-Term Storage Ready Blend - 11 Oz",
+      "price": "$23.99",
+      "unit_price": null
+    },
+    {
+      "name": "Great Value Large White Eggs, 18 Count",
+      "price": "$2.47",
+      "unit_price": "6.9¢/oz"
+    },
+    {
+      "name": "Great Value Large White Eggs, 12 Count",
+      "price": "$1.67",
+      "unit_price": "7.0¢/oz"
+    },
+    {
+      "name": "Great Value Large White Eggs, 36 Count",
+      "price": "$4.92",
+      "unit_price": "6.8¢/oz"
+    },
+    {
+      "name": "cascarilla_100 pack cascarilla eggshell powder 100 cascarillas efun",
+      "price": "$25.98",
+      "unit_price": null
+    },
+    {
+      "name": "Great Value Large White Eggs, 60 Count",
+      "price": "$8.12",
+      "unit_price": "6.8¢/oz"
+    },
+    {
+      "name": "Judee's Scrambled Egg Mix 11oz - Pasteurized, 100% Non-GMO, Gluten Free & Nut Free - Baking & Homemade Scrambled Eggs - Made with Real Eggs & Real Dairy - Great for Travel",
+      "price": "$21.49",
+      "unit_price": null
+    },
+    {
+      "name": "Judee's Dried Whole Egg Powder 1.5 lbs - Baking Supplies - Delicious & 100% Gluten Free - Great for Breakfast, Baking & Camping Meals - Simplifies Outdoor Cooking Prep",
+      "price": "$52.49",
+      "unit_price": null
+    },
+    {
+      "name": "Augason Farms Dried Whole Powdered Eggs, 2 lbs 1 oz Can, 85 Servings, Pasteurized, Contains Eggs, Emergency Food Storage",
+      "price": "$64.66",
+      "unit_price": "$2.59/oz"
+    },
+    {
+      "name": "Eggylicious Egg Scramble Mix – Made with Hormones-Free Whole Eggs/Protein Packed – Easy & Delicious Breakfast - Ideal for Outdoors/Camping/Backpacking – No Preservatives – Easy to Store 1 lb Jar",
+      "price": "$27.99",
+      "unit_price": "$27.99/lb"
+    },
+    {
+      "name": "Augason Farms Scrambled Egg Mix 36 oz (Packaging May Vary) (Pack of 60)",
+      "price": "$3,052.63",
+      "unit_price": null
+    },
+    {
+      "name": "Eggshell + Membrane Powder, 16 oz – Premium Powdered Egg Shell with Eggshell Membranes",
+      "price": "$45.97",
+      "unit_price": null
+    },
+    {
+      "name": "Nordic Ware Microwave Egg Bites Pan Yellow, 8.75 x 8.75 x 4.5",
+      "price": "$6.97",
+      "unit_price": "$6.97/count"
+    }
+  ]
+}
