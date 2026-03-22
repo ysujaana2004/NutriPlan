@@ -101,6 +101,19 @@ def demo_meal_plan(
     )
 
 
+# added this for location (March 20th )
+
+@app.get("/stores/nearby")
+async def nearby_stores(
+    zip_code: str = Query(..., description="ZIP Code to search near"),
+    store_name: str = Query("Target", description="Store name, e.g., 'Target' or 'Walmart'")
+) -> dict:
+    """Find nearby Target or Walmart stores using the Google Places API."""
+    from .location_service import find_nearby_stores
+    stores = await find_nearby_stores(zip_code, store_name)
+    return {"store_name": store_name, "zip_code": zip_code, "results": stores}
+
+
 @app.get("/health")
 def health() -> dict:
     """Simple health check endpoint."""
