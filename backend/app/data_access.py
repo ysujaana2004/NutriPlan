@@ -31,6 +31,7 @@ from .matching import map_text_to_canonical_id, normalize_match_text, parse_pric
 
 RECIPES_NUTRITION_PATH = Path(__file__).resolve().parent.parent / "data" / "recipes-nutrition.json"
 RECIPES_RANDOM_FULL_PATH = Path(__file__).resolve().parent.parent / "data" / "recipes-random-full.json"
+WALLMART_PRODUCTS_FLAT_PATH = Path(__file__).resolve().parent.parent / "data" /"wallmart_products_flat.json"
 TARGET_PRODUCTS_FLAT_PATH = Path(__file__).resolve().parent.parent / "data" / "target_products_flat.json"
 RECIPES_WITH_CANONICAL_PATH = Path(__file__).resolve().parent.parent / "data" / "recipes-with-canonical.json"
 CANONICAL_INGREDIENTS_PATH = Path(__file__).resolve().parent.parent / "data" / "canonical_ingredients.json"
@@ -293,6 +294,50 @@ def load_cheapest_target_by_canonical_id() -> dict[str, CanonicalProductChoice]:
             cheapest[canonical_id] = candidate
 
     return cheapest
+
+
+####### Wallmart 
+@lru_cache(maxsize=1)
+def load_cheapest_walmart_by_canonical_id() -> dict[str, CanonicalProductChoice]:
+    """Build lookup: canonical ingredient id -> cheapest matched Target product."""
+
+    if not WALLMART_PRODUCTS_FLAT_PATH.exists():
+        return {}
+
+    phrase_index = load_canonical_phrase_index()
+    if not phrase_index:
+        return {}
+
+    try:
+        products = json.loads(WALLMART_PRODUCTS_FLAT_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+    cheapest: dict[str, CanonicalProductChoice] = {}
+    for product in products:
+        product_name = str(product.get("name", "")).strip()
+        canonical_id = map_text_to_canonical_id(product_name, phrase_index)
+        if not canonical_id:
+            continue
+
+        price_usd = parse_price_to_usd(product.get("price"))
+        if price_usd is None:
+            continue
+
+        candidate = CanonicalProductChoice(
+            canonical_id=canonical_id,
+            product_name=product_name,
+            price_usd=price_usd,
+            category=str(product.get("category", "")),
+        )
+        existing = cheapest.get(canonical_id)
+        if existing is None or candidate.price_usd < existing.price_usd:
+            cheapest[canonical_id] = candidate
+
+    return cheapest
+
+
+##### added on March 22nd 
 
 
 @lru_cache(maxsize=1)

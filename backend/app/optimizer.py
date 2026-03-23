@@ -31,10 +31,11 @@ from fastapi import HTTPException
 from .data_access import (
     RealRecipe,
     load_canonical_name_by_id,
-    load_cheapest_target_by_canonical_id,
+   # load_cheapest_target_by_canonical_id,
     load_real_recipes,
     load_recipe_coverage_by_id,
 )
+from .pricing_service import get_store_pricing
 from .planner_utils import compute_day_totals, default_daily_macro_targets, parse_start_date, stable_int_seed
 from .schemas import (
     DayPlan,
@@ -376,11 +377,13 @@ def canonical_display_name(canonical_id: str, canonical_name_by_id: dict[str, st
 def build_shopping_list_summary(
     selected_recipe_ids: list[str],
     recipe_name_by_id: dict[str, str],
+    store_name: str,
 ) -> ShoppingListSummary:
     """Aggregate shopping list items from selected recipe IDs."""
 
     coverage_by_id = load_recipe_coverage_by_id()
-    cheapest_lookup = load_cheapest_target_by_canonical_id()
+    cheapest_lookup = get_store_pricing(store_name)
+    #cheapest_lookup = load_cheapest_target_by_canonical_id()
     canonical_name_by_id = load_canonical_name_by_id()
 
     covered_units: dict[str, int] = {}
@@ -444,6 +447,7 @@ def build_shopping_list_summary(
 
 
 def build_optimized_weekly_plan(
+    store_name: str,  #Addec store name param
     budget: float,
     calories: int,
     diet: Diet,
@@ -569,8 +573,8 @@ def build_optimized_weekly_plan(
         fat_g=sum(day.totals.fat_g for day in days),
     )
     week_total_cost = round(sum(day.total_cost_usd for day in days), 2)
-    shopping_list = build_shopping_list_summary(selected_recipe_ids, recipe_name_by_id)
-
+    shopping_list = build_shopping_list_summary(selected_recipe_ids, recipe_name_by_id, store_name)
+   #shopping_list = build_shopping_list_summary(selected_recipe_ids, recipe_name_by_id)
     return WeeklyPlan(
         inputs={
             "budget": budget,
@@ -578,11 +582,13 @@ def build_optimized_weekly_plan(
             "diet": diet,
             "start_date": start_date,
             "optimizer": "nutrition_v1",
-            "target_lookup_size": len(load_cheapest_target_by_canonical_id()),
+            "target_lookup_size": len(get_store_pricing(store_name)),
             "recipe_coverage_rows": len(load_recipe_coverage_by_id()),
             "protein_target_g": round(daily_protein_target, 2),
+            # "target_lookup_size": len(load_cheapest_target_by_canonical_id()),
             "carbs_target_g": round(daily_carbs_target, 2),
             "fat_target_g": round(daily_fat_target, 2),
+
         },
         days=days,
         week_totals=week_totals,

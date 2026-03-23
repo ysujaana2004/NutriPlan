@@ -5,11 +5,17 @@ from __future__ import annotations
 import json
 import tempfile
 import unittest
+import asyncio
 from pathlib import Path
 
-from backend.app import data_access
-from backend.app import main as api_main
-from backend.app.matching import parse_price_to_usd
+#from backend.app import data_access
+#from backend.app import main as api_main
+#from backend.app.matching import parse_price_to_usd
+
+
+from app import data_access
+from app import main as api_main
+from app.matching import parse_price_to_usd
 
 
 def _write_json(path: Path, payload: object) -> None:
@@ -253,15 +259,17 @@ class TestTargetIntegration(unittest.TestCase):
 
     def test_optimizer_uses_enriched_recipes_and_returns_non_zero_costs(self) -> None:
         """Optimizer output should include non-zero meal costs from Target integration."""
-        plan = api_main.optimized_meal_plan(
+        plan = asyncio.run(api_main.optimized_meal_plan(
             budget=90,
             calories=2200,
             diet="none",
             start_date="2026-03-07",
+            zip_code=None,
+            store_preference="Target",
             protein_target_g=None,
             carbs_target_g=None,
             fat_target_g=None,
-        )
+        ))
 
         self.assertEqual(len(plan.days), 7)
         self.assertEqual(plan.inputs["target_lookup_size"], 4)
@@ -276,15 +284,17 @@ class TestTargetIntegration(unittest.TestCase):
 
     def test_optimizer_prefers_breakfast_dish_types_for_breakfast_slot(self) -> None:
         """Breakfast slot should favor recipes tagged as breakfast/morning meal."""
-        plan = api_main.optimized_meal_plan(
+        plan = asyncio.run(api_main.optimized_meal_plan(
             budget=90,
             calories=2200,
             diet="none",
             start_date="2026-03-07",
+            zip_code=None,
+            store_preference="Target",
             protein_target_g=None,
             carbs_target_g=None,
             fat_target_g=None,
-        )
+        ))
 
         breakfast_names = [meal.name for day in plan.days for meal in day.meals if meal.meal_type == "breakfast"]
         self.assertEqual(len(breakfast_names), 7)

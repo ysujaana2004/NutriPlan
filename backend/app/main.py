@@ -50,11 +50,14 @@ app.add_middleware(
 
 
 @app.get("/optimize/meal-plan", response_model=WeeklyPlan)
-def optimized_meal_plan(
+#def optimized_meal_plan(
+async def optimized_meal_plan(
     budget: float = Query(..., gt=0, description="Weekly budget in USD."),
     calories: int = Query(..., gt=0, description="Target calories per day."),
     diet: Diet = Query("none", description="Diet preference."),
     start_date: Optional[str] = Query(None, description="Optional YYYY-MM-DD start date."),
+    zip_code: Optional[str] = Query(None, description="Optional ZIP code to find local stores."),
+    store_preference: str = Query("Target", description="Preferred store (Target or Walmart)"),
     protein_target_g: Optional[float] = Query(
         None,
         gt=0,
@@ -73,7 +76,16 @@ def optimized_meal_plan(
 ) -> WeeklyPlan:
     """Return nutrition-first weekly plan enriched with Target coverage/cost metadata."""
 
+    store_name = store_preference
+    if zip_code:
+        from .location_service import find_nearby_stores
+        # If the preferred store isn't nearby, blindly fallback to the other
+        stores = await find_nearby_stores(zip_code, store_preference)
+        if not stores:
+            store_name = "Walmart" if store_preference.lower() == "target" else "Target"
+
     return build_optimized_weekly_plan(
+        store_name=store_name,
         budget=budget,
         calories=calories,
         diet=diet,
