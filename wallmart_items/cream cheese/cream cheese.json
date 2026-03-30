@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "name": "Galbani Whole Milk Ricotta Cheese, 15 oz (Refrigerated)",
+      "price": "$3.62",
+      "unit_price": null
+    },
+    {
+      "name": "Galbani Whole Milk Ricotta Cheese, 32 oz (Refrigerated)",
+      "price": "$5.78",
+      "unit_price": null
+    },
+    {
+      "name": "Galbani Part Skim Ricotta Cheese, 32 oz (Refrigerated)",
+      "price": "$5.78",
+      "unit_price": null
+    },
+    {
+      "name": "Tropical Queso Criollo Creamy Cheese, 12 oz, Fresh White Cheese, Vacuum Packed Film",
+      "price": "$5.58",
+      "unit_price": "46.5¢/oz"
+    },
+    {
+      "name": "Great Value Cream Cheese Brick, 8 oz Block, 2 Pack",
+      "price": "$2.97",
+      "unit_price": "18.6¢/oz"
+    },
+    {
+      "name": "Great Value Original Whipped Cream Cheese Spread, 12 oz Tub",
+      "price": "$2.92",
+      "unit_price": "24.3¢/oz"
+    },
+    {
+      "name": "Great Value Cream Cheese Brick, 8 oz Block",
+      "price": "$1.56",
+      "unit_price": "19.5¢/oz"
+    },
+    {
+      "name": "Jif To Go Peanut Butter & Chocolate Flavored Spread, 8 Single-Serve Cups, 1.1 Oz. Each",
+      "price": "$12.00",
+      "unit_price": "$1.36/oz"
+    },
+    {
+      "name": "Philadelphia Cream Cheese, 2 Blocks, for Recipes and Baking, Original, No Artificial Preservatives, Flavors or Dye, 8 oz",
+      "price": "$4.86",
+      "unit_price": "30.4¢/oz"
+    },
+    {
+      "name": "Great Value Cream Cheese Spread, 8 oz Tub",
+      "price": "$1.84",
+      "unit_price": "23.0¢/oz"
+    },
+    {
+      "name": "Philadelphia Whipped Flavored Cream Cheese Spread, 1 Tub, for Smooth, Spreadable Mornings, Chive, No Artificial Preservatives, Flavors or Dyes, 7.5 oz",
+      "price": "$3.97",
+      "unit_price": "52.9¢/oz"
+    },
+    {
+      "name": "Great Value Strawberry Cream Cheese Spread, 8 oz Tub",
+      "price": "$1.84",
+      "unit_price": "23.0¢/oz"
+    }
+  ]
+}

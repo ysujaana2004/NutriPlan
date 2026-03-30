@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "name": "Marketside Black Forest Seasoned Thick Cut Bacon, 12oz",
+      "price": "$4.44",
+      "unit_price": "37.0¢/oz"
+    },
+    {
+      "name": "Marketside Black Pepper Seasoned Thick Cut Bacon, 12oz",
+      "price": "$4.44",
+      "unit_price": "37.0¢/oz"
+    },
+    {
+      "name": "Marketside Uncured Thick Cut Bacon, 12oz",
+      "price": "$4.44",
+      "unit_price": "37.0¢/oz"
+    },
+    {
+      "name": "HORMEL BLACK LABEL Bacon, Gluten Free, Fully Cooked, Shelf Stable, 2.52 oz Plastic Package",
+      "price": "$4.48",
+      "unit_price": "$1.79/oz"
+    },
+    {
+      "name": "HORMEL BLACK LABEL Microwave Bacon, Gluten Free, Refrigerated, 12 oz Cardboard Box",
+      "price": "$7.97",
+      "unit_price": "66.4¢/oz"
+    },
+    {
+      "name": "Applegate Naturals, No Sugar Uncured Bacon, No Gluten 70 Cal 6g Protein, 8oz Packet (Refrigerated), No Allergens, Nitrate and Nitrite Free, No fillers, No GMO Ingredients",
+      "price": "$6.68",
+      "unit_price": "83.5¢/oz"
+    },
+    {
+      "name": "Hormel Black Label Thick Cut Bacon with Frank's RedHot Seasoning, Gluten Free, 12 oz",
+      "price": "$6.97",
+      "unit_price": "58.1¢/oz"
+    },
+    {
+      "name": "Great Value Naturally Hickory Smoked Sliced Bacon, 12 oz",
+      "price": "$3.94",
+      "unit_price": "32.8¢/oz"
+    },
+    {
+      "name": "Great Value Naturally Hickory Smoked Thick Cut Sliced Bacon, 16 oz",
+      "price": "$4.18",
+      "unit_price": "26.1¢/oz"
+    }
+  ]
+}

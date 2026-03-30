@@ -1,0 +1,119 @@
+{
+  "products": [
+    {
+      "name": "QUAKER INSTANT OATMEAL, FRUIT & CREAM VARIETY, 8CT",
+      "price": "$2.97",
+      "unit_price": "35.4¢/OZ"
+    },
+    {
+      "name": "QUAKER INSTANT OATMEAL, VARIETY, 12.1 OZ, 8 COUNT",
+      "price": "$2.97",
+      "unit_price": "24.5¢/OZ"
+    },
+    {
+      "name": "QUAKER INSTANT OATMEAL, MAPLE BROWN SUGAR, 12.1 OZ, 8 PACKETS",
+      "price": "$2.97",
+      "unit_price": null
+    },
+    {
+      "name": "QUAKER INSTANT OATMEAL, MAPLE & BROWN SUGAR, 1.19 OZ, 8 COUNT BOX",
+      "price": "$2.97",
+      "unit_price": null
+    },
+    {
+      "name": "BOB’S RED MILL PROTEIN OATS 16 OZ",
+      "price": "$4.92",
+      "unit_price": "30.8¢/OZ"
+    },
+    {
+      "name": "BOB'S RED MILL NON-GMO ORGANIC OLD FASHIONED ROLLED OATS 32 OZ BAG",
+      "price": "$6.28",
+      "unit_price": "19.6¢/OZ"
+    },
+    {
+      "name": "BOB'S RED MILL BLUEBERRIES & CREAM OVERNIGHT INSTANT PROTEIN OATS, 8.47 OZ (4 COUNT)",
+      "price": "$5.47",
+      "unit_price": "64.6¢/OZ"
+    },
+    {
+      "name": "BOB'S RED MILL GLUTEN FREE NON-GMO OLD FASHIONED ROLLED OATS, 32 OZ BAG SHELF-STABLE READY-TO-COOK",
+      "price": "$6.99",
+      "unit_price": "21.8¢/OZ"
+    },
+    {
+      "name": "QUAKER, QUICK 1 MINUTE OATS, OATMEAL, QUICK COOK OATMEAL, 42 OZ CANISTER DRY OATS",
+      "price": "$5.38",
+      "unit_price": "12.8¢/OZ"
+    },
+    {
+      "name": "GREAT VALUE MAPLE & BROWN SUGAR INSTANT OATMEAL, 1.51 OZ, 20 COUNT",
+      "price": "$3.92",
+      "unit_price": "12.9¢/OZ"
+    },
+    {
+      "name": "QUAKER ORIGINAL QUICK 5-MINUTE GRITS, SHELF-STABLE, 24 OZ CANISTER",
+      "price": "$3.33",
+      "unit_price": "13.9¢/OZ"
+    },
+    {
+      "name": "GREAT VALUE FRUIT & CREAM INSTANT OATMEAL VARIETY PACK, 1.05 OZ, 20 COUNT",
+      "price": "$3.92",
+      "unit_price": "18.6¢/OZ"
+    },
+    {
+      "name": "CREAM OF WHEAT 2.5 MINUTE HOT CEREAL, ORIGINAL FLAVOR, KOSHER, SHELF-STABLE, 28 OZ BOX",
+      "price": "$4.61",
+      "unit_price": "16.5¢/OZ"
+    },
+    {
+      "name": "PURELY ELIZABETH SUPERFOOD OATMEAL, BLUEBERRY FLAX, GLUTEN-FREE, 1.52 OZ, 6 PACKETS",
+      "price": "$5.42",
+      "unit_price": "59.6¢/OZ"
+    },
+    {
+      "name": "QUAKER, QUICK 5-MINUTE GRITS, 80 OZ BOX",
+      "price": "$4.67",
+      "unit_price": "5.8¢/OZ"
+    },
+    {
+      "name": "QUAKER INSTANT GRITS, REGULAR, 0.98OZ PACKETS, 10 PACK, DRY UNCOOKED GRITS, SHELF STABLE",
+      "price": "$3.52",
+      "unit_price": "35.9¢/OZ"
+    },
+    {
+      "name": "QUAKER HONEY & ALMOND FLAVORED INSTANT OATMEAL, 1.76 OZ",
+      "price": "$1.00",
+      "unit_price": "55.6¢/OZ"
+    },
+    {
+      "name": "QUAKER, PROTEIN INSTANT OATMEAL, MAPLE & BROWN SUGAR, 2.11 OZ, 6 PACKETS",
+      "price": "$4.48",
+      "unit_price": "35.6¢/OZ"
+    },
+    {
+      "name": "KODIAK PROTEIN-PACKED COOKIE BUTTER OVERNIGHT OATS, 2.47 OZ",
+      "price": "$3.42",
+      "unit_price": "$1.39/OZ"
+    },
+    {
+      "name": "QUAKER IMMUNITY INSTANT OATMEAL, STRAWBERRY PEACH, GOOD SOURCE OF VITAMINS C, D, & ZINC, WHOLE GRAINS, 1.41 OZ PACKETS, (6 PACK)",
+      "price": "$4.84",
+      "unit_price": "57.6¢/OZ"
+    },
+    {
+      "name": "CREAM OF WHEAT 1 MINUTE HOT CEREAL, ORIGINAL FLAVOR, KOSHER, SHELF-STABLE, 28 OZ",
+      "price": "$4.82",
+      "unit_price": "17.2¢/OZ"
+    },
+    {
+      "name": "KODIAK PROTEIN-PACKED MAPLE BROWN SUGAR INSTANT OATMEAL PACKETS, 1.76 OZ (6 COUNT)",
+      "price": "$5.28",
+      "unit_price": "49.8¢/OZ"
+    },
+    {
+      "name": "QUAKER INSTANT OATMEAL, FRUIT & CREAM, 4 FLAVOR VARIETY PACK, 44 PACKETS",
+      "price": "$13.72",
+      "unit_price": "50.2¢/EA"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "name": "Butterball Premium Fresh All Natural Young Turkey - 16-24 lbs - price per lb",
+      "price": "$47.76 max price",
+      "unit_price": "$1.99/lb"
+    },
+    {
+      "name": "Cook-in-Bag Homestyle Turkey - Frozen - 12lbs - Serves 8 - Good & Gather\u2122",
+      "price": "$19.99",
+      "unit_price": "$0.10/ounce"
+    },
+    {
+      "name": "Butterball Premium Fresh All Natural Young Turkey - 10-16 lbs - price per lb",
+      "price": "$31.84 max price",
+      "unit_price": "$1.99/lb"
+    },
+    {
+      "name": "Jennie-O All-Natural 93/7 Ground Turkey - 16oz",
+      "price": "$5.49",
+      "unit_price": "$0.34/ounce"
+    },
+    {
+      "name": "Premium Basted Young Turkey - Frozen - 10-16lbs - price per lb - Serves 7-11 - Good & Gather\u2122",
+      "price": "$12.64",
+      "unit_price": "$0.79/lb"
+    },
+    {
+      "name": "Butterball Premium All Natural Young Turkey - Frozen - 20-24 lbs - price per lb - Serves 13-16",
+      "price": "$23.76",
+      "unit_price": "$0.99/lb"
+    },
+    {
+      "name": "Butterball Premium All Natural Young Turkey - Frozen - 10-16lbs - price per lb - Serves 7-11",
+      "price": "$15.84",
+      "unit_price": "$0.99/lb"
+    },
+    {
+      "name": "Cook-in-Bag Homestyle Boneless Turkey Breast - Frozen - 2.5lbs - Serves 5 - Good & Gather\u2122",
+      "price": "$14.99",
+      "unit_price": "$0.37/ounce"
+    },
+    {
+      "name": "93/7 All Natural Ground Turkey - 16oz - Good & Gather\u2122",
+      "price": "$4.89",
+      "unit_price": "$0.31/ounce"
+    },
+    {
+      "name": "USDA All Natural Homestyle Turkey Meatballs - Frozen - 20oz - Good & Gather\u2122",
+      "price": "$7.49",
+      "unit_price": "$0.37/ounce"
+    },
+    {
+      "name": "93/7 No Antibiotics Ever All Natural Ground Turkey - 16oz - Good & Gather\u2122",
+      "price": "$4.79",
+      "unit_price": "$0.30/ounce"
+    },
+    {
+      "name": "Premium Basted Turkey Breast - Frozen - 5-9lbs - price per lb - Serves 5-12 - Good & Gather\u2122",
+      "price": "$17.91 max price",
+      "unit_price": "$1.99/lb"
+    },
+    {
+      "name": "Jennie-O All-Natural 99/1 Ground Turkey Breast - 16oz",
+      "price": "$7.49",
+      "unit_price": "$0.47/ounce"
+    },
+    {
+      "name": "Jennie-O 90/10 Ground Turkey Roll - 16oz",
+      "price": "$4.99",
+      "unit_price": "$0.31/ounce"
+    },
+    {
+      "name": "99/1 All Natural Ground Turkey - 16oz - Good & Gather\u2122",
+      "price": "$5.99",
+      "unit_price": "$0.37/ounce"
+    },
+    {
+      "name": "Jennie-O 93/7 Lean Ground Turkey Family Pack - 48oz",
+      "price": "$14.59",
+      "unit_price": "$0.30/ounce"
+    },
+    {
+      "name": "99/1 No Antibiotics Ever All Natural Ground Turkey - 16oz - Good & Gather\u2122",
+      "price": "$6.29",
+      "unit_price": "$0.39/ounce"
+    },
+    {
+      "name": "All Natural Turkey Burger Patties - Frozen - 32oz/6ct - Good & Gather\u2122",
+      "price": "$9.39",
+      "unit_price": "$0.29/ounce"
+    },
+    {
+      "name": "Butterball Seasoned Turkey Burger Patties - Frozen - 32oz/6ct",
+      "price": "$10.79",
+      "unit_price": "$1.80/count"
+    },
+    {
+      "name": "Mighty Spark Queso Fresco & Jalapeno Turkey Burger Patties - 8oz/2ct",
+      "price": "$6.49",
+      "unit_price": "$0.81/ounce"
+    },
+    {
+      "name": "Premium Fresh Basted Young Turkey - 10-16lbs - priced per lb - Good & Gather\u2122",
+      "price": "$28.64 max price",
+      "unit_price": "$1.79/lb"
+    }
+  ]
+}

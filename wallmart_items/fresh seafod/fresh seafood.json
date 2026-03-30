@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "name": "Marketside Skinless Atlantic Salmon Fillet, Fresh Never Frozen, 0.95 - 1.2 lb",
+      "price": "$10.19",
+      "unit_price": "$10.73/lb"
+    },
+    {
+      "name": "Marketside Skin-On Atlantic Salmon Fillets, 0.70 - 1.25 lb",
+      "price": "$8.61",
+      "unit_price": "$9.57/lb"
+    },
+    {
+      "name": "Marketside Skin-On Atlantic Salmon Fillet, 2.0-3.0 lb",
+      "price": "$19.82",
+      "unit_price": "$8.26/lb"
+    },
+    {
+      "name": "Marketside Farm Raised Skinless Tilapia Fillets, Fresh Never Frozen, 0.8 - 1.25 lb",
+      "price": "$7.05",
+      "unit_price": "$7.27/lb"
+    },
+    {
+      "name": "Wild Caught Alaska Sockeye Whole Salmon Portions, 0.7 - 0.85 lb. MSC Certified. 25g Protein per 4 oz. (112 g) Serving.",
+      "price": "$12.33",
+      "unit_price": "$14.17/lb"
+    },
+    {
+      "name": "Marketside Skinless Wild Caught Cod Fillet, 0.70 - 1.4 lb",
+      "price": "$11.77",
+      "unit_price": "$12.26/lb"
+    }
+  ]
+}

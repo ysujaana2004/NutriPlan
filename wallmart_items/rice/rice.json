@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "name": "Golden Star Organic Jasmine Brown Rice, Ready to Heat Microwaveable Pouch, 8.5 oz",
+      "price": "$1.88",
+      "unit_price": null
+    },
+    {
+      "name": "Golden Star Ready-to-Heat Organic Thai Hom Mali Jasmine Rice, 8.5 oz",
+      "price": "$1.88",
+      "unit_price": null
+    },
+    {
+      "name": "VEETEE, Gluten Free, Sticky Rice, 10.6 oz, Tray, NO Artificial Flavors, Color and Preservatives",
+      "price": "$2.72",
+      "unit_price": "25.7¢/oz"
+    },
+    {
+      "name": "BEN'S ORIGINAL™ Jasmine Rice Single Serve Cup, Snack or Side, Microwave in 3.5 Minutes, 2.4 oz",
+      "price": "$1.73",
+      "unit_price": "78.6¢/oz"
+    },
+    {
+      "name": "Veetee- Thai Jasmine Rice - 10.6oz Microwave Ready, Natural, No Artificial Ingredients, Gluten-Free",
+      "price": "$2.72",
+      "unit_price": "25.7¢/oz"
+    },
+    {
+      "name": "VeeTee-Heat and Eat Basmati Rice – 9.9 oz, Free from Artificial Ingredients.",
+      "price": "$2.72",
+      "unit_price": "27.5¢/oz"
+    },
+    {
+      "name": "Great Value Long Grain Enriched Rice, 5 lbs",
+      "price": "$3.37",
+      "unit_price": "4.2¢/oz"
+    },
+    {
+      "name": "Great Value Long Grain Enriched Rice, 32 oz",
+      "price": "$1.77",
+      "unit_price": "5.5¢/oz"
+    },
+    {
+      "name": "Great Value Long Grain Enriched Rice, 16 oz",
+      "price": "$0.92",
+      "unit_price": "5.8¢/oz"
+    },
+    {
+      "name": "Knorr No Artificial Flavors Cheddar Broccoli Parboiled Instant Rice, 5.7 oz Regular Pouch",
+      "price": "$1.24",
+      "unit_price": "21.8¢/oz"
+    },
+    {
+      "name": "Great Value Jasmine Rice, 5 lb",
+      "price": "$6.92",
+      "unit_price": "8.7¢/oz"
+    },
+    {
+      "name": "Blue Elephant Royal Thai Cuisine, Thai Hom Mali, Jasmine Rice, 500g 6Pack Bags",
+      "price": "$13.88",
+      "unit_price": null
+    },
+    {
+      "name": "Vigo Yellow Rice, 10 oz Bag",
+      "price": "$2.49",
+      "unit_price": "24.9¢/oz"
+    },
+    {
+      "name": "Ben's Original Ready Rice Basmati Rice, Easy Side Dish, 8.5 Ounce Pouch",
+      "price": "$2.24",
+      "unit_price": "26.4¢/oz"
+    },
+    {
+      "name": "Nishiki Medium Grain Rice, 5 lb Bag Kosher Certified",
+      "price": "$9.97",
+      "unit_price": "12.5¢/oz"
+    },
+    {
+      "name": "Great Value Basmati Rice, 2 lb",
+      "price": "$3.97",
+      "unit_price": "12.4¢/oz"
+    },
+    {
+      "name": "Ben's Original Butter and Garlic Flavored Ready Rice, Easy Dinner Side, 8.8 Ounce Pouch",
+      "price": "$2.24",
+      "unit_price": "25.5¢/oz"
+    },
+    {
+      "name": "Iberia Yellow Rice 3.4 lb",
+      "price": null,
+      "unit_price": null
+    },
+    {
+      "name": "Iberia Jasmine Long Grain Fragrant Rice, 18 lb",
+      "price": null,
+      "unit_price": null
+    },
+    {
+      "name": "Minute RTS Butter & Sea Salt, Gluten Free, 8.8 oz, 2 Cups",
+      "price": "$1.96",
+      "unit_price": "49.0¢/oz"
+    },
+    {
+      "name": "Carolina Jasmine White Rice, Thai Fragrant Long Grain Rice, Gluten Free, 5 lb Bag",
+      "price": "$6.20",
+      "unit_price": "7.8¢/oz"
+    },
+    {
+      "name": "Mahatma Gluten-Free Enriched Extra Long Grain White Rice, 2 lb Bag",
+      "price": "$2.63",
+      "unit_price": "8.2¢/oz"
+    },
+    {
+      "name": "Great Value Natural Brown Long Grain Rice, 5 lb (80oz)",
+      "price": "$4.00",
+      "unit_price": "5.0¢/oz"
+    },
+    {
+      "name": "BEN'S ORIGINAL Converted Brand Enriched Long Grain White Rice, Parboiled Rice, 2 lb Box",
+      "price": "$4.36",
+      "unit_price": "13.6¢/oz"
+    }
+  ]
+}

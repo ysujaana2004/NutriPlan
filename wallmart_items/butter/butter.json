@@ -1,0 +1,99 @@
+{
+  "products": [
+    {
+      "name": "I Can't Believe It's Not Butter! Garlic Flavored Buttery Spray 8 fl oz Bottle",
+      "price": "$3.98",
+      "unit_price": null
+    },
+    {
+      "name": "I Can’t Believe It’s Not Butter!® Original, a NutriRich™ Buttery Spread , 45 oz Tub",
+      "price": "$9.46",
+      "unit_price": null
+    },
+    {
+      "name": "Country Crock Original Buttery Spread, 45 oz Tub",
+      "price": "$5.93",
+      "unit_price": "13.2¢/oz"
+    },
+    {
+      "name": "I Can’t Believe It’s Not Butter!® Original, a NutriRich™ Buttery Spread , 15 oz Tub",
+      "price": "$3.97",
+      "unit_price": "26.5¢/oz"
+    },
+    {
+      "name": "I Can’t Believe It’s Not Butter!® Light, a NutriRich™ Buttery Spread , 15 oz Tub",
+      "price": "$3.97",
+      "unit_price": "26.5¢/oz"
+    },
+    {
+      "name": "Country Crock Original Buttery Spread, 15 oz Tub (Refrigerated)",
+      "price": "$3.43",
+      "unit_price": "22.9¢/oz"
+    },
+    {
+      "name": "Great Value Sweet Cream Salted Butter, 16 oz, 4 Sticks",
+      "price": "$3.44",
+      "unit_price": "21.5¢/oz"
+    },
+    {
+      "name": "Great Value Sweet Cream Salted Butter Twin Pack, 16 oz, 4 Sticks",
+      "price": "$6.46",
+      "unit_price": "20.2¢/oz"
+    },
+    {
+      "name": "Great Value Sweet Cream Unsalted Butter, 16 oz, 4 Sticks",
+      "price": "$3.44",
+      "unit_price": "21.5¢/oz"
+    },
+    {
+      "name": "Imperial Vegetable Oil Spread, 16 oz Box, 4 Sticks (Refrigerated)",
+      "price": "$1.24",
+      "unit_price": "7.8¢/oz"
+    },
+    {
+      "name": "Blue Bonnet Original Vegetable Oil Spread Sticks, 16 oz (4 Sticks)",
+      "price": "$1.28",
+      "unit_price": "8.0¢/oz"
+    },
+    {
+      "name": "President Imported Unsalted Butter Bar, 7 oz, 1 Count (Refrigerated) (Full)",
+      "price": "$3.97",
+      "unit_price": null
+    },
+    {
+      "name": "President Imported Salted Butter Bar, 7 oz, 1 Count (Refrigerated) (Full)",
+      "price": "$3.97",
+      "unit_price": null
+    },
+    {
+      "name": "I Cant Believe Its Not Butter! Extra Creamy Sticks, 16 oz 4 Sticks",
+      "price": "$3.98",
+      "unit_price": "24.9¢/oz"
+    },
+    {
+      "name": "Land O Lakes Light Butter with Canola Oil, Spreadable, 15 oz Tub",
+      "price": "$3.92",
+      "unit_price": "26.1¢/oz"
+    },
+    {
+      "name": "El Latino Crema Salvadorea, Soft Dairy Spread 16oz. Plastic Bag Container. 1 piece.",
+      "price": "$3.26",
+      "unit_price": "20.4¢/oz"
+    },
+    {
+      "name": "Land O Lakes Cinnamon Sugar Butter Spread, Spreadable, 6.5 oz Tub",
+      "price": "$2.64",
+      "unit_price": "40.6¢/oz"
+    },
+    {
+      "name": "bettergoods Garlic, Parmesan, and Basil Butter, 3 oz",
+      "price": "$2.56",
+      "unit_price": "85.3¢/oz"
+    },
+    {
+      "name": "Challenge Butter, Salted Butter, 16 oz, 4 Sticks",
+      "price": "$4.28",
+      "unit_price": "26.8¢/oz"
+    }
+  ]
+}

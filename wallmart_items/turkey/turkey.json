@@ -1,0 +1,99 @@
+{
+  "products": [
+    {
+      "name": "JENNIE-O Fresh Lean Ground Turkey, 93/7% Tray, All Natural, 1 Pound, 22 Grams of Protein per Serving",
+      "price": "$5.34",
+      "unit_price": "$5.34/lb"
+    },
+    {
+      "name": "FESTIVE Ground Turkey, Frozen, 1 lb Roll",
+      "price": "$1.98",
+      "unit_price": "$1.98/lb"
+    },
+    {
+      "name": "Butterball All Natural Frozen Turkey Breast Roast, 3 lbs.",
+      "price": "$12.97",
+      "unit_price": "$4.32/lb"
+    },
+    {
+      "name": "JENNIE-O Ground Turkey All Natural, 85/15%, Tray, 1 Pound, 17 Grams of Protein per Serving",
+      "price": "$4.86",
+      "unit_price": "$4.86/lb"
+    },
+    {
+      "name": "All Natural Ground Chicken 96% Lean, 1 lb, 23g Protein per 4oz Serving, Ground Skinless Chicken",
+      "price": "$5.23",
+      "unit_price": "$5.23/lb"
+    },
+    {
+      "name": "Hillshire Farm Ultra Thin Oven Roasted Turkey Breast Lunchmeat, 9 oz Plastic Tub, Refrigerated",
+      "price": "$3.97",
+      "unit_price": "44.1¢/oz"
+    },
+    {
+      "name": "JENNIE-O OVEN READY Boneless Turkey Breast, Frozen, 2 - 3 lb Plastic Bag",
+      "price": "$14.96",
+      "unit_price": "$5.48/lb"
+    },
+    {
+      "name": "JENNIE-O Raw Turkey Wing Portions, Refrigerated, Tray, 2-3 Pounds, 24 Grams of Protein per Serving",
+      "price": "$6.94",
+      "unit_price": "$3.47/lb"
+    },
+    {
+      "name": "JENNIE-O Raw Turkey Drumsticks, 22g Protein per Serving, Refrigerated, 2-3 lb Plastic Tray",
+      "price": "$6.94",
+      "unit_price": "$3.47/lb"
+    },
+    {
+      "name": "Hillshire Farm Premium Carved Sliced Oven Roasted Turkey Breast Lunchmeat, 11 oz Plastic Tub, Refrigerated",
+      "price": "$7.74",
+      "unit_price": "70.4¢/oz"
+    },
+    {
+      "name": "HORMEL GATHERINGS Smoked Turkey with Cheese and Crackers, Sliced, Refrigerated, 14 oz Plastic Tray",
+      "price": "$8.27",
+      "unit_price": "59.1¢/oz"
+    },
+    {
+      "name": "Hillshire Farm Ultra Thin Sliced Honey Roasted Turkey Breast Lunchmeat, 16 oz Plastic Tub, Refrigerated",
+      "price": "$6.27",
+      "unit_price": "39.2¢/oz"
+    },
+    {
+      "name": "Great Value Mesquite Smoked Turkey Breast Lunchmeat, 9 oz Plastic Tub",
+      "price": "$3.57",
+      "unit_price": "39.7¢/oz"
+    },
+    {
+      "name": "JENNIE-O Ground Turkey All Natural, 90/10%, Roll, 3 Pounds, 18 Grams of Protein per Serving",
+      "price": "$13.92",
+      "unit_price": "$4.64/lb"
+    },
+    {
+      "name": "Oscar Mayer Sub Kit with Extra Lean Smoked Ham & Extra Lean Smoked Turkey Breast Sliced Deli Lunch Meat, 28 oz Package",
+      "price": "$9.88",
+      "unit_price": "35.3¢/oz"
+    },
+    {
+      "name": "Prima Della Cajun Turkey Breast, Deli-Sliced",
+      "price": "$9.97",
+      "unit_price": null
+    },
+    {
+      "name": "Great Value, Fat Free, Smoked Turkey Breast, 32 oz Bag, Deli - Sliced",
+      "price": "$10.42",
+      "unit_price": "32.6¢/oz"
+    },
+    {
+      "name": "JENNIE-O OVEN READY Whole Turkey, Frozen",
+      "price": "$35.64",
+      "unit_price": "$2.97/lb"
+    },
+    {
+      "name": "Hillshire Farm Ultra Thin Sliced Oven Roasted Turkey Breast Lunchmeat, 22 oz Plastic Tub, Refrigerated",
+      "price": "$8.54",
+      "unit_price": "38.8¢/oz"
+    }
+  ]
+}

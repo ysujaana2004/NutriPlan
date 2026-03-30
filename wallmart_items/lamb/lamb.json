@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "name": "Marketside Lamb Shank, Rosemary Garlic, 2.94 - 4.00 lb",
+      "price": "$23.28",
+      "unit_price": "$7.92/lb"
+    },
+    {
+      "name": "Marketside Lamb Loin Chop, 0.5 - 1.9 lb",
+      "price": "$9.54",
+      "unit_price": "$10.97/lb"
+    },
+    {
+      "name": "Marketside Seasoned Lamb Leg, 1.25 - 3.40 lb",
+      "price": "$19.67",
+      "unit_price": "$8.74/lb"
+    },
+    {
+      "name": "Marketside Lamb Shoulder Chop, 0.5 - 1.0 lb",
+      "price": "$8.40",
+      "unit_price": "$10.63/lb"
+    },
+    {
+      "name": "Marketside Ground Lamb, 80/20, 1 lb",
+      "price": "$8.46",
+      "unit_price": "52.9¢/oz"
+    },
+    {
+      "name": "Marketside Lamb Leg Steak, Seasoned, 0.6 - 1.6 lb (Fresh)",
+      "price": "$14.05",
+      "unit_price": "$13.64/lb"
+    },
+    {
+      "name": "Marketside Split Lamb Breast, 2.2 - 3.8 lb",
+      "price": "$12.49",
+      "unit_price": "$3.94/lb"
+    }
+  ]
+}

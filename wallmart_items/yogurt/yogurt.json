@@ -1,0 +1,219 @@
+{
+  "products": [
+    {
+      "name": "Activia Strawberry Low Fat Probiotic Yogurt Cups, Helps Support Gut Health, 4 oz, 4 Count",
+      "price": "$2.98",
+      "unit_price": null
+    },
+    {
+      "name": "Great Value Plain Nonfat Greek Yogurt, 32 oz Tub",
+      "price": "$2.94",
+      "unit_price": "9.2¢/oz"
+    },
+    {
+      "name": "Great Value Vanilla Nonfat Greek Yogurt, 32 oz Tub",
+      "price": "$2.94",
+      "unit_price": "9.2¢/oz"
+    },
+    {
+      "name": "Stonyfield Organic Kids Lowfat Yogurt Cups Variety Pack, Blueberry & Strawberry Vanilla, 4 oz., 6 Count",
+      "price": "$4.72",
+      "unit_price": "19.7¢/oz"
+    },
+    {
+      "name": "Stonyfield Organic Kids Strawberry Lowfat Yogurt Tubes, 2 oz, 8 Count",
+      "price": "$4.38",
+      "unit_price": "27.4¢/oz"
+    },
+    {
+      "name": "Stonyfield Organic Kids Strawberry Banana Lowfat Yogurt Pouches, 4 Count",
+      "price": "$6.62",
+      "unit_price": "47.3¢/oz"
+    },
+    {
+      "name": "Stonyfield Organic YoBaby Whole Milk Baby Yogurt Cups, Banana & Strawberry, 4 oz., 6 Count",
+      "price": "$4.72",
+      "unit_price": "19.7¢/oz"
+    },
+    {
+      "name": "Great Value Original Vanilla Low-fat Yogurt, 32 oz Tub",
+      "price": "$2.64",
+      "unit_price": "8.3¢/oz"
+    },
+    {
+      "name": "Great Value Original Strawberry Low-fat Yogurt, 32 oz",
+      "price": "$2.64",
+      "unit_price": "8.3¢/oz"
+    },
+    {
+      "name": "Great Value Original Strawberry Banana Low-fat Yogurt, 32 oz",
+      "price": "$2.64",
+      "unit_price": "8.3¢/oz"
+    },
+    {
+      "name": "Great Value Original Peach Low-fat Yogurt, 32 oz",
+      "price": "$2.64",
+      "unit_price": "8.3¢/oz"
+    },
+    {
+      "name": "Stonyfield Organic Lowfat Yogurt Smoothies, Strawberry Banana, 3.1 fl. oz., 6 Count",
+      "price": "$4.88",
+      "unit_price": "26.2¢/fl oz"
+    },
+    {
+      "name": "Chobani 20G Protein Low-Fat Greek Yogurt Drink Cookies and Cream 10 fl oz Bottle",
+      "price": "$2.32",
+      "unit_price": "23.2¢/fl oz"
+    },
+    {
+      "name": "Chobani Creations Mocha Tiramisu Greek Yogurt 5.3 oz Cup",
+      "price": "$1.38",
+      "unit_price": "26.0¢/oz"
+    },
+    {
+      "name": "Chobani Creations Apple Pie a la Mode 5.3 oz Cup",
+      "price": "$1.18",
+      "unit_price": "22.3¢/oz"
+    },
+    {
+      "name": "Chobani Creations Cherry Cheesecake 5.3 oz Cup",
+      "price": "$1.38",
+      "unit_price": "26.0¢/oz"
+    },
+    {
+      "name": "Chobani Creations Caramel Sundae 5.3oz Cup",
+      "price": "$1.18",
+      "unit_price": "22.3¢/oz"
+    },
+    {
+      "name": "Stonyfield Organic YoBaby Apple & Blueberry Whole Milk Baby Yogurt, 4 oz Cups, 6 ct Pack",
+      "price": "$4.72",
+      "unit_price": "19.7¢/oz"
+    },
+    {
+      "name": "Chobani Flip Low-Fat Greek Yogurt S'more S'mores 4.5 oz 4 Pack",
+      "price": "$4.78",
+      "unit_price": "26.6¢/oz"
+    },
+    {
+      "name": "Chobani Non-Fat Greek Yogurt Strawberry on The Bottom 5.3 oz 4PK",
+      "price": "$4.67",
+      "unit_price": "22.0¢/oz"
+    },
+    {
+      "name": "Chobani Low-Fat Vanilla Greek Yogurt Mixed Berry On The Bottom, Hero Batch 5.3oz 4PK",
+      "price": "$4.67",
+      "unit_price": "22.0¢/oz"
+    },
+    {
+      "name": "Yoplait Original Low Fat Yogurt Variety Pack, Made with Real Fruit, 8 Yogurt Cups, 48 oz",
+      "price": "$4.96",
+      "unit_price": "10.3¢/oz"
+    },
+    {
+      "name": "Great Value Original Strawberry and Strawberry Banana Low-fat Yogurt, 6 oz Cups, 12 Pack",
+      "price": "$5.97",
+      "unit_price": "8.3¢/oz"
+    },
+    {
+      "name": "Great Value Light Strawberry and Blueberry Nonfat Yogurt, 6 oz, 12 Count",
+      "price": "$6.47",
+      "unit_price": "9.0¢/oz"
+    },
+    {
+      "name": "Yoplait Original Low Fat Yogurt Variety Pack, 8 Yogurt Cups, 48 oz",
+      "price": "$4.96",
+      "unit_price": "10.3¢/oz"
+    },
+    {
+      "name": "Chobani Flip Low-Fat Greek Yogurt Strawberry Cheesecake 4.5 oz Cup",
+      "price": "$1.38",
+      "unit_price": "30.7¢/oz"
+    },
+    {
+      "name": "Chobani 20G Protein Low-Fat Greek Yogurt Cherry Berry 6.7oz Cup",
+      "price": "$1.76",
+      "unit_price": "26.3¢/oz"
+    },
+    {
+      "name": "Chobani Flip Low-Fat Greek Yogurt Cookies and Cream 4.5 oz Cup",
+      "price": "$1.38",
+      "unit_price": "30.7¢/oz"
+    },
+    {
+      "name": "Chobani Flip Low-Fat Greek Yogurt Chocolate Chip Cookie Dough 4.5 oz Cup",
+      "price": "$1.38",
+      "unit_price": "30.7¢/oz"
+    },
+    {
+      "name": "Chobani 20G Protein Low-Fat Greek Yogurt Drink Vanilla 10 fl oz Bottle",
+      "price": "$2.32",
+      "unit_price": "23.2¢/fl oz"
+    },
+    {
+      "name": "Danimals Smoothie Strawberry and Mixed Berry Dairy Drink Smoothie Bottles Multi-Pack, 3.1 oz, 12 Count",
+      "price": "$5.64",
+      "unit_price": null
+    },
+    {
+      "name": "Danimals Smoothie Strawberry Explosion and Birthday Cake Dairy Drink, 3.1 OZ, 12 Ct",
+      "price": "$5.64",
+      "unit_price": null
+    },
+    {
+      "name": "Danimals Smoothie Strawberry and Banana Dairy Drink Smoothie Bottles Multi-Pack, 3.1 oz, 12 Count",
+      "price": "$5.64",
+      "unit_price": null
+    },
+    {
+      "name": "Danimals Smoothie Strawberry and Strawberry Kiwi Dairy Drink Smoothie Bottles Multi-Pack, 3.1 oz, 12 Count",
+      "price": "$5.64",
+      "unit_price": null
+    },
+    {
+      "name": "Oikos Fusion Drink, Vanilla, 7 Fl Oz Bottle",
+      "price": "$2.17",
+      "unit_price": "31.0¢/fl oz"
+    },
+    {
+      "name": "Oikos Triple Zero 15g Protein, 0g Added Sugar, Fat Free Vanilla Greek Yogurt Cups, 5.3 oz, 4 Count",
+      "price": "$4.83",
+      "unit_price": "22.8¢/oz"
+    },
+    {
+      "name": "Oikos Triple Zero 17g Protein, 0g Added Sugar, Fat Free Vanilla Greek Yogurt Tub, 32 oz",
+      "price": "$6.27",
+      "unit_price": "19.6¢/oz"
+    },
+    {
+      "name": "Oikos Pro 20g Protein, Vanilla Yogurt-Cultured Ultra-Filtered MilkProduct Cups, 5.3 oz, 4 Count",
+      "price": "$5.97",
+      "unit_price": "28.2¢/oz"
+    },
+    {
+      "name": "Oikos Triple Zero 15g Protein, 0g Added Sugar, Fat Free Banana Creme Greek Yogurt Cup, 5.3 oz",
+      "price": "$1.38",
+      "unit_price": "26.0¢/oz"
+    },
+    {
+      "name": "Oikos Triple Zero 15g Protein, 0g Added Sugar, Fat Free Mixed Berry Greek Yogurt Cups, 5.3 oz, 4 Count",
+      "price": "$4.83",
+      "unit_price": "22.8¢/oz"
+    },
+    {
+      "name": "Oikos Triple Zero 15g Protein, 0g Added Sugar, Fat Free Lemon Tart Greek Yogurt Cup, 5.3 oz",
+      "price": "$1.38",
+      "unit_price": "26.0¢/oz"
+    },
+    {
+      "name": "Oikos Pro 23g Protein, Strawberry Banana Cultured Dairy Drink Bottle, 7 fl oz",
+      "price": "$1.94",
+      "unit_price": "27.7¢/fl oz"
+    },
+    {
+      "name": "Oikos Pro 23g Protein, Vanilla Yogurt-Cultured Ultra-Filtered Milk Product Tub, 32 oz",
+      "price": "$7.64",
+      "unit_price": "23.9¢/oz"
+    }
+  ]
+}

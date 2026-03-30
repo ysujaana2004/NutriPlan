@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "name": "Heluva Good! French Onion Dip, 12 oz",
+      "price": "$1.97",
+      "unit_price": "$2.63/lb"
+    },
+    {
+      "name": "Heluva Good! Buttermilk Ranch Dip, 12 oz",
+      "price": "$1.97",
+      "unit_price": "$2.63/lb"
+    },
+    {
+      "name": "Pancho's White Queso Cheese Dip, 16 oz Tub",
+      "price": "$4.77",
+      "unit_price": "$4.77/lb"
+    },
+    {
+      "name": "Tropical Crema Centroamericana, Soft Blend Dairy Spread, Pasteurized, 16 oz Bag",
+      "price": "$3.18",
+      "unit_price": "$3.18/lb"
+    },
+    {
+      "name": "Daisy Pure and Natural Sour Cream, 14 oz Pouch (Refrigerated)",
+      "price": "$2.84",
+      "unit_price": "$3.25/lb"
+    },
+    {
+      "name": "Great Value Original Sour Cream, 16 oz Tub",
+      "price": "$1.84",
+      "unit_price": "$1.84/lb"
+    },
+    {
+      "name": "Daisy Pure and Natural Sour Cream, 16 oz (1 lb) Tub (Refrigerated)",
+      "price": "$2.64",
+      "unit_price": "$2.64/lb"
+    },
+    {
+      "name": "Great Value Original Sour Cream, 24 oz Tub",
+      "price": "$2.74",
+      "unit_price": "$1.83/lb"
+    },
+    {
+      "name": "Great Value All Natural Sour Cream, 8 oz",
+      "price": "$1.24",
+      "unit_price": "$2.48/lb"
+    }
+  ]
+}

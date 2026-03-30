@@ -1,0 +1,4454 @@
+[
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "All Natural 93/7 Ground Beef - 1lb - Good & Gather\u2122",
+    "price": "$7.99",
+    "unit_price": "$0.50/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "All Natural 85/15 Ground Beef - 2lbs - Good & Gather\u2122",
+    "price": "$13.69",
+    "unit_price": "$0.43/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "USDA Choice Angus Beef Steak Strips - 14oz - Good & Gather\u2122",
+    "price": "$12.99",
+    "unit_price": "$0.93/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "Steakhouse Seasoned Beef Burger Patties - Frozen - 48oz/12ct - Good & Gather\u2122",
+    "price": "$12.99",
+    "unit_price": "$0.27/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "USDA Choice Angus Beef New York Strip Steak - 0.63-1.50 lbs - price per lb - Good & Gather\u2122",
+    "price": "$23.99",
+    "unit_price": "$15.99/lb"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "Bubba Burger Angus Beef Chuck Burger Patties - Frozen - 32oz/6ct",
+    "price": "$15.49",
+    "unit_price": "$0.48/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "USDA Choice Angus Beef T-Bone Steak - 0.64-1.50 lbs - price per lb - Good & Gather\u2122",
+    "price": "$20.99",
+    "unit_price": "$13.99/lb"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "ButcherBox - Steak Lovers 100% Grass-fed Ribeyes, New York Strips, Top Sirloins, Filet Mignons Variety Box - Frozen - 4.75 lbs",
+    "price": "$169.00",
+    "unit_price": null
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "Beef Meatballs - Frozen - 26oz - Good & Gather\u2122",
+    "price": "$6.29",
+    "unit_price": "$0.24/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "93/7 Ground Beef Burger Patties - 1lb - Good & Gather\u2122",
+    "price": "$8.49",
+    "unit_price": "$0.53/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "Italian Style Beef, Pork, & Chicken Meatballs - Frozen - 26oz - Good & Gather\u2122",
+    "price": "$6.29",
+    "unit_price": "$0.24/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "USDA Choice Angus Beef Stew Meat - 1lb - Good & Gather\u2122",
+    "price": "$9.99",
+    "unit_price": "$0.56/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "Organic 100% Grassfed 85/15 Ground Beef - 1lb - Good & Gather\u2122",
+    "price": "$8.29",
+    "unit_price": "$0.52/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "Organic 100% Grassfed 90/10 Ground Beef - 1lb - Good & Gather\u2122",
+    "price": "$8.79",
+    "unit_price": "$0.55/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "Laura's Lean Beef 96/4 Ground Beef - 1lb",
+    "price": "$9.99",
+    "unit_price": "$0.62/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "Steakhouse Seasoned Tavern Beef Burger Patties - 1.33lbs - Good & Gather\u2122",
+    "price": "$8.99",
+    "unit_price": "$0.42/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "Teriyaki Beef Sirloin Strips - 1lb - Good & Gather\u2122",
+    "price": "$12.99",
+    "unit_price": "$0.81/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "Ground Beef Patties 80% lean 20% fat 10ct/32oz - Good & Gather\u2122",
+    "price": "$10.00",
+    "unit_price": "$0.31/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef.json",
+    "name": "Del Real Foods Barbacoa - 12oz",
+    "price": "$8.99",
+    "unit_price": "$0.75/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "USDA Choice Angus Petite Sirloin Steak - 0.60-1.06 lbs - price per lb - Good & Gather\u2122",
+    "price": "$15.89",
+    "unit_price": "$14.99/lb"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "Demakes Bros. Shaved Beef Steak - 14oz",
+    "price": "$7.39",
+    "unit_price": "$0.53/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "USDA Choice Angus Beef Ribeye Steak - 0.62-1.13 lbs - price per lb - Good & Gather\u2122",
+    "price": "$29.68",
+    "unit_price": "$17.99/lb"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "USDA Choice Angus Beef Stew Meat - 24oz - Good & Gather\u2122",
+    "price": "$13.99",
+    "unit_price": "$0.58/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "USDA Choice Angus Petite Sirloin Steak - 1.49-2.73 lbs - price per lb - Good & Gather\u2122",
+    "price": "$38.19",
+    "unit_price": "$13.99/lb"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "93% Lean Ground Beef - 3lb - Good & Gather\u2122",
+    "price": "$21.99",
+    "unit_price": "$0.46/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "Bourbon Black Pepper Beef Sirloin Steak Tips - 13oz - Good & Gather\u2122",
+    "price": "$13.99",
+    "unit_price": "$1.08/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "Peppercorn Crusted Beef Sirloin Petite Steak - price per lb - Good & Gather\u2122",
+    "price": "$13.99 max price",
+    "unit_price": "$13.99/lb"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "USDA Choice Angus Beef Ribeye Family Pack - 1.24-2.27 lbs - price per lb - Good & Gather\u2122",
+    "price": "$38.57",
+    "unit_price": "$16.99/lb"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "Carne Asada Seasoned Beef Skirt Steak - 19.84oz - Good & Gather\u2122",
+    "price": "$17.99",
+    "unit_price": "$0.91/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "USDA Choice Angus Beef T-Bone Steak - 1.36-3.50 lbs - price per lb - Good & Gather\u2122",
+    "price": "$45.47",
+    "unit_price": "$12.99/lb"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "USDA Choice Angus Top Sirloin Steak - 1.62-2.97 lbs - price per lb - Good & Gather\u2122",
+    "price": "$41.55 max price",
+    "unit_price": "$13.99/lb"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "USDA Choice Angus Beef Tri Tips - 1.59-3.80 lbs - price per lb - Good & Gather\u2122",
+    "price": "$37.96 max price",
+    "unit_price": "$9.99/lb"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "All Natural 93/7 Ground Beef - Good & Gather\u2122",
+    "price": "$7.99 - $14.79",
+    "unit_price": null
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "All Natural 85/15 Ground Beef - Good & Gather\u2122",
+    "price": "$7.49 - $13.69",
+    "unit_price": null
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "All Natural 80/20 Ground Beef - Good & Gather\u2122",
+    "price": "$6.99 - $12.99",
+    "unit_price": null
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "73/27 Ground Beef - 1lb - Good & Gather\u2122",
+    "price": "$6.49",
+    "unit_price": "$0.41/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "USDA Choice Angus Chuck Tender Steak - 1.09-2.0 lbs - price per lb - Good & Gather\u2122",
+    "price": "$23.98 max price",
+    "unit_price": "$11.99/lb"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "Organic 100% Grassfed Ground Beef Twin Pack - 2lbs - Good & Gather\u2122",
+    "price": "$14.99",
+    "unit_price": "$0.47/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "85/15 All Natural Beef Burger Patties - Frozen - 48oz/12ct - Good & Gather\u2122",
+    "price": "$14.99",
+    "unit_price": "$0.31/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "All Natural 85/15 Ground Round Burger Patties - 4pk/1lb - Good & Gather\u2122",
+    "price": "$7.99",
+    "unit_price": "$0.50/ounce"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "USDA Choice Angus Beef Skirt Steak - 1.13-2.06 lbs - price per lb - Good & Gather\u2122",
+    "price": "$26.76 max price",
+    "unit_price": "$12.99/lb"
+  },
+  {
+    "category": "beef",
+    "source_file": "beef2.json",
+    "name": "Cracked Peppercorn Crusted Beef Sirloin Petite Steak - 16oz - Good & Gather\u2122",
+    "price": "$13.99",
+    "unit_price": "$0.87/ounce"
+  },
+  {
+    "category": "butter",
+    "source_file": "butter.json",
+    "name": "Land O Lakes Salted Butter - 1lb",
+    "price": "$4.79",
+    "unit_price": "$0.30/ounce"
+  },
+  {
+    "category": "butter",
+    "source_file": "butter.json",
+    "name": "Kerrygold Grass-Fed Pure Irish Block Salted Butter - 8oz Foil",
+    "price": "$5.49",
+    "unit_price": "$0.69/ounce"
+  },
+  {
+    "category": "butter",
+    "source_file": "butter.json",
+    "name": "Kerrygold Grass-Fed Naturally Softer Spreadable Pure Irish Butter - 8oz Tub",
+    "price": "$6.29",
+    "unit_price": "$0.79/ounce"
+  },
+  {
+    "category": "butter",
+    "source_file": "butter.json",
+    "name": "Salted Stick Butter - 1lb - Good & Gather\u2122",
+    "price": "$4.19",
+    "unit_price": "$0.26/ounce"
+  },
+  {
+    "category": "butter",
+    "source_file": "butter.json",
+    "name": "Unsalted Butter - 16oz/4ct - Good & Gather\u2122",
+    "price": "$4.19",
+    "unit_price": "$0.26/ounce"
+  },
+  {
+    "category": "butter",
+    "source_file": "butter.json",
+    "name": "Kerrygold Grass-Fed Pure Irish Salted Butter Sticks - 8oz/2ct",
+    "price": "$5.39",
+    "unit_price": "$0.67/ounce"
+  },
+  {
+    "category": "butter",
+    "source_file": "butter.json",
+    "name": "Kerrygold Grass-Fed Pure Irish Unsalted Butter Sticks - 8oz/2ct",
+    "price": "$5.39",
+    "unit_price": "$0.67/ounce"
+  },
+  {
+    "category": "butter",
+    "source_file": "butter.json",
+    "name": "Land O Lakes Spreadable Butter with Canola Oil",
+    "price": "$5.59 - $8.39",
+    "unit_price": null
+  },
+  {
+    "category": "butter",
+    "source_file": "butter.json",
+    "name": "Country Crock Original Vegetable Oil Spread Tub - 15oz",
+    "price": "$4.59",
+    "unit_price": "$0.31/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Cabot Creamery Seriously Sharp Cheddar Cheese - 8oz",
+    "price": "$2.99",
+    "unit_price": "$0.37/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Boursin Cheese Bites Garlic & Fine Herbs - 4.23oz",
+    "price": "$4.99",
+    "unit_price": "$1.18/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Sargento Natural Mozzarella String Cheese - 12oz/12ct",
+    "price": "$4.99",
+    "unit_price": "$0.42/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Sharp Cheddar Cheese - 8oz - Good & Gather\u2122",
+    "price": "$1.89",
+    "unit_price": "$0.24/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Kraft Singles American Cheese Slices - 12oz/16ct",
+    "price": "$3.99",
+    "unit_price": "$0.33/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Belgioioso Parmesan Cheese Wedge - 8oz",
+    "price": "$5.79",
+    "unit_price": "$0.72/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Mini Babybel Reduced Fat Snack Cheese - 9.9oz/14ct",
+    "price": "$8.39",
+    "unit_price": "$0.85/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Sargento Natural Pepper Jack Sliced Cheese - 7.5oz/10 slices",
+    "price": "$2.99",
+    "unit_price": "$0.40/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Sargento Balanced Breaks Crunch Mix, Monterey Jack Cheese, Buffalo Ranch Snack Mix - 4.5oz/3ct",
+    "price": "$3.49",
+    "unit_price": null
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Swiss Deli Sliced Cheese - 7oz/10 slices - Good & Gather\u2122",
+    "price": "$1.69",
+    "unit_price": "$0.24/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Shredded Mexican-Style Cheese - 32oz - Good & Gather\u2122",
+    "price": "$6.99",
+    "unit_price": "$0.22/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Extra Sharp White Cheddar Cheese - 8oz - Good & Gather\u2122",
+    "price": "$1.89",
+    "unit_price": "$0.24/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Shredded Reduced Fat Mexican-Style Cheese - 7oz - Good & Gather\u2122",
+    "price": "$1.99",
+    "unit_price": "$0.28/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Tillamook Farmstyle Mexican 4 Cheese Shredded Cheese - 8oz",
+    "price": "$4.99",
+    "unit_price": "$0.62/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Grated Parmesan Cheese Cup - 5oz - Good & Gather\u2122",
+    "price": "$3.79",
+    "unit_price": "$0.76/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Finely Shredded Mozzarella & Parmesan Cheese - 8oz - Good & Gather\u2122",
+    "price": "$1.99",
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Galbani Whole Milk Ricotta Cheese - 15oz",
+    "price": "$3.99",
+    "unit_price": "$0.27/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Tillamook Farmstyle Triple Cheddar Shredded Cheese - 8oz",
+    "price": "$4.99",
+    "unit_price": "$0.62/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Tillamook Farmstyle Mozzarella Shredded Cheese - 8oz",
+    "price": "$4.99",
+    "unit_price": "$0.62/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Sargento Balanced Breaks Cheese & Mini Wheat Thin Crackers - 4.5oz/3ct",
+    "price": "$3.49",
+    "unit_price": "$0.78/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "BelGioioso Shredded Parmesan Cheese - 5oz",
+    "price": "$4.19",
+    "unit_price": "$0.84/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Sargento Balanced Breaks Cheese & Mini Ritz Crackers - 4.5oz/3ct",
+    "price": "$3.49",
+    "unit_price": "$0.78/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Mini Babybel Original Cheese Snack - 14.1oz/20ct",
+    "price": "$11.69",
+    "unit_price": "$0.83/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Babybel Variety Pack Cheeses - 14.1oz/20ct",
+    "price": "$11.69",
+    "unit_price": "$0.83/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Mini Babybel PRO (Protein + Probiotics) Snack Cheese - 8.5oz/12ct",
+    "price": "$8.39",
+    "unit_price": null
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Shredded Mexican-Style Cheese - 8oz - Good & Gather\u2122",
+    "price": "$1.99",
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Low-Moisture Part-Skim Mozzarella String Cheese - 24oz/24ct - Good & Gather\u2122",
+    "price": "$6.59",
+    "unit_price": "$0.27/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Colby Jack Deli Sliced Cheese - 8oz/12 slices - Good & Gather\u2122",
+    "price": "$1.69",
+    "unit_price": "$0.21/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Sargento Sliced American Cheese - 8oz",
+    "price": "$2.99",
+    "unit_price": "$0.37/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Kraft 100% Grated Parmesan Cheese - 8oz",
+    "price": "$4.79",
+    "unit_price": "$0.60/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Low-Moisture Part-Skim Mozzarella String Cheese - 12oz/12ct - Good & Gather\u2122",
+    "price": "$3.39",
+    "unit_price": "$0.28/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Shredded Mozzarella Cheese - 8oz - Good & Gather\u2122",
+    "price": "$1.99",
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Finely Shredded Parmesan Cheese - 6oz - Good & Gather\u2122",
+    "price": "$1.99",
+    "unit_price": "$0.33/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Tillamook Farmstyle Triple Cheddar Shredded Cheese - 8oz",
+    "price": "$4.49",
+    "unit_price": "$0.56/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Tillamook Whole Milk Mozzarella Cheese Block - 16oz",
+    "price": "$7.79",
+    "unit_price": "$0.49/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Tillamook Colby Jack Cheese Block - 16oz",
+    "price": "$7.79",
+    "unit_price": "$0.49/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Tillamook Sharp Cheddar Cheese Block - 8oz",
+    "price": "$4.49",
+    "unit_price": "$0.56/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Galbani Whole Milk Ricotta Cheese - 15oz",
+    "price": "$3.89",
+    "unit_price": "$0.26/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Belgioioso Parmesan Cheese Wedge - 8oz",
+    "price": "$5.49",
+    "unit_price": "$0.69/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "BelGioioso Shredded Parmesan Cheese - 5oz",
+    "price": "$3.99",
+    "unit_price": "$0.80/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Kerrygold Dubliner Cheese Snacking Sticks - 6oz",
+    "price": "$6.49",
+    "unit_price": "$1.08/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Sargento Natural Baby Swiss Sliced Cheese - 7.5oz/11 slices",
+    "price": "$2.99",
+    "unit_price": "$0.43/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Cabot Creamery Seriously Sharp Cheddar Cheese Cracker Cuts - 7oz",
+    "price": "$3.39",
+    "unit_price": "$0.48/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "BelGioioso Fresh Mozzarella Sliced Cheese - 8oz",
+    "price": "$4.49",
+    "unit_price": "$0.56/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Sharp Cheddar Cheese - 16oz - Good & Gather\u2122",
+    "price": "$3.59",
+    "unit_price": "$0.22/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Finely Shredded Mozzarella Cheese - 8oz - Good & Gather\u2122",
+    "price": "$1.99",
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Sargento Ultra Thin Natural Swiss Cheese Slices - 6.84oz/18 slices",
+    "price": "$2.99",
+    "unit_price": "$0.44/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Sargento Gouda Cheese - 7oz/10 slices",
+    "price": "$3.29",
+    "unit_price": "$0.47/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Cabot Creamery 4 Cheese Mexican Shred - 8oz",
+    "price": "$3.49",
+    "unit_price": "$0.44/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Mozzarella Deli Sliced Cheese - 8oz/12 slices - Good & Gather\u2122",
+    "price": "$1.69",
+    "unit_price": "$0.21/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Cacique Ranchero Queso Fresco Cheese - 10oz",
+    "price": "$3.39",
+    "unit_price": "$0.34/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Organic Valley Mozzarella String Cheese - 8oz/8ct",
+    "price": "$6.69",
+    "unit_price": "$0.84/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Athenos Traditional Feta Cheese - 6oz",
+    "price": "$4.49",
+    "unit_price": "$0.75/ounce"
+  },
+  {
+    "category": "cheese",
+    "source_file": "cheese.json",
+    "name": "Tillamook Sharp White Cheddar Cheese Snack Portions - 7.5oz/10ct",
+    "price": "$4.99",
+    "unit_price": "$0.67/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "Kevin's Natural Foods Roasted Garlic Chicken - 16oz",
+    "price": "$10.99",
+    "unit_price": "$8.79 Get this deal"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "Just Bare Lightly Breaded Chicken Breast Strips - Frozen - 24oz",
+    "price": "$11.49",
+    "unit_price": "$0.48/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "Just Bare Lightly Breaded Chicken Breast Bites - Frozen - 24oz",
+    "price": "$11.49",
+    "unit_price": "$0.48/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "Oberto Chicken Bites - Buffalo - 4oz",
+    "price": "$3.99",
+    "unit_price": "$1.00/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "Perdue Simply Smart Lightly Breaded Frozen Chicken Strips - 22oz",
+    "price": "$9.99",
+    "unit_price": "$0.45/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "Perdue Chicken Breast Tenderloins Antibiotic Free - 0.8-1.4lbs - price per lb",
+    "price": "$7.69 max price",
+    "unit_price": "$5.49/lb"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "All-Natural Boneless & Skinless Chicken Breast - 2.25-3.25lbs - price per lb - Good & Gather\u2122",
+    "price": "$12.97 max price",
+    "unit_price": "$3.99/lb"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "Perdue Boneless & Skinless Antibiotic Free Chicken Breast - 1.3-2.4lbs - price per lb",
+    "price": "$11.98 max price",
+    "unit_price": "$4.99/lb"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "Perdue Simply Smart Organics Gluten Free Breaded Chicken Breast Tenders - Frozen - 22oz",
+    "price": "$10.59",
+    "unit_price": "$0.48/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "Perdue Thin Sliced Antibiotic Free Chicken Breast - 0.85-1.6lbs - price per lb",
+    "price": "$8.78 max price",
+    "unit_price": "$5.49/lb"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "Perdue Ground Chicken - 16oz",
+    "price": "$3.99",
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "Perdue Chicken Plus Panko Breaded Dino Chicken Nuggets - Frozen - 22oz",
+    "price": "$7.99",
+    "unit_price": "$0.36/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "Perdue Boneless & Skinless Antibiotic Free Chicken Thigh Filets - 1.4-2.2lbs - price per lb",
+    "price": "$8.78 max price",
+    "unit_price": "$3.99/lb"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "Perdue Fresh Cuts Diced Chicken Breast - 20oz",
+    "price": "$6.99",
+    "unit_price": "$0.35/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "Dino Chicken Nuggets - Frozen - 29oz - Good & Gather\u2122",
+    "price": "$5.49",
+    "unit_price": "$0.19/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken.json",
+    "name": "Perdue Antibiotic Free Chicken Drumsticks - 1.6-2.2lbs - price per lb",
+    "price": "$3.72 max price",
+    "unit_price": "$1.69/lb"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Tyson Popcorn Chicken - Frozen - 25oz",
+    "price": "$6.69",
+    "unit_price": "$0.27/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Tyson Lightly Breaded Chicken Strips - Frozen - 20oz",
+    "price": "$8.99",
+    "unit_price": "$0.45/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Tyson Any'tizers Buffalo Style Boneless Chicken Bites - Frozen - 24oz",
+    "price": "$8.99",
+    "unit_price": "$0.37/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Just Bare Lightly Breaded Spicy Chicken Breast Strips - Frozen - 24oz",
+    "price": "$12.99",
+    "unit_price": "$0.54/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Kidfresh Frozen Chicken Nuggets - 16.35oz",
+    "price": "$9.99",
+    "unit_price": "$0.61/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Kevin's Natural Foods Korean BBQ-Style Chicken - 16oz",
+    "price": "$10.99",
+    "unit_price": "$0.69/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Tyson Buffalo Style Chicken Strips - Frozen - 25oz",
+    "price": "$8.49",
+    "unit_price": "$0.34/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Tyson Blackened Flavored Chicken Breast Strips - Frozen - 20oz",
+    "price": "$8.99",
+    "unit_price": "$0.45/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Tyson Honey Battered Breast Tenders - Frozen - 25.5oz",
+    "price": "$6.69",
+    "unit_price": "$0.26/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Foster Farms No Antibiotics Ever Boneless Skinless Chicken Breast Tenders - 1-2lbs - price per lb",
+    "price": "$13.98 max price",
+    "unit_price": "$6.99/lb"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Real Good Foods Low Carb Chicken Strips - Frozen - 20oz",
+    "price": "$7.99",
+    "unit_price": "$0.40/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Applegate Naturals Gluten Free Family Size Chicken Nuggets - Frozen - 16oz",
+    "price": "$13.99",
+    "unit_price": "$0.87/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Kevin's Natural Foods Roasted Garlic Chicken - 16oz",
+    "price": "$10.99",
+    "unit_price": null
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Tyson Spicy Chicken Patties - Frozen - 23oz",
+    "price": "$6.69",
+    "unit_price": "$0.29/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Cajun Seasoned Grilled Chicken Breast Strips - 12oz - Good & Gather\u2122",
+    "price": "$7.99",
+    "unit_price": "$0.67/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "All Natural Boneless & Skinless Chicken Breast Value Pack - 2.5-5.25lbs - price per lb - Good & Gather\u2122",
+    "price": "$13.45 max price",
+    "unit_price": "$2.69/lb"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Grilled Chicken Breast Strips - Good & Gather\u2122",
+    "price": "$7.99 - $8.99",
+    "unit_price": null
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Tyson All Natural White Meat Fun Nuggets - Frozen - 29oz",
+    "price": "$6.69",
+    "unit_price": "$0.23/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Shredded Rotisserie Seasoned Chicken - 12oz - Good & Gather\u2122",
+    "price": "$7.99",
+    "unit_price": "$0.67/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Tyson All Natural All Natural Chicken Nuggets - Frozen - 29oz",
+    "price": "$6.69",
+    "unit_price": "$0.23/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Kevin's Natural Foods Chicken",
+    "price": "$10.99",
+    "unit_price": null
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Just Bare Lightly Breaded Chicken Breast Bites - Frozen - 24oz",
+    "price": "$12.99",
+    "unit_price": "$0.54/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Shredded Chicken - 12oz - Good & Gather\u2122",
+    "price": "$7.99",
+    "unit_price": "$0.67/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Tyson All Natural Chicken Breast Patties - Frozen - 23oz",
+    "price": "$6.69",
+    "unit_price": "$0.29/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Tyson All Natural Crispy Chicken Strips - Frozen - 25oz",
+    "price": "$8.49",
+    "unit_price": "$0.34/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Kidfresh Frozen Chicken Meatballs - 16.45oz",
+    "price": "$10.99",
+    "unit_price": "$0.67/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "All Natural Boneless & Skinless Chicken Breast - 1.5-3.2lbs - price per lb - Good & Gather\u2122",
+    "price": "$12.77 max price",
+    "unit_price": "$3.99/lb"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "No Antibiotics Every Dinosaur Shaped Frozen Chicken Nuggets - 29oz - Good & Gather\u2122",
+    "price": "$5.49",
+    "unit_price": "$0.19/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Just Bare Lightly Breaded Chicken Breast Strips - Frozen - 24oz",
+    "price": "$12.99",
+    "unit_price": "$0.54/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Parmesan Chicken Breast Cutlets - 20oz - Good & Gather\u2122",
+    "price": "$11.99",
+    "unit_price": "$0.60/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "No Antibiotics Ever Chicken Nuggets - Frozen - 29oz - Good & Gather\u2122",
+    "price": "$5.49",
+    "unit_price": "$0.19/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Tyson Baked Chicken Nuggets - Frozen - 25oz",
+    "price": "$6.69",
+    "unit_price": "$0.27/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Yummy Dino Buddies Chicken Breast Nuggets - Frozen - 35oz",
+    "price": "$8.99",
+    "unit_price": "$0.26/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "No Antibiotics Ever Boneless & Skinless Chicken Breast - Frozen - 40oz - Good & Gather\u2122",
+    "price": "$8.49",
+    "unit_price": "$0.21/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "Tyson Grilled & Ready Oven Roasted Diced Chicken Breast - Frozen - 22oz",
+    "price": "$8.99",
+    "unit_price": "$0.41/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken2.json",
+    "name": "No Antibiotics Ever Popcorn Chicken - Frozen - 25.5oz - Good & Gather\u2122",
+    "price": "$7.99",
+    "unit_price": "$0.31/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken3.json",
+    "name": "Tyson Grilled & Ready Chicken Breast Strips - Frozen - 22oz",
+    "price": "$8.99",
+    "unit_price": "$0.41/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken3.json",
+    "name": "Lemon Garlic Pepper Chicken Breast Cutlet - 16oz/4ct - Good & Gather\u2122",
+    "price": "$8.99",
+    "unit_price": "$0.56/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken3.json",
+    "name": "Organic Air Chilled Chicken Breast Tenders - 1-1.7lbs - price per lb - Good & Gather\u2122",
+    "price": "$15.28 max price",
+    "unit_price": "$8.99/lb"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken3.json",
+    "name": "Tyson All Natural Southern Breast Tenderloins - Frozen - 25oz",
+    "price": "$8.49",
+    "unit_price": "$0.34/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken3.json",
+    "name": "Just Bare Lightly Breaded Chicken Breast Fillets Frozen - 24oz",
+    "price": "$12.99",
+    "unit_price": null
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken3.json",
+    "name": "All Natural Thin Slice Boneless & Skinless Chicken Breast - 1-3 lbs - price per lb - Good & Gather\u2122",
+    "price": "$14.97 max price",
+    "unit_price": "$4.99/lb"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken3.json",
+    "name": "Organic Boneless & Skinless Air Chilled Thin Sliced Chicken Breasts - 1-2lbs - price per lb - Good & Gather\u2122",
+    "price": "$17.98 max price",
+    "unit_price": "$8.99/lb"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken3.json",
+    "name": "No Antibiotics Ever Diced & Grilled Chicken Breast - Frozen - 20oz - Good & Gather\u2122",
+    "price": "$8.99",
+    "unit_price": "$0.45/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken3.json",
+    "name": "No Antibiotics Ever Bone-In Chicken Thighs - 1.4-2.2lbs - price per lb - Good & Gather\u2122",
+    "price": "$5.48 max price",
+    "unit_price": "$2.49/lb"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken3.json",
+    "name": "Foster Farms No Antibiotics Ever Chicken Thighs - 1.4-2.2lbs - price per lb",
+    "price": "$6.14 max price",
+    "unit_price": "$2.79/lb"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken3.json",
+    "name": "No Antibiotics Ever Crispy Chicken Breast Strips - Frozen - 25oz - Good & Gather\u2122",
+    "price": "$8.29",
+    "unit_price": "$0.33/ounce"
+  },
+  {
+    "category": "chicken",
+    "source_file": "chicken3.json",
+    "name": "Tyson Lightly Breaded Chicken Bites - Frozen - 20oz",
+    "price": "$8.79",
+    "unit_price": "$0.44/ounce"
+  },
+  {
+    "category": "cottage cheese",
+    "source_file": "cottage_cheese.json",
+    "name": "Good Culture 2% Milkfat Simply Cottage Cheese - 16oz",
+    "price": "$4.39",
+    "unit_price": "$0.27/ounce"
+  },
+  {
+    "category": "cottage cheese",
+    "source_file": "cottage_cheese.json",
+    "name": "Good Culture 2% Milkfat Simply Cottage Cheese - 5.3oz",
+    "price": "$2.19",
+    "unit_price": "$0.41/ounce"
+  },
+  {
+    "category": "cottage cheese",
+    "source_file": "cottage_cheese.json",
+    "name": "Daisy Low Fat 2% Small Curd Cottage Cheese - 1.5lbs",
+    "price": "$5.39",
+    "unit_price": "$0.22/ounce"
+  },
+  {
+    "category": "cottage cheese",
+    "source_file": "cottage_cheese.json",
+    "name": "Daisy Brand 4% Milkfat Minimum Cottage Cheese - 24oz",
+    "price": "$5.39",
+    "unit_price": "$0.22/ounce"
+  },
+  {
+    "category": "cottage cheese",
+    "source_file": "cottage_cheese.json",
+    "name": "Breakstone's Low Fat Cottage Cheese - 24oz",
+    "price": "$5.79",
+    "unit_price": "$0.24/ounce"
+  },
+  {
+    "category": "cottage cheese",
+    "source_file": "cottage_cheese.json",
+    "name": "Breakstone's 4% Milkfat Cottage Cheese - 24oz",
+    "price": "$5.79",
+    "unit_price": "$0.24/ounce"
+  },
+  {
+    "category": "cottage cheese",
+    "source_file": "cottage_cheese.json",
+    "name": "Daisy Brand Cottage Cheese 4% - 16oz",
+    "price": "$3.99",
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "cottage cheese",
+    "source_file": "cottage_cheese.json",
+    "name": "Daisy Brand Cottage Cheese 2% - 16oz",
+    "price": "$3.99",
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "cottage cheese",
+    "source_file": "cottage_cheese.json",
+    "name": "Daisy Cottage Cheese with Peaches - 6oz",
+    "price": "$1.59",
+    "unit_price": "$0.27/ounce"
+  },
+  {
+    "category": "cottage cheese",
+    "source_file": "cottage_cheese.json",
+    "name": "Breakstone's Live Active Low Fat Cottage Cheese - 16oz/4ct",
+    "price": "$4.49",
+    "unit_price": "$0.28/ounce"
+  },
+  {
+    "category": "cottage cheese",
+    "source_file": "cottage_cheese.json",
+    "name": "Daisy Cottage Cheese with Pineapple - 6oz",
+    "price": "$1.59",
+    "unit_price": "$0.27/ounce"
+  },
+  {
+    "category": "cottage cheese",
+    "source_file": "cottage_cheese.json",
+    "name": "Lactaid 4% Cottage Cheese - 16oz",
+    "price": "$4.59",
+    "unit_price": "$0.29/ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Chobani Sweet Cream Dairy Creamer - 24 fl oz",
+    "price": "$5.79",
+    "unit_price": "$0.24/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Starbucks Creamer Dairy Sweet Cream White Chocolate Macadamia - 24oz",
+    "price": "$5.29",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Horizon Organic Sweet Cream Coffee Creamer - 24oz",
+    "price": "$6.49",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Heavy Whipping Cream - 16 fl oz (1pt) - Good & Gather\u2122",
+    "price": "$2.99",
+    "unit_price": "$0.19/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Chobani Raspberry Rose Dairy Creamer - 24 fl oz",
+    "price": "$5.21",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Heavy Whipping Cream - 32 fl oz (1qt) - Good & Gather\u2122",
+    "price": "$5.29",
+    "unit_price": "$0.17/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Chobani Toasted Coconut Vanilla Dairy Creamer - 24 floz",
+    "price": "$5.79",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Horizon Organic Caramel Coffee Creamer - 24oz",
+    "price": "$6.49",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Starbucks Oatmilk Coffee Creamer",
+    "price": "$4.99",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Cold Foam - Favorite Day\u2122",
+    "price": "$4.59",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Natural Bliss Creamer - 32 fl oz",
+    "price": "$4.99",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Starbucks Non-Dairy Coffee Creamer - 28 fl oz",
+    "price": "$4.99",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Silk Dairy-Free Oat Creamer",
+    "price": "$3.99",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Reddi-wip Whipped Dairy Cream Topping",
+    "price": "$4.89",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Silk Almond Creamer - 32 fl oz",
+    "price": "$4.89",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Starbucks Zero Sugar Coffee Creamer",
+    "price": "$4.99",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Starbucks Coffee Creamer - 28 fl oz",
+    "price": "$4.99",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Coffee mate Natural Bliss Oat Milk Creamer - 32 fl oz",
+    "price": "$4.99",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "nutpods Creamer - 25.4 fl oz",
+    "price": "$5.19",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Horizon Organic Heavy Whipping Cream - 16 fl oz (1pt)",
+    "price": "$5.79",
+    "unit_price": "$0.36/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Chobani Creamer Zero Sugar",
+    "price": "$5.79",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Coffee Creamer - 32 fl oz - Good & Gather\u2122",
+    "price": "$5.49",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Dunkin' Extra Extra Coffee Creamer - 32 fl oz",
+    "price": "$5.19",
+    "unit_price": "$0.16/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Horizon Organic Vanilla Coffee Creamer - 24oz",
+    "price": "$6.49",
+    "unit_price": null
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Starbucks Creamer Dairy Zero Sugar Mocha Coffee Creamer - 28 fl oz",
+    "price": "$4.99",
+    "unit_price": "$0.18/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Chobani Birthday Cake Dairy Creamer - 24 fl oz",
+    "price": "$5.79",
+    "unit_price": "$0.24/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "International Delight French Vanilla Coffee Creamer - 32 fl oz (1qt) Bottle",
+    "price": "$3.89",
+    "unit_price": "$0.12/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Coffee mate Sugar Free French Vanilla Coffee Creamer - 32 fl oz (1qt)",
+    "price": "$3.99",
+    "unit_price": "$0.12/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Starbucks Creamer Dairy Cinnamon Dolce Coffee Creamer - 28 fl oz",
+    "price": "$4.99",
+    "unit_price": "$0.18/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Dunkin' Donuts Coffee Creamer Cold Foam Extra Extra Creamer - 14oz",
+    "price": "$5.29",
+    "unit_price": "$0.38/ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Natural Bliss Vanilla Creamer - 32 fl oz",
+    "price": "$4.99",
+    "unit_price": "$0.16/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "International Delight Sweet & Creamy Coffee Creamer - 32 fl oz",
+    "price": "$3.89",
+    "unit_price": "$0.12/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Cool Whip Zero Sugar Frozen Whipped Topping - 8oz",
+    "price": "$1.99",
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Chobani Cookie Dough Dairy Creamer - 24 fl oz",
+    "price": "$5.79",
+    "unit_price": "$0.24/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Starbucks Creamer Dairy Zero Sugar Caramel Macchiato Coffee Creamer - 28 fl oz",
+    "price": "$4.99",
+    "unit_price": "$0.18/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "International Delight Caramel Macchiato Coffee Creamer - 1qt (32 fl oz) Bottle",
+    "price": "$3.89",
+    "unit_price": "$0.12/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Starbucks Creamer Dairy Caramel Macchiato Coffee Creamer - 28 fl oz",
+    "price": "$4.99",
+    "unit_price": "$0.18/fluid ounce"
+  },
+  {
+    "category": "cream",
+    "source_file": "cream.json",
+    "name": "Coffee mate Hazelnut Coffee Creamer - 32 fl oz (1qt)",
+    "price": "$3.99",
+    "unit_price": "$0.12/fluid ounce"
+  },
+  {
+    "category": "cream cheese",
+    "source_file": "cream_cheese.json",
+    "name": "Philadelphia Whipped Cream Cheese Spread - 12oz",
+    "price": "$5.89",
+    "unit_price": "$0.49/ounce"
+  },
+  {
+    "category": "cream cheese",
+    "source_file": "cream_cheese.json",
+    "name": "Philadelphia Garden Vegetable Cream Cheese Spread - 7.5oz",
+    "price": "$3.99",
+    "unit_price": "$0.53/ounce"
+  },
+  {
+    "category": "cream cheese",
+    "source_file": "cream_cheese.json",
+    "name": "Philadelphia Original Cream Cheese - 8oz",
+    "price": "$3.19",
+    "unit_price": "$0.40/ounce"
+  },
+  {
+    "category": "cream cheese",
+    "source_file": "cream_cheese.json",
+    "name": "Plain Cream Cheese Spread - 8oz - Good & Gather\u2122",
+    "price": "$1.99",
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "cream cheese",
+    "source_file": "cream_cheese.json",
+    "name": "Philadelphia Original Cream Cheese Spread- 8oz",
+    "price": "$3.99",
+    "unit_price": "$0.50/ounce"
+  },
+  {
+    "category": "cream cheese",
+    "source_file": "cream_cheese.json",
+    "name": "Plain Block Cream Cheese Bar - 8oz - Good & Gather\u2122",
+    "price": "$1.69",
+    "unit_price": "$0.21/ounce"
+  },
+  {
+    "category": "cream cheese",
+    "source_file": "cream_cheese.json",
+    "name": "Whipped Plain Cream Cheese Spread - 8oz - Good & Gather\u2122",
+    "price": "$1.99",
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "cream cheese",
+    "source_file": "cream_cheese.json",
+    "name": "Philadelphia Original Cream Cheese - 16oz/2ct",
+    "price": "$4.99",
+    "unit_price": "$0.31/ounce"
+  },
+  {
+    "category": "cream cheese",
+    "source_file": "cream_cheese.json",
+    "name": "Philadelphia Whipped Cream Cheese Spread - 8oz",
+    "price": "$3.99",
+    "unit_price": "$0.50/ounce"
+  },
+  {
+    "category": "cream cheese",
+    "source_file": "cream_cheese.json",
+    "name": "Strawberry Cream Cheese Spread - 8oz - Good & Gather\u2122",
+    "price": "$1.99",
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "cream cheese",
+    "source_file": "cream_cheese.json",
+    "name": "Philadelphia Original Cream Cheese Spread - 16oz",
+    "price": "$6.99",
+    "unit_price": "$0.44/ounce"
+  },
+  {
+    "category": "cream cheese",
+    "source_file": "cream_cheese.json",
+    "name": "Buffalo-Style Chicken Dip - 10oz - Good & Gather\u2122",
+    "price": "$4.79",
+    "unit_price": "$0.48/ounce"
+  },
+  {
+    "category": "cream cheese",
+    "source_file": "cream_cheese.json",
+    "name": "Neufchatel Cream Cheese Bar - 8oz - Good & Gather\u2122",
+    "price": "$1.69",
+    "unit_price": "$0.21/ounce"
+  },
+  {
+    "category": "eggs",
+    "source_file": "eggs.json",
+    "name": "Eggland's Best Organic Grade A Large Brown Eggs - 12ct",
+    "price": "$6.79",
+    "unit_price": "$0.57/count"
+  },
+  {
+    "category": "eggs",
+    "source_file": "eggs.json",
+    "name": "Vital Farms Organic Pasture-Raised Grade A Large Eggs - 12ct",
+    "price": "$11.79",
+    "unit_price": "$0.98/count"
+  },
+  {
+    "category": "eggs",
+    "source_file": "eggs.json",
+    "name": "Vital Farms Pasture Raised Large Eggs - 18ct",
+    "price": "$11.99",
+    "unit_price": "$0.67/count"
+  },
+  {
+    "category": "eggs",
+    "source_file": "eggs.json",
+    "name": "Grade A Large Eggs - 18ct - Good & Gather\u2122 (Packaging May Vary)",
+    "price": "$3.39",
+    "unit_price": "$0.19/count"
+  },
+  {
+    "category": "eggs",
+    "source_file": "eggs.json",
+    "name": "Grade A Large Eggs - 12ct - Good & Gather\u2122 (Packaging May Vary)",
+    "price": "$2.29",
+    "unit_price": "$0.19/count"
+  },
+  {
+    "category": "eggs",
+    "source_file": "eggs.json",
+    "name": "Cage-Free Fresh Grade A Large Brown Eggs - 12ct - Good & Gather\u2122",
+    "price": "$3.39",
+    "unit_price": "$0.28/count"
+  },
+  {
+    "category": "eggs",
+    "source_file": "eggs.json",
+    "name": "Vital Farms Pasture-Raised Grade A Large Eggs - 12ct",
+    "price": "$8.19",
+    "unit_price": "$0.68/count"
+  },
+  {
+    "category": "eggs",
+    "source_file": "eggs.json",
+    "name": "Organic Cage-Free Fresh Grade A Large Brown Eggs - 12ct - Good & Gather\u2122",
+    "price": "$4.99",
+    "unit_price": "$0.42/count"
+  },
+  {
+    "category": "eggs",
+    "source_file": "eggs.json",
+    "name": "Cage-Free Liquid Egg Whites - 32oz - Good & Gather\u2122",
+    "price": "$7.59",
+    "unit_price": "$0.24/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Marine Harvest by MOWI Wild Sockeye Salmon Portion - 8oz",
+    "price": "$8.99",
+    "unit_price": "$1.12/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "C. Wirthy & Co. Blackened Hand-Seasoned Atlantic Salmon Fillets - Frozen - 10oz",
+    "price": "$10.99",
+    "unit_price": "$1.10/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Sea Cuisine Garlic & Herb Tilapia - Frozen - 9oz",
+    "price": "$9.99",
+    "unit_price": "$1.11/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Large Tail Off Peeled & Deveined Raw Shrimp - Frozen - 41-50ct per lb/16oz - Good & Gather\u2122",
+    "price": "$8.49",
+    "unit_price": "$0.53/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Atlantic Salmon - Frozen - 16oz - Good & Gather\u2122",
+    "price": "$11.99",
+    "unit_price": "$0.75/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Skin-On Atlantic Salmon - 10oz/2pk - Good & Gather\u2122",
+    "price": "$9.99",
+    "unit_price": "$1.00/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Sea Cuisine Teriyaki Sesame Salmon - Frozen - 9oz",
+    "price": "$9.99",
+    "unit_price": "$1.11/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "MOWI Fresh Garlic Herb Butter Atlantic Salmon Portion - 12oz",
+    "price": "$10.99",
+    "unit_price": "$0.92/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "C. Wirthy & Co. Teriyaki Hand-Seasoned Atlantic Salmon Fillets - Frozen - 10oz",
+    "price": "$10.99",
+    "unit_price": "$1.10/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Sea Cuisine Honey Chipotle Salmon - Frozen - 10.5oz",
+    "price": "$9.99",
+    "unit_price": "$0.95/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Tilapia Skinless Fillets - Frozen - 24oz - Good & Gather\u2122",
+    "price": "$9.99",
+    "unit_price": "$0.42/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Kidfresh Frozen Fish Sticks - 8.45oz",
+    "price": "$6.99",
+    "unit_price": "$0.83/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Gorton's Parmesan Crusted Fish Fillets - Frozen - 18.2oz",
+    "price": "$7.39",
+    "unit_price": "$0.41/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Wild Caught Alaska Pollock Frozen Fish Nuggets 19oz - Good & Gather\u2122",
+    "price": "$6.99",
+    "unit_price": null
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Sea Cuisine Tortilla Tilapia - Frozen - 9oz",
+    "price": "$9.99",
+    "unit_price": "$1.11/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Wild Caught Yellowfin Tuna - Frozen - 16oz - Good & Gather\u2122",
+    "price": "$10.99",
+    "unit_price": "$0.69/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Mowi Cold Smoked Sockeye Sliced Salmon - 4oz/8ct",
+    "price": "$7.99",
+    "unit_price": null
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Wild Caught Mahi Mahi Skinless Boneless Fillets - Frozen - 16oz - Good & Gather\u2122",
+    "price": "$11.89",
+    "unit_price": "$0.74/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Gorton's Breaded Haddock Fish Fillets - Frozen - 14.6oz",
+    "price": "$9.49",
+    "unit_price": "$0.65/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Small Tail Off Peeled & Deveined Cooked Shrimp - Frozen - 71-90ct/16oz - Good & Gather\u2122",
+    "price": "$8.99",
+    "unit_price": "$0.56/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "21/25 Raw, Peeled and Deveined, Tail-Off Shrimp - Frozen - 16oz - Good & Gather\u2122",
+    "price": "$11.49",
+    "unit_price": "$0.72/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "31/40 Wild Caught Large Raw Shrimp, Tail-Off, Peeled & Deveined - Frozen - 16oz - Good & Gather\u2122",
+    "price": "$10.49",
+    "unit_price": "$0.66/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Colossal Easy Peel Tail On & Deveined Raw Shrimp - Frozen - 13-15ct/16oz - Good & Gather\u2122",
+    "price": "$10.49",
+    "unit_price": "$0.66/ounce"
+  },
+  {
+    "category": "fish and seafood",
+    "source_file": "seafood.json",
+    "name": "Louis Kemp Crab Delights Imitation Crab Flake Style - 16oz",
+    "price": "$4.49",
+    "unit_price": "$0.28/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Sugarbee Apples - 2lb Bag",
+    "price": "$5.89",
+    "unit_price": "$0.18/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Watermelon Spears - 1lb",
+    "price": "$5.99",
+    "unit_price": "$0.37/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Organic Mandarin Oranges - 2lb Bag",
+    "price": "$5.49",
+    "unit_price": "$0.17/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Once Upon a Farm Organic Smart Blend Kids' Snack Variety Pack - 12.8oz/4ct Pouches",
+    "price": "$12.89",
+    "unit_price": "$1.01/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Organic Lemons - 2lb - Good & Gather\u2122",
+    "price": "$6.19",
+    "unit_price": "$0.19/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Mango Spears - 1lb",
+    "price": "$6.99",
+    "unit_price": "$0.44/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Pineapple Spears - 1lb",
+    "price": "$5.99",
+    "unit_price": "$0.37/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Organic Navel Oranges - 3lb - Good & Gather\u2122",
+    "price": "$5.79",
+    "unit_price": "$0.12/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Organic Sweet Apples - 2lbs",
+    "price": "$5.49",
+    "unit_price": "$0.17/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Once Upon a Farm Wild Rumpus Avocado, Pineapple Banana Organic Kids' Snack - 3.2oz Pouch",
+    "price": "$3.39",
+    "unit_price": "$1.06/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Crunch Pak Organic Sweet Apple Slices - 11oz/5ct",
+    "price": "$4.99",
+    "unit_price": "$0.45/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Garden Highway Cantaloupe Spears - 16oz",
+    "price": "$5.99",
+    "unit_price": "$0.37/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Candy Hearts Red Seedless Grapes - 1lb",
+    "price": "$5.29",
+    "unit_price": null
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Pineapple Chunks - 1.25lb",
+    "price": "$6.99",
+    "unit_price": "$0.35/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Organic Cosmic Crisp Apple - 2lbs",
+    "price": "$7.79",
+    "unit_price": "$0.24/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "POM Wonderful Ready-to-Eat Pomegranate Arils - 4oz",
+    "price": "$4.99",
+    "unit_price": "$1.25/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Once Upon A Farm Immunity Blend Variety Pack - 12.8oz/4ct",
+    "price": "$12.89",
+    "unit_price": "$1.01/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Once Upon a Farm Organic Immunity Blends Variety Pack - 12.8oz/4ct",
+    "price": "$12.89",
+    "unit_price": "$1.01/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Strawberries - 2lb",
+    "price": null,
+    "unit_price": "$0.30/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Extra Large Green Seedless Grapes - 1.5lbs Bag",
+    "price": null,
+    "unit_price": "$0.12/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Blueberries - 18oz",
+    "price": null,
+    "unit_price": "$0.27/fluid ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Once Upon a Farm Berry Berry Organic Dairy-Free Kids' Smoothie - 4oz Pouch",
+    "price": "$3.39",
+    "unit_price": "$0.85/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Once Upon a Farm Coco for Mangoes Organic Dairy-Free Kids' Smoothie - 4oz Pouch",
+    "price": "$3.39",
+    "unit_price": "$0.85/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Avocado - each",
+    "price": "$0.79",
+    "unit_price": null
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Navel Oranges - 4lb Bag - Good & Gather\u2122",
+    "price": "$4.79",
+    "unit_price": "$0.07/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Green Bell Peppers - 2ct - Good & Gather\u2122",
+    "price": "$2.39",
+    "unit_price": "$1.20/count"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Green Kiwi Fruit - 1lb",
+    "price": "$3.69",
+    "unit_price": "$0.23/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Fuji Apples - 3lb Bag - Good & Gather\u2122",
+    "price": "$4.39",
+    "unit_price": "$0.09/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Organic Blackberries - 6oz",
+    "price": "$4.99",
+    "unit_price": "$0.83/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Cosmic Crisp Apples - 2lb Bag",
+    "price": "$3.99",
+    "unit_price": "$0.12/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Granny Smith Apples - 3lb Bag - Good & Gather\u2122",
+    "price": "$4.49",
+    "unit_price": "$0.09/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Cara Cara Oranges - 3lb Bag - Brand May Vary",
+    "price": "$5.29",
+    "unit_price": null
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Dekopon Mandarin Oranges - 2lb Bag",
+    "price": "$5.99",
+    "unit_price": "$0.19/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Once Upon a Farm Organic Berry Bundle Variety Pack Kids' Snacks - 4ct/3.2oz Pouches",
+    "price": "$10.89",
+    "unit_price": "$0.85/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Rockit Miniature Apples - 3lb Bag",
+    "price": "$9.79",
+    "unit_price": "$0.20/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Strawberries - 1lb",
+    "price": "$4.49",
+    "unit_price": "$0.28/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Blueberries - 11.2oz",
+    "price": "$4.49",
+    "unit_price": "$0.40/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Once Upon a Farm Organic Smart Blend Kids' Snack Variety Pack - 12.8oz/4ct Pouches",
+    "price": "$10.99",
+    "unit_price": "$0.86/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Raspberries - 6oz",
+    "price": "$3.99",
+    "unit_price": "$0.67/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Organic Bananas - 2lb - Good & Gather\u2122",
+    "price": "$1.99",
+    "unit_price": "$0.06/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Sun Beams Mandarin Oranges - 3lbs - Good & Gather\u2122",
+    "price": "$4.49",
+    "unit_price": "$0.09/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Organic Strawberries - 16oz",
+    "price": "$7.89",
+    "unit_price": "$0.49/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Extra Large Red Seedless Grapes - 1.5lbs Bag",
+    "price": null,
+    "unit_price": "$0.12/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Extra Large Bi-Color Seedless Grapes - 2lb",
+    "price": "$7.39",
+    "unit_price": "$0.23/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Blackberries - 6oz",
+    "price": "$3.19",
+    "unit_price": "$0.53/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Honeycrisp Apples - 3lb Bag - Good & Gather\u2122",
+    "price": "$7.39",
+    "unit_price": "$0.15/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Mini Sweet Peppers - 16oz - Good & Gather\u2122 (Packaging May Vary)",
+    "price": "$3.99",
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Organic Raspberries - 6oz",
+    "price": "$5.39",
+    "unit_price": "$0.90/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Banana - each - Good & Gather\u2122",
+    "price": "$0.39",
+    "unit_price": null
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Limes - 1lb Bag - Good & Gather\u2122",
+    "price": "$3.89",
+    "unit_price": "$0.24/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Organic Hass Avocados - 4ct - Good & Gather\u2122",
+    "price": "$5.19",
+    "unit_price": "$1.30/count"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Navel Orange - each",
+    "price": "$0.99",
+    "unit_price": null
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Honeycrisp Apple - each",
+    "price": "$1.49",
+    "unit_price": null
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Green Grapes - 1.5lb Bag",
+    "price": "$3.29",
+    "unit_price": "$0.14/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Hass Avocados - 4ct - Good & Gather\u2122",
+    "price": "$2.99",
+    "unit_price": "$0.75/count"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Gala Apple - each",
+    "price": "$0.99",
+    "unit_price": null
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Rainbow Bell Peppers 3ct - Good & Gather\u2122",
+    "price": "$2.79",
+    "unit_price": "$0.93/count"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Red Grapes - 1.5lb Bag",
+    "price": "$3.29",
+    "unit_price": "$0.14/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Organic Blueberries - 1pt",
+    "price": "$5.99",
+    "unit_price": null
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Mango Fruit - each",
+    "price": "$1.49",
+    "unit_price": null
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Lemons - 2lb Bag - Good & Gather\u2122",
+    "price": "$5.19",
+    "unit_price": "$0.16/ounce"
+  },
+  {
+    "category": "fruit",
+    "source_file": "fruit.json",
+    "name": "Fresh Pink Lady Apples - 3lb Bag - Good & Gather\u2122",
+    "price": "$4.39",
+    "unit_price": "$0.09/ounce"
+  },
+  {
+    "category": "ham",
+    "source_file": "ham.json",
+    "name": "Hillshire Farm Ultra Thin Honey Ham - 16oz",
+    "price": "$6.29",
+    "unit_price": "$0.39/ounce"
+  },
+  {
+    "category": "ham",
+    "source_file": "ham.json",
+    "name": "Wellshire Black Forest Uncured Seasonal Deli Ham - 7oz",
+    "price": "$4.99",
+    "unit_price": null
+  },
+  {
+    "category": "ham",
+    "source_file": "ham.json",
+    "name": "Oscar Mayer Deli Fresh Honey Uncured Ham Sliced Lunch Meat - 9oz",
+    "price": "$4.29",
+    "unit_price": "$0.48/ounce"
+  },
+  {
+    "category": "ham",
+    "source_file": "ham.json",
+    "name": "Hickory Smoked Uncured Ham Steak - 8oz - Good & Gather\u2122",
+    "price": "$3.29",
+    "unit_price": "$0.41/ounce"
+  },
+  {
+    "category": "ham",
+    "source_file": "ham.json",
+    "name": "Hickory Smoked Uncured Boneless Sliced Quarter Ham - price per lb - Good & Gather\u2122",
+    "price": "$17.47 max price",
+    "unit_price": "$4.99/lb"
+  },
+  {
+    "category": "ham",
+    "source_file": "ham.json",
+    "name": "Uncured Honey Ham Ultra-Thin Deli Slices - 9oz - Good & Gather\u2122",
+    "price": "$3.59",
+    "unit_price": "$0.40/ounce"
+  },
+  {
+    "category": "ham",
+    "source_file": "ham.json",
+    "name": "Hillshire Farm Ultra Thin Honey Roasted Turkey Breast & Smoked Ham Variety Pack - 16oz",
+    "price": "$6.29",
+    "unit_price": "$0.39/ounce"
+  },
+  {
+    "category": "ham",
+    "source_file": "ham.json",
+    "name": "Wellshire Virginia Brand Uncured Seasonal Deli Ham - 7oz",
+    "price": "$4.99",
+    "unit_price": null
+  },
+  {
+    "category": "ham",
+    "source_file": "ham.json",
+    "name": "Oscar Mayer Carving Board Slow Cooked Ham Sliced Lunch Meat - 7.5oz",
+    "price": "$4.29",
+    "unit_price": "$0.57/ounce"
+  },
+  {
+    "category": "ham",
+    "source_file": "ham.json",
+    "name": "Uncured Black Forest Ham Ultra-Thin Deli Slices - 9oz - Good & Gather\u2122",
+    "price": "$3.59",
+    "unit_price": "$0.40/ounce"
+  },
+  {
+    "category": "ham",
+    "source_file": "ham.json",
+    "name": "Applegate Natural Uncured Black Forest Ham - 7oz",
+    "price": "$5.99",
+    "unit_price": "$0.86/ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Horizon Organic Whole DHA Omega-3 Milk - 0.5gal",
+    "price": "$7.49",
+    "unit_price": "$0.12/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Horizon Organic 2% Reduced Fat High Vitamin D Milk - 1gal",
+    "price": "$12.69",
+    "unit_price": "$0.10/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Horizon Organic Growing Years Whole DHA Omega-3 Milk - 59 fl oz",
+    "price": "$6.99",
+    "unit_price": "$0.12/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Vitamin D Whole Milk - 1gal - Good & Gather\u2122",
+    "price": "$4.39",
+    "unit_price": "$0.03/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "2% Reduced Fat Milk - 1gal - Good & Gather\u2122",
+    "price": "$4.19",
+    "unit_price": "$0.03/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Fairlife Lactose-Free 2% Milk - 52 fl oz",
+    "price": "$5.39",
+    "unit_price": "$0.10/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Horizon Organic Whole Lactose-Free Milk - 0.5gal",
+    "price": "$8.19",
+    "unit_price": "$0.13/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Pioneer Pastures Lactose Free A2 Whole Milk - 59 fl oz",
+    "price": "$7.39",
+    "unit_price": "$0.13/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Organic Valley Grassmilk Organic Grassfed Whole Milk - 59 fl oz",
+    "price": "$8.29",
+    "unit_price": "$0.14/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Fairlife Lactose-Free Fat-Free Milk - 52 fl oz",
+    "price": "$5.39",
+    "unit_price": "$0.10/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Fairlife Lactose-Free 2% Chocolate Milk - 52 fl oz",
+    "price": "$5.39",
+    "unit_price": "$0.10/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Fairlife Lactose-Free Whole Milk - 52 fl oz",
+    "price": "$5.39",
+    "unit_price": "$0.10/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "1% Low Fat Milk - 1gal - Good & Gather\u2122",
+    "price": "$3.99",
+    "unit_price": "$0.03/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Organic Whole Milk - 0.5gal - Good & Gather\u2122",
+    "price": "$5.89",
+    "unit_price": "$0.09/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Lactaid Lactose Free 2% Reduced Fat Milk - 96 fl oz",
+    "price": "$7.29",
+    "unit_price": "$0.08/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Pioneer Pastures Lactose Free A2 Chocolate 2% Reduced Fat Milk - 59 fl oz",
+    "price": "$7.39",
+    "unit_price": "$0.13/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Horizon Organic Whole Milk - 6pk/8 fl oz Boxes",
+    "price": "$10.69",
+    "unit_price": "$0.22/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Horizon Organic 1% Chocolate Milk DHA Added - 6pk/8 fl oz Boxes",
+    "price": "$10.69",
+    "unit_price": "$0.22/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "a2 Milk 2% Vitamin A & D Ultra-Pasteurized - 59 fl oz",
+    "price": "$5.39",
+    "unit_price": "$0.09/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Lifeway Kefir Plain Low Fat Milk Smoothie - 32 fl oz",
+    "price": "$4.79",
+    "unit_price": "$0.15/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Organic Skim Milk - 0.5gal - Good & Gather\u2122",
+    "price": "$5.89",
+    "unit_price": "$0.09/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Horizon Organic 2% Reduced Fat DHA Omega - 3 Milk - 0.5gal",
+    "price": "$6.49",
+    "unit_price": "$0.10/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Horizon Organic Growing Years 2% Milk with DHA Omega-3 - 59 fl. oz.",
+    "price": "$6.99",
+    "unit_price": "$0.12/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Lactaid Lactose Free 1% Low Fat Milk - 0.5gal",
+    "price": "$5.49",
+    "unit_price": "$0.09/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Horizon Organic 2% Reduced Fat Lactose-Free Milk - 0.5gal",
+    "price": "$6.29",
+    "unit_price": "$0.10/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Horizon Organic 1% Strawberry Milk - 6pk/8 fl oz Boxes",
+    "price": "$10.69",
+    "unit_price": "$0.22/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Lactaid Lactose Free Fat Free Milk - 0.5gal",
+    "price": "$4.99",
+    "unit_price": "$0.08/fluid ounce"
+  },
+  {
+    "category": "milk",
+    "source_file": "milk.json",
+    "name": "Pioneer Pastures Lactose Free 2% A2 Milk - 59 fl oz",
+    "price": "$7.39",
+    "unit_price": "$0.13/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Oatly Oatmilk Full Fat Chilled Non-Dairy Milk - 64 fl oz",
+    "price": "$5.49",
+    "unit_price": "$0.09/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "MALK Organics Unsweetened Almond Vanilla Milk - 28 fl oz",
+    "price": "$5.99",
+    "unit_price": "$0.21/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Califia Farms Organic Coconut Milk - 48 fl oz",
+    "price": "$5.99",
+    "unit_price": "$0.12/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Oatly Original Oatmilk Chilled Non-Dairy Milk - 64 fl oz",
+    "price": "$5.49",
+    "unit_price": "$0.09/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Lactose Free 2% Milk - 0.5gal - Good & Gather\u2122",
+    "price": "$3.29",
+    "unit_price": "$0.05/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Ripple Dairy Free Kids Milk - 48 fl oz",
+    "price": "$5.89",
+    "unit_price": "$0.12/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Ripple Kids Plant Based Chocolate Milk - 48 fl oz",
+    "price": "$5.89",
+    "unit_price": "$0.12/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Plant Based Unsweetened Vanilla Almond Milk - 0.5gal - Good & Gather\u2122",
+    "price": "$2.79",
+    "unit_price": "$0.04/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Califia Farms Organic Unsweetened Almond Milk - 48 fl oz",
+    "price": "$6.29",
+    "unit_price": "$0.13/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Plant Based Unsweetened Original Almond Milk - 0.5gal - Good & Gather\u2122",
+    "price": "$2.79",
+    "unit_price": "$0.04/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Chobani Extra Creamy Plant-Based Oatmilk - 52 fl oz",
+    "price": "$4.29",
+    "unit_price": "$0.08/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Lactose Free Vitamin D Milk - 0.5gal - Good & Gather\u2122",
+    "price": "$3.29",
+    "unit_price": "$0.05/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Califia Farms Extra Creamy Oat Milk - 48 fl oz",
+    "price": "$4.29",
+    "unit_price": "$0.09/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "MALK Organics Sweet Cream Coconut Creamer - 16 fl oz",
+    "price": "$6.49",
+    "unit_price": null
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "MALK Organics Unsweetened Coconut Milk - 28 fl oz",
+    "price": "$5.99",
+    "unit_price": "$0.21/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Silk High Protein Gluten Free Soy Milk - 48 fl oz",
+    "price": "$3.99",
+    "unit_price": null
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Almond Breeze Unsweetened Original Almond Milk Shelf Stable - 1qt",
+    "price": "$2.69",
+    "unit_price": "$0.08/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "So Delicious Dairy Free UHT Original Coconut Milk Shelf Stable - 1qt",
+    "price": "$3.29",
+    "unit_price": "$0.10/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Silk Vanilla Almond Milk - 0.5gal",
+    "price": "$3.49",
+    "unit_price": "$0.05/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Silk Unsweet Coconut Milk - 0.5gal",
+    "price": "$4.49",
+    "unit_price": "$0.07/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Ripple Kids Unsweetened Original Milk Alternative - 48 fl oz",
+    "price": "$5.89",
+    "unit_price": "$0.12/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Plant Based Vanilla Almond Milk - 0.5gal - Good & Gather\u2122",
+    "price": "$2.79",
+    "unit_price": "$0.04/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "MALK Organics Original Oat Milk - 28 fl oz",
+    "price": "$5.99",
+    "unit_price": "$0.21/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Califia Farms Organic Vanilla Almond Milk - 48 fl oz",
+    "price": "$5.99",
+    "unit_price": "$0.12/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Almond Breeze Unsweetened Vanilla Almond Milk Shelf Stable - 1qt",
+    "price": "$2.69",
+    "unit_price": "$0.08/fluid ounce"
+  },
+  {
+    "category": "milk substitute",
+    "source_file": "milk_substitute.json",
+    "name": "Silk Vanilla Soy Milk - 0.5gal",
+    "price": "$3.99",
+    "unit_price": "$0.06/fluid ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Annie's Organic Real Aged Cheddar Mac and Cheese Microwavable Cups - 8.04oz/4pk",
+    "price": "$6.59",
+    "unit_price": "$0.82/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "3 Farm Daughters High Fiber Cavatappi Pasta - 12oz",
+    "price": "$4.99",
+    "unit_price": "$0.42/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Velveeta Shells & Cheese Original Mac and Cheese Cups Easy Microwavable Dinner - 9.56oz/4ct",
+    "price": "$5.49",
+    "unit_price": "$0.57/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Barilla ProteinPLUS Multigrain Penne Pasta - 14.5oz",
+    "price": "$2.69",
+    "unit_price": "$0.19/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Dinosaur Shaped Organic Kids' Pasta - 12oz - Good & Gather\u2122",
+    "price": "$2.49",
+    "unit_price": "$0.21/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Gluten Free Red Lentil Rotini - 8oz - Good & Gather\u2122",
+    "price": "$2.99",
+    "unit_price": "$0.37/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Carbe Diem Foods Penne Pasta - 12oz",
+    "price": "$3.99",
+    "unit_price": "$0.33/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Velveeta Gluten Free Liquid Mac & Cheese - 12oz",
+    "price": "$5.99",
+    "unit_price": "$0.50/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Gluten Free Spaghetti - 12oz - Good & Gather\u2122",
+    "price": "$2.39",
+    "unit_price": "$0.20/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Alphabet Shaped Organic Kids' Pasta - 12oz - Good & Gather\u2122",
+    "price": "$2.49",
+    "unit_price": "$0.21/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Jasmine Rice - 32oz - Good & Gather\u2122",
+    "price": "$3.49",
+    "unit_price": "$0.11/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Barilla Spaghetti Pasta - 16oz",
+    "price": "$1.89",
+    "unit_price": "$0.12/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Wide Egg Noodles - 12oz - Good & Gather\u2122",
+    "price": "$1.29",
+    "unit_price": "$0.11/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Rotini - 16oz - Good & Gather\u2122",
+    "price": "$0.99",
+    "unit_price": "$0.06/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Rigatoni - 16oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.06/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Barilla Penne Pasta - 16oz",
+    "price": null,
+    "unit_price": "$0.12/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Farfalle - 16oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.07/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Fettuccine - 16oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.06/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "90 Second Long Grain White Rice Microwavable Pouch - 8.8oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.17/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "90 Second Whole Grain Brown Rice Microwavable Pouch - 8.8oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.17/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Angel Hair - 16oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.06/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "90 Second Organic Jasmine Rice Microwavable Pouch - 8.8oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.28/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Barilla ProteinPLUS Multigrain Spaghetti Pasta - 14.5oz",
+    "price": null,
+    "unit_price": "$0.19/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Barilla Rotini Pasta - 16oz",
+    "price": null,
+    "unit_price": "$0.12/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "Pasta_Rice_Grains.json",
+    "name": "Medium Shells - 16oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.06/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Buy 4 for $4 select Campbell's soups - 10.5oz",
+    "price": null,
+    "unit_price": "$0.13/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Nutella Chocolate Hazelnut Spread - 13oz",
+    "price": null,
+    "unit_price": "$0.29/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Goya Black Beans - 15.5oz",
+    "price": null,
+    "unit_price": "$0.11/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Torani PUREMADE Caramel Sauce for Coffee Lattes and Milkshakes - 16.5oz",
+    "price": null,
+    "unit_price": "$0.34/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Pop-Tarts Frosted Pumpkin Pie Filling Toaster Pastries - 20.3oz/12ct",
+    "price": null,
+    "unit_price": "$0.20/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Mott's Applesauce Cups - 24oz/6ct",
+    "price": null,
+    "unit_price": "$0.11/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Swanson Premium White Chunk Chicken Breast in Water - 12.5oz",
+    "price": null,
+    "unit_price": "$0.40/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "* Betty Crocker Rich and Creamy Vanilla Frosting - 16oz [https://target.scene7.com/is/image/Target/GUEST_fa76acbd-bf6b-4518-ba29-0f69fe61847e?wid=1900&qlt=80]/p/betty-crocker-rich-and-creamy-vanilla-frosting-16oz/-/A-13016262",
+    "price": null,
+    "unit_price": null
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Betty Crocker Rich and Creamy Vanilla Frosting - 16oz",
+    "price": null,
+    "unit_price": "$0.11/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Bolthouse Farms Classic Ranch Yogurt Dressing & Dip - 12 fl oz",
+    "price": null,
+    "unit_price": "$0.29/fluid ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Kodiak Cakes Protein-Packed Single-Serve Flapjack Cup Buttermilk & Maple - 2.15oz",
+    "price": null,
+    "unit_price": "$1.07/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Bob's Red Mill Gluten Free Whole Ground Flaxseed Meal - 16oz",
+    "price": null,
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Truvia Original Calorie-Free Sweetener from the Stevia Leaf - 40 packets/2.82oz",
+    "price": null,
+    "unit_price": "$1.06/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Buy 2 for $16 Stouffer's frozen meals",
+    "price": null,
+    "unit_price": "$0.29/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Bob's Red Mill Nutritional Yeast - 5oz",
+    "price": null,
+    "unit_price": "$1.10/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Caribou Coffee Caribou Blend Medium Roast Whole Bean Coffee - 12oz",
+    "price": null,
+    "unit_price": "$0.75/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Betty Crocker Reese's Premium Brownie -16oz",
+    "price": null,
+    "unit_price": "$0.29/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Rana Italian Sausage Ravioli - 10oz",
+    "price": "$5.49",
+    "unit_price": "$0.55/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "FLY BY JING Sweet + Spicy Sun Dried Vegan Sichuan Noodles - 16.08oz/4ct",
+    "price": "$10.59",
+    "unit_price": "$0.66/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Carbe Diem Foods Penne Pasta - 12oz",
+    "price": "$3.99",
+    "unit_price": "$0.33/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Stelline - 16oz - Good & Gather\u2122",
+    "price": "$2.39",
+    "unit_price": "$0.15/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Kraft Original Mac and Cheese Dinner - 36.25oz/5ct",
+    "price": "$5.89",
+    "unit_price": "$0.16/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "90 Second Whole Grain Brown Rice Microwavable Pouch - 8.8oz - Good & Gather\u2122",
+    "price": "$1.49",
+    "unit_price": "$0.17/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "3 Farm Daughters High Fiber Penne Pasta - 12oz",
+    "price": "$4.99",
+    "unit_price": "$0.42/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Velveeta Gluten Free Liquid Mac & Cheese - 12oz",
+    "price": "$5.99",
+    "unit_price": "$0.50/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "3 Farm Daughters High Fiber Rotini Pasta - 12oz",
+    "price": "$4.99",
+    "unit_price": "$0.42/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Minute Instant White Rice - 14oz",
+    "price": "$2.69",
+    "unit_price": "$0.19/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Medium Shells - 16oz - Good & Gather\u2122",
+    "price": "$0.99",
+    "unit_price": "$0.06/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "90 Second Organic Jasmine Rice Microwavable Pouch - 8.8oz - Good & Gather\u2122",
+    "price": "$2.49",
+    "unit_price": "$0.28/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Orzo - 16oz - Good & Gather\u2122",
+    "price": "$2.39",
+    "unit_price": "$0.15/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Barilla Wavy Lasagna Pasta - 16oz",
+    "price": "$2.69",
+    "unit_price": "$0.17/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Pot-Size Spaghetti - 16oz - Good & Gather\u2122",
+    "price": "$0.99",
+    "unit_price": "$0.06/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Kraft Original Mac and Cheese Cups Easy Microwavable Dinner - 16.4oz/8ct",
+    "price": "$9.89",
+    "unit_price": "$0.60/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "* Jasmine Rice - 32oz - Good & Gather\u2122 [https://target.scene7.com/is/image/Target/GUEST_ff2f3e51-6753-4ed8-846d-f6329531e50d?qlt=65&fmt=webp&hei=350&wid=350]",
+    "price": null,
+    "unit_price": null
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Jasmine Rice - 32oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.11/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "* Rigatoni - 16oz - Good & Gather\u2122 [https://target.scene7.com/is/image/Target/GUEST_208cb2f1-2441-4a55-977c-692a8df7849b?qlt=65&fmt=webp&hei=350&wid=350]",
+    "price": null,
+    "unit_price": null
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Rigatoni - 16oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.06/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Rotini - 16oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.06/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Barilla Penne Pasta - 16oz",
+    "price": null,
+    "unit_price": "$0.12/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Barilla Spaghetti Pasta - 16oz",
+    "price": null,
+    "unit_price": "$0.12/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Elbow Macaroni - Good & Gather\u2122",
+    "price": null,
+    "unit_price": null
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Farfalle - 16oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.07/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Fettuccine - 16oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.06/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Barilla ProteinPLUS Multigrain Penne Pasta - 14.5oz",
+    "price": null,
+    "unit_price": "$0.19/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "90 Second Long Grain White Rice Microwavable Pouch - 8.8oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.17/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Wide Egg Noodles - 12oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.11/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Angel Hair - 16oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.06/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Barilla ProteinPLUS Multigrain Spaghetti Pasta - 14.5oz",
+    "price": null,
+    "unit_price": "$0.19/ounce"
+  },
+  {
+    "category": "pasta_rice_grains",
+    "source_file": "pasta_rice_grains2.json",
+    "name": "Barilla Rotini Pasta - 16oz",
+    "price": null,
+    "unit_price": "$0.12/ounce"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Tyson Savory Campfire Pork Chop - 12oz",
+    "price": "$5.00",
+    "unit_price": "$0.42/ounce"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Del Real Carnitas - 12oz",
+    "price": "$8.99",
+    "unit_price": "$0.75/ounce"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Tyson Seasoned Steakhouse Pork Griller Steak - 12oz",
+    "price": "$5.00",
+    "unit_price": "$0.42/ounce"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Hickory Smoked Spiral-Cut Bone-In Ham - 6-10lbs",
+    "price": "$14.90 max price",
+    "unit_price": "$1.49/lb"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Seasoned Pulled Pork in Bourbon Barbecue Sauce - 16oz - Good & Gather",
+    "price": "$7.99",
+    "unit_price": "$0.50/ounce"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Mild Flavor Mixes Ground Pork - 1lb - Good & Gather",
+    "price": "$4.49",
+    "unit_price": "$0.28/ounce"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Tyson Fajita Seasoned Pork Strips - 20oz",
+    "price": "$8.00",
+    "unit_price": "$0.40/ounce"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Oscar Mayer Chili Cheese Hot Dogs - 16oz",
+    "price": "$5.49",
+    "unit_price": "$0.34/ounce"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Oscar Mayer Jalapeno Cheddar Hot Dogs - 16oz",
+    "price": "$5.49",
+    "unit_price": "$0.34/ounce"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Uncured Diced Ham - 8oz - Good & Gather",
+    "price": "$3.29",
+    "unit_price": "$0.41/ounce"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Hickory Smoked Spiral-Sliced Half Bone-In Uncured Ham - price per lb - Good & Gather",
+    "price": "$19.90 max price",
+    "unit_price": "$1.99/lb"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Johnsonville Mild Italian Ground Pork Sausage - 16oz",
+    "price": "$4.99",
+    "unit_price": "$0.31/ounce"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Baby Back Pork Ribs - 3.02-4.02 lbs - price per lb - Good & Gather",
+    "price": null,
+    "unit_price": "$3.49/lb"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Hickory Smoked Uncured Ham Steak - 8oz - Good & Gather",
+    "price": null,
+    "unit_price": "$0.41/ounce"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "All Natural Pork Tenderloin - price per lb - Good & Gather2",
+    "price": null,
+    "unit_price": "$4.99/lb"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Custom Made Meals Boneless Breaded Pork Chops - 16oz",
+    "price": null,
+    "unit_price": "$0.44/ounce"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Hickory Smoked Uncured Boneless Sliced Quarter Ham - price per lb - Good & Gather",
+    "price": null,
+    "unit_price": "$4.99/lb"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Garlic & Herb Seasoned Pork Tenderloin - 1-1.5lbs - price per lb - Good & Gather",
+    "price": null,
+    "unit_price": "$4.99/lb"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Lemon Herb Seasoned Pork Tenderloin - price per lb - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$4.99/lb"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Boneless Thin-Cut Center Cut Pork Loin Chops - price per lb - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$6.79/lb"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Bone-In Pork Loin Chops - price per lb - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$4.99/lb"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Boneless Butt Roast Pork Shoulder - price per lb - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$3.99/lb"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Boneless Center Cut Pork Loin Chops Family Pack - price per lb - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$6.19/lb"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Bone-In Thin Cut Center Cut Pork Loin Chop - price per lb - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$5.49/lb"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Boneless Diced Pork Sirloin - 16oz - Good & Gather\u2122",
+    "price": null,
+    "unit_price": "$0.27/ounce"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Gourmet Specialty Foods Pineapple Teriyaki Loin Pork Skewers Boneless - 1lb",
+    "price": null,
+    "unit_price": "$0.56/ounce"
+  },
+  {
+    "category": "pork",
+    "source_file": "Pork.json",
+    "name": "Gourmet Specialty Foods Char Siu Chinese Style Loin Pork Skewers Boneless - 1lb",
+    "price": null,
+    "unit_price": "$0.56/ounce"
+  },
+  {
+    "category": "sour cream",
+    "source_file": "sour_cream.json",
+    "name": "Sour Cream - 16oz - Good & Gather\u2122",
+    "price": "$1.99",
+    "unit_price": "$0.12/ounce"
+  },
+  {
+    "category": "sour cream",
+    "source_file": "sour_cream.json",
+    "name": "Daisy Squeeze Sour Cream - 14oz",
+    "price": "$2.99",
+    "unit_price": "$0.21/ounce"
+  },
+  {
+    "category": "sour cream",
+    "source_file": "sour_cream.json",
+    "name": "Sour Cream - 8oz - Good & Gather\u2122",
+    "price": "$1.29",
+    "unit_price": "$0.16/ounce"
+  },
+  {
+    "category": "sour cream",
+    "source_file": "sour_cream.json",
+    "name": "Daisy Pure & Natural Sour Cream - 16oz",
+    "price": "$2.79",
+    "unit_price": "$0.17/ounce"
+  },
+  {
+    "category": "sour cream",
+    "source_file": "sour_cream.json",
+    "name": "Daisy Light Sour Cream - 14oz",
+    "price": "$2.99",
+    "unit_price": "$0.21/ounce"
+  },
+  {
+    "category": "sour cream",
+    "source_file": "sour_cream.json",
+    "name": "Sour Cream - 24oz - Good & Gather\u2122",
+    "price": "$2.89",
+    "unit_price": "$0.12/ounce"
+  },
+  {
+    "category": "sour cream",
+    "source_file": "sour_cream.json",
+    "name": "Daisy Pure & Natural Sour Cream - 8oz",
+    "price": "$1.89",
+    "unit_price": "$0.24/ounce"
+  },
+  {
+    "category": "sour cream",
+    "source_file": "sour_cream.json",
+    "name": "Light Sour Cream - 16oz - Good & Gather\u2122",
+    "price": "$1.99",
+    "unit_price": "$0.12/ounce"
+  },
+  {
+    "category": "sour cream",
+    "source_file": "sour_cream.json",
+    "name": "Daisy Pure & Natural Sour Cream - 24oz",
+    "price": "$3.89",
+    "unit_price": "$0.16/ounce"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "Butterball Premium Fresh All Natural Young Turkey - 16-24 lbs - price per lb",
+    "price": "$47.76 max price",
+    "unit_price": "$1.99/lb"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "Cook-in-Bag Homestyle Turkey - Frozen - 12lbs - Serves 8 - Good & Gather\u2122",
+    "price": "$19.99",
+    "unit_price": "$0.10/ounce"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "Butterball Premium Fresh All Natural Young Turkey - 10-16 lbs - price per lb",
+    "price": "$31.84 max price",
+    "unit_price": "$1.99/lb"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "Jennie-O All-Natural 93/7 Ground Turkey - 16oz",
+    "price": "$5.49",
+    "unit_price": "$0.34/ounce"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "Premium Basted Young Turkey - Frozen - 10-16lbs - price per lb - Serves 7-11 - Good & Gather\u2122",
+    "price": "$12.64",
+    "unit_price": "$0.79/lb"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "Butterball Premium All Natural Young Turkey - Frozen - 20-24 lbs - price per lb - Serves 13-16",
+    "price": "$23.76",
+    "unit_price": "$0.99/lb"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "Butterball Premium All Natural Young Turkey - Frozen - 10-16lbs - price per lb - Serves 7-11",
+    "price": "$15.84",
+    "unit_price": "$0.99/lb"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "Cook-in-Bag Homestyle Boneless Turkey Breast - Frozen - 2.5lbs - Serves 5 - Good & Gather\u2122",
+    "price": "$14.99",
+    "unit_price": "$0.37/ounce"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "93/7 All Natural Ground Turkey - 16oz - Good & Gather\u2122",
+    "price": "$4.89",
+    "unit_price": "$0.31/ounce"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "USDA All Natural Homestyle Turkey Meatballs - Frozen - 20oz - Good & Gather\u2122",
+    "price": "$7.49",
+    "unit_price": "$0.37/ounce"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "93/7 No Antibiotics Ever All Natural Ground Turkey - 16oz - Good & Gather\u2122",
+    "price": "$4.79",
+    "unit_price": "$0.30/ounce"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "Premium Basted Turkey Breast - Frozen - 5-9lbs - price per lb - Serves 5-12 - Good & Gather\u2122",
+    "price": "$17.91 max price",
+    "unit_price": "$1.99/lb"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "Jennie-O All-Natural 99/1 Ground Turkey Breast - 16oz",
+    "price": "$7.49",
+    "unit_price": "$0.47/ounce"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "Jennie-O 90/10 Ground Turkey Roll - 16oz",
+    "price": "$4.99",
+    "unit_price": "$0.31/ounce"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "99/1 All Natural Ground Turkey - 16oz - Good & Gather\u2122",
+    "price": "$5.99",
+    "unit_price": "$0.37/ounce"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "Jennie-O 93/7 Lean Ground Turkey Family Pack - 48oz",
+    "price": "$14.59",
+    "unit_price": "$0.30/ounce"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "99/1 No Antibiotics Ever All Natural Ground Turkey - 16oz - Good & Gather\u2122",
+    "price": "$6.29",
+    "unit_price": "$0.39/ounce"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "All Natural Turkey Burger Patties - Frozen - 32oz/6ct - Good & Gather\u2122",
+    "price": "$9.39",
+    "unit_price": "$0.29/ounce"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "Butterball Seasoned Turkey Burger Patties - Frozen - 32oz/6ct",
+    "price": "$10.79",
+    "unit_price": "$1.80/count"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "Mighty Spark Queso Fresco & Jalapeno Turkey Burger Patties - 8oz/2ct",
+    "price": "$6.49",
+    "unit_price": "$0.81/ounce"
+  },
+  {
+    "category": "turkey",
+    "source_file": "turkey.json",
+    "name": "Premium Fresh Basted Young Turkey - 10-16lbs - priced per lb - Good & Gather\u2122",
+    "price": "$28.64 max price",
+    "unit_price": "$1.79/lb"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Premium Grape Tomatoes - 10oz - Good & Gather\u2122 (Packaging May Vary)",
+    "price": "$2.59",
+    "unit_price": "$0.26/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Sweet Potatoes - 3lb Bag - Good & Gather\u2122",
+    "price": "$3.19",
+    "unit_price": "$0.07/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Sliced White Mushrooms - 8oz - Good & Gather\u2122",
+    "price": "$2.29",
+    "unit_price": "$0.29/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Baking Sweet Potato - each",
+    "price": "$0.99",
+    "unit_price": null
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Shredded Green Leaf Lettuce - 4.5oz - Good & Gather\u2122",
+    "price": "$2.59",
+    "unit_price": "$0.58/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Organic Grape Tomatoes - 10oz - Good & Gather\u2122",
+    "price": "$2.99",
+    "unit_price": "$0.30/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Organic Zucchini - 2ct",
+    "price": "$3.19",
+    "unit_price": "$1.60/count"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Sweet Kale Chopped Salad Kit - 12oz - Good & Gather\u2122",
+    "price": "$3.69",
+    "unit_price": "$0.31/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Golden Potatoes - 5lb - Good & Gather\u2122",
+    "price": "$5.59",
+    "unit_price": "$0.07/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Organic Roma Tomatoes - 1lb",
+    "price": "$3.19",
+    "unit_price": "$0.20/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Organic Baby-Cut Carrots - 1lb - Good & Gather\u2122",
+    "price": "$1.79",
+    "unit_price": "$0.11/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Premium Cherry Tomatoes - 10oz - Good & Gather\u2122 (Packaging May Vary)",
+    "price": "$2.59",
+    "unit_price": "$0.26/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Organic Spring Mix Lettuce - 5oz - Good & Gather\u2122",
+    "price": "$3.19",
+    "unit_price": "$0.64/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Spice World Fresh Whole Garlic - 3ct Bag",
+    "price": "$1.89",
+    "unit_price": "$0.63/count"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Organic Celery Hearts - 16oz/2ct - Good & Gather\u2122",
+    "price": "$3.99",
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Organic On-The-Vine Tomatoes - 1lb - Good & Gather\u2122",
+    "price": "$3.89",
+    "unit_price": "$0.24/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Russet Potato - each",
+    "price": "$0.79",
+    "unit_price": null
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Yellow Onion - each",
+    "price": "$0.99",
+    "unit_price": null
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh English Cucumber - Each",
+    "price": "$0.99",
+    "unit_price": null
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Mini Cucumbers - 16oz Bag - Good & Gather\u2122 (Packaging May Vary)",
+    "price": "$1.99",
+    "unit_price": "$0.12/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Red Onion - each",
+    "price": "$0.99",
+    "unit_price": null
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh White Onion - each",
+    "price": "$0.99",
+    "unit_price": null
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Iceberg Lettuce Head - each",
+    "price": "$2.69",
+    "unit_price": null
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Shredded Iceberg Lettuce - 8oz - Good & Gather\u2122",
+    "price": "$2.39",
+    "unit_price": "$0.30/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Romaine Hearts - 3ct/22oz - Good & Gather\u2122",
+    "price": "$3.99",
+    "unit_price": "$0.18/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Green Onions - 5.5oz - Good & Gather\u2122",
+    "price": "$0.99",
+    "unit_price": "$0.18/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Cilantro Bunch - each",
+    "price": "$0.89",
+    "unit_price": "$0.22/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Russet Potatoes - 5lbs - (Brand May Vary)",
+    "price": "$2.59",
+    "unit_price": "$0.03/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Beefsteak Tomatoes - 13oz/2ct - Good & Gather\u2122 (Packaging May Vary)",
+    "price": "$2.99",
+    "unit_price": "$1.50/count"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Organic Carrots - 1lb - Good & Gather\u2122",
+    "price": "$1.49",
+    "unit_price": "$0.09/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Steam-in-Bag Spinach - 9oz - Good & Gather\u2122",
+    "price": "$2.39",
+    "unit_price": "$0.27/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables2.json",
+    "name": "Fresh Celery Sticks - 20oz - Good & Gather\u2122 (Packaging May Vary)",
+    "price": "$3.19",
+    "unit_price": "$0.16/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "Fresh Cucumber - 2ct",
+    "price": "$1.49",
+    "unit_price": "$0.07/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "Fresh Green Cabbage - each",
+    "price": "$2.19",
+    "unit_price": null
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "Fresh Organic Petite Baby-Cut Carrots - 12oz - Good & Gather\u2122",
+    "price": "$2.19",
+    "unit_price": "$0.18/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "Fresh Red Potatoes - 3lb - Good & Gather\u2122",
+    "price": "$2.99",
+    "unit_price": "$0.06/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "Fresh Baby Bella Mushrooms - 8oz - Good & Gather\u2122",
+    "price": "$2.39",
+    "unit_price": "$0.30/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "Sunflower Crunch Chopped Salad Kit - 12.85oz - Good & Gather\u2122",
+    "price": "$3.69",
+    "unit_price": "$0.29/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "Fresh Whole White Mushrooms - 8oz - Good & Gather\u2122",
+    "price": "$2.19",
+    "unit_price": "$0.27/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "American Blend - 11oz - Good & Gather\u2122",
+    "price": "$3.49",
+    "unit_price": "$0.32/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "Fresh Baby Gold Potatoes - 1.5lbs - Good & Gather\u2122",
+    "price": "$3.59",
+    "unit_price": "$0.15/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "Spice World Organic Minced Garlic - 4.5oz",
+    "price": "$2.99",
+    "unit_price": "$0.66/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "Once Upon a Farm Green Kale & Apples Organic Kids' Snack - 4ct/3.2oz Pouches",
+    "price": "$9.19",
+    "unit_price": "$0.72/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "Fresh Italian Blend - 9oz - Good & Gather\u2122",
+    "price": "$3.49",
+    "unit_price": "$0.39/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "Fresh Shaved Brussels Sprouts - 9oz - Good & Gather\u2122",
+    "price": "$2.99",
+    "unit_price": "$0.33/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "Fresh Broccoli Bunch - each",
+    "price": "$3.99",
+    "unit_price": null
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "Fresh Butter Lettuce Blend - 6oz - Good & Gather\u2122",
+    "price": "$2.79",
+    "unit_price": "$0.47/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables3.json",
+    "name": "Single Cut Romaine Lettuce - 7oz",
+    "price": "$3.29",
+    "unit_price": null
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Tasteful Selections Sunburst Blend Nibbles - 16oz",
+    "price": "$3.59",
+    "unit_price": "$0.22/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Thai-Style Chili Mango Chopped Salad Kit - 11.25oz - Good & Gather\u2122",
+    "price": "$3.69",
+    "unit_price": "$0.33/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Cranberry Almond Chicken Salad Cups - 16oz/4ct - Good & Gather\u2122",
+    "price": "$8.49",
+    "unit_price": "$0.53/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Maple Bourbon Bacon Chopped Salad Kit - 12.8oz - Good & Gather\u2122",
+    "price": "$3.49",
+    "unit_price": "$0.27/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Little Leaf Farms Fresh Sweet Baby Butter Lettuce - 4oz",
+    "price": "$3.99",
+    "unit_price": "$1.00/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Spice World Minced Garlic - 32oz",
+    "price": "$7.99",
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Earthbound Farm Fresh Organic Chopped Kale - 10oz",
+    "price": "$4.59",
+    "unit_price": "$0.46/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Fresh Seedless Rainbow Sweet Mini Peppers - 1lb",
+    "price": "$4.69",
+    "unit_price": "$0.29/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Rotisserie Chicken Salad - 12oz - Good & Gather\u2122",
+    "price": "$7.99",
+    "unit_price": "$0.67/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Rosemary Chicken Salad - 12oz - Good & Gather\u2122",
+    "price": "$7.99",
+    "unit_price": "$0.67/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Spicy Jalapeno Chopped Salad Kit - 12.65oz - Tabitha Brown for Target",
+    "price": "$3.69",
+    "unit_price": "$0.29/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Dill Pickle Chopped Salad Kit - 12.07oz - Tabitha Brown for Target",
+    "price": "$3.69",
+    "unit_price": "$0.31/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Nature Fresh Farms Ombre Cherry Tomatoes On The Vine - 12oz",
+    "price": "$5.99",
+    "unit_price": "$0.50/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Fresh Little Leaf Farms Baby Red & Green Leaf Lettuce Blend - 4oz",
+    "price": "$3.99",
+    "unit_price": "$1.00/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Deviled Egg Potato Salad - 1lb - Market Pantry\u2122",
+    "price": "$4.59",
+    "unit_price": "$0.29/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Chicken Caesar Salad Bowl - 6.5oz - Good & Gather\u2122",
+    "price": "$3.59",
+    "unit_price": "$0.55/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Garden Salad Blend - 12oz - Good & Gather\u2122",
+    "price": "$2.39",
+    "unit_price": "$0.20/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables4.json",
+    "name": "Fresh Green Beans - Good & Gather\u2122",
+    "price": "$2.79 - $5.39",
+    "unit_price": null
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Classic Potato Salad - 1lb - Market Pantry\u2122",
+    "price": "$4.29",
+    "unit_price": "$0.27/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Macaroni Salad - 1lb - Market Pantry\u2122",
+    "price": "$4.29",
+    "unit_price": "$0.27/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Spice World Minced Ginger - 10oz",
+    "price": "$6.39",
+    "unit_price": "$0.64/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Earthbound Farm Organic Romaine Heart Lettuce Leaves - 7oz",
+    "price": "$5.89",
+    "unit_price": "$0.84/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Earthbound Farm Organic Baby Spinach and Arugula Blend - 5oz",
+    "price": "$4.29",
+    "unit_price": "$0.86/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Earthbound Farm Organic Baby Red Butter Lettuce - 5oz",
+    "price": "$4.29",
+    "unit_price": "$0.86/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Concord Foods Fresh Success Mild Guacamole Mix - 1.1oz",
+    "price": "$1.29",
+    "unit_price": "$1.17/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Litehouse Freeze-Dried Chives - 0.25oz",
+    "price": "$6.89",
+    "unit_price": "$27.56/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Litehouse Freeze-Dried Parsley - 0.3oz",
+    "price": "$6.89",
+    "unit_price": "$22.97/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Arriba! Texas Original Steak and Chicken Fajita Seasoning - 8oz",
+    "price": "$3.99",
+    "unit_price": "$0.50/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Litehouse Freeze-Dried Basil - 0.28oz",
+    "price": "$6.89",
+    "unit_price": "$24.61/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Litehouse Freeze Dried Mint - 0.28oz",
+    "price": "$6.89",
+    "unit_price": "$24.61/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Fresh Success Roasted Potato Seasoning Mix - 1.25oz",
+    "price": "$1.59",
+    "unit_price": "$1.27/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Arriba! Roasted Tomato Ground Beef Taco Seasoning - 8oz",
+    "price": "$3.99",
+    "unit_price": "$0.50/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Arriba! Classic Red Enchilada Seasoning Sauce - 8oz",
+    "price": "$3.99",
+    "unit_price": "$0.50/ounce"
+  },
+  {
+    "category": "vegetables",
+    "source_file": "vegetables5.json",
+    "name": "Fresh Success Street Corn Mix - 0.72oz",
+    "price": "$1.59",
+    "unit_price": "$2.21/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Chobani High Protein Cherry Berry Greek Yogurt - 20g Protein 26.8oz/4ct Cups",
+    "price": "$4.19",
+    "unit_price": "$0.16/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Chobani 20g Protein Strawberries and Cream Yogurt Drink - 20g Protein 10 fl oz",
+    "price": "$2.89",
+    "unit_price": "$0.29/fluid ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Chobani Mango Greek Yogurt - 20g Protein 6.7oz/4ct",
+    "price": "$4.19",
+    "unit_price": null
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Chobani 20g Protein Mixed Berry Vanilla Yogurt Drink - 20g Protein 10 fl oz",
+    "price": "$2.89",
+    "unit_price": "$0.29/fluid ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Chobani Chocolate Covered Strawberry Greek Yogurt - 9g Protein 4.5oz/4ct",
+    "price": "$5.19",
+    "unit_price": null
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Chobani Strawberry Kiwi Greek Yogurt - 20g Protein 6.7oz/4ct",
+    "price": "$4.19",
+    "unit_price": null
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": ":ratio ProFiber Lemon Meringue Traditional Yogurt - 20g Protein 5.3oz",
+    "price": "$1.79",
+    "unit_price": "$0.34/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": ":ratio ProFiber Vanilla Traditional Yogurt - 20g Protein 5.3oz",
+    "price": "$1.79",
+    "unit_price": "$0.34/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Chobani Plain Greek Yogurt - 20g Protein 32oz",
+    "price": "$4.68",
+    "unit_price": "$0.15/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "The Coconut Cult Organic Banana Cream Pie Coconut Yogurt - 4oz",
+    "price": "$3.99",
+    "unit_price": null
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": ":ratio ProFiber Blueberry Traditional Yogurt - 20g Protein 5.3oz",
+    "price": "$1.79",
+    "unit_price": "$0.34/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "The Coconut Cult Organic Berry Basket Coconut Yogurt - 4oz",
+    "price": "$3.99",
+    "unit_price": null
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "The Coconut Cult Organic Chocolate Mousse Coconut Yogurt- 8oz",
+    "price": "$8.99",
+    "unit_price": null
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "The Coconut Cult Organic Lemon Meringue Coconut Yogurt - 4oz",
+    "price": "$3.99",
+    "unit_price": null
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "The Coconut Cult Organic Original Coconut Yogurt - 8oz",
+    "price": "$8.99",
+    "unit_price": null
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Stonyfield Organic Kids' Strawberry Banana Yogurt - 4ct/3.5oz Pouches",
+    "price": "$6.49",
+    "unit_price": "$1.62/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Clio Snacks Strawberry Greek Yogurt Mini-Bars - 6.2oz/8ct",
+    "price": "$4.59",
+    "unit_price": "$0.74/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Silk Unsweetened Vanilla Almond Milk Yogurt Alternative - 24oz Tub",
+    "price": "$6.29",
+    "unit_price": "$0.26/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Chobani Greek Yogurt Flip Cookie Dough - 4pk/4.5oz Cups",
+    "price": "$5.19",
+    "unit_price": null
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Siggi's Vanilla Cinnamon Plant-Based Coconut Blend Yogurt Alternative - 5.3oz",
+    "price": "$1.89",
+    "unit_price": "$0.36/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Stonyfield Organic Lowfat Cherry Apple Traditional Kids' Yogurt Smoothies - 3.1 fl oz/6ct",
+    "price": "$4.49",
+    "unit_price": "$1.45/fluid ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Stonyfield Organic YoBaby Pear & Peach Whole Milk Kids' Probiotic Yogurt - 6ct/4oz Cups",
+    "price": "$5.19",
+    "unit_price": "$0.22/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Stonyfield Organic Probiotic Vanilla Whole Milk Yogurt - 32oz",
+    "price": "$5.49",
+    "unit_price": "$0.17/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Yoplait Simply Go-Gurt Mixed Berry/Strawberry Fat Free Kids' Yogurt - 40oz/20ct",
+    "price": "$7.49",
+    "unit_price": "$0.19/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Light + Fit Nonfat Gluten-Free Vanilla Greek Yogurt - 12g Protein 4ct/5.3oz Cups",
+    "price": "$4.29",
+    "unit_price": "$0.20/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "YoCrunch Low Fat Vanilla with M&Ms Yogurt - 4ct/4oz Cups",
+    "price": "$3.99",
+    "unit_price": "$0.25/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Vanilla Honey Blended Greek Whole Milk Yogurt - 14g Protein 32oz - Good & Gather\u2122",
+    "price": "$4.29",
+    "unit_price": "$0.13/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Chobani Whole Milk Plain Greek Yogurt - 15g Protein 32oz",
+    "price": "$5.99",
+    "unit_price": "$0.19/ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Oikos Pro Fat Free Strawberry Banana Cultured Dairy Drink - 23g Protein 7 fl oz",
+    "price": "$1.99",
+    "unit_price": "$0.28/fluid ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Oikos Pro Fat Free Mango Pineapple Cultured Dairy Drink - 23g Protein 7 fl oz",
+    "price": "$1.99",
+    "unit_price": "$0.28/fluid ounce"
+  },
+  {
+    "category": "yogurt",
+    "source_file": "yogurt.json",
+    "name": "Yogurt Pouches - 3.5oz/4ct - Good & Gather\u2122",
+    "price": "$4.29",
+    "unit_price": null
+  }
+]

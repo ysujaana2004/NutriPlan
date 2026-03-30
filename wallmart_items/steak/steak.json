@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "name": "Country Fried Beef Steak Patties with Gravy",
+      "price": "$7.87",
+      "unit_price": "32.8¢/oz"
+    },
+    {
+      "name": "Great Value Seasoned Sirloin Beef Philly Steak, 14 oz",
+      "price": "$7.94",
+      "unit_price": "56.7¢/oz"
+    },
+    {
+      "name": "Steak-umm Sliced Steaks All-Natural 100% Beef, 27oz 18 Count Family Twin Pack (Frozen)",
+      "price": "$10.86",
+      "unit_price": "40.2¢/oz"
+    },
+    {
+      "name": "44 Farms' Angus Steaks Prime Pairing, 5 Steaks",
+      "price": "$215.95",
+      "unit_price": null
+    },
+    {
+      "name": "44 Farms USDA Choice Family Frozen Steak Cuts Beef Pack, 6 Steaks",
+      "price": "$159.95",
+      "unit_price": null
+    },
+    {
+      "name": "44 Farms USDA Choice Bone-In Pack, 4 Steaks",
+      "price": "$155.95",
+      "unit_price": null
+    },
+    {
+      "name": "Sirloin Tender Steak, Choice Angus Beef, 3-4 per Tray, Fresh, 0.6 - 1.62 lb",
+      "price": "$14.35",
+      "unit_price": "$15.94/lb"
+    },
+    {
+      "name": "Thin Ribeye Steak Choice Angus Beef, 2 Per Tray, 0.43 - 1.68 lb",
+      "price": "$21.59",
+      "unit_price": "$23.47/lb"
+    },
+    {
+      "name": "Thin Sliced Bottom Round Beef Steak, 8 per Tray, Fresh, 0.34 - 2.0 lb",
+      "price": "$9.82",
+      "unit_price": "$10.34/lb"
+    },
+    {
+      "name": "Beef Choice Angus Tri Tip Steak, 1.0 - 1.91 lb Tray",
+      "price": "$14.69",
+      "unit_price": "$10.72/lb"
+    },
+    {
+      "name": "New York Strip Steak, Choice Angus Beef, 2 per Tray, 1.25 - 1.90 lb",
+      "price": "$25.52",
+      "unit_price": "$17.97/lb"
+    },
+    {
+      "name": "Beef Choice Angus New York Strip Steak Thin, 0.54 - 1.56 lb Tray",
+      "price": "$15.52",
+      "unit_price": "$20.97/lb"
+    },
+    {
+      "name": "Beef Cubed Steak, Tray, Fresh, 0.73 - 2.05 lb",
+      "price": "$9.79",
+      "unit_price": "$7.83/lb"
+    },
+    {
+      "name": "Ribeye Steak, Choice Angus Beef, 2 Per Tray, 1.50 - 2.65 lb",
+      "price": "$36.07",
+      "unit_price": "$20.97/lb"
+    },
+    {
+      "name": "New York Strip Steak, Choice Angus Beef, 3 Per Tray, Family Pack, 1.53 - 3.33 lb",
+      "price": "$39.53",
+      "unit_price": "$16.47/lb"
+    },
+    {
+      "name": "Beef Flanken Style Ribs Bone-In, 1.35 - 2.35 lb Tray",
+      "price": "$16.44",
+      "unit_price": "$10.34/lb"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "name": "S&W Garbanzo Beans - Low Sodium - 15.5 oz. Can",
+      "price": "$1.42",
+      "unit_price": "9.2¢/oz"
+    },
+    {
+      "name": "S&W Garbanzo Beans - Chick Peas - 15.5 oz. Can",
+      "price": "$1.42",
+      "unit_price": "9.2¢/oz"
+    },
+    {
+      "name": "A Dozen Cousins Classic Refried Pinto Beans, 10 oz pouch",
+      "price": "$2.48",
+      "unit_price": "24.8¢/oz"
+    },
+    {
+      "name": "Organic Tattva Pinto Beans 4LB, Unpolished Rajma Chitra, Vegan, Kosher, No Additives, Gluten Free, USDA Certified",
+      "price": "$17.99",
+      "unit_price": null
+    },
+    {
+      "name": "Great Value Black Beans, 15 oz",
+      "price": "$0.86",
+      "unit_price": "5.7¢/oz"
+    },
+    {
+      "name": "Great Value Dark Red Kidney Beans, 15.5 oz",
+      "price": "$0.86",
+      "unit_price": "5.5¢/oz"
+    },
+    {
+      "name": "Great Value Great Northern Beans, 1 lb",
+      "price": "$1.92",
+      "unit_price": "12.0¢/oz"
+    },
+    {
+      "name": "Great Value Pinto Beans, 32 oz",
+      "price": "$1.98",
+      "unit_price": "6.2¢/oz"
+    },
+    {
+      "name": "La Costeña Canned Refried Pinto Beans, 20.5 oz",
+      "price": "$1.87",
+      "unit_price": "9.1¢/oz"
+    },
+    {
+      "name": "Randall Deluxe Great Northern Beans, 48 oz Glass Jar – Fully Cooked, Family Size (No Spice)",
+      "price": "$4.68",
+      "unit_price": "9.8¢/oz"
+    },
+    {
+      "name": "Hurst's Hambeens Great Northern Beans with Artificial Ham, 20 oz",
+      "price": "$2.82",
+      "unit_price": "14.1¢/oz"
+    },
+    {
+      "name": "FILLO'S Cuban Black Beans Mild Spice - Single Pouch, 10 oz",
+      "price": "$2.48",
+      "unit_price": "24.8¢/oz"
+    },
+    {
+      "name": "Hurst's Ham Peas Green Split Peas with Ham Flavor, 20 oz",
+      "price": "$2.48",
+      "unit_price": "12.4¢/oz"
+    },
+    {
+      "name": "Bush's Sidekicks Taco Fiesta Black Beans, Canned Black Beans, 15.1 oz Can",
+      "price": "$1.67",
+      "unit_price": "11.1¢/oz"
+    },
+    {
+      "name": "(12 pack) Great Value Mixed Chili Beans, 15 oz Can",
+      "price": "$11.66",
+      "unit_price": "6.5¢/oz"
+    },
+    {
+      "name": "(3 pack) Great Value Lentils, 4 lb",
+      "price": "$17.94",
+      "unit_price": "9.3¢/oz"
+    },
+    {
+      "name": "Camellia Brand Blackeye Peas 1 lb",
+      "price": "$8.98",
+      "unit_price": "56.1¢/oz"
+    },
+    {
+      "name": "Camellia Brand Great Northerns 1 lb",
+      "price": "$5.30",
+      "unit_price": "33.1¢/oz"
+    }
+  ]
+}
