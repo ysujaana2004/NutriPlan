@@ -22,8 +22,8 @@ from dataclasses import dataclass
 from datetime import timedelta
 from typing import Literal, Optional
 
-from .planner_utils import compute_day_totals, parse_start_date, stable_int_seed
-from .schemas import DayPlan, Diet, Meal, Nutrition, WeeklyPlan
+from ..app.planner_utils import compute_day_totals, parse_start_date, stable_int_seed
+from ..app.schemas import DayPlan, Diet, Meal, Nutrition, WeeklyPlan
 
 
 @dataclass(frozen=True)

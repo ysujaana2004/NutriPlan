@@ -14,7 +14,6 @@ What this file intentionally does NOT do:
 
 Endpoint overview:
 - /optimize/meal-plan: real nutrition-first planner (uses optimizer module).
-- /demo/meal-plan: deterministic fake planner for demo/fallback use.
 - /health: simple readiness check.
 
 Design goal:
@@ -29,7 +28,7 @@ from typing import Optional
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 
-from .demo_planner import build_demo_weekly_plan
+# from ..archive.demo_planner import build_demo_weekly_plan
 from .optimizer import build_optimized_weekly_plan
 from .schemas import Diet, WeeklyPlan
 
@@ -95,26 +94,7 @@ async def optimized_meal_plan(
         fat_target_g=fat_target_g,
     )
 
-
-@app.get("/demo/meal-plan", response_model=WeeklyPlan)
-def demo_meal_plan(
-    budget: float = Query(..., gt=0, description="Weekly budget in USD."),
-    calories: int = Query(..., gt=0, description="Target calories per day."),
-    diet: Diet = Query("none", description="Diet preference."),
-    start_date: Optional[str] = Query(None, description="Optional YYYY-MM-DD start date."),
-) -> WeeklyPlan:
-    """Return deterministic fake-data meal plan for demo/testing scenarios."""
-
-    return build_demo_weekly_plan(
-        budget=budget,
-        calories=calories,
-        diet=diet,
-        start_date=start_date,
-    )
-
-
 # added this for location (March 20th )
-
 @app.get("/stores/nearby")
 async def nearby_stores(
     zip_code: str = Query(..., description="ZIP Code to search near"),
