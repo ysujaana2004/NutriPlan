@@ -1,5 +1,5 @@
 """
-Nutrition-first weekly meal planner with basic Target integration penalties.
+Nutrition-first weekly meal planner with store integration penalties.
 
 Core workflow in this module:
 1. Load enriched RealRecipe candidates from data_access.
@@ -9,7 +9,7 @@ Core workflow in this module:
    - macro fit
    - repeat avoidance
    - simple title heuristics
-   - Target coverage penalties
+   - store coverage penalties
    - budget-aware cost penalties
 4. Select deterministic best recipes for 7 days x 3 meals.
 5. Return a WeeklyPlan response object for API endpoints.
@@ -18,7 +18,7 @@ Scope of this optimizer (intentionally simple):
 - It is not a full mathematical optimizer/solver.
 - It uses transparent heuristic scoring for maintainability.
 - It now returns a simple aggregated shopping list based on canonical
-  ingredient coverage and cheapest matched Target products.
+  ingredient coverage and cheapest matched store products.
 """
 
 from __future__ import annotations
@@ -33,7 +33,7 @@ from .data_access import (
     load_canonical_name_by_id,
    # load_cheapest_target_by_canonical_id,
     load_real_recipes,
-    load_recipe_coverage_by_id,
+    load_recipe_coverage_by_store,
 )
 from .pricing_service import get_store_pricing
 from .planner_utils import compute_day_totals, default_daily_macro_targets, parse_start_date, stable_int_seed
@@ -381,7 +381,7 @@ def build_shopping_list_summary(
 ) -> ShoppingListSummary:
     """Aggregate shopping list items from selected recipe IDs."""
 
-    coverage_by_id = load_recipe_coverage_by_id()
+    coverage_by_id = load_recipe_coverage_by_store(store_name)
     cheapest_lookup = get_store_pricing(store_name)
     #cheapest_lookup = load_cheapest_target_by_canonical_id()
     canonical_name_by_id = load_canonical_name_by_id()
@@ -456,9 +456,9 @@ def build_optimized_weekly_plan(
     carbs_target_g: Optional[float],
     fat_target_g: Optional[float],
 ) -> WeeklyPlan:
-    """Build a weekly plan using nutrition targets and Target-aware penalties."""
+    """Build a weekly plan using nutrition targets and store-aware penalties."""
 
-    recipes = load_real_recipes()
+    recipes = load_real_recipes(store_name)
     if not recipes:
         raise HTTPException(status_code=500, detail="No real recipes available for optimization.")
 
@@ -583,7 +583,7 @@ def build_optimized_weekly_plan(
             "start_date": start_date,
             "optimizer": "nutrition_v1",
             "target_lookup_size": len(get_store_pricing(store_name)),
-            "recipe_coverage_rows": len(load_recipe_coverage_by_id()),
+            "recipe_coverage_rows": len(load_recipe_coverage_by_store(store_name)),
             "protein_target_g": round(daily_protein_target, 2),
             # "target_lookup_size": len(load_cheapest_target_by_canonical_id()),
             "carbs_target_g": round(daily_carbs_target, 2),
