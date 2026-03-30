@@ -1,10 +1,10 @@
 """
-Data loading and enrichment layer for recipes, canonical ingredients, and Target products.
+Data loading and enrichment layer for recipes, canonical ingredients, and store products.
 
 Primary responsibilities:
 1. Read local JSON datasets from backend/data.
 2. Build canonical phrase indexes from canonical+alias definitions.
-3. Map Target products to canonical ingredients and choose cheapest options.
+3. Map store products to canonical ingredients and choose cheapest options.
 4. Join recipe canonical-coverage data with nutrition rows.
 5. Produce enriched RealRecipe objects for optimizer scoring.
 
@@ -25,15 +25,21 @@ import re
 from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
+from typing import Any, Callable, Optional
 
 from .matching import map_text_to_canonical_id, normalize_match_text, parse_price_to_usd
 
 
 RECIPES_NUTRITION_PATH = Path(__file__).resolve().parent.parent / "data" / "recipes-nutrition.json"
 RECIPES_RANDOM_FULL_PATH = Path(__file__).resolve().parent.parent / "data" / "recipes-random-full.json"
-WALLMART_PRODUCTS_FLAT_PATH = Path(__file__).resolve().parent.parent / "data" /"wallmart_products_flat.json"
+WALMART_PRODUCTS_FLAT_PATH = Path(__file__).resolve().parent.parent / "data" / "walmart_products_flat.json"
 TARGET_PRODUCTS_FLAT_PATH = Path(__file__).resolve().parent.parent / "data" / "target_products_flat.json"
-RECIPES_WITH_CANONICAL_PATH = Path(__file__).resolve().parent.parent / "data" / "recipes-with-canonical.json"
+RECIPES_WITH_CANONICAL_TARGET_PATH = Path(__file__).resolve().parent.parent / "data" / "recipes-with-canonical.json"
+RECIPES_WITH_CANONICAL_WALMART_PATH = (
+    Path(__file__).resolve().parent.parent / "data" / "recipes-with-canonical-walmart.json"
+)
+# Backward-compatible alias for existing callers/tests that expect Target coverage.
+RECIPES_WITH_CANONICAL_PATH = RECIPES_WITH_CANONICAL_TARGET_PATH
 CANONICAL_INGREDIENTS_PATH = Path(__file__).resolve().parent.parent / "data" / "canonical_ingredients.json"
 CANONICAL_INGREDIENTS_FALLBACK_PATH = Path(__file__).resolve().parent.parent / "data" / "canconical_ingredients.json"
 
@@ -60,7 +66,7 @@ class RealRecipe:
 
 @dataclass(frozen=True)
 class CanonicalProductChoice:
-    """Cheapest known Target product match for one canonical ingredient id."""
+    """Cheapest known store product match for one canonical ingredient id."""
 
     canonical_id: str
     product_name: str
@@ -88,12 +94,62 @@ class RecipeDetailSummary:
     instruction_steps: tuple[str, ...]
 
 
+EMPTY_COVERAGE_SUMMARY = RecipeCoverageSummary(
+    covered_canonical=tuple(),
+    missing_canonical=tuple(),
+    estimated_cost_usd=0.0,
+    coverage_ratio=0.0,
+)
+
+EMPTY_RECIPE_DETAIL_SUMMARY = RecipeDetailSummary(
+    image_url="",
+    dish_types=tuple(),
+    ingredient_lines=tuple(),
+    instruction_steps=tuple(),
+)
+
+
 def canonical_ingredients_file_path() -> Path:
     """Return the canonical ingredient file path, supporting naming variants."""
 
     if CANONICAL_INGREDIENTS_PATH.exists():
         return CANONICAL_INGREDIENTS_PATH
     return CANONICAL_INGREDIENTS_FALLBACK_PATH
+
+
+def normalize_store_name(store_name: str) -> str:
+    """Normalize incoming store preference to a known store key."""
+
+    if str(store_name).strip().lower() == "walmart":
+        return "walmart"
+    return "target"
+
+
+def _read_json_rows(path: Path) -> list[dict[str, Any]]:
+    """Read a JSON array from disk; return [] on missing/bad/non-list payloads."""
+
+    if not path.exists():
+        return []
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    return payload if isinstance(payload, list) else []
+
+
+def _load_canonical_rows() -> list[dict[str, Any]]:
+    """Load canonical ingredient rows from primary/fallback files."""
+
+    return _read_json_rows(canonical_ingredients_file_path())
+
+
+def _store_recipe_coverage_path(store_name: str) -> Path:
+    """Resolve per-store recipes-with-canonical coverage file path."""
+
+    if normalize_store_name(store_name) == "walmart":
+        return RECIPES_WITH_CANONICAL_WALMART_PATH
+    # Keep using alias so tests that monkeypatch RECIPES_WITH_CANONICAL_PATH keep working.
+    return RECIPES_WITH_CANONICAL_PATH
 
 
 def _normalize_amount_value(amount_value: object) -> str:
@@ -177,13 +233,8 @@ def _extract_dish_types(recipe_row: dict) -> tuple[str, ...]:
 def load_canonical_name_by_id() -> dict[str, str]:
     """Load canonical ingredient display names keyed by canonical ID."""
 
-    canonical_path = canonical_ingredients_file_path()
-    if not canonical_path.exists():
-        return {}
-
-    try:
-        rows = json.loads(canonical_path.read_text(encoding="utf-8"))
-    except Exception:
+    rows = _load_canonical_rows()
+    if not rows:
         return {}
 
     name_by_id: dict[str, str] = {}
@@ -203,12 +254,8 @@ def load_canonical_name_by_id() -> dict[str, str]:
 def load_recipe_details_by_id() -> dict[str, RecipeDetailSummary]:
     """Load recipe details (image, ingredients, instructions) keyed by recipe id."""
 
-    if not RECIPES_RANDOM_FULL_PATH.exists():
-        return {}
-
-    try:
-        rows = json.loads(RECIPES_RANDOM_FULL_PATH.read_text(encoding="utf-8"))
-    except Exception:
+    rows = _read_json_rows(RECIPES_RANDOM_FULL_PATH)
+    if not rows:
         return {}
 
     details_by_id: dict[str, RecipeDetailSummary] = {}
@@ -231,13 +278,8 @@ def load_recipe_details_by_id() -> dict[str, RecipeDetailSummary]:
 def load_canonical_phrase_index() -> list[tuple[str, str]]:
     """Build phrase index as (normalized phrase, canonical_id) for canonical+aliases."""
 
-    canonical_path = canonical_ingredients_file_path()
-    if not canonical_path.exists():
-        return []
-
-    try:
-        rows = json.loads(canonical_path.read_text(encoding="utf-8"))
-    except Exception:
+    rows = _load_canonical_rows()
+    if not rows:
         return []
 
     phrase_index: list[tuple[str, str]] = []
@@ -260,16 +302,15 @@ def load_canonical_phrase_index() -> list[tuple[str, str]]:
 def load_cheapest_target_by_canonical_id() -> dict[str, CanonicalProductChoice]:
     """Build lookup: canonical ingredient id -> cheapest matched Target product."""
 
-    if not TARGET_PRODUCTS_FLAT_PATH.exists():
-        return {}
+    return _load_cheapest_products_by_flat_path(TARGET_PRODUCTS_FLAT_PATH)
+
+
+def _load_cheapest_products_by_flat_path(flat_path: Path) -> dict[str, CanonicalProductChoice]:
+    """Build lookup: canonical id -> cheapest matched product from one flat products file."""
 
     phrase_index = load_canonical_phrase_index()
-    if not phrase_index:
-        return {}
-
-    try:
-        products = json.loads(TARGET_PRODUCTS_FLAT_PATH.read_text(encoding="utf-8"))
-    except Exception:
+    products = _read_json_rows(flat_path)
+    if not phrase_index or not products:
         return {}
 
     cheapest: dict[str, CanonicalProductChoice] = {}
@@ -283,74 +324,38 @@ def load_cheapest_target_by_canonical_id() -> dict[str, CanonicalProductChoice]:
         if price_usd is None:
             continue
 
-        candidate = CanonicalProductChoice(
+        existing = cheapest.get(canonical_id)
+        if existing is not None and price_usd >= existing.price_usd:
+            continue
+
+        cheapest[canonical_id] = CanonicalProductChoice(
             canonical_id=canonical_id,
             product_name=product_name,
             price_usd=price_usd,
             category=str(product.get("category", "")),
         )
-        existing = cheapest.get(canonical_id)
-        if existing is None or candidate.price_usd < existing.price_usd:
-            cheapest[canonical_id] = candidate
-
     return cheapest
-
-
-####### Wallmart 
-@lru_cache(maxsize=1)
-def load_cheapest_walmart_by_canonical_id() -> dict[str, CanonicalProductChoice]:
-    """Build lookup: canonical ingredient id -> cheapest matched Target product."""
-
-    if not WALLMART_PRODUCTS_FLAT_PATH.exists():
-        return {}
-
-    phrase_index = load_canonical_phrase_index()
-    if not phrase_index:
-        return {}
-
-    try:
-        products = json.loads(WALLMART_PRODUCTS_FLAT_PATH.read_text(encoding="utf-8"))
-    except Exception:
-        return {}
-
-    cheapest: dict[str, CanonicalProductChoice] = {}
-    for product in products:
-        product_name = str(product.get("name", "")).strip()
-        canonical_id = map_text_to_canonical_id(product_name, phrase_index)
-        if not canonical_id:
-            continue
-
-        price_usd = parse_price_to_usd(product.get("price"))
-        if price_usd is None:
-            continue
-
-        candidate = CanonicalProductChoice(
-            canonical_id=canonical_id,
-            product_name=product_name,
-            price_usd=price_usd,
-            category=str(product.get("category", "")),
-        )
-        existing = cheapest.get(canonical_id)
-        if existing is None or candidate.price_usd < existing.price_usd:
-            cheapest[canonical_id] = candidate
-
-    return cheapest
-
-
-##### added on March 22nd 
 
 
 @lru_cache(maxsize=1)
-def load_recipe_coverage_by_id() -> dict[str, RecipeCoverageSummary]:
-    """Build coverage map: recipe id -> coverage summary and estimated ingredient cost."""
+def load_cheapest_walmart_by_canonical_id() -> dict[str, CanonicalProductChoice]:
+    """Build lookup: canonical ingredient id -> cheapest matched Walmart product."""
 
-    if not RECIPES_WITH_CANONICAL_PATH.exists():
-        return {}
+    return _load_cheapest_products_by_flat_path(WALMART_PRODUCTS_FLAT_PATH)
 
-    cheapest_lookup = load_cheapest_target_by_canonical_id()
-    try:
-        recipe_rows = json.loads(RECIPES_WITH_CANONICAL_PATH.read_text(encoding="utf-8"))
-    except Exception:
+
+@lru_cache(maxsize=2)
+def load_recipe_coverage_by_store(store_name: str) -> dict[str, RecipeCoverageSummary]:
+    """Build coverage map for one store: recipe id -> coverage summary and estimated ingredient cost."""
+
+    recipe_rows = _read_json_rows(_store_recipe_coverage_path(store_name))
+    cheapest_lookup_loader: Callable[[], dict[str, CanonicalProductChoice]]
+    if normalize_store_name(store_name) == "walmart":
+        cheapest_lookup_loader = load_cheapest_walmart_by_canonical_id
+    else:
+        cheapest_lookup_loader = load_cheapest_target_by_canonical_id
+    cheapest_lookup = cheapest_lookup_loader()
+    if not recipe_rows:
         return {}
 
     coverage_by_id: dict[str, RecipeCoverageSummary] = {}
@@ -359,15 +364,7 @@ def load_recipe_coverage_by_id() -> dict[str, RecipeCoverageSummary]:
         if not recipe_id:
             continue
 
-        canonical_ids = row.get("canonical_ingredients", []) or []
-        seen: set[str] = set()
-        canonical_unique: list[str] = []
-        for canonical_id in canonical_ids:
-            normalized_id = str(canonical_id).strip()
-            if not normalized_id or normalized_id in seen:
-                continue
-            seen.add(normalized_id)
-            canonical_unique.append(normalized_id)
+        canonical_unique = _dedupe_canonical_ids(row.get("canonical_ingredients", []) or [])
 
         covered: list[str] = []
         missing: list[str] = []
@@ -391,19 +388,43 @@ def load_recipe_coverage_by_id() -> dict[str, RecipeCoverageSummary]:
     return coverage_by_id
 
 
+def _dedupe_canonical_ids(canonical_ids: list[object]) -> list[str]:
+    """Return canonical IDs in input order, removing blanks/duplicates."""
+
+    seen: set[str] = set()
+    canonical_unique: list[str] = []
+    for canonical_id in canonical_ids:
+        normalized_id = str(canonical_id).strip()
+        if not normalized_id or normalized_id in seen:
+            continue
+        seen.add(normalized_id)
+        canonical_unique.append(normalized_id)
+    return canonical_unique
+
+
 @lru_cache(maxsize=1)
-def load_real_recipes() -> list[RealRecipe]:
-    """Load nutrition recipes and enrich them with Target coverage and estimated costs."""
+def load_recipe_coverage_by_id() -> dict[str, RecipeCoverageSummary]:
+    """Backward-compatible helper returning Target recipe coverage."""
 
-    if not RECIPES_NUTRITION_PATH.exists():
+    return load_recipe_coverage_by_store("Target")
+
+
+@lru_cache(maxsize=1)
+def load_recipe_coverage_walmart_by_id() -> dict[str, RecipeCoverageSummary]:
+    """Convenience helper returning Walmart recipe coverage."""
+
+    return load_recipe_coverage_by_store("Walmart")
+
+
+@lru_cache(maxsize=2)
+def load_real_recipes(store_name: str = "Target") -> list[RealRecipe]:
+    """Load nutrition recipes and enrich them with store coverage and estimated costs."""
+
+    rows = _read_json_rows(RECIPES_NUTRITION_PATH)
+    if not rows:
         return []
 
-    try:
-        rows = json.loads(RECIPES_NUTRITION_PATH.read_text(encoding="utf-8"))
-    except Exception:
-        return []
-
-    coverage_by_id = load_recipe_coverage_by_id()
+    coverage_by_id = load_recipe_coverage_by_store(store_name)
     details_by_id = load_recipe_details_by_id()
     recipes: list[RealRecipe] = []
     for item in rows:
@@ -411,35 +432,15 @@ def load_real_recipes() -> list[RealRecipe]:
         if not recipe_id:
             continue
 
-        nutrition = item.get("nutrition", {})
-        try:
-            calories = float(nutrition.get("calories"))
-            protein = float(nutrition.get("protein"))
-            carbs = float(nutrition.get("carbs"))
-            fat = float(nutrition.get("fat"))
-        except (TypeError, ValueError):
+        nutrition_tuple = _parse_recipe_nutrition(item.get("nutrition", {}))
+        if nutrition_tuple is None:
             continue
+        calories, protein, carbs, fat = nutrition_tuple
         if calories <= 0:
             continue
 
-        coverage = coverage_by_id.get(
-            recipe_id,
-            RecipeCoverageSummary(
-                covered_canonical=tuple(),
-                missing_canonical=tuple(),
-                estimated_cost_usd=0.0,
-                coverage_ratio=0.0,
-            ),
-        )
-        details = details_by_id.get(
-            recipe_id,
-            RecipeDetailSummary(
-                image_url="",
-                dish_types=tuple(),
-                ingredient_lines=tuple(),
-                instruction_steps=tuple(),
-            ),
-        )
+        coverage = coverage_by_id.get(recipe_id, EMPTY_COVERAGE_SUMMARY)
+        details = details_by_id.get(recipe_id, EMPTY_RECIPE_DETAIL_SUMMARY)
 
         recipes.append(
             RealRecipe(
@@ -463,6 +464,20 @@ def load_real_recipes() -> list[RealRecipe]:
     return recipes
 
 
+def _parse_recipe_nutrition(nutrition: dict[str, Any]) -> Optional[tuple[float, float, float, float]]:
+    """Parse recipe nutrition payload into calories/protein/carbs/fat floats."""
+
+    try:
+        return (
+            float(nutrition.get("calories")),
+            float(nutrition.get("protein")),
+            float(nutrition.get("carbs")),
+            float(nutrition.get("fat")),
+        )
+    except (TypeError, ValueError):
+        return None
+
+
 def clear_caches() -> None:
     """Clear all data-access caches, useful for tests after path monkeypatching."""
 
@@ -470,5 +485,8 @@ def clear_caches() -> None:
     load_recipe_details_by_id.cache_clear()
     load_canonical_phrase_index.cache_clear()
     load_cheapest_target_by_canonical_id.cache_clear()
+    load_cheapest_walmart_by_canonical_id.cache_clear()
+    load_recipe_coverage_by_store.cache_clear()
     load_recipe_coverage_by_id.cache_clear()
+    load_recipe_coverage_walmart_by_id.cache_clear()
     load_real_recipes.cache_clear()
