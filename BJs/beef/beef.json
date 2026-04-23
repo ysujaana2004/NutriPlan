@@ -1,0 +1,204 @@
+{
+  "products": [
+    {
+      "name": "Pre 100% Grass-Fed & Finished Beef Sirloin Steaks, Four Steaks, 20 oz.",
+      "price": "$17.99",
+      "unit_price": "$14.39/lb"
+    },
+    {
+      "name": "USDA Choice Beef Stew, 3.25-4lbs.",
+      "price": "$22.72 - $27.96",
+      "unit_price": "$6.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Beef Stir Fry, 2.25-3lbs.",
+      "price": "$19.33 - $25.77",
+      "unit_price": "$8.59/lb"
+    },
+    {
+      "name": "Wellsley Farms Boneless Beef Ribeye Steak, 2-2.75 lbs.",
+      "price": "$29.98 - $41.22",
+      "unit_price": "$14.99/lb"
+    },
+    {
+      "name": "USDA Choice Beef Chuck Mock Tender Steak, 2.75-3.5 lbs.",
+      "price": "$21.97 - $27.96",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Strip Loin Steak, 2.75-3.5 lbs.",
+      "price": "$31.60 - $40.22",
+      "unit_price": "$11.49/lb"
+    },
+    {
+      "name": "Old Neighborhood Corned Beef Brisket Flat Cut, 4-5.5 lbs.",
+      "price": "$15.96 - $21.95",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Wellsley Farms 90% Lean Ground Beef, 3.75-4.5 lbs.",
+      "price": "$21.71 - $26.05",
+      "unit_price": "$5.79/lb"
+    },
+    {
+      "name": "Wellsley Farms Beef Cube Steak, 2.75-3.5 lb",
+      "price": "$22.80 - $29.01",
+      "unit_price": "$8.29/lb"
+    },
+    {
+      "name": "USDA Choice Beef Sirloin Flap Meat Steak Tips, 2.75-3.5 lbs.",
+      "price": "$37.10 - $47.22",
+      "unit_price": "$13.49/lb"
+    },
+    {
+      "name": "AAA Canadian Beef Ribeye Whole, 12-24 lbs.",
+      "price": "$175.08 - $350.16",
+      "unit_price": "$14.59/lb"
+    },
+    {
+      "name": "Wellsley Farms USDA Choice Eye Round Roast, 4.25-5 lbs.",
+      "price": "$26.73 - $31.45",
+      "unit_price": "$6.29/lb"
+    },
+    {
+      "name": "Bertolino Foods Beef Shaved Steak, 1.75 lbs.",
+      "price": "$14.99",
+      "unit_price": "$8.57/lb"
+    },
+    {
+      "name": "USDA Select Whole Beef Loin Tenderloin, 5 - 9 lbs.",
+      "price": "$109.95 - $197.91",
+      "unit_price": "$21.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Bone-In Pork Loin Chop Assorted, 4.75-5.5 lb",
+      "price": "$7.55 - $8.75",
+      "unit_price": "$1.59/lb"
+    },
+    {
+      "name": "Wellsley Farms USDA Choice Center Cut Beef Shank, 3.25-4 lbs.",
+      "price": "$17.19 - $21.16",
+      "unit_price": "$5.29/lb"
+    },
+    {
+      "name": "Wellsley Farms USDA Choice Beef Boneless Chuck Under Blade Roast, 4.75-5.5 lbs.",
+      "price": "$37.48 - $43.39",
+      "unit_price": "$7.89/lb"
+    },
+    {
+      "name": "Wellsley Farms Beef Porterhouse Steak Bone In, 2.5-3.25 lb",
+      "price": "$27.48 - $35.72",
+      "unit_price": "$10.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Sliced Bacon, 3 pk./16 oz.",
+      "price": "$11.49",
+      "unit_price": "$3.83/lb"
+    },
+    {
+      "name": "Wellsley Farms Inside Round London Broil, 3.25-4lbs.",
+      "price": "$25.97 - $31.96",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "USDA Choice Beef Eye of Round Whole, 4-8 lbs.",
+      "price": "$23.56 - $47.12",
+      "unit_price": "$5.89/lb"
+    },
+    {
+      "name": "Wellsley Farms Top Round Thin Cut, 3-3.5 lbs.",
+      "price": "$25.77 - $30.06",
+      "unit_price": "$8.59/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Pork Loin Bone-In Country Style Ribs, 3.75-4.5 lb",
+      "price": "$5.96 - $7.16",
+      "unit_price": "$1.59/lb"
+    },
+    {
+      "name": "Wellsley Farms USDA Choice Beef Short Ribs, 2.75-3.5 lbs.",
+      "price": "$24.17 - $30.76",
+      "unit_price": "$8.79/lb"
+    },
+    {
+      "name": "Verde Farms Organic Grass Fed 93% Ground Beef, 3 pk./1 lb.",
+      "price": "$23.99",
+      "unit_price": "$8.00/lb"
+    },
+    {
+      "name": "Wellsley Farms 80% Lean Ground Beef, 4.75-5.5 lbs.",
+      "price": "$22.75 - $26.34",
+      "unit_price": "$4.79/lb"
+    },
+    {
+      "name": "Wellsley Farms USDA Choice Beef Whole Loin Strip, 9-16 lbs.",
+      "price": "$99.81 - $177.44",
+      "unit_price": "$11.09/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Pork St. Louis Style Spare Ribs, 5-8.5 lbs.",
+      "price": "$16.45 - $27.96",
+      "unit_price": "$3.29/lb"
+    },
+    {
+      "name": "Pre Brands 100% Grass-Fed and Finished Ribeye Steaks, 2 pk./10 oz.",
+      "price": "$26.99",
+      "unit_price": "$21.59/lb"
+    },
+    {
+      "name": "Strassburger Meatloaf & Meatball Mix, 2.5 lbs.",
+      "price": "$12.49",
+      "unit_price": "$5.00/lb"
+    },
+    {
+      "name": "Wellsley Farms Round Bottom Round Rump Roast, 4.25-5 lbs.",
+      "price": "$31.83 - $37.45",
+      "unit_price": "$7.49/lb"
+    },
+    {
+      "name": "Wellsley Farms Thin Cut Sandwich Steak, 2-2.75 lb",
+      "price": "$17.18 - $23.62",
+      "unit_price": "$8.59/lb"
+    },
+    {
+      "name": "Flanken Style Beef Short Ribs, 3.75-4.5 lbs.",
+      "price": "$33.71 - $40.45",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "93% Lean Ground Beef, 4 lbs.",
+      "price": "$25.99",
+      "unit_price": "$6.50/lb"
+    },
+    {
+      "name": "Farm To Table Fresh 96% Lean Ground Beef Sirloin, 2 lbs.",
+      "price": "$14.49",
+      "unit_price": "$7.25/lb"
+    },
+    {
+      "name": "Swift & Company 100% Pure Ground Beef, 5 lbs.",
+      "price": "$18.99",
+      "unit_price": "$3.80/lb"
+    },
+    {
+      "name": "Pre Brands 100% Grass-Fed and Finished New York Strip Steaks, 2 pk./10 oz.",
+      "price": "$25.99",
+      "unit_price": "$20.79/lb"
+    },
+    {
+      "name": "Rumba Flank Steak Beef, 3.2-4lbs.",
+      "price": "$35.17 - $43.96",
+      "unit_price": "$10.99/lb"
+    },
+    {
+      "name": "Wellsley Farms 85% Ground Beef Patties, 3.75-4.5 lbs.",
+      "price": "$22.46 - $26.96",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "Wellsley Farms USDA Choice Beef Boneless Under Blade Chuck Steak, 2.75-3.5",
+      "price": "$22.25 - $28.31",
+      "unit_price": "$8.09/lb"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "products": [
+    {
+      "name": "Barilla Penne, Spaghetti and Elbows Pasta, 6 pk./1 lb.",
+      "price": "$9.99",
+      "unit_price": "$0.10 per oz"
+    },
+    {
+      "name": "Barilla Spaghetti Pasta, Non-GMO Pasta With Durum Wheat Semolina, Kosher Certified Pasta, 8 pk./1 lb.",
+      "price": "$12.99",
+      "unit_price": "$0.10 per oz"
+    },
+    {
+      "name": "Carolina Enriched Extra Long Grain White Rice, 25 lbs.",
+      "price": "$13.99",
+      "unit_price": "$0.03 per oz"
+    },
+    {
+      "name": "Barilla Rotini and Farfalle Pasta, 6 pk./1 lb.",
+      "price": "$9.99",
+      "unit_price": "$0.10 per oz"
+    },
+    {
+      "name": "Rao's Homemade Premium Italian Pasta, Variety Pack, 4 pk./16 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.16 per oz"
+    },
+    {
+      "name": "Barilla Protein+ Penne and Rotini Pasta, 4 pk./14.5 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.17 per oz"
+    },
+    {
+      "name": "Wellsley Farms Thai Hom Mali Jasmine Rice, 25 lbs.",
+      "price": "$24.49",
+      "unit_price": "$0.06 per oz"
+    },
+    {
+      "name": "Wellsley Farms Thai Hom Mali Jasmine Rice, 10 lbs.",
+      "price": "$13.99",
+      "unit_price": "$0.09 per oz"
+    },
+    {
+      "name": "Barilla Classic Penne Pasta, Boxes, 8 pk./1 lb.",
+      "price": "$12.99",
+      "unit_price": "$0.10 per oz"
+    },
+    {
+      "name": "Barilla Al Bronzo Penne Rigate and Fusilloni Pasta, 4 pk./16 oz.",
+      "price": "$6.48",
+      "unit_price": "$0.10 per oz"
+    },
+    {
+      "name": "Kraft Power Mac Mac & Cheese Macaroni and Cheese Dinner, 8 pk./7.25 oz.",
+      "price": "$15.99",
+      "unit_price": "$0.28 per oz"
+    },
+    {
+      "name": "Rummo 100% Organic Penne Rigate & Organic Shells Variety Pack, 4 pk.",
+      "price": "$12.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Organic Quinoa, 3 lbs.",
+      "price": "$9.99",
+      "unit_price": "$0.21 per oz"
+    },
+    {
+      "name": "Producers Rice ParExcellence Yellow Rice, 3.5 lbs.",
+      "price": "$6.99",
+      "unit_price": "$0.12 per oz"
+    },
+    {
+      "name": "Kraft Mac and Cheese, Easy Dinner Or Sides, Original Flavor, No Artificial Flavors, 18 ct./7.25 oz.",
+      "price": "$15.99",
+      "unit_price": "$0.12 per oz"
+    },
+    {
+      "name": "Minute Instant White Rice, Gluten-Free, 72 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.12 per oz"
+    },
+    {
+      "name": "Goya Yellow Rice Mix, 6 pk./7 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.24 per oz"
+    },
+    {
+      "name": "Royal Basmati Rice, 20 lbs.",
+      "price": "$20.99",
+      "unit_price": "$0.07 per oz"
+    },
+    {
+      "name": "Kraft Grated Parmesan Cheese, 24 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.42 per oz"
+    },
+    {
+      "name": "Near East Rice Pilaf, 6 pk.",
+      "price": "$7.99",
+      "unit_price": null
+    },
+    {
+      "name": "Velveeta Shells & Cheese Original Shell Pasta & Cheese Sauce Meal, Boxes, 8 ct./12 oz.",
+      "price": "$17.99",
+      "unit_price": "$0.19 per oz"
+    },
+    {
+      "name": "Velveeta Shells & Cheese Original Microwavable Shell Pasta & Cheese Sauce, Cups, 12 pk./2.39 oz.",
+      "price": "$11.79",
+      "unit_price": "$0.41 per oz"
+    },
+    {
+      "name": "Ben's Original Ready Rice Jasmine Rice, Easy Dinner Side, 6 ct./8.5 oz.",
+      "price": "$11.49",
+      "unit_price": "$0.23 per oz"
+    },
+    {
+      "name": "Banza Penne Pasta Four-Pack, Gluten Free, High Protein, and Lower Carb Chickpea Pasta, 2 lbs.",
+      "price": "$9.99",
+      "unit_price": "$0.31 per oz"
+    },
+    {
+      "name": "Seeds of Change Certified Organic Quinoa & Brown Rice with Garlic, 6 pk./8.5 oz.",
+      "price": "$14.29",
+      "unit_price": "$0.28 per oz"
+    },
+    {
+      "name": "Barilla Gluten-Free Penne and Spaghetti Pasta, 4 pk./12 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.19 per oz"
+    },
+    {
+      "name": "Mahatma Extra Long Grain Enriched Rice, 25 lbs.",
+      "price": "$16.49",
+      "unit_price": "$0.04 per oz"
+    },
+    {
+      "name": "It's Skinny Angel Hair Pasta, 4 ct.",
+      "price": "$9.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Organic Long Grain Brown Rice, 5 lbs.",
+      "price": "$8.79",
+      "unit_price": "$0.11 per oz"
+    },
+    {
+      "name": "Pepperidge Farm Herb Seasoned Classic Stuffing, 48 oz.",
+      "price": "$4.98",
+      "unit_price": "$0.10 per oz"
+    },
+    {
+      "name": "Annie's Real Aged Cheddar Microwavable Mac & Cheese, Supermac Protein Cups, 12 ct./2.86 oz.",
+      "price": "$12.49",
+      "unit_price": "$0.36 per oz"
+    },
+    {
+      "name": "Annie's White Cheddar Microwave Mac And Cheese Cup, 12 pk./2 oz.",
+      "price": "$14.99",
+      "unit_price": "$0.62 per oz"
+    },
+    {
+      "name": "Minute White Rice Cups, 8 pk./4.4 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.20 per oz"
+    },
+    {
+      "name": "Goya Lentils, 4 lb.",
+      "price": "$8.79",
+      "unit_price": "$0.14 per oz"
+    },
+    {
+      "name": "Ben's Original Enriched Long Grain White Parboiled Rice, 12 lbs.",
+      "price": "$14.99",
+      "unit_price": "$0.08 per oz"
+    },
+    {
+      "name": "Producers Rice ParExcellence Premium Long Grain Rice, 50 lbs.",
+      "price": "$25.99",
+      "unit_price": "$0.03 per oz"
+    },
+    {
+      "name": "SpaghettiOs Original Canned Pasta, Cans, 12 pk./15.8 oz.",
+      "price": "$11.79",
+      "unit_price": "$0.06 per oz"
+    },
+    {
+      "name": "Success Boil-in-Bag Brown Rice, 32 oz.",
+      "price": "$3.99",
+      "unit_price": "$0.12 per oz"
+    },
+    {
+      "name": "Ben's Original Ready Rice, Roasted Chicken, 6 pk./8.8 oz.",
+      "price": "$14.99",
+      "unit_price": "$0.28 per oz"
+    },
+    {
+      "name": "Canilla Rice, 35 lb.",
+      "price": "$28.49",
+      "unit_price": "$0.05 per oz"
+    },
+    {
+      "name": "Wellsley Farms 90 Second Long Grain White Rice, Microwave Pouches, 6 pk./8.8 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.15 per oz"
+    },
+    {
+      "name": "Producers Rice ParExcellence Premium Long Grain Rice, 10 lbs.",
+      "price": "$7.99",
+      "unit_price": "$0.05 per oz"
+    },
+    {
+      "name": "Goya Parboiled Rice, 20 lb. Bag",
+      "price": "$19.99",
+      "unit_price": "$0.06 per oz"
+    },
+    {
+      "name": "Bibigo Cooked Sticky White Rice, Medium Grain Rice, Bowls, 12 ct./7.4 oz.",
+      "price": "$12.99",
+      "unit_price": "$0.15 per oz"
+    },
+    {
+      "name": "Diana Dry Lentils, 6 Bags/12 oz.",
+      "price": "$10.79",
+      "unit_price": "$0.15 per oz"
+    },
+    {
+      "name": "Canilla Long Grain Rice, 20 lbs.",
+      "price": "$18.49",
+      "unit_price": "$0.06 per oz"
+    },
+    {
+      "name": "Golden Canilla Enriched Long Grain Parboiled Rice, 10 lbs.",
+      "price": "$11.29",
+      "unit_price": "$0.07 per oz"
+    },
+    {
+      "name": "Goya Jasmine Rice, 10 lb. Bag",
+      "price": "$20.99",
+      "unit_price": "$0.13 per oz"
+    },
+    {
+      "name": "Suddenly Pasta Salad Classic, 6 ct.",
+      "price": "$6.98",
+      "unit_price": null
+    },
+    {
+      "name": "Barilla Spaghetti Pasta, 4 pk./2 lbs.",
+      "price": "$12.99",
+      "unit_price": "$0.10 per oz"
+    },
+    {
+      "name": "Knorr Chicken Fried Rice Cups, 6 ct.",
+      "price": "$5.98",
+      "unit_price": null
+    }
+  ]
+}

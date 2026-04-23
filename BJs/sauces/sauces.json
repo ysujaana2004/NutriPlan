@@ -1,0 +1,259 @@
+{
+  "products": [
+    {
+      "name": "Prego Traditional Pasta Sauce, Jars, 3 pk./45 oz.",
+      "price": "$10.99",
+      "unit_price": "$0.24 per oz"
+    },
+    {
+      "name": "Sweet Baby Ray's Barbecue Sauce, 2 pk./40 oz.",
+      "price": "$7.49",
+      "unit_price": "$0.19 per oz"
+    },
+    {
+      "name": "Bertolli Alfredo Sauce with Aged Parmesan Cheese, Made with Fresh Cream and Real Butter, 3 pk./15 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.53 per oz"
+    },
+    {
+      "name": "Rao's Homemade Marinara Sauce, 2 pk./22 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.45 per oz"
+    },
+    {
+      "name": "Classico Tomato & Basil Pasta Sauce, 3 pk./32 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.31 per oz"
+    },
+    {
+      "name": "Ragu Old World Style Traditional Sauce, 3 pk./45 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.22 per oz"
+    },
+    {
+      "name": "Lea & Perren's Original Worcestershire Sauce, 2 pk./15 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.60 per oz"
+    },
+    {
+      "name": "Hunt's Tomato Sauce, 12 pk./15 oz.",
+      "price": "$12.99",
+      "unit_price": "$0.07 per oz"
+    },
+    {
+      "name": "Kikkoman Naturally Brewed Less Sodium Soy Sauce, 40 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.20 per oz"
+    },
+    {
+      "name": "Ragu Chunky Tomato, Garlic and Onion Pasta Sauce, Made with Diced Tomatoes, 3 pk./45 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.22 per oz"
+    },
+    {
+      "name": "Kinder's Buttery Buffalo Wing Sauce and Dip, 23.5 oz.",
+      "price": "$7.49",
+      "unit_price": "$0.32 per oz"
+    },
+    {
+      "name": "Sweet Baby Ray's Honey Barbecue Sauce, 2 pk./40 oz.",
+      "price": "$7.49",
+      "unit_price": "$0.19 per oz"
+    },
+    {
+      "name": "Wellsley Farms Thai Chili Sauce, 30 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.20 per oz"
+    },
+    {
+      "name": "Bertolli Pasta Sauce Variety Pack, Tomato & Basil and Olive Oil & Garlic, 3 pk./24 oz.",
+      "price": "$7.89",
+      "unit_price": "$0.33 per oz"
+    },
+    {
+      "name": "A.1. Original Sauce, 2 ct./15 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.67 per oz"
+    },
+    {
+      "name": "Kinder's Hickory Smoked BBQ Sauce, 27 oz.",
+      "price": "$6.29",
+      "unit_price": "$0.23 per oz"
+    },
+    {
+      "name": "Soy Vay Veri Veri Teriyaki Marinade and Sauce, Bottle, 42 fl. oz.",
+      "price": "$6.49",
+      "unit_price": "$0.15 per fl. oz"
+    },
+    {
+      "name": "Wellsley Farms Marinara Sauce, 2 pk./25 oz.",
+      "price": "$7.49",
+      "unit_price": "$0.30 per oz"
+    },
+    {
+      "name": "Wellsley Farms Sweet Bourbon Marinade, 30 oz.",
+      "price": "$6.49",
+      "unit_price": "$0.22 per oz"
+    },
+    {
+      "name": "Wellsley Farms Italian Style Pizza Sauce, 2 pk./15.75 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.44 per oz"
+    },
+    {
+      "name": "Bachan's The Original Japanese BBQ Sauce, Bold, Fresh, Umami Flavor, Bottle, 26 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.35 per oz"
+    },
+    {
+      "name": "Peter Luger Old Fashioned Steak Sauce, 24 oz.",
+      "price": "$7.49",
+      "unit_price": "$0.31 per oz"
+    },
+    {
+      "name": "Rao's Homemade Tomato Basil Sauce, 2 pk./22 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.45 per oz"
+    },
+    {
+      "name": "Kikkoman Soy Sauce, 64 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.12 per oz"
+    },
+    {
+      "name": "Chick-fil-A Sauce Original, 2 pk./24 fl. oz.",
+      "price": "$8.99",
+      "unit_price": "$0.37 per fl. oz"
+    },
+    {
+      "name": "Iron Kitchen General Tso's Sauce and Glaze, 40 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.17 per oz"
+    },
+    {
+      "name": "Classico Four Cheese Pasta Sauce, 3 pk./32 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.31 per oz"
+    },
+    {
+      "name": "Marzetti Simply Lemon Vinaigrette Dressing & Marinade, 24 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.29 per oz"
+    },
+    {
+      "name": "Badia Mojo Marinade, 1 gal.",
+      "price": "$8.99",
+      "unit_price": "$0.07 per oz"
+    },
+    {
+      "name": "Carbone Spicy Vodka Sauce, 2 pk./22 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.45 per oz"
+    },
+    {
+      "name": "Gold's White Horseradish, 2 ct./16 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.37 per oz"
+    },
+    {
+      "name": "Ortega Original Thick and Smooth Mild Taco Sauce, Kosher, 24 oz.",
+      "price": "$5.29",
+      "unit_price": "$0.22 per oz"
+    },
+    {
+      "name": "Marzetti Simply Balsamic Vinaigrette Dressing & Marinade, 24 fl. oz.",
+      "price": "$6.99",
+      "unit_price": "$0.29 per fl. oz"
+    },
+    {
+      "name": "Tabasco Classic Red Sauce, 15 oz.",
+      "price": "$6.69",
+      "unit_price": "$0.45 per oz"
+    },
+    {
+      "name": "Frank's RedHot Original Cayenne Pepper Hot Sauce, 2 pk./25 fl. oz.",
+      "price": "$10.49",
+      "unit_price": "$0.42 per fl. oz"
+    },
+    {
+      "name": "Cholula Original Hot Sauce, 2 pk./12 fl. oz.",
+      "price": "$10.49",
+      "unit_price": "$0.87 per fl. oz"
+    },
+    {
+      "name": "Ray's No Sugar Added Original Barbecue Sauce, 36 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.17 per oz"
+    },
+    {
+      "name": "Goya Mojo Criollo Marinade, 2 pk./24 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.29 per oz"
+    },
+    {
+      "name": "McCormick Brown Gravy Mix, 21 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.48 per oz"
+    },
+    {
+      "name": "Dumpling Daughter Ginger Soy Sauce, 16 oz.",
+      "price": "$9.49",
+      "unit_price": "$0.59 per oz"
+    },
+    {
+      "name": "Frank's RedHot Buffalo Wings Sauce, 2 ct./25 oz.",
+      "price": "$10.49",
+      "unit_price": "$0.42 per oz"
+    },
+    {
+      "name": "Guy Fieri's Flavortown Top Secret Sauce, 22.5 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.31 per oz"
+    },
+    {
+      "name": "Lee Kum Kee Premium Oyster Sauce, 18 oz.",
+      "price": "$6.49",
+      "unit_price": "$0.36 per oz"
+    },
+    {
+      "name": "McCormick Poultry Gravy Mix, Premium, 20 oz.",
+      "price": "$4.98",
+      "unit_price": "$0.25 per oz"
+    },
+    {
+      "name": "Buffalo Wild Wings Sauce Garlic Parmesan, 24 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.25 per oz"
+    },
+    {
+      "name": "Heinz HomeStyle Roasted Turkey Gravy, 3 pk./18 oz.",
+      "price": "$4.98",
+      "unit_price": "$0.28 per oz"
+    },
+    {
+      "name": "Cholula Salsa Verde, Mild Salsa, 32 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.25 per oz"
+    },
+    {
+      "name": "Kraft Dip & Drizzle Dressing Condiments Pack, 3 pk.",
+      "price": "$6.99",
+      "unit_price": null
+    },
+    {
+      "name": "Chosen Foods Burger Sauce, 16 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.56 per oz"
+    },
+    {
+      "name": "Peg Leg Porker Hot BBQ Sauce, 36.26 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.22 per oz"
+    },
+    {
+      "name": "Hellmann's Garlic Aioli Dip & Spread, 2 pk./25 oz.",
+      "price": "$10.99",
+      "unit_price": "$0.44 per oz"
+    }
+  ]
+}

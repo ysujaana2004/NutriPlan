@@ -1,0 +1,114 @@
+{
+  "products": [
+    {
+      "name": "Wellsley Farms Premium Chunk Chicken Breast in Water, 6 ct./12.5 oz.",
+      "price": "$15.99",
+      "unit_price": "$0.21 per oz"
+    },
+    {
+      "name": "Bumble Bee Chunk Light Tuna in Water, 10 pk./5 oz.",
+      "price": "$10.49",
+      "unit_price": "$0.21 per oz"
+    },
+    {
+      "name": "Bumble Bee Solid White Albacore Tuna in Water, 8 pk./5 oz.",
+      "price": "$12.99",
+      "unit_price": "$0.32 per oz"
+    },
+    {
+      "name": "Libby's Vienna Sausage, 4.6 oz.Cans, 18 Count",
+      "price": "$14.99",
+      "unit_price": "$0.18 per oz"
+    },
+    {
+      "name": "Bumble Bee Skinless and Boneless Wild Pink Salmon, 5 pk./5 oz.",
+      "price": "$9.49",
+      "unit_price": "$0.38 per oz"
+    },
+    {
+      "name": "Season Wild Caught and Sustainable Fish Sardines, 10 pk./4.375 oz.",
+      "price": "$18.99",
+      "unit_price": "$0.43 per oz"
+    },
+    {
+      "name": "Libby's Corned Beef, 3 pk./12 oz.",
+      "price": "$15.49",
+      "unit_price": "$0.43 per oz"
+    },
+    {
+      "name": "Genova Premium Yellowfin Tuna in Olive Oil, Cans, 8 pk./5 oz.",
+      "price": "$18.49",
+      "unit_price": "$0.46 per oz"
+    },
+    {
+      "name": "King Oscar Sardines in Extra Virgin Olive Oil, 4 pk./3.75 oz.",
+      "price": "$10.49",
+      "unit_price": "$0.70 per oz"
+    },
+    {
+      "name": "Hormel Spam with 25% Less Sodium, 6 pk./12 oz.",
+      "price": "$21.79",
+      "unit_price": "$0.30 per oz"
+    },
+    {
+      "name": "Starkist Chunk Light Tuna in Water Pouches, 10 ct./2.6 oz.",
+      "price": "$11.49",
+      "unit_price": "$0.44 per oz"
+    },
+    {
+      "name": "Wellsley Farms Premium No Antibiotics Ever Chunk Chicken Breast in Water, 4 ct.",
+      "price": "$12.29",
+      "unit_price": null
+    },
+    {
+      "name": "Season Skinless & Boneless Sardines in Pure Olive Oil, 5 pk.",
+      "price": "$13.99",
+      "unit_price": null
+    },
+    {
+      "name": "Bumble Bee Chunk Light Tuna in Oil, 10 pk./5 oz.",
+      "price": "$10.49",
+      "unit_price": "$0.21 per oz"
+    },
+    {
+      "name": "King Oscar Wild Caught Skinless & Boneless Mackerel in Olive Oil, Cans, 6 pk./4.05 oz.",
+      "price": "$16.99",
+      "unit_price": "$0.70 per oz"
+    },
+    {
+      "name": "Bumble Bee Snack On The Run Tuna Salad Kit, 6 pk.",
+      "price": "$9.69",
+      "unit_price": null
+    },
+    {
+      "name": "Snow's Ocean Chopped Clams, 6 pk./6.5 oz.",
+      "price": "$11.49",
+      "unit_price": "$0.29 per oz"
+    },
+    {
+      "name": "Bumble Bee Chunk White Albacore Tuna in Water, 8 pk./5 oz.",
+      "price": "$11.29",
+      "unit_price": "$0.28 per oz"
+    },
+    {
+      "name": "Hormel Spam Classic, 6 pk./12 oz.",
+      "price": "$21.79",
+      "unit_price": "$0.30 per oz"
+    },
+    {
+      "name": "Bumble Bee Prime Fillet Solid White Albacore Tuna in Water, 6 pk./5 oz.",
+      "price": "$12.99",
+      "unit_price": "$0.43 per oz"
+    },
+    {
+      "name": "Beach Cliff Sardines, 10 pk./3.75 oz.",
+      "price": "$10.99",
+      "unit_price": "$0.29 per oz"
+    },
+    {
+      "name": "Bumble Bee Light Tuna, 10 pk./2.5 oz.",
+      "price": "$10.79",
+      "unit_price": "$0.43 per oz"
+    }
+  ]
+}

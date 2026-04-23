@@ -1,0 +1,319 @@
+{
+  "products": [
+    {
+      "name": "Wellsley Farms Fresh Boneless Thin Pork Loin Chop, 3.75-4.5 lb",
+      "price": "$15.71 - $18.86",
+      "unit_price": "$4.19/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Bone-In Pork Loin Chop Assorted, 4.75-5.5 lb",
+      "price": "$17.05 - $19.74",
+      "unit_price": "$3.59/lb"
+    },
+    {
+      "name": "Wellsley Farms Boneless Fresh Pork Loin Chops, 4.75-5.5 lb",
+      "price": "$18.95 - $21.95",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Whole Pork Picnic Smoker Trim, 9-12 lbs.",
+      "price": "$12.51 - $16.68",
+      "unit_price": "$1.39/lb"
+    },
+    {
+      "name": "Wellsley Farms Pork Loin Country Style Boneless Ribs, 3.75-4.5 lb",
+      "price": "$14.21 - $17.05",
+      "unit_price": "$3.79/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Bone-In Pork Loin Chop Center Cut, 4.75-5.5 lb",
+      "price": "$18.48 - $21.39",
+      "unit_price": "$3.89/lb"
+    },
+    {
+      "name": "Just Bare Pork Full Rack Baby Back Ribs, 2.5-3.5 lbs.",
+      "price": "$13.22 - $18.52",
+      "unit_price": "$5.29/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Pork St. Louis Style Spare Ribs, 5-8.5 lbs.",
+      "price": "$16.45 - $27.96",
+      "unit_price": "$3.29/lb"
+    },
+    {
+      "name": "Wellsley Farms Boneless Pork Tenderloin, 3.5-6 lbs.",
+      "price": "$3.99",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Pork Loin Bone-In Chop Center Cut Thin, 4.75-5.5 lb",
+      "price": "$19.43 - $22.49",
+      "unit_price": "$4.09/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Pork Loin Bone-In Country Style Ribs, 3.75-4.5 lb",
+      "price": "$13.46 - $16.16",
+      "unit_price": "$3.59/lb"
+    },
+    {
+      "name": "Swift Boneless Pork Shoulder Butt, 8-11 lbs.",
+      "price": "$19.12 - $26.29",
+      "unit_price": "$2.39/lb"
+    },
+    {
+      "name": "Wellsley Farms Whole Boneless Pork Loin, 6-11.5 lbs.",
+      "price": "$23.34 - $44.73",
+      "unit_price": "$3.89/lb"
+    },
+    {
+      "name": "Wellsley Farms Diced Fresh Pork, 3-3.5 lb",
+      "price": "$12.87 - $15.02",
+      "unit_price": "$4.29/lb"
+    },
+    {
+      "name": "Wellsley Farms Whole Steak Ready Bone-In Pork Shoulder Butt, 7.5-10.25 lbs.",
+      "price": "$14.17 - $19.37",
+      "unit_price": "$1.89/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Pork Loin Back Ribs, 5.75-8 lbs.",
+      "price": "$21.79 - $30.32",
+      "unit_price": "$3.79/lb"
+    },
+    {
+      "name": "Hatfield Honey Garlic Teriyaki Pork Loin Filets, 2 pk./22 oz.",
+      "price": "$13.99",
+      "unit_price": "$10.18/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Cubed Pork Loin, 2.75-3.5 lb",
+      "price": "$12.07 - $15.36",
+      "unit_price": "$4.39/lb"
+    },
+    {
+      "name": "Smithfield Garlic and Herb Tenderloin, Two Tenderloins, 2.4 lbs.",
+      "price": "$9.99",
+      "unit_price": "$4.16/lb"
+    },
+    {
+      "name": "Smithfield Spirals Hickory Smoked Spiral Sliced Ham, 9.5-11.5 lbs.",
+      "price": "$14.15 - $17.14",
+      "unit_price": "$1.49/lb"
+    },
+    {
+      "name": "Wellsley Farms Skinless Fresh Pork Belly, 3-7 lbs.",
+      "price": "$13.17 - $30.73",
+      "unit_price": "$4.39/lb"
+    },
+    {
+      "name": "Premio Sweet Italian Ground Sausage Meat, 32 oz.",
+      "price": "$9.19",
+      "unit_price": "$4.60/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Boneless Pork Loin Rib End Roast, 3.75-4.5 lb",
+      "price": "$14.21 - $17.05",
+      "unit_price": "$3.79/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Pork Loin Stir Fry Strips, 2.25-3 lbs.",
+      "price": "$9.88 - $13.17",
+      "unit_price": "$4.39/lb"
+    },
+    {
+      "name": "Smithfield Fully Cooked Smoked Bone-In Center Cut Pork Loins, 1.6-2.2 lbs.",
+      "price": "$7.79 - $17.97",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "Lloyd's Baby Back Pork Ribs, 3 lbs.",
+      "price": "$21.99",
+      "unit_price": "$7.33/lb"
+    },
+    {
+      "name": "Wellsley Farms Boneless Fresh Pork Loin Center Cut Roast, 3.75-4.5 lb",
+      "price": "$14.96 - $17.96",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Swift Ground Pork, 3 pk./1 lb.",
+      "price": "$11.49",
+      "unit_price": "$3.83/lb"
+    },
+    {
+      "name": "Villari Smoked Pork Hocks, Ready-to-Eat, 3-3.5 lbs.",
+      "price": "$8.97 - $10.46",
+      "unit_price": "$2.99/lb"
+    },
+    {
+      "name": "Pork Spare Rib Strip Brisket, 6.5-8 lbs.",
+      "price": "$12.94 - $15.92",
+      "unit_price": "$1.99/lb"
+    },
+    {
+      "name": "Just Bare Pork Tenderloin, 2-3 lbs.",
+      "price": "$12.98 - $19.47",
+      "unit_price": "$6.49/lb"
+    },
+    {
+      "name": "Wellsley Farms Fully Cooked Hickory Smoked Bacon, 16 oz.",
+      "price": "$18.99",
+      "unit_price": "$18.99/lb"
+    },
+    {
+      "name": "Johnsonville Mild Italian Sausage, 10 ct.",
+      "price": "$10.79",
+      "unit_price": null
+    },
+    {
+      "name": "Swift Bone-In St. Louis Style Pork Spareribs Kansas City Style BBQ Seasoned, 2.5-4 lbs.",
+      "price": "$11.23 - $17.96",
+      "unit_price": "$4.49/lb"
+    },
+    {
+      "name": "Swift Cook-In-Bag Memphis BBQ Style Pork Spareribs, 2.75-3.5 lbs.",
+      "price": "$10.97 - $13.96",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Smithfield Brown Sugar Pre-Glazed Spiral Half Ham, 9-11 lbs.",
+      "price": "$26.91 - $32.89",
+      "unit_price": "$2.99/lb"
+    },
+    {
+      "name": "Smithfield Anytime Favorites Hickory Smoked Quarter Ham, Boneless, Sliced, 2.2 lbs.",
+      "price": "$10.99",
+      "unit_price": "$5.00/lb"
+    },
+    {
+      "name": "Carando Parmesan Italian Style Pork Meatballs, 16 ct.",
+      "price": "$9.99",
+      "unit_price": null
+    },
+    {
+      "name": "Hillshire Farm Lit'L Smokies Smoked Sausages, 48 oz.",
+      "price": "$13.99",
+      "unit_price": "$4.66/lb"
+    },
+    {
+      "name": "Lloyd's Baby Back Pork Ribs in Honey Hickory BBQ Sauce, 3 lbs.",
+      "price": "$21.99",
+      "unit_price": "$7.33/lb"
+    },
+    {
+      "name": "Just Bare Pork Boneless Pork Loin, 3-4 lbs.",
+      "price": "$17.67 - $23.56",
+      "unit_price": "$5.89/lb"
+    },
+    {
+      "name": "Smithfield Pork Shoulder Picnic Roast Sweet & Smoky BBQ, 46 oz.",
+      "price": "$13.99",
+      "unit_price": "$4.87/lb"
+    },
+    {
+      "name": "Johnsonville Brats Original Bratwurst, 10 ct.",
+      "price": "$10.79",
+      "unit_price": null
+    },
+    {
+      "name": "Johnsonville Brats Beer Bratwurst, 10 ct.",
+      "price": "$10.79",
+      "unit_price": null
+    },
+    {
+      "name": "Smithfield Anytime Favorites Brown Sugar Cured Quarter Ham, Boneless, Sliced, 2.2 lbs.",
+      "price": "$10.99",
+      "unit_price": "$5.00/lb"
+    },
+    {
+      "name": "Smithfield Pork Loin Filet, Garlic & Herb, 2 pk./32 oz.",
+      "price": "$15.49",
+      "unit_price": "$7.75/lb"
+    },
+    {
+      "name": "El Parcero Colombian Chorizo, 30 oz.",
+      "price": "$8.49",
+      "unit_price": "$4.53/lb"
+    },
+    {
+      "name": "Wellsley Farms Bone-in Ham Steak, 4.25-5 lbs.",
+      "price": "$16.96 - $19.95",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Fully Cooked Boneless Ham Steaks, 24 oz.",
+      "price": "$13.99",
+      "unit_price": "$9.33/lb"
+    },
+    {
+      "name": "Kentucky Legend Qtr Sliced Ham - Price Per Pound, 1.5-2.5 lb",
+      "price": "$8.98 - $14.98",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "Smithfield Boneless Half Spiral Ham, 6.5-8.5 lbs.",
+      "price": "$32.44 - $42.41",
+      "unit_price": "$4.99/lb"
+    },
+    {
+      "name": "Smithfield Anytime Favorites Boneless Roasted Turkey Quarter, 1.5 lbs.",
+      "price": "$9.99",
+      "unit_price": "$6.66/lb"
+    },
+    {
+      "name": "Wellsley Farms Low Sodium Ham Steaks, 2 pk./14 oz.",
+      "price": "$9.99",
+      "unit_price": "$11.42/lb"
+    },
+    {
+      "name": "Smithfield Bone-In Smoked Picnic Half, 5.5-6.5 lbs.",
+      "price": "$2.79",
+      "unit_price": "$2.79/lb"
+    },
+    {
+      "name": "Mr. Tango Argentinian Sausage Links, 10 ct.",
+      "price": "$11.99",
+      "unit_price": null
+    },
+    {
+      "name": "Hatfield Tuscan Herb Pork Loin Filets, 2 pk./22 oz.",
+      "price": "$13.99",
+      "unit_price": "$10.18/lb"
+    },
+    {
+      "name": "Dietz & Watson Carvers Gourmet Ham, 4-5 lbs.",
+      "price": "$23.96 - $29.95",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Pork Loin Bone-In Center Cut Roast, 3.75-4.5 lb",
+      "price": "$3.89",
+      "unit_price": "$0.95/lb"
+    },
+    {
+      "name": "Wellsley Farms Country Style Pork Butt Ribs Bone-In, 3-5.5 lbs",
+      "price": "$1.99",
+      "unit_price": "$0.50/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Pork Loin Bone-in Sirloin Half Roast, 4-6 lbs.",
+      "price": "$12.00",
+      "unit_price": "$2.40/lb"
+    },
+    {
+      "name": "Smithfield Boneless Spiral Ham Quarter, 3-5 lbs.",
+      "price": "$4.99",
+      "unit_price": "$1.25/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Frenched Pork Loin Rack, 5 - 5.75 lbs.",
+      "price": "$12.00",
+      "unit_price": "$2.18/lb"
+    },
+    {
+      "name": "Hatfield Boneless Half Ham with Natural Juices, 3.75-5 lbs.",
+      "price": "$3.99",
+      "unit_price": "$0.96/lb"
+    }
+  ]
+}

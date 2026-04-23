@@ -1,0 +1,194 @@
+{
+  "products": [
+    {
+      "name": "Dannon Oikos Triple Zero Variety Yogurt, Vanilla, Strawberry, Mixed Berry, 18 pk./5.3 oz.",
+      "price": "$17.99",
+      "unit_price": "$0.19/oz"
+    },
+    {
+      "name": "Chobani 20g Protein, Protein Drinks Variety Pack, Mixed Berry Vanilla, Strawberries & Cream, 8 ct./10 oz.",
+      "price": "$16.79",
+      "unit_price": "$0.21/oz"
+    },
+    {
+      "name": "Chobani 0% Blended Greek Yogurt, Vanilla, 40 oz.",
+      "price": "$6.79",
+      "unit_price": "$0.17/oz"
+    },
+    {
+      "name": "Chobani Non-Fat Greek Yogurt, Plain, 40 oz.",
+      "price": "$6.79",
+      "unit_price": "$0.17/oz"
+    },
+    {
+      "name": "Yoplait GoGurt Yogurt, Tubes, Strawberry, Berry, 32 pk./2 oz.",
+      "price": "$8.49",
+      "unit_price": "$0.13/oz"
+    },
+    {
+      "name": "Chobani 20g Protein, Yogurt Variety Pack, Raspberry Lemon, Vanilla, Mango, Cherry Berry, 16 ct./6.7 oz.",
+      "price": "$19.99",
+      "unit_price": "$0.19/oz"
+    },
+    {
+      "name": "Yoplait Original Yogurt Variety Pack, Harvest Peach, Strawberry, French Vanilla, 24 pk./6 oz.",
+      "price": "$12.79",
+      "unit_price": "$0.09/oz"
+    },
+    {
+      "name": "Stonyfield Farm Organic Smoothie With Probiotics, Strawberry, 12 pk./6 fl. oz.",
+      "price": "$12.99",
+      "unit_price": "$0.18/fl oz"
+    },
+    {
+      "name": "Dannon Activia Lowfat Yogurt Variety Pack, Strawberry, Black Cherry, Peach, 24 pk./4 oz.",
+      "price": "$11.99",
+      "unit_price": "$0.12/oz"
+    },
+    {
+      "name": "Chobani Flip Lowfat Greek Yogurt, Four-Flavor Variety Pack, 16 pk./4.5 oz.",
+      "price": "$16.99",
+      "unit_price": "$0.24/oz"
+    },
+    {
+      "name": "Chobani Non-Fat Greek Yogurt Variety Pack, Strawberry, Blueberry, Peach, Black Cherry, 16 pk./5.3 oz.",
+      "price": "$16.29",
+      "unit_price": "$0.19/oz"
+    },
+    {
+      "name": "Oikos Pro Drinks Variety Pack, Strawberry Banana, Peach, 12 ct./7 oz.",
+      "price": "$18.99",
+      "unit_price": "$0.23/oz"
+    },
+    {
+      "name": "Oui by Yoplait Yogurt Variety Pack, Strawberry, Peach, 8 pk./5 oz.",
+      "price": "$10.79",
+      "unit_price": "$0.27/oz"
+    },
+    {
+      "name": "Stonyfield Organic Probiotic Whole Milk Yogurt, Plain, 32 oz.",
+      "price": "$4.49",
+      "unit_price": "$0.14/oz"
+    },
+    {
+      "name": "Dannon Light & Fit Non Fat Greek Yogurt, Variety Pack, Strawberry, Blueberry, Cherry, 18 pk./5.3 oz.",
+      "price": "$15.99",
+      "unit_price": "$0.17/oz"
+    },
+    {
+      "name": "YoCrunch Vanilla Yogurt With M&M's & Oreo Variety Pack, 18 pk./6 oz.",
+      "price": "$14.99",
+      "unit_price": "$0.14/oz"
+    },
+    {
+      "name": "Chobani Zero Sugar Greek Yogurt Variety Pack, 16 pk./5.3 oz.",
+      "price": "$16.99",
+      "unit_price": "$0.20/oz"
+    },
+    {
+      "name": "Yoplait Oui Yogurt, Jars, Vanilla, 8 pk./5 oz.",
+      "price": "$10.79",
+      "unit_price": "$0.27/oz"
+    },
+    {
+      "name": "Lifeway Lowfat Kefir, Club Size Variety Pack, Strawberry, Peach, 12 pk./8 oz.",
+      "price": "$17.99",
+      "unit_price": "$0.19/oz"
+    },
+    {
+      "name": "Dannon Danimals Smoothies, Strawberry Banana, Strawberry, Bottles, 36 pk./3.1 oz.",
+      "price": "$14.99",
+      "unit_price": "$0.13/oz"
+    },
+    {
+      "name": "Stonyfield Organic YoKids Lowfat Yogurt, Pouches, Blueberry, Strawberry, 8 pk./3.5 oz.",
+      "price": "$11.99",
+      "unit_price": "$0.43/oz"
+    },
+    {
+      "name": "Noosa Finest Yoghurt Variety Pack, Blueberry, Strawberry Rhubarb, Lemon, 12 pk./4 oz.",
+      "price": "$10.99",
+      "unit_price": "$0.23/oz"
+    },
+    {
+      "name": "Greek Gods Greek-Style Yogurt, Honey Vanilla, 48 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.19/oz"
+    },
+    {
+      "name": "Dannon Activia Probiotic Dailies Low-Fat Yogurt Drink, Strawberry, Blueberry, 24 pk./3.1 fl. oz.",
+      "price": "$13.99",
+      "unit_price": "$0.19/fl oz"
+    },
+    {
+      "name": "Danimals Squeezables Lowfat Yogurt, Variety Pack, Strawberry, Strawberry Banana, 12 ct./3.5 oz.",
+      "price": "$12.99",
+      "unit_price": "$0.31/oz"
+    },
+    {
+      "name": "Wellsely Farms Whole Milk Yogurt, Plain, 3 lbs.",
+      "price": "$5.49",
+      "unit_price": "$0.11/oz"
+    },
+    {
+      "name": "Clio Greek Yogurt Bars, Strawberry, Vanilla, 12 pk./1.76 oz.",
+      "price": "$11.49",
+      "unit_price": "$0.54/oz"
+    },
+    {
+      "name": "Chobani Low-Fat Greek Yogurt Drink, Strawberry Banana, Mixed Berry, 12 pk./7 fl. oz.",
+      "price": "$17.99",
+      "unit_price": "$0.21/fl oz"
+    },
+    {
+      "name": "Stonyfield Organic Yogurt YoKids Squeezers, Tubes, Strawberry, Mixed Berry, 24 pk./2 oz.",
+      "price": "$10.99",
+      "unit_price": "$0.23/oz"
+    },
+    {
+      "name": "Kozy Shack Cinnamon Rice Pudding, Snack Cups, 12 pk./4 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.19/oz"
+    },
+    {
+      "name": "Stonyfield Organic YoBaby Whole Milk Yogurt with Probiotics, Variety Pack, Apple, Blueberry, 12 pk./4 oz.",
+      "price": "$8.49",
+      "unit_price": "$0.18/oz"
+    },
+    {
+      "name": "Clio Greek Yogurt Bars, Mini Bars Variety Pack, Cherry, Raspberry, 24 pk./0.78 oz.",
+      "price": "$12.99",
+      "unit_price": "$0.69/oz"
+    },
+    {
+      "name": "Silk Almondmilk Yogurt Variety Pack, Strawberry, Vanilla, 12 pk./5.3 oz.",
+      "price": "$15.99",
+      "unit_price": "$0.25/oz"
+    },
+    {
+      "name": "Clio Mini Greek Yogurt Bars Variety Pack, Cookies & Cream, Vanilla, 24 ct./0.78 oz.",
+      "price": "$12.99",
+      "unit_price": "$0.69/oz"
+    },
+    {
+      "name": "El Viajero Bio Salud Probiotic Beverage, Strawberry, 50 pk.",
+      "price": "$9.29",
+      "unit_price": null
+    },
+    {
+      "name": "Siggi's Icelandic Yogurt Variety Pack, Mixed Berry, Vanilla, 12 pk./5.3 oz.",
+      "price": "$14.99",
+      "unit_price": "$0.24/oz"
+    },
+    {
+      "name": "Chobani Less Sugar Greek Yogurt Variety Pack, 16 ct./5.3 oz.",
+      "price": "$16.99",
+      "unit_price": "$0.20/oz"
+    },
+    {
+      "name": "Dannon Light & Fit Non-Fat Yogurt, Variety Pack, 24 ct./5.3 oz.",
+      "price": "$13.79",
+      "unit_price": "$0.11/oz"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "products": [
+    {
+      "name": "Vlasic Whole Baby Dill Pickles, 46 oz.",
+      "price": "$4.79",
+      "unit_price": "$0.10 per oz"
+    },
+    {
+      "name": "Pearls Large Pitted Ripe Olives, 6 ct./6 oz",
+      "price": "$13.99",
+      "unit_price": "$2.33 per oz"
+    },
+    {
+      "name": "Wellsley Farms Spanish Stuffed Manzanilla Olives, 6 pk./8.3 oz.",
+      "price": "$8.99",
+      "unit_price": "$1.08 per oz"
+    },
+    {
+      "name": "Claussen Kosher Dill Pickle Spears, 80 oz.Jar",
+      "price": "$8.99",
+      "unit_price": "$0.11 per oz"
+    },
+    {
+      "name": "Mt. Olive Bread and Butter Pickle Chips, 64 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.09 per oz"
+    },
+    {
+      "name": "Oh Snap! Dilly Bites Classic Dill Pickle Snack Packs, 12 ct./3.25 fl.oz.",
+      "price": "$10.99",
+      "unit_price": "$0.28 per fl. oz"
+    },
+    {
+      "name": "Wellsley Farms Pitted Kalamata Olives, 35.27 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.25 per oz"
+    },
+    {
+      "name": "Wellsley Farms Marinated Artichokes, 34.6 oz.",
+      "price": "$8.49",
+      "unit_price": "$0.25 per oz"
+    },
+    {
+      "name": "Mt. Olive Kosher Spears Pickles, 64 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.09 per oz"
+    },
+    {
+      "name": "Keepos Greek Olive Medley, 12.3 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.65 per oz"
+    },
+    {
+      "name": "Tres Hermanas Nacho Sliced Jalapenos, 2 pk./12 oz.",
+      "price": "$4.99",
+      "unit_price": "$0.42 per oz"
+    },
+    {
+      "name": "Pearls Sliced Ripe Olives, 6 ct./6.5 oz.",
+      "price": "$14.99",
+      "unit_price": "$2.31 per oz"
+    },
+    {
+      "name": "Wellsley Farms Castelvetrano Pitted Sicilian Green Olives, 35.3 oz.",
+      "price": "$9.49",
+      "unit_price": "$0.27 per oz"
+    },
+    {
+      "name": "Wellsley Farms Pimento Stuffed Olives, 2 pk./21 oz.",
+      "price": "$12.49",
+      "unit_price": "$0.59 per oz"
+    },
+    {
+      "name": "Pearls Olives To Go, Large Ripe Pitted, Black Olives, 16 pk./1.2 oz.",
+      "price": "$12.99",
+      "unit_price": "$0.68 per oz"
+    },
+    {
+      "name": "Keepos Mediterranean Salad, 12.3 oz.",
+      "price": "$8.49",
+      "unit_price": "$0.69 per oz"
+    },
+    {
+      "name": "Norpaco Prosciutto and Provolone Stuffed Peppers, 24 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.42 per oz"
+    },
+    {
+      "name": "Wellsley Farms Garlic & Jalapeno Stuffed Olives, 35.27 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.28 per oz"
+    },
+    {
+      "name": "Goya Chipotle Peppers in Adobo Sauce, 6 pk./7 oz.",
+      "price": "$5.98",
+      "unit_price": "$0.85 per oz"
+    },
+    {
+      "name": "Wellsley Farms Roasted Red Peppers, 2 pk./24 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.29 per oz"
+    },
+    {
+      "name": "Wellsley Farms Sundried Tomatoes, 32 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.22 per oz"
+    },
+    {
+      "name": "Gourmet Delight - Green",
+      "price": "$14.98",
+      "unit_price": null
+    }
+  ]
+}

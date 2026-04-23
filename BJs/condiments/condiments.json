@@ -1,0 +1,224 @@
+{
+  "products": [
+    {
+      "name": "Heinz Tomato Ketchup, 3 pk./44 oz.",
+      "price": "$12.99",
+      "unit_price": "$0.30 per oz"
+    },
+    {
+      "name": "Hellmann's Real Mayonnaise Jar, 64 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.16 per oz"
+    },
+    {
+      "name": "Heinz Tomato Ketchup, Sweet Relish & Natural Yellow Mustard Picnic Variety Pack",
+      "price": "$11.49",
+      "unit_price": null
+    },
+    {
+      "name": "French's Yellow Mustard, 2 pk./30 oz.",
+      "price": "$7.79",
+      "unit_price": "$0.26 per oz"
+    },
+    {
+      "name": "Hellmann's Real Mayonnaise Squeeze Bottle, 2 pk./25 oz.",
+      "price": "$13.49",
+      "unit_price": "$0.54 per oz"
+    },
+    {
+      "name": "Heinz Simply Tomato Ketchup with No Artificial Sweeteners, 2 pk./44 oz.",
+      "price": "$10.49",
+      "unit_price": "$0.24 per oz"
+    },
+    {
+      "name": "Kraft Grated Parmesan Cheese, 24 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.42 per oz"
+    },
+    {
+      "name": "Chick-fil-A Sauce Original, 2 pk./24 fl. oz.",
+      "price": "$8.99",
+      "unit_price": "$0.37 per fl. oz"
+    },
+    {
+      "name": "Gulden's Spicy Brown Mustard, 24 oz.Bottles, 2 ct.",
+      "price": "$5.49",
+      "unit_price": "$0.11 per oz"
+    },
+    {
+      "name": "Taco Bell Mild Sauce, Bottle, 25 oz.",
+      "price": "$5.49",
+      "unit_price": "$0.22 per oz"
+    },
+    {
+      "name": "Hidden Valley Original Ranch Homestyle Salad Dressing and Topping, 2 pk./40 oz.",
+      "price": "$13.99",
+      "unit_price": "$0.35 per oz"
+    },
+    {
+      "name": "Wellsley Farms Organic Tomato Ketchup, 40 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.22 per oz"
+    },
+    {
+      "name": "Frank's RedHot Original Cayenne Pepper Hot Sauce, 2 pk./25 fl. oz.",
+      "price": "$10.49",
+      "unit_price": "$0.42 per fl. oz"
+    },
+    {
+      "name": "Hellmann's Light Mayonnaise Jar, 2 pk./30 oz.",
+      "price": "$10.79",
+      "unit_price": "$0.36 per oz"
+    },
+    {
+      "name": "Hidden Valley Original Ranch Salad Dressing and Seasoning Mix, Canister, 16 oz.",
+      "price": "$12.79",
+      "unit_price": "$0.80 per oz"
+    },
+    {
+      "name": "Soy Vay Veri Veri Teriyaki Marinade and Sauce, Bottle, 42 fl. oz.",
+      "price": "$6.49",
+      "unit_price": "$0.15 per fl. oz"
+    },
+    {
+      "name": "Chosen Foods 100% Pure Avocado Oil Classic Mayo, 24 oz.",
+      "price": "$10.99",
+      "unit_price": "$0.46 per oz"
+    },
+    {
+      "name": "Hidden Valley Light Ranch Condiment and Dressing, Bottles, 2 pk./40 fl. oz.",
+      "price": "$13.99",
+      "unit_price": "$0.35 per fl. oz"
+    },
+    {
+      "name": "Wellsley Farms Organic Tomato Ketchup, 2pk./40 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.22 per oz"
+    },
+    {
+      "name": "Ray's No Sugar Added Original Barbecue Sauce, 36 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.17 per oz"
+    },
+    {
+      "name": "Tabasco Classic Red Sauce, 15 oz.",
+      "price": "$6.69",
+      "unit_price": "$0.45 per oz"
+    },
+    {
+      "name": "Kraft Thousand Island Dressing, 2 pk./24 oz.",
+      "price": "$7.49",
+      "unit_price": "$0.31 per oz"
+    },
+    {
+      "name": "Grey Poupon Dijon Mustard, 2 ct./16 oz.",
+      "price": "$9.69",
+      "unit_price": "$0.61 per oz"
+    },
+    {
+      "name": "Mike's Hot Honey, 24 oz.",
+      "price": "$16.99",
+      "unit_price": "$0.71 per oz"
+    },
+    {
+      "name": "Miracle Whip Mayo-Like Dressing, 2pk./30 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.33 per oz"
+    },
+    {
+      "name": "McCormick Brown Gravy Mix, 21 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.48 per oz"
+    },
+    {
+      "name": "Cholula Original Hot Sauce, 2 pk./12 fl. oz.",
+      "price": "$10.49",
+      "unit_price": "$0.87 per fl. oz"
+    },
+    {
+      "name": "Frank's RedHot Buffalo Wings Sauce, 2 ct./25 oz.",
+      "price": "$10.49",
+      "unit_price": "$0.42 per oz"
+    },
+    {
+      "name": "Duke's Mayonnaise, 64 oz.",
+      "price": "$11.79",
+      "unit_price": "$0.18 per oz"
+    },
+    {
+      "name": "Bachan's The Original Japanese BBQ Sauce, Bold, Fresh, Umami Flavor, Bottle, 26 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.35 per oz"
+    },
+    {
+      "name": "Mateo's Gourmet Salsa Medium, 24 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.25 per oz"
+    },
+    {
+      "name": "Hidden Valley Original Ranch Homestyle Sixty Calories Salad Dressing and Topping, 2 pk./40 oz.",
+      "price": "$13.99",
+      "unit_price": "$0.35 per oz"
+    },
+    {
+      "name": "Guy Fieri's Flavortown Top Secret Sauce, 22.5 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.31 per oz"
+    },
+    {
+      "name": "Lee Kum Kee Premium Oyster Sauce, 18 oz.",
+      "price": "$6.49",
+      "unit_price": "$0.36 per oz"
+    },
+    {
+      "name": "Lee Kum Kee Hoisin Sauce, 20 oz.",
+      "price": "$3.99",
+      "unit_price": "$0.20 per oz"
+    },
+    {
+      "name": "McCormick Poultry Gravy Mix, Premium, 20 oz.",
+      "price": "$4.98",
+      "unit_price": "$0.25 per oz"
+    },
+    {
+      "name": "Buffalo Wild Wings Sauce Garlic Parmesan, 24 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.25 per oz"
+    },
+    {
+      "name": "Heinz HomeStyle Roasted Turkey Gravy, 3 pk./18 oz.",
+      "price": "$4.98",
+      "unit_price": "$0.28 per oz"
+    },
+    {
+      "name": "Jet-Puffed Marshmallow Creme, Jars, 2 pk./13 oz.",
+      "price": "$4.99",
+      "unit_price": "$0.38 per oz"
+    },
+    {
+      "name": "Cholula Salsa Verde, Mild Salsa, 32 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.25 per oz"
+    },
+    {
+      "name": "Spice World Minced Garlic Squeeze Bottle, 20 oz.",
+      "price": "$4.99",
+      "unit_price": "$0.25 per oz"
+    },
+    {
+      "name": "Kraft Dip & Drizzle Dressing Condiments Pack, 3 pk.",
+      "price": "$6.99",
+      "unit_price": null
+    },
+    {
+      "name": "Chosen Foods Burger Sauce, 16 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.56 per oz"
+    },
+    {
+      "name": "Hellmann's Garlic Aioli Dip & Spread, 2 pk./25 oz.",
+      "price": "$10.99",
+      "unit_price": "$0.44 per oz"
+    }
+  ]
+}

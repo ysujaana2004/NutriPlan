@@ -1,0 +1,214 @@
+{
+  "products": [
+    {
+      "name": "Wellsley Farms Boneless Skinless Chicken Breasts, 4.5-6.5 lb",
+      "price": "$11.65 - $16.84",
+      "unit_price": "$2.59/lb"
+    },
+    {
+      "name": "Wellsley Farms Boneless Skinless Chicken Thighs, 3.5-6 lbs.",
+      "price": "$10.12 - $17.34",
+      "unit_price": "$2.89/lb"
+    },
+    {
+      "name": "Wellsley Farms Chicken Wings, 6.5-9.5 lbs.",
+      "price": "$17.48 - $25.55",
+      "unit_price": "$2.69/lb"
+    },
+    {
+      "name": "Wellsley Farms No Antibiotics Ever Boneless Skinless Chicken Breast, 5.25-7.5 lbs.",
+      "price": "$17.27 - $26.32",
+      "unit_price": "$3.29/lb"
+    },
+    {
+      "name": "Wellsley Farms Chicken Drumsticks, 7-11 lbs.",
+      "price": "$7.63 - $11.99",
+      "unit_price": "$1.09/lb"
+    },
+    {
+      "name": "Wellsley Farms No Antibiotics Ever Thin-Sliced Boneless Skinless Chicken Breast, 3.5-6.5 lbs.",
+      "price": "$15.71 - $29.19",
+      "unit_price": "$4.49/lb"
+    },
+    {
+      "name": "Wellsley Farms Bone In Chicken Thighs, 8-11 lbs.",
+      "price": "$11.92 - $20.86",
+      "unit_price": "$1.49/lb"
+    },
+    {
+      "name": "Farm to Family by Butterball 93% Lean/7% Fat Ground Turkey, 2.5 lbs.",
+      "price": "$11.99",
+      "unit_price": "$4.80/lb"
+    },
+    {
+      "name": "Perdue Fresh Ground Chicken, 3 lbs.",
+      "price": "$10.49",
+      "unit_price": "$3.50/lb"
+    },
+    {
+      "name": "Wellsley Farms No Antibiotics Ever Boneless Skinless Chicken Breast Tenderloins, 4.5-7.5 lbs.",
+      "price": "$17.96 - $29.93",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Wellsley Farms No Antibiotics Ever Boneless Skinless Chicken Thighs, 4.25-6.25 lbs.",
+      "price": "$13.56 - $19.94",
+      "unit_price": "$3.19/lb"
+    },
+    {
+      "name": "Butterball All Natural 93% Lean 7% Fat Lean Ground Turkey, 3 pk./1.33 lbs.",
+      "price": "$16.99",
+      "unit_price": "$4.26/lb"
+    },
+    {
+      "name": "Perdue Harvestland Chicken Breasts, 2.5-3.75 lb",
+      "price": "$12.48 - $18.71",
+      "unit_price": "$4.99/lb"
+    },
+    {
+      "name": "Perdue Harvestland Chicken Drumsticks, 2-4 lb",
+      "price": "$4.98 - $9.96",
+      "unit_price": "$2.49/lb"
+    },
+    {
+      "name": "Perdue Harvestland Thin Sliced Chicken Breasts, 1.75-3lbs.",
+      "price": "$9.08 - $15.57",
+      "unit_price": "$5.19/lb"
+    },
+    {
+      "name": "Perdue Harvestland Chicken Thighs, 2-3.5 lb",
+      "price": "$6.98 - $12.21",
+      "unit_price": "$3.49/lb"
+    },
+    {
+      "name": "Perdue Whole Cornish Hen With Giblets Twin Pack, 3.25-5.5 lb",
+      "price": "$8.09 - $13.70",
+      "unit_price": "$2.49/lb"
+    },
+    {
+      "name": "Harvestland by Perdue Organic Boneless Chicken Breast, 2.5-3.5 lb",
+      "price": "$14.98 - $20.96",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "Butterball All Natural 99% Fat Free Extra Lean Turkey Breast Tenderloins, 3 lbs.",
+      "price": "$17.99",
+      "unit_price": "$6.00/lb"
+    },
+    {
+      "name": "Amylu Foods Roasted Garlic Chicken Meatballs, 32 oz.",
+      "price": "$11.99",
+      "unit_price": "$6.00/lb"
+    },
+    {
+      "name": "Perdue Harvestland Free Range Whole Chicken with Giblets, 4.25-6.5 lbs.",
+      "price": "$7.18 - $10.98",
+      "unit_price": "$1.69/lb"
+    },
+    {
+      "name": "Butterball All Natural Extra Lean Rotisserie Style Seasoned Turkey Breast Tenderloins, 48 oz.",
+      "price": "$15.99",
+      "unit_price": "$5.33/lb"
+    },
+    {
+      "name": "Amylu Foods Spinach and Feta Chicken Burgers, 8 ct.",
+      "price": "$11.99",
+      "unit_price": null
+    },
+    {
+      "name": "Perdue Refrigerated Breaded No Antibiotics Ever Chicken Breast Strips, 3 pk./12 oz.",
+      "price": "$10.79",
+      "unit_price": "$4.80/lb"
+    },
+    {
+      "name": "Harvestland by Perdue Organic Whole Chicken, 4.75-6lbs.",
+      "price": "$14.20 - $17.94",
+      "unit_price": "$2.99/lb"
+    },
+    {
+      "name": "Villari Smoked Turkey Drums, 3-4 lbs.",
+      "price": "$10.77 - $14.36",
+      "unit_price": "$3.59/lb"
+    },
+    {
+      "name": "Perdue Short Cuts Original Roasted Carved Chicken Breast, 2 pk./13 oz.",
+      "price": "$11.79",
+      "unit_price": "$7.25/lb"
+    },
+    {
+      "name": "Amylu Foods Classic Breakfast Chicken Sausages, Mini Links, 32 oz.",
+      "price": "$11.99",
+      "unit_price": "$6.00/lb"
+    },
+    {
+      "name": "Butterball Frozen Boneless Turkey Breast Roast, Serves 2-6, 3 lbs.",
+      "price": "$12.99",
+      "unit_price": "$4.33/lb"
+    },
+    {
+      "name": "Al Fresco Sweet Apple Chicken Dinner Sausage, 32 oz.",
+      "price": "$11.99",
+      "unit_price": "$6.00/lb"
+    },
+    {
+      "name": "Amylu Foods Caramelized Onion and White Cheddar Chicken Sausages, Links, 12 ct.",
+      "price": "$11.99",
+      "unit_price": null
+    },
+    {
+      "name": "Butterball Frozen Turkey Burgers, Original Seasoned, 1/3 lb. Patties, 12 ct.",
+      "price": "$16.99",
+      "unit_price": "$4.25/lb"
+    },
+    {
+      "name": "Al Fresco Tomato, Basil & Mozzarella Chicken Sausage, 33 oz.",
+      "price": "$11.99",
+      "unit_price": "$5.81/lb"
+    },
+    {
+      "name": "Al Fresco Italian Style Chicken Dinner Sausage, 32 oz.",
+      "price": "$11.99",
+      "unit_price": "$6.00/lb"
+    },
+    {
+      "name": "Al Fresco Roasted Garlic Chicken Dinner Sausage, 32 oz.",
+      "price": "$11.99",
+      "unit_price": "$6.00/lb"
+    },
+    {
+      "name": "Winchester Farms Chicken Cordon Bleu, 1 - 1.45 lb.",
+      "price": "$9.99 - $14.49",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "Swiss Cheese, Pepper & Onion Turkey Burger Patties, 2 lbs.",
+      "price": "$15.49",
+      "unit_price": "$7.75/lb"
+    },
+    {
+      "name": "Butterball Frozen All Natural Bone-In Turkey Breast, 5.5-8.5 lbs.",
+      "price": "$19.20 - $29.67",
+      "unit_price": "$3.49/lb"
+    },
+    {
+      "name": "Amylu Foods Basil and Parmesan Chicken Sausages, Links, 12 ct.",
+      "price": "$11.99",
+      "unit_price": null
+    },
+    {
+      "name": "Boneless, Skinless Chicken Breasts with Rib Meat, 4.25 - 6.5 lbs.",
+      "price": "$2.59",
+      "unit_price": "$0.55/lb"
+    },
+    {
+      "name": "Perdue Italian Style Chicken Breasts, 3 lbs.",
+      "price": "$14.49",
+      "unit_price": "$4.83/lb"
+    },
+    {
+      "name": "Jurgielewicz All Natural Fresh Ducks, 5.5-6.5 lbs.",
+      "price": "$3.99",
+      "unit_price": "$0.65/lb"
+    }
+  ]
+}

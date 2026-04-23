@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "name": "Wellsley Farms Extra Large Cage Free White Eggs, 36 ct.",
+      "price": "$5.99",
+      "unit_price": "$0.17/egg"
+    },
+    {
+      "name": "Wellsley Farms Large White Eggs, 5 pk./12 ct.",
+      "price": "$7.99",
+      "unit_price": "$0.13/egg"
+    },
+    {
+      "name": "Wellsley Farms Cage Free Large Brown Eggs, 18 ct.",
+      "price": "$4.29",
+      "unit_price": "$0.24/egg"
+    },
+    {
+      "name": "Wellsley Farms by Nellie's Free Range Eggs, 24 ct.",
+      "price": "$8.99",
+      "unit_price": "$0.37/egg"
+    },
+    {
+      "name": "Eggland's Best Cage Free Large White Eggs, 2 pk./12 ct.",
+      "price": "$8.69",
+      "unit_price": "$0.36/egg"
+    },
+    {
+      "name": "Pete & Gerry's Pasture-Raised Large Eggs, 18 ct.",
+      "price": "$8.99",
+      "unit_price": "$0.50/egg"
+    },
+    {
+      "name": "Wellsley Farms by Pete & Gerry's Organic Eggs, 18 ct.",
+      "price": "$8.99",
+      "unit_price": "$0.50/egg"
+    },
+    {
+      "name": "Pete and Gerry's Organic Liquid Egg Whites, 2 pk./16 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.25/oz"
+    },
+    {
+      "name": "Eggland's Best Hard-Cooked Peeled Eggs, Medium, 12 ct.",
+      "price": "$5.99",
+      "unit_price": "$0.50/egg"
+    },
+    {
+      "name": "Eggland's Best Liquid Egg Whites, 4 pk./16 oz",
+      "price": "$14.99",
+      "unit_price": "$0.23/oz"
+    },
+    {
+      "name": "Original Egg Beaters, 4 pk./16 oz.",
+      "price": "$10.99",
+      "unit_price": "$0.17/oz"
+    },
+    {
+      "name": "Eggland's Best Classic Large White Eggs, 24 ct.",
+      "price": "$6.49",
+      "unit_price": "$0.27/egg"
+    }
+  ]
+}

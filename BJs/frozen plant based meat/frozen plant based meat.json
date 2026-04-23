@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "name": "Impossible Ground Beef Meat From Plants, 19g Protein, 2 pk./1 lb.",
+      "price": "$10.99",
+      "unit_price": "$10.99/lb"
+    },
+    {
+      "name": "Gardein Ultimate Chick'n Tenders, 40 oz.",
+      "price": "$18.99",
+      "unit_price": "$7.60/lb"
+    },
+    {
+      "name": "Impossible Plant-Based Chicken Nuggets, 2 lbs.",
+      "price": "$13.99",
+      "unit_price": "$7.00/lb"
+    },
+    {
+      "name": "Beyond Meat Beyond Burger Plant-Based Patties, 10 ct./0.25 lbs.",
+      "price": "$18.99",
+      "unit_price": "$7.60/lb"
+    },
+    {
+      "name": "MorningStar Farms Chipotle Black Bean Veggie Burgers, 12 ct.",
+      "price": "$16.99",
+      "unit_price": null
+    },
+    {
+      "name": "Beyond Steak Plant-Based Seared Tips, 28 oz.",
+      "price": "$16.99",
+      "unit_price": "$9.71/lb"
+    },
+    {
+      "name": "Michael Angelo's Eggplant Parmesan, 2 pk./32 oz.",
+      "price": "$15.99",
+      "unit_price": "$8.00/lb"
+    },
+    {
+      "name": "MorningStar Farms Garden Veggie Burgers, 16 ct.",
+      "price": "$19.99",
+      "unit_price": null
+    },
+    {
+      "name": "MorningStar Farms Buffalo Chik'n Nuggets, 31.5 oz.",
+      "price": "$7.98",
+      "unit_price": "$4.05/lb"
+    }
+  ]
+}

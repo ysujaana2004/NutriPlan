@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "name": "Wellsley Farms Australian Lamb Loin Chop, 1.75-2.5 lbs.",
+      "price": "$14.86 - $21.23",
+      "unit_price": "$8.49/lb"
+    },
+    {
+      "name": "Australian Lamb Rib Rack Frenched, 1.5-2.5 lbs.",
+      "price": "$24.73 - $41.22",
+      "unit_price": "$16.49/lb"
+    },
+    {
+      "name": "Australian Lamb Shoulder Chop Roundbone, 3.25-4lbs.",
+      "price": "$28.57 - $35.16",
+      "unit_price": "$8.79/lb"
+    },
+    {
+      "name": "Australian Boneless Lamb Legs, 4-8 lbs.",
+      "price": "$25.96 - $51.92",
+      "unit_price": "$6.49/lb"
+    },
+    {
+      "name": "Australian Lamb Shoulder Chop, 3.25-4lbs.",
+      "price": "$27.59 - $33.96",
+      "unit_price": "$8.49/lb"
+    },
+    {
+      "name": "Australian Ground Lamb, 1.25 lb.",
+      "price": "$7.99 - $9.99",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "Australian Lamb Foreshank, 1.5-2.5 lbs.",
+      "price": "$9.73 - $16.23",
+      "unit_price": "$6.49/lb"
+    },
+    {
+      "name": "Australian Boneless Butterflied Lamb Leg, 2.5-3.5 lbs.",
+      "price": "$7.49",
+      "unit_price": "$2.50/lb"
+    },
+    {
+      "name": "Australian Lamb Loin Chop, 1.25-2lbs.",
+      "price": "$10.99",
+      "unit_price": "$6.70/lb"
+    }
+  ]
+}

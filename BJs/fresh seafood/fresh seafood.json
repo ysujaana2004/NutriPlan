@@ -1,0 +1,114 @@
+{
+  "products": [
+    {
+      "name": "Wellsley Farms Norwegian Salmon Portions, 1 lb.",
+      "price": "$13.99",
+      "unit_price": "$13.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Canadian Salmon, 1.5-3.5 lbs.",
+      "price": "$16.48 - $38.47",
+      "unit_price": "$10.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Norwegian Salmon, 1.5-3.5 lbs.",
+      "price": "$19.48 - $45.47",
+      "unit_price": "$12.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Farm Raised Tilapia Fillets, 1.75-2.5 lb",
+      "price": "$13.98 - $19.98",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Salmon Steaks, 1.5-3lbs.",
+      "price": "$14.98 - $29.97",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "Chicken of the Sea Pasteurized Crab Claw Meat, 16 oz.",
+      "price": "$14.99",
+      "unit_price": "$14.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Flounder Fillets, 0.95-1.5 lb",
+      "price": "$10.44 - $16.48",
+      "unit_price": "$10.99/lb"
+    },
+    {
+      "name": "Louis Kemp Crab Delights, 3 lbs.",
+      "price": "$10.99",
+      "unit_price": "$3.66/lb"
+    },
+    {
+      "name": "Wellsley Farms Gourmet Smoked Salmon, 1 lb.",
+      "price": "$17.99",
+      "unit_price": "$17.99/lb"
+    },
+    {
+      "name": "Simply Surimi Seafood, Stick Style, Wild-Caught Alaskan Pollock, 2 pk./12 oz.",
+      "price": "$6.99",
+      "unit_price": "$4.66/lb"
+    },
+    {
+      "name": "Buena Ventura Salted Pollock Fillets, 1 lb.",
+      "price": "$9.99",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "Louis Kemp Chunk Style Lobster Delight, 3 lbs.",
+      "price": "$10.99",
+      "unit_price": "$3.66/lb"
+    },
+    {
+      "name": "Latitude 45 Cold Smoked Atlantic Salmon Loin, 10 oz.",
+      "price": "$14.99",
+      "unit_price": "$23.98/lb"
+    },
+    {
+      "name": "Chicken of the Sea Lump Crab Meat, 16 oz.",
+      "price": "$28.29",
+      "unit_price": "$28.29/lb"
+    },
+    {
+      "name": "Vita Wild Herring in Real Sour Cream, 30 oz.",
+      "price": "$8.99",
+      "unit_price": "$4.80/lb"
+    },
+    {
+      "name": "Sea Star Seafoods Choice Boned Salted Codfish, 1 lb.",
+      "price": "$12.99",
+      "unit_price": "$12.99/lb"
+    },
+    {
+      "name": "TransOcean Seafood Snackers, 8 pk./3 oz.",
+      "price": "$6.99",
+      "unit_price": "$4.66/lb"
+    },
+    {
+      "name": "Inland Market Blue Crab Spread, 16 oz.",
+      "price": "$11.99",
+      "unit_price": "$11.99/lb"
+    },
+    {
+      "name": "Vita Wild Herring in Wine Sauce, 32 oz.",
+      "price": "$8.99",
+      "unit_price": "$4.50/lb"
+    },
+    {
+      "name": "Wellsley Farms Smoked Sockeye Salmon, 8 oz.",
+      "price": "$14.99",
+      "unit_price": "$29.98/lb"
+    },
+    {
+      "name": "Wellsley Farms Whole Porgies, 2-4 lbs.",
+      "price": "$5.99",
+      "unit_price": "$2.00/lb"
+    },
+    {
+      "name": "Wellsley Farms Skin-On Chilean Salmon, 1.5-3.5 lbs.",
+      "price": "$9.99",
+      "unit_price": "$5.00/lb"
+    }
+  ]
+}
