@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "name": "365 by Whole Foods Market, Organic Sour Cream, 16 oz",
+      "price": "$3.19",
+      "unit_price": "$0.20/oz"
+    },
+    {
+      "name": "Vermont Creamery, Crème Fraîche, 8 oz",
+      "price": "$6.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "GOOD CULTURE Organic Sour Cream, 16 OZ",
+      "price": "$3.98",
+      "unit_price": "$0.25/oz"
+    },
+    {
+      "name": "Organic Valley Sour Cream Organic, 8 oz",
+      "price": "$2.79",
+      "unit_price": "$0.35/oz"
+    },
+    {
+      "name": "ALEXANDRE FAMILY FARMS Organic A2/A2 100% Grass Fed Sour Cream, 8 OZ",
+      "price": "$5.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "Green Valley Lactose Free Organic Sour Cream, 12 Ounce tub",
+      "price": "$5.31",
+      "unit_price": "$0.44/oz"
+    },
+    {
+      "name": "FORAGER PROJECT Organic Dairy Free Sour Cream, 12 OZ",
+      "price": "$4.88",
+      "unit_price": "$0.41/oz"
+    },
+    {
+      "name": "Kite Hill Sour Cream Plant Based, 8 Ounce",
+      "price": "$3.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "ISIGNY STE MERE Creme Fraiche, 6.9 OZ",
+      "price": "$6.49",
+      "unit_price": "$0.94/oz"
+    },
+    {
+      "name": "Cocojune Organic Plant Based Sour Cream, 8 OZ",
+      "price": "$5.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "Fage Sour Cream, 16 Oz",
+      "price": "$3.29",
+      "unit_price": "$0.21/oz"
+    },
+    {
+      "name": "RONNYBROOK FARM DAIRY Sour Cream, 16 OZ",
+      "price": "$6.99",
+      "unit_price": "$0.44/oz"
+    },
+    {
+      "name": "DAISY Sour Cream Pouch, 14 OZ",
+      "price": "$3.29",
+      "unit_price": "$0.24/oz"
+    }
+  ]
+}

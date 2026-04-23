@@ -1,0 +1,459 @@
+{
+  "products": [
+    {
+      "name": "365 by Whole Foods Market Organic Boneless Skinless Chicken Thighs",
+      "price": "$7.99/lb",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "Whole Foods Market, Organic Chicken Breast Boneless Skinless Air Chilled Tray Pack Step 2",
+      "price": "$8.99/lb",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "Labelle Patrimoine Heritage Whole Chicken",
+      "price": "$3.99/lb",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "LaBelle Patrimoine Ancestral Blend Pasture Raised Ground Chicken",
+      "price": "$6.66",
+      "unit_price": null
+    },
+    {
+      "name": "Bell & Evans Boneless Skinless Chicken Breast",
+      "price": "$6.22/lb",
+      "unit_price": "$6.22/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Boneless Skinless Chicken Breast",
+      "price": "$7.99/lb",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Ground Chicken, 16 OZ",
+      "price": "$7.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Boneless Skinless Chicken Breast",
+      "price": "$5.99/lb",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Chicken Breast Tenderloin",
+      "price": "$8.99/lb",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "Whole Foods Market, Organic Chicken Thigh Boneless/Skinless Air Chilled Tray Pack Step 2, 16 Ounce",
+      "price": "$8.99/lb",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "Bell & Evans Boneless Skinless Chicken Breast Cutlet",
+      "price": "$7.99/lb",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "Bell & Evans Boneless Skinless Chicken Thighs",
+      "price": "$6.99/lb",
+      "unit_price": "$6.99/lb"
+    },
+    {
+      "name": "Bell & Evans Organic Boneless Skinless Chicken Breast Cutlets",
+      "price": "$9.99/lb",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "Bell & Evans, Organic Ground Chicken, 16 oz",
+      "price": "$8.49",
+      "unit_price": "$0.53/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Boneless Skinless Chicken Thighs",
+      "price": "$5.99/lb",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Organic Grilled Chicken Breast Strips, 8 OZ",
+      "price": "$6.49",
+      "unit_price": "$0.81/oz"
+    },
+    {
+      "name": "Whole Foods Market, Organic Chicken Drumstick Air Chilled Tray Pack Step 2",
+      "price": "$4.99/lb",
+      "unit_price": "$4.99/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market Ground Chicken, 16 OZ",
+      "price": "$6.99",
+      "unit_price": "$0.44/oz"
+    },
+    {
+      "name": "Bell & Evans Whole Chicken",
+      "price": "$3.49/lb",
+      "unit_price": "$3.49/lb"
+    },
+    {
+      "name": "Whole Foods Market , Pasture Raised Whole Chicken, 16 Ounce",
+      "price": "$3.99/lb",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "BELL & EVANS Ground Chicken Breast, 16 OZ",
+      "price": "$7.49",
+      "unit_price": "$0.47/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Chicken Breast Tenderloin",
+      "price": "$6.99/lb",
+      "unit_price": "$6.99/lb"
+    },
+    {
+      "name": "Bell & Evans, Chicken Breast Tenderloin A/C Organic Traypack Step 2",
+      "price": "$9.99/lb",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Boneless Skinless Chicken Thighs",
+      "price": "$7.49/lb",
+      "unit_price": "$7.49/lb"
+    },
+    {
+      "name": "Whole Foods Market, Chicken Wing Air Chilled Organic Tray Pack Step 2",
+      "price": "$6.99/lb",
+      "unit_price": "$6.99/lb"
+    },
+    {
+      "name": "Kevin's Natural Foods, Korean BBQ-Style Chicken Entree, 16 Ounces",
+      "price": "$11.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "Bell & Evans, Chicken Thigh Air Chilled Organic Tray Pack Step 2",
+      "price": "$7.99/lb",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "LaBelle Patrimoine Heritage Boneless Skinless Chicken Breast",
+      "price": "$9.49/lb",
+      "unit_price": "$9.49/lb"
+    },
+    {
+      "name": "Bell & Evans Bone In Chicken Thighs",
+      "price": "$5.99/lb",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "Whole Foods Market, Chicken Leg Whole Air Chilled Organic Step 2",
+      "price": "$4.99/lb",
+      "unit_price": "$4.99/lb"
+    },
+    {
+      "name": "PERDUE Organic Simply Smart Lightly Breaded Chicken Strips, 16 OZ",
+      "price": "$10.41",
+      "unit_price": "$0.65/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Grilled Fully Cooked Chicken Strips, 12 OZ",
+      "price": "$9.49",
+      "unit_price": "$0.79/oz"
+    },
+    {
+      "name": "True Story Foods Heritage Breed Diced Uncured Pancetta, 4 OZ",
+      "price": "$6.39",
+      "unit_price": "$1.60/oz"
+    },
+    {
+      "name": "Bell & Evans Chicken Breast Tenderloin",
+      "price": "$7.99/lb",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "Bell & Evans Organic Chicken Tenders, 12 OZ",
+      "price": "$9.49",
+      "unit_price": "$0.79/oz"
+    },
+    {
+      "name": "Bell & Evans, Organic Chicken Whole Fryer Bagged Air Chilled Step 2",
+      "price": "$4.49/lb",
+      "unit_price": "$4.49/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Bone In Chicken Thighs",
+      "price": "$6.99/lb",
+      "unit_price": "$6.99/lb"
+    },
+    {
+      "name": "Whole Foods Market Kitchens Honey Dijon Boneless Skinless Chicken Breast",
+      "price": "$8.99/lb",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "Bell & Evans Breaded Chicken Breast Tenders, 30 OZ",
+      "price": "$14.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "Whole Foods Market Kitchens Lemon Herb Boneless Skinless Chicken Thighs",
+      "price": "$7.99/lb",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "Kevin's Natural Foods, Chicken Breast Sous Vide Roasted Garlic, 16 Ounce",
+      "price": "$11.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "Bell & Evans Chicken Party Wings",
+      "price": "$5.99/lb",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "Bell & Evans Spatchcock Chicken",
+      "price": "$3.49/lb",
+      "unit_price": "$3.49/lb"
+    },
+    {
+      "name": "Bell & Evans Chicken Drumsticks",
+      "price": "$3.99/lb",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Bell & Evans, Chicken Breast Bone-In Air Chilled Organic Step 2",
+      "price": "$7.99/lb",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "Bell & Evans Boneless Skin On Chicken Thigh",
+      "price": "$6.99/lb",
+      "unit_price": "$6.99/lb"
+    },
+    {
+      "name": "Force of Nature Meats Ancestral Ground Chicken, 16 OZ",
+      "price": "$12.99",
+      "unit_price": "$0.81/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Boneless Skinless Chicken Thighs",
+      "price": "$5.49/lb",
+      "unit_price": "$5.49/lb"
+    },
+    {
+      "name": "Garlic & Herb Boneless Chicken Breast",
+      "price": "$8.99/lb",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "Whole Foods Market Kitchens Black Garlic Teriyaki Chicken",
+      "price": "$8.99/lb",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Better Chicken B/S Breasts",
+      "price": "$7.99/lb",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market Boneless Skinless Chicken Breast Cutlet",
+      "price": "$6.99/lb",
+      "unit_price": "$6.99/lb"
+    },
+    {
+      "name": "Bell & Evans Bone In Split Chicken Breast",
+      "price": "$5.99/lb",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "Whole Foods Market Kitchens Tandoori Spiced Boneless Skinless Chicken Breasts",
+      "price": "$8.99/lb",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "Whole Foods Market Kitchens Lemon Rosemary Chicken Breast",
+      "price": "$17.99/lb",
+      "unit_price": "$17.99/lb"
+    },
+    {
+      "name": "Bell & Evans Breaded Chicken Breast, 10.5 oz, Frozen",
+      "price": "$7.49",
+      "unit_price": "$0.71/oz"
+    },
+    {
+      "name": "LaBelle Patrimoine Heritage Boneless Skinless Chicken Thighs",
+      "price": "$9.49/lb",
+      "unit_price": "$9.49/lb"
+    },
+    {
+      "name": "Bell & Evans, Chicken Offal Liver Organic, 18 oz",
+      "price": "$6.99",
+      "unit_price": "$0.39/oz"
+    },
+    {
+      "name": "Whole Foods Market Kitchens Paleo Friendly Grilled Chicken Breast",
+      "price": "$17.99/lb",
+      "unit_price": "$17.99/lb"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Better Chicken Ground Chicken, 16 OZ",
+      "price": "$6.99",
+      "unit_price": "$0.44/oz"
+    },
+    {
+      "name": "Bell & Evans Chicken Party Wings",
+      "price": "$5.49/lb",
+      "unit_price": "$5.49/lb"
+    },
+    {
+      "name": "Bell & Evans, Chicken Breast Boneless Air Chilled Tray Pack Step 2",
+      "price": "$6.99/lb",
+      "unit_price": "$6.99/lb"
+    },
+    {
+      "name": "Bell & Evans Cut Chicken Wings, 40 OZ",
+      "price": "$13.99",
+      "unit_price": "$0.35/oz"
+    },
+    {
+      "name": "Bell & Evans Split Chicken",
+      "price": "$3.49/lb",
+      "unit_price": "$3.49/lb"
+    },
+    {
+      "name": "Chicken Wings Buffalo",
+      "price": "$5.99/lb",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "Chicken Kabob Garlic And Herb",
+      "price": "$9.99/lb",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "Parmesan Crusted Chicken Breast Cutlets",
+      "price": "$8.99/lb",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "Bell & Evans Bone In Split Chicken Breast",
+      "price": "$4.99/lb",
+      "unit_price": "$4.99/lb"
+    },
+    {
+      "name": "Bell & Evans Organic Boneless Skinless Chicken Thigh, 8 OZ",
+      "price": "$5.49",
+      "unit_price": "$0.69/oz"
+    },
+    {
+      "name": "Chicken Kabob Marinated Kentucky Bourbon Step 0",
+      "price": "$9.99/lb",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "Bell & Evans Chicken Drumsticks",
+      "price": "$3.49/lb",
+      "unit_price": "$3.49/lb"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Better Chicken B/S Thighs",
+      "price": "$7.99/lb",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "Oven Ready Chicken Breast Cutlet Crusted Pecan",
+      "price": "$8.99/lb",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "Bell & Evans Organic Boneless Skinless Chicken Breast, 8 OZ",
+      "price": "$5.49",
+      "unit_price": "$0.69/oz"
+    },
+    {
+      "name": "LaBelle Patrimoine Heritage Split Chicken Wing",
+      "price": "$6.13/lb",
+      "unit_price": "$6.13/lb"
+    },
+    {
+      "name": "Whole Foods Market, Chicken Wings Boneless Buffalo Fresh Pack",
+      "price": "$11.49/lb",
+      "unit_price": "$11.49/lb"
+    },
+    {
+      "name": "Bell & Evans Boneless Skinless Chicken Thigh, 8 Oz",
+      "price": "$4.49",
+      "unit_price": "$0.56/oz"
+    },
+    {
+      "name": "Chicken Wing Marinated Kentucky Bourbon",
+      "price": "$5.99/lb",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "Bell & Evans Boneless Skinless Chicken Breast, 8 Oz",
+      "price": "$4.49",
+      "unit_price": "$0.56/oz"
+    },
+    {
+      "name": "Whole Foods Market, Chicken Wings Better Chicken",
+      "price": "$6.29/lb",
+      "unit_price": "$6.29/lb"
+    },
+    {
+      "name": "Bell & Evans Boneless Skin On Chicken Thigh, 8 OZ",
+      "price": "$4.49",
+      "unit_price": "$0.56/oz"
+    },
+    {
+      "name": "Bell & Evans Boneless Skin On Chicken Breast, 8 OZ",
+      "price": "$3.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "Chicken Breast Boneless/Skinless Cutlet Italian Panko",
+      "price": "$8.99/lb",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "MEAT Kansas City BBQ Chicken Drumstick Lollipops",
+      "price": "$3.99/lb",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "LaBelle Patrimoine Heritage Chicken Wings",
+      "price": "$6.49/lb",
+      "unit_price": "$6.49/lb"
+    },
+    {
+      "name": "Bell & Evans Boneless Skinless Chicken Breast",
+      "price": "$5.33/lb",
+      "unit_price": "$5.33/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Boneless Skinless Chicken Breast",
+      "price": "$6.99/lb",
+      "unit_price": "$6.99/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market Boneless Skinless Chicken Breast",
+      "price": "$5.49/lb",
+      "unit_price": "$5.49/lb"
+    },
+    {
+      "name": "Bell & Evans Boneless Skinless Chicken Thighs",
+      "price": "$5.99/lb",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "Bell & Evans Bone In Chicken Thighs",
+      "price": "$4.99/lb",
+      "unit_price": "$4.99/lb"
+    },
+    {
+      "name": "365 By Whole Foods Market, Whole Chicken",
+      "price": "$2.49",
+      "unit_price": null
+    }
+  ]
+}

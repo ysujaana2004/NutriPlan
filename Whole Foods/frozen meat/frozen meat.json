@@ -1,0 +1,454 @@
+{
+  "products": [
+    {
+      "name": "Applegate, Natural Chicken Nuggets Family Size, 16oz (Frozen)",
+      "price": "$13.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "Amylu Foods Sea Salt & Cracked Black Pepper Chicken Meatballs, 10 oz",
+      "price": "$6.99",
+      "unit_price": "$0.70/oz"
+    },
+    {
+      "name": "Bell & Evans Breaded Chicken Breast Tenders, 12 OZ",
+      "price": "$7.99",
+      "unit_price": "$0.67/oz"
+    },
+    {
+      "name": "Amylu Foods Chicken Sausage Breakfast Patties, Breakfast Time, 12 oz",
+      "price": "$7.49",
+      "unit_price": "$0.62/oz"
+    },
+    {
+      "name": "Bell & Evans Chicken Nuggets, 12 OZ",
+      "price": "$7.99",
+      "unit_price": "$0.67/oz"
+    },
+    {
+      "name": "Applegate, Organic Chicken & Maple Breakfast Sausage, 7 oz (frozen)",
+      "price": "$8.49",
+      "unit_price": "$1.21/oz"
+    },
+    {
+      "name": "Beef Skirt Steak",
+      "price": "$23.99/lb",
+      "unit_price": "$23.99/lb"
+    },
+    {
+      "name": "Bell & Evans Gluten-Free Breaded Chicken Breast Tenders, 12 OZ",
+      "price": "$7.99",
+      "unit_price": "$0.67/oz"
+    },
+    {
+      "name": "Applegate Natural Gluten-Free Breaded Chicken Breast Tenders (Frozen)",
+      "price": "$13.99",
+      "unit_price": null
+    },
+    {
+      "name": "Applegate, Chicken & Maple Breakfast Sausage Patties, 16 oz",
+      "price": "$13.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "PERDUE Organic Simply Smart Dino Nuggets, 24 OZ",
+      "price": "$10.41",
+      "unit_price": "$0.43/oz"
+    },
+    {
+      "name": "Applegate Farms Gluten-Free Chicken Nuggets Value-Pack, 16 OZ",
+      "price": "$13.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "Applegate Farms Maple Breakfast Chicken Sausage Patties, 7 OZ",
+      "price": "$7.49",
+      "unit_price": "$1.07/oz"
+    },
+    {
+      "name": "Amylu Foods Chicken Sausage Breakfast Patties, Maple, 12 oz",
+      "price": "$7.49",
+      "unit_price": "$0.62/oz"
+    },
+    {
+      "name": "Applegate, Organic Chicken Nuggets, 8oz (Frozen)",
+      "price": "$9.99",
+      "unit_price": "$1.25/oz"
+    },
+    {
+      "name": "Simek's, Mini Beef Meatballs, 12 Ounce",
+      "price": "$9.99",
+      "unit_price": "$0.83/oz"
+    },
+    {
+      "name": "Applegate Naturals Chicken & Maple Breakfast Sausage Links Family Size",
+      "price": "$13.99",
+      "unit_price": null
+    },
+    {
+      "name": "365 by Whole Foods Market, Breakfast Chicken Sausage, 7 oz",
+      "price": "$3.99",
+      "unit_price": "$0.57/oz"
+    },
+    {
+      "name": "Applegate,Lightly Breaded Chicken Tenders,16oz",
+      "price": "$13.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "Applegate, Frozen Organic Turkey Burgers, 1 lb",
+      "price": "$11.99",
+      "unit_price": "$11.99/lb"
+    },
+    {
+      "name": "Teton Waters Ranch Breakfast Sausage Links, 100% Grass-Fed Beef, 5.6 oz",
+      "price": "$6.49",
+      "unit_price": "$1.16/oz"
+    },
+    {
+      "name": "Kevin's Natural Foods, Chicken Orange Sous Vide, 16 Ounce",
+      "price": "$11.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "Bell & Evans Coconut Breaded Chicken Breast Tender, 12 OZ",
+      "price": "$7.99",
+      "unit_price": "$0.67/oz"
+    },
+    {
+      "name": "Niman Ranch, Uncured Sausage Sweet Italian, 12 oz",
+      "price": "$7.49",
+      "unit_price": "$0.62/oz"
+    },
+    {
+      "name": "Spicy Italian Pork Sausage",
+      "price": "$7.49/lb",
+      "unit_price": "$7.49/lb"
+    },
+    {
+      "name": "Cooked Perfect, Beef Meatball Italian Gluten-Free Grass Fed Organic, 12 Ounce",
+      "price": "$10.41",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "Applegate, Natural Savory Turkey Breakfast Sausage, 7 oz (Frozen)",
+      "price": "$7.49",
+      "unit_price": "$1.07/oz"
+    },
+    {
+      "name": "PERDUE Organic Simply Smart Nuggets, 22 OZ",
+      "price": "$10.41",
+      "unit_price": "$0.47/oz"
+    },
+    {
+      "name": "KIDFRESH Fun-omenal Chicken Sticks, 16.4 OZ",
+      "price": "$12.99",
+      "unit_price": "$0.79/oz"
+    },
+    {
+      "name": "AmyLu Maple & Cherry Breakfast Bites, 7 OZ",
+      "price": "$5.49",
+      "unit_price": "$0.78/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Organic Grass Fed Beef Burgers, 16 OZ",
+      "price": "$10.99",
+      "unit_price": "$0.69/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Classic Breakfast Pork Sausage, 7 oz",
+      "price": "$3.99",
+      "unit_price": "$0.57/oz"
+    },
+    {
+      "name": "Simek's, Turkey Meatballs, 12 Ounce",
+      "price": "$8.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "Applegate Farms Breakfast Pork Sausage, 7 OZ",
+      "price": "$7.49",
+      "unit_price": "$1.07/oz"
+    },
+    {
+      "name": "Force of Nature Meats Ancestral Beef Meatballs, 14 OZ",
+      "price": "$13.99",
+      "unit_price": "$1.00/oz"
+    },
+    {
+      "name": "KIDFRESH Super Duper Chicken Nuggets, 7.9 OZ",
+      "price": "$7.59",
+      "unit_price": "$0.96/oz"
+    },
+    {
+      "name": "Applegate Organic Gluten-Free Chicken Nuggets, 8oz (Frozen)",
+      "price": "$9.99",
+      "unit_price": "$1.25/oz"
+    },
+    {
+      "name": "Bell & Evans Chicken Breast Nuggets, 30 OZ",
+      "price": "$14.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "Impossible, Frozen Chicken Nuggets Plant Based, 13.5 Ounce",
+      "price": "$9.99",
+      "unit_price": "$0.74/oz"
+    },
+    {
+      "name": "Simek's, Original Beef Meatballs, 12 Ounce",
+      "price": "$8.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "Actual Veggies, Burger Plant Based Black Grocery Frozen, 12 Ounce",
+      "price": "$8.49",
+      "unit_price": "$0.71/oz"
+    },
+    {
+      "name": "Bell & Evans Whole Chicken Legs",
+      "price": "$3.99/lb",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Cooked Perfect, Beef Meatball Homestyle Gluten-Free Grass Fed Organic, 12 Ounce",
+      "price": "$10.41",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "Amylu Foods Cacio e Pepe Chicken Sausage, 12 oz",
+      "price": "$6.49",
+      "unit_price": "$0.54/oz"
+    },
+    {
+      "name": "365 By Whole Foods Market, 365 Fried Garlic Frozen Breaded Chicken Fillets, 8 Ounce",
+      "price": "$7.99",
+      "unit_price": "$1.00/oz"
+    },
+    {
+      "name": "Bell & Evans Organic Chicken Nugget, 12 OZ",
+      "price": "$9.49",
+      "unit_price": "$0.79/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Breakfast Pork & Maple Sausage Links, 7 oz, Frozen",
+      "price": "$3.99",
+      "unit_price": "$0.57/oz"
+    },
+    {
+      "name": "KIDFRESH Chicken Meatballs Family Pack, 16.45 OZ",
+      "price": "$11.99",
+      "unit_price": "$0.73/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market NSA Uncured Kielbasa Pork Sausage, 12 OZ",
+      "price": "$5.59",
+      "unit_price": "$0.47/oz"
+    },
+    {
+      "name": "Niman Ranch, Sausage Bratwurst Pork, 12 Ounce",
+      "price": "$7.49",
+      "unit_price": "$0.62/oz"
+    },
+    {
+      "name": "Beyond Meat Beyond Burger Plant-Based Patties 6 pk, 24 oz",
+      "price": "$15.29",
+      "unit_price": "$0.64/oz"
+    },
+    {
+      "name": "All Natural Spicy(ish) Chicken Tenders",
+      "price": "$14.99",
+      "unit_price": null
+    },
+    {
+      "name": "MASON DIXIE BISCUIT CO Cheddar Sausage Breakfast Sandwich, 4.7 OZ",
+      "price": "$3.99",
+      "unit_price": "$0.85/oz"
+    },
+    {
+      "name": "All Natural Chicken Tenders",
+      "price": "$14.99",
+      "unit_price": null
+    },
+    {
+      "name": "Teton Waters Ranch Breakfast Sausage Patties, 100% Grass-Fed Beef, 5.6oz",
+      "price": "$6.49",
+      "unit_price": "$1.16/oz"
+    },
+    {
+      "name": "Pork Sausage Link Breakfast Maple Previously Frozen Step 1",
+      "price": "$7.49/lb",
+      "unit_price": "$7.49/lb"
+    },
+    {
+      "name": "Teton Waters Ranch Maple Breakfast Sausage Links, 100% Grass-Fed Beef, 5.6 oz",
+      "price": "$6.49",
+      "unit_price": "$1.16/oz"
+    },
+    {
+      "name": "Bell & Evans Breaded Chicken Patties, 36 OZ",
+      "price": "$14.99",
+      "unit_price": "$0.42/oz"
+    },
+    {
+      "name": "Bell & Evans Frozen Breaded Chicken Patties, 16 oz",
+      "price": "$7.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "PERDUE Roasted Crispy Chicken Wings, 22 OZ",
+      "price": "$13.99",
+      "unit_price": "$0.64/oz"
+    },
+    {
+      "name": "Cooked Perfect, Organic Turkey Meatball Step 2, 12 Ounce",
+      "price": "$10.41",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "Saffron Road Frozen Korean-Inspired BBQ Chicken, 10 Ounce",
+      "price": "$6.99",
+      "unit_price": "$0.70/oz"
+    },
+    {
+      "name": "Bell & Evans, Frozen Chicken Burger Patties, 16 oz",
+      "price": "$7.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "Pineland Farms Natural Meats Italian Style Beef Meatballs, 16 Oz",
+      "price": "$8.49",
+      "unit_price": "$0.53/oz"
+    },
+    {
+      "name": "Country Pork Breakfast Sausage",
+      "price": "$7.49/lb",
+      "unit_price": "$7.49/lb"
+    },
+    {
+      "name": "Applegate Natural Spicy Chicken Breast Tenders (Frozen)",
+      "price": "$13.99",
+      "unit_price": null
+    },
+    {
+      "name": "Bell & Evans Breaded Parmesan Chicken Meatballs with Mozzarella, 12 OZ",
+      "price": "$7.99",
+      "unit_price": "$0.67/oz"
+    },
+    {
+      "name": "365 By Whole Foods Market, Turkey Meatballs, Frozen, 16 Ounce",
+      "price": "$6.49",
+      "unit_price": "$0.41/oz"
+    },
+    {
+      "name": "KOCHS TURKEY FARM Ground Turkey Thigh Patties, 16 OZ",
+      "price": "$7.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "Abbot's Plant Based Italian Sausage, 10 Ounce",
+      "price": "$7.70",
+      "unit_price": "$0.77/oz"
+    },
+    {
+      "name": "Earth's Best Frozen Chicken Nuggets for Kids, 16 Oz",
+      "price": "$13.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "BEYOND MEAT Original Breakfast Sausage Patties, 9.7 OZ",
+      "price": "$8.99",
+      "unit_price": "$0.93/oz"
+    },
+    {
+      "name": "Actual Veggies Black Bean Cheddar Veggie Burger, 12 OZ",
+      "price": "$8.49",
+      "unit_price": "$0.71/oz"
+    },
+    {
+      "name": "BEYOND MEAT Spicy Breakfast Sausage Patties, 9.7 OZ",
+      "price": "$8.99",
+      "unit_price": "$0.93/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Seasoned Caramelized Onion & Black Pepper Turkey Burgers, 10.7 OZ",
+      "price": "$4.99",
+      "unit_price": "$0.47/oz"
+    },
+    {
+      "name": "Beef Ground 85/15 Patty Grass Fed",
+      "price": "$10.49/lb",
+      "unit_price": "$10.49/lb"
+    },
+    {
+      "name": "365 By Whole Foods Market Katsu Breaded Chicken Fillets, 8 Oz",
+      "price": "$6.10",
+      "unit_price": "$0.76/oz"
+    },
+    {
+      "name": "KOCHS TURKEY FARM Ground Turkey Breast Patties, 16 OZ",
+      "price": "$9.49",
+      "unit_price": "$0.59/oz"
+    },
+    {
+      "name": "Meyer Natural Angus, Beef Burger Angus Freeze Step 1, 32 Ounce",
+      "price": "$14.79",
+      "unit_price": "$0.46/oz"
+    },
+    {
+      "name": "NotCo NotChicken Dinos Frozen Plant-Based Breaded Chicken Nuggets, 8 oz Pouch",
+      "price": "$5.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "Impossible, Frozen Chicken Patties Spicy Plant Based, 13.5 Ounce",
+      "price": "$9.99",
+      "unit_price": "$0.74/oz"
+    },
+    {
+      "name": "Abbot's High-Protein Veggie Burger, Classic Smokehouse",
+      "price": "$7.99",
+      "unit_price": null
+    },
+    {
+      "name": "Niman Ranch, Sausage Italian Spicy, 12 Ounce",
+      "price": "$7.49",
+      "unit_price": "$0.62/oz"
+    },
+    {
+      "name": "Daring Cajun Plant Chicken Pieces, 8 Oz",
+      "price": "$6.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "Abbot's, Veggie Burger Italian Herb, 8 Ounce",
+      "price": "$7.99",
+      "unit_price": "$1.00/oz"
+    },
+    {
+      "name": "Abbot's, Veggie Burger Garlic Herb, 8 Ounce",
+      "price": "$7.99",
+      "unit_price": "$1.00/oz"
+    },
+    {
+      "name": "NotCo NotChicken Yellowbird Spicy Habanero Frozen Plant-Based Chicken Patties, 4 ct Pouch",
+      "price": "$9.29",
+      "unit_price": null
+    },
+    {
+      "name": "Gardein Ultimate Plant-Based Buffalo Chick'n Wings, 14.8 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.67/oz"
+    },
+    {
+      "name": "Impossible Chicken Tenders Plant Based, 12 Ounce",
+      "price": "$9.99",
+      "unit_price": "$0.83/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Chicken Sausage Breakfast Link Maple, Step 2, 7 oz",
+      "price": "$3.99",
+      "unit_price": "$0.57/oz"
+    }
+  ]
+}

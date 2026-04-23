@@ -1,0 +1,504 @@
+{
+  "products": [
+    {
+      "name": "Maple Hill Creamery Organic Whole Milk, 64 fz",
+      "price": "$7.99",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "Organic Valley, Organic Whole Milk, 64 Oz (Half Gallon)",
+      "price": "$5.99",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "Organic Valley Grassmilk Organic Grass Fed Whole Milk, 59 oz",
+      "price": "$6.97",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Whole Milk, 128 oz",
+      "price": "$7.99",
+      "unit_price": "$0.06/fl oz"
+    },
+    {
+      "name": "ORGANIC VALLEY Organic Half & Half, 32oz",
+      "price": "$6.49",
+      "unit_price": "$0.20/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Heavy Cream, 1 PT",
+      "price": "$4.99",
+      "unit_price": "$0.31/fl oz"
+    },
+    {
+      "name": "A2 MILK Grass-fed Whole Milk, 59 FZ",
+      "price": "$6.79",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "Organic Valley, Cream Heavy Whipping Ultra-Pasturized Organic, 16 Fl Oz",
+      "price": "$6.49",
+      "unit_price": "$0.41/fl oz"
+    },
+    {
+      "name": "Organic Valley Grassmilk 100% Grass Fed 2% Reduced Fat Milk, 59 fl oz",
+      "price": "$6.97",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "Chobani Coffee Creamer Sweet Cream 24 fl oz",
+      "price": "$6.29",
+      "unit_price": "$0.26/fl oz"
+    },
+    {
+      "name": "Lactaid 2% Reduced Fat Milk, 64 fl oz",
+      "price": "$4.99",
+      "unit_price": "$0.08/fl oz"
+    },
+    {
+      "name": "Horizon Organic Growing Years Whole Milk, 59 fl oz",
+      "price": "$6.66",
+      "unit_price": "$0.11/fl oz"
+    },
+    {
+      "name": "Horizon Organic Grassfed Whole Milk, Half Gallon",
+      "price": "$7.29",
+      "unit_price": "$0.11/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Lactose Free Whole Milk, 64 FZ",
+      "price": "$5.49",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "Chobani Coffee Creamer Vanilla 24 fl oz",
+      "price": "$6.29",
+      "unit_price": "$0.26/fl oz"
+    },
+    {
+      "name": "Organic Valley Half & Half, 16 fl oz",
+      "price": "$4.49",
+      "unit_price": "$0.28/fl oz"
+    },
+    {
+      "name": "Organic Valley Organic Whole Milk — Pasture Raised, 128 oz (Gallon)",
+      "price": "$9.23",
+      "unit_price": "$0.07/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Whole Milk, 1 GL",
+      "price": "$4.39",
+      "unit_price": "$0.03/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Whole Milk, 64 oz",
+      "price": "$4.99",
+      "unit_price": "$0.08/fl oz"
+    },
+    {
+      "name": "Organic Valley, Lactose Free, 2%, Half Gallon, 64 fl oz",
+      "price": "$6.69",
+      "unit_price": "$0.10/fl oz"
+    },
+    {
+      "name": "Horizon Organic DHA Omega-3 Milk, DHA Whole Milk, 64 fl oz",
+      "price": "$5.77",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "Maple Hill Creamery, Milk Reduced Fat 2% Grade A, 64 Fl Oz",
+      "price": "$7.99",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Whole Milk, 64 fl oz",
+      "price": "$2.89",
+      "unit_price": "$0.05/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Lactose Free Reduced Fat Milk, 64 FZ",
+      "price": "$5.49",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "Horizon Organic Heavy Whipping Cream, 16 fl oz",
+      "price": "$5.77",
+      "unit_price": "$0.36/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Half and Half, 16 FZ",
+      "price": "$3.79",
+      "unit_price": "$0.24/fl oz"
+    },
+    {
+      "name": "ALEXANDRE FAMILY FARMS Organic Regenerative UHT A2 2% Reduced Fat Milk, 59 FZ",
+      "price": "$8.49",
+      "unit_price": "$0.14/fl oz"
+    },
+    {
+      "name": "Organic Valley Lactose Free Half and Half, 32 oz",
+      "price": "$6.99",
+      "unit_price": "$0.22/fl oz"
+    },
+    {
+      "name": "Organic Valley Grassmilk 100% Grass Fed Fat Free Skim Milk, 59 fl oz",
+      "price": "$6.97",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Reduced Fat 2% Milk, 64 fl oz",
+      "price": "$2.89",
+      "unit_price": "$0.05/fl oz"
+    },
+    {
+      "name": "ORGANIC VALLEY Organic Grassfed Heavy Whipping Cream, 1 PT",
+      "price": "$6.99",
+      "unit_price": "$0.44/fl oz"
+    },
+    {
+      "name": "A2 MILK Grassfed 2% Reduced Fat Milk, 59 FZ",
+      "price": "$6.79",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "365 By Whole Foods Market, Coffee Creamer, Vanilla, 32 Ounce",
+      "price": "$3.99",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "A2 MILK Half & Half, 1 QT",
+      "price": "$6.29",
+      "unit_price": "$0.20/fl oz"
+    },
+    {
+      "name": "Family Farmstead Dairy Organic Whole A2 Milk, 64 FZ",
+      "price": "$8.49",
+      "unit_price": "$0.13/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Half & Half Creamer, 32 FZ",
+      "price": "$4.29",
+      "unit_price": "$0.13/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic DHA Omega 3 Whole Milk, 64 FZ",
+      "price": "$5.09",
+      "unit_price": "$0.08/fl oz"
+    },
+    {
+      "name": "Lactaid Whole Milk, 64 fl oz",
+      "price": "$4.99",
+      "unit_price": "$0.08/fl oz"
+    },
+    {
+      "name": "Ripple Pea Milk, Chocolate, 48 Oz",
+      "price": "$5.99",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "Organic Valley, Milk Uht Low Fat 1% Chocolate, 64 Fl Oz",
+      "price": "$6.59",
+      "unit_price": "$0.10/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Whole Milk, 32 fl oz",
+      "price": "$1.99",
+      "unit_price": "$0.06/fl oz"
+    },
+    {
+      "name": "Organic Valley, Organic Low Fat Cultured Buttermilk, 32 Ounces",
+      "price": "$5.99",
+      "unit_price": "$0.19/fl oz"
+    },
+    {
+      "name": "Organic Valley Fat Free Milk, Ultra Pasteurized, Lactose Free, 64 Fl.Oz",
+      "price": "$6.69",
+      "unit_price": "$0.10/fl oz"
+    },
+    {
+      "name": "Horizon Organic Half and Half, 32 fl oz",
+      "price": "$6.20",
+      "unit_price": "$0.19/fl oz"
+    },
+    {
+      "name": "Cabot Whipped Cream, 7 OZ",
+      "price": "$4.19",
+      "unit_price": "$0.60/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Whipping Cream, 1 QT",
+      "price": "$6.99",
+      "unit_price": "$0.22/fl oz"
+    },
+    {
+      "name": "Meyenberg Goats Milk, Ultra Pasteurized, 64 oz",
+      "price": "$11.99",
+      "unit_price": "$0.19/fl oz"
+    },
+    {
+      "name": "Califia Farms - French Vanilla Almond Milk Coffee Creamer, 25.4 Oz",
+      "price": "$5.99",
+      "unit_price": "$0.24/fl oz"
+    },
+    {
+      "name": "FORAGER PROJECT Organic Dairy-Free Cinnamon Vanilla Creamer, 20 FZ",
+      "price": "$5.77",
+      "unit_price": "$0.29/fl oz"
+    },
+    {
+      "name": "Organic Valley Organic 2% (Reduced Fat) Milk, 128 oz (Gallon)",
+      "price": "$9.23",
+      "unit_price": "$0.07/fl oz"
+    },
+    {
+      "name": "SOWN Organic Oat Creamer Unsweetened, 32oz",
+      "price": "$7.39",
+      "unit_price": "$0.23/fl oz"
+    },
+    {
+      "name": "Horizon Organic Growing Years 2% Milk, 59 fl oz",
+      "price": "$6.66",
+      "unit_price": "$0.11/fl oz"
+    },
+    {
+      "name": "Organic Valley Ultra Pasteurized Organic Fat Free Milk",
+      "price": "$5.99",
+      "unit_price": null
+    },
+    {
+      "name": "365 by Whole Foods Market Strawberry Whipped Cream Cheese, 8 OZ",
+      "price": "$2.39",
+      "unit_price": "$0.30/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Reduced Fat 2% Milk, 32 fl oz",
+      "price": "$1.99",
+      "unit_price": "$0.06/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Fat Free Milk, 64 oz",
+      "price": "$4.99",
+      "unit_price": "$0.08/fl oz"
+    },
+    {
+      "name": "Too Good & Co. Sweet Cream Coffee Creamer, 25.4 fl oz",
+      "price": "$5.99",
+      "unit_price": "$0.24/fl oz"
+    },
+    {
+      "name": "Organic Valley Protein Plus Organic 2% Ultra-Filtered Milk, 48 fl oz",
+      "price": "$5.77",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "365 By Whole Foods Market, Coffee Creamer, Hazelnut, 32 Ounce",
+      "price": "$3.99",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "ALEXANDRE FAMILY FARMS Organic A2A2 Chocolate Whole Milk, 25.3 FZ",
+      "price": "$5.99",
+      "unit_price": "$0.24/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Lowfat 1% Milk, 64 fl oz",
+      "price": "$2.89",
+      "unit_price": "$0.05/fl oz"
+    },
+    {
+      "name": "365 By Whole Foods Market, Organic 1% Milk, 32 Fl Oz",
+      "price": "$2.99",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "So Delicious Dairy Free Coconut Milk Creamer, French Vanilla, 32 FL OZ",
+      "price": "$5.99",
+      "unit_price": "$0.19/fl oz"
+    },
+    {
+      "name": "Too Good & Co. Roasted Vanilla Coffee Creamer, 25.4 fl oz",
+      "price": "$5.99",
+      "unit_price": "$0.24/fl oz"
+    },
+    {
+      "name": "Horizon Organic, Low Fat Organic Milk Box, Plain, 8 Ounce (Pack of 6)",
+      "price": "$8.88",
+      "unit_price": "$0.19/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic 1% Milk, 128 Ounce",
+      "price": "$7.99",
+      "unit_price": "$0.06/fl oz"
+    },
+    {
+      "name": "Organic Valley Protein Plus Organic Whole Ultra-Filtered Milk, 48 fl oz",
+      "price": "$5.77",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "nutpods Unsweetened Original Coffee Creamer, dairy-free, 11.2oz",
+      "price": "$3.69",
+      "unit_price": "$0.33/fl oz"
+    },
+    {
+      "name": "Family Farmstead Dairy Organic Whole A2 Milk, 32 FZ",
+      "price": "$4.99",
+      "unit_price": "$0.16/fl oz"
+    },
+    {
+      "name": "ORGANIC VALLEY Organic Caramel Oat Creamer, 32 FZ",
+      "price": "$6.99",
+      "unit_price": "$0.22/fl oz"
+    },
+    {
+      "name": "FORAGER PROJECT Organic Dairy Free Unsweetened Creamer, 20 FZ",
+      "price": "$5.77",
+      "unit_price": "$0.29/fl oz"
+    },
+    {
+      "name": "Elmhurst, Milk Barista Walnut Maple, 32 Fl Oz",
+      "price": "$7.29",
+      "unit_price": "$0.23/fl oz"
+    },
+    {
+      "name": "Meyenberg Goat Milk, Whole, Quart, 32 oz",
+      "price": "$7.49",
+      "unit_price": "$0.23/fl oz"
+    },
+    {
+      "name": "Ronnybrook Chocolate Creamline, 12 oz",
+      "price": "$2.49",
+      "unit_price": "$0.21/fl oz"
+    },
+    {
+      "name": "Horizon Organic Shelf-Stable 1% Low Fat milk Boxes with DHA Omega-3, Chocolate, 8 oz., 6 Pack",
+      "price": "$9.77",
+      "unit_price": "$0.20/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Fat Free Milk, 128 Ounce",
+      "price": "$7.99",
+      "unit_price": "$0.06/fl oz"
+    },
+    {
+      "name": "Slate Milk - High Protein Milk Shake - Classic Chocolate, 11 Fl Oz",
+      "price": "$3.89",
+      "unit_price": "$0.35/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic 2% Reduced Fat Chocolate Milk 12pk, 8 FZ",
+      "price": "$17.49",
+      "unit_price": "$0.18/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic DHA Omega 3 Reduced Fat 2% Milk, 64 FZ",
+      "price": "$5.09",
+      "unit_price": "$0.08/fl oz"
+    },
+    {
+      "name": "Devon Cream Company Clotted Cream, 6 oz",
+      "price": "$7.49",
+      "unit_price": "$1.25/oz"
+    },
+    {
+      "name": "Oak Knoll Dairy, Milk Goat, 64 Fl Oz",
+      "price": "$11.99",
+      "unit_price": "$0.19/fl oz"
+    },
+    {
+      "name": "RONNYBROOK FARM DAIRY Creamline Milk, 12 FZ",
+      "price": "$2.29",
+      "unit_price": "$0.19/fl oz"
+    },
+    {
+      "name": "Milkadamia, Macadamia Milk Unsweetened Vanilla, 32 Fl Oz",
+      "price": "$6.19",
+      "unit_price": "$0.19/fl oz"
+    },
+    {
+      "name": "Organic Valley, Organic 1% Milk, 128 oz (Gallon)",
+      "price": "$9.23",
+      "unit_price": "$0.07/fl oz"
+    },
+    {
+      "name": "RONNYBROOK FARM DAIRY Heavy Whipping Cream, 12 FZ",
+      "price": "$7.49",
+      "unit_price": "$0.62/fl oz"
+    },
+    {
+      "name": "Organic Valley, Organic Skim Milk, 128 oz (Gallon)",
+      "price": "$9.23",
+      "unit_price": "$0.07/fl oz"
+    },
+    {
+      "name": "Tache Original Barista Blend Pistachio Milk, 32 FZ",
+      "price": "$7.09",
+      "unit_price": "$0.22/fl oz"
+    },
+    {
+      "name": "SKY TOP FARM Organic Heavy Whipping Cream, 16 OZ",
+      "price": "$9.29",
+      "unit_price": "$0.58/fl oz"
+    },
+    {
+      "name": "SKY TOP FARM Organic Whole Milk, 64 FZ",
+      "price": "$8.99",
+      "unit_price": "$0.14/fl oz"
+    },
+    {
+      "name": "Oak Knoll Dairy, Milk Goat, 32 Fl Oz",
+      "price": "$8.49",
+      "unit_price": "$0.27/fl oz"
+    },
+    {
+      "name": "RONNYBROOK FARM DAIRY Half & Half Cream, 12 FZ",
+      "price": "$4.49",
+      "unit_price": "$0.37/fl oz"
+    },
+    {
+      "name": "Family Farmstead Dairy Organic Cultured Buttermilk, 32 FZ",
+      "price": "$5.99",
+      "unit_price": "$0.19/fl oz"
+    },
+    {
+      "name": "Oak Knoll Dairy, Milk Goat, 16 Fl Oz",
+      "price": "$4.79",
+      "unit_price": "$0.30/fl oz"
+    },
+    {
+      "name": "SKY TOP FARM Organic Half & Half Cream, 16 OZ",
+      "price": "$7.59",
+      "unit_price": "$0.47/fl oz"
+    },
+    {
+      "name": "SKY TOP FARM Organic Low Fat Milk, 64 FZ",
+      "price": "$8.99",
+      "unit_price": "$0.14/fl oz"
+    },
+    {
+      "name": "The Devon Cream Company Devon Cream, 6 OZ",
+      "price": "$7.49",
+      "unit_price": "$1.25/oz"
+    },
+    {
+      "name": "Whipped Cream By The Pound",
+      "price": "$6.99/lb",
+      "unit_price": "$6.99/lb"
+    },
+    {
+      "name": "Whipnotic Brownie Batter Whipped Cream, 7 OZ",
+      "price": "$5.94",
+      "unit_price": "$0.85/oz"
+    },
+    {
+      "name": "Organic Valley Organic Milk, Whole, 32 Fl.Oz",
+      "price": "$4.49",
+      "unit_price": "$0.14/fl oz"
+    },
+    {
+      "name": "Horizon Organic Shelf Stable 1% Lowfat Strawberry Milk Boxes, 8 fl oz, 6 Count",
+      "price": "$8.88",
+      "unit_price": "$0.19/fl oz"
+    }
+  ]
+}

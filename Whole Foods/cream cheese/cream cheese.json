@@ -1,0 +1,129 @@
+{
+  "products": [
+    {
+      "name": "365 by Whole Foods Market, Whipped Cream Cheese, 8 oz",
+      "price": "$2.39",
+      "unit_price": "$0.30/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Cream Cheese, 8 oz",
+      "price": "$3.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "Organic Cream Cheese Spread, 8 oz",
+      "price": "$4.23",
+      "unit_price": "$0.53/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Cream Cheese, 8 oz",
+      "price": "$2.29",
+      "unit_price": "$0.29/oz"
+    },
+    {
+      "name": "GOOD CULTURE Plain Probiotic Cream Cheese, 7 OZ",
+      "price": "$4.43",
+      "unit_price": "$0.63/oz"
+    },
+    {
+      "name": "TILLAMOOK Extra Creamy Cream Cheese, 8 OZ",
+      "price": "$4.99",
+      "unit_price": "$0.62/oz"
+    },
+    {
+      "name": "NANCYS YOGURT Organic Probiotic Cream Cheese, 8 OZ",
+      "price": "$5.49",
+      "unit_price": "$0.69/oz"
+    },
+    {
+      "name": "GOOD CULTURE Chive Probiotic Cream Cheese Spread, 7 OZ",
+      "price": "$4.43",
+      "unit_price": "$0.63/oz"
+    },
+    {
+      "name": "VERMONT CREAMERY Mascarpone, 8 OZ",
+      "price": "$6.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "Philadelphia Cream Cheese, 8 oz",
+      "price": "$5.39",
+      "unit_price": "$0.67/oz"
+    },
+    {
+      "name": "Smithfield, Whipped Cream Cheese, 8 Ounce",
+      "price": "$2.99",
+      "unit_price": "$0.37/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Mini Goat Brie, 4.1 OZ",
+      "price": "$8.49",
+      "unit_price": "$2.07/oz"
+    },
+    {
+      "name": "Buf Creame Burrata, 4.4 OZ",
+      "price": "$7.99",
+      "unit_price": "$1.82/oz"
+    },
+    {
+      "name": "Bellwether Farms Creme Fraiche French Cultured Cream, 5 Oz",
+      "price": "$4.99",
+      "unit_price": "$1.00/oz"
+    },
+    {
+      "name": "SOMERDALE Cranberry Wensleydale",
+      "price": "$21.99/lb",
+      "unit_price": "$21.99/lb"
+    },
+    {
+      "name": "Isigny Ste Mere Aged Mimolette",
+      "price": "$25.99/lb",
+      "unit_price": "$25.99/lb"
+    },
+    {
+      "name": "KITE HILL Protein Plant Based Cream Cheese, 7.5 OZ",
+      "price": "$7.49",
+      "unit_price": "$1.00/oz"
+    },
+    {
+      "name": "Vermont Creamery Vanilla Crème Fraîche, 8 oz",
+      "price": "$6.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "LIONI Stracciatella Panna di Latte, 8 OZ",
+      "price": "$6.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "Cowgirl Creamery Organic Pierce Point, 7 OZ",
+      "price": "$14.99",
+      "unit_price": "$2.14/oz"
+    },
+    {
+      "name": "VERMONT CREAMERY Hooper, 5 OZ",
+      "price": "$14.99",
+      "unit_price": "$3.00/oz"
+    },
+    {
+      "name": "FOUR FAT FOWL St. Stephen Triple Crème",
+      "price": "$25.99/lb",
+      "unit_price": "$25.99/lb"
+    },
+    {
+      "name": "Cowgirl Creamery Organic Devil's Gulch, 7 OZ",
+      "price": "$14.99",
+      "unit_price": "$2.14/oz"
+    },
+    {
+      "name": "RIND by Dina and Joshua Cambleu Cheese, 6.5 OZ",
+      "price": "$12.99",
+      "unit_price": "$2.00/oz"
+    },
+    {
+      "name": "Organic Valley Organic Cream Cheese Block",
+      "price": "$4.49",
+      "unit_price": null
+    }
+  ]
+}

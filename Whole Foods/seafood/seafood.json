@@ -1,0 +1,804 @@
+{
+  "products": [
+    {
+      "name": "Atlantic Salmon Fillet",
+      "price": "$16.99/lb",
+      "unit_price": "$16.99/lb"
+    },
+    {
+      "name": "Salmon Atlantic Farm Raised Portion, 6 Ounce",
+      "price": "$7.49",
+      "unit_price": "$1.25/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Sockeye Salmon Fillet, 32 oz",
+      "price": "$32.99",
+      "unit_price": "$1.03/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Atlantic Salmon Fillet, 32 oz",
+      "price": "$27.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "SEAFOOD Extra Large Peeled Deveined White Shrimp 26/30 Count",
+      "price": "$14.49/lb",
+      "unit_price": "$14.49/lb"
+    },
+    {
+      "name": "SEAFOOD Colossal Easy Peel White Shrimp 8/12 Count",
+      "price": "$17.99/lb",
+      "unit_price": "$17.99/lb"
+    },
+    {
+      "name": "Sockeye Salmon Fillet",
+      "price": "$16.99/lb",
+      "unit_price": "$16.99/lb"
+    },
+    {
+      "name": "Atlantic Salmon Portions 2 Count",
+      "price": "$14.98",
+      "unit_price": null
+    },
+    {
+      "name": "WHOLE FOODS MARKET Wild-Caught Key West Pink Shrimp 51-60 Count, 12 OZ",
+      "price": "$9.99",
+      "unit_price": "$0.83/oz"
+    },
+    {
+      "name": "Ducktrap River Smoked Sockeye Salmon, 4 OZ",
+      "price": "$11.10",
+      "unit_price": "$2.78/oz"
+    },
+    {
+      "name": "Center Cut Atlantic Salmon Fillet",
+      "price": "$19.99/lb",
+      "unit_price": "$19.99/lb"
+    },
+    {
+      "name": "Spence, Traditional Scottish Style Smoked Salmon, 4 Ounce",
+      "price": "$11.55",
+      "unit_price": "$2.89/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Lake Whitefish Caviar, 1.75 OZ",
+      "price": "$12.49",
+      "unit_price": "$7.14/oz"
+    },
+    {
+      "name": "Changing Seas Sweet Balsamic Basil Sockeye Salmon Fillet, 8 OZ",
+      "price": "$8.88",
+      "unit_price": "$1.11/oz"
+    },
+    {
+      "name": "CAVIAR RUSSE Caspian Sea Osetra Caviar, 1 OZ",
+      "price": "$79.99",
+      "unit_price": "$79.99/oz"
+    },
+    {
+      "name": "Organic Atlantic Salmon FIllet",
+      "price": "$18.66/lb",
+      "unit_price": "$18.66/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market Sockeye Salmon Fillets, 10 OZ",
+      "price": "$12.99",
+      "unit_price": "$1.30/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Cold Smoked Atlantic Salmon, 4 OZ",
+      "price": "$7.99",
+      "unit_price": "$2.00/oz"
+    },
+    {
+      "name": "Fishwife Cantabrian Anchovies 1-Pack (1.73 Ounce)",
+      "price": "$8.29",
+      "unit_price": "$4.79/oz"
+    },
+    {
+      "name": "Niman Ranch, Pork Pulled Smoked No Sauce, 12 Ounce",
+      "price": "$9.99",
+      "unit_price": "$0.83/oz"
+    },
+    {
+      "name": "SEAFOOD Jumbo Cooked White Shrimp 13/15 Count",
+      "price": "$22.99/lb",
+      "unit_price": "$22.99/lb"
+    },
+    {
+      "name": "Teriyaki Atlantic Salmon",
+      "price": "$16.99/lb",
+      "unit_price": "$16.99/lb"
+    },
+    {
+      "name": "Atlantic Cod Fillet",
+      "price": "$21.99/lb",
+      "unit_price": "$21.99/lb"
+    },
+    {
+      "name": "Changing Seas Cold Smoked Salmon 4 oz, 4 OZ",
+      "price": "$9.99",
+      "unit_price": "$2.50/oz"
+    },
+    {
+      "name": "Changing Seas Peppered Smoked Salmon, 4 OZ",
+      "price": "$9.99",
+      "unit_price": "$2.50/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Wild White Gulf Shrimp 16/20, Frozen, 32 Ounce Value Pack",
+      "price": "$24.99",
+      "unit_price": "$0.78/oz"
+    },
+    {
+      "name": "Acme Smoked Fish, Tuna Ahi Smoked Sesame Crusted, 3 Ounce",
+      "price": "$8.49",
+      "unit_price": "$2.83/oz"
+    },
+    {
+      "name": "King Salmon Fillet",
+      "price": "$32.99/lb",
+      "unit_price": "$32.99/lb"
+    },
+    {
+      "name": "SEAFOOD Atlantic Salmon Steak",
+      "price": "$15.99/lb",
+      "unit_price": "$15.99/lb"
+    },
+    {
+      "name": "Changing Seas Plain Hot Smoked Salmon, 4 OZ",
+      "price": "$9.99",
+      "unit_price": "$2.50/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Cold Smoked Atlantic Salmon, 8 OZ",
+      "price": "$14.99",
+      "unit_price": "$1.87/oz"
+    },
+    {
+      "name": "Chilean Sea Bass Fillet",
+      "price": "$39.99/lb",
+      "unit_price": "$39.99/lb"
+    },
+    {
+      "name": "365 By Whole Foods Market, Valuepack Shrimp White Gulf Wild 41 60, 32 Ounce",
+      "price": "$18.99",
+      "unit_price": "$0.59/oz"
+    },
+    {
+      "name": "Changing Seas Cold Smoked Salmon 8 oz, 8 OZ",
+      "price": "$17.99",
+      "unit_price": "$2.25/oz"
+    },
+    {
+      "name": "Kvaroy Arctic Smoked Atlantic Salmon, 4 OZ",
+      "price": "$10.99",
+      "unit_price": "$2.75/oz"
+    },
+    {
+      "name": "365 By Whole Foods Market, Wild Fancy Pink Salmon, 6 Ounce",
+      "price": "$4.99",
+      "unit_price": "$0.83/oz"
+    },
+    {
+      "name": "Acme Smoked Fish Cold Smoked Sockeye Salmon, 3 Ounce",
+      "price": "$8.49",
+      "unit_price": "$2.83/oz"
+    },
+    {
+      "name": "Whole Foods Market, Scallops Sea 10/20 Frozen Msc Value Pack, 12 Ounce",
+      "price": "$23.99",
+      "unit_price": "$2.00/oz"
+    },
+    {
+      "name": "Seafood Large Cooked White Shrimp 31/40 Count",
+      "price": "$13.99/lb",
+      "unit_price": "$13.99/lb"
+    },
+    {
+      "name": "Ducktrap River Smoked Sockeye Salmon, 8 OZ",
+      "price": "$19.55",
+      "unit_price": "$2.44/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Beer Battered Cod Fillets, 12 oz",
+      "price": "$6.99",
+      "unit_price": "$0.58/oz"
+    },
+    {
+      "name": "365 Wild-Caught Fish, Haddock Fillets, 32 Ounce (Frozen)",
+      "price": "$29.99",
+      "unit_price": "$0.94/oz"
+    },
+    {
+      "name": "Sable Fish Fillet Previously Frozen MSC",
+      "price": "$15.99/lb",
+      "unit_price": "$15.99/lb"
+    },
+    {
+      "name": "Scallop Sea 10 20 Previously Frozen MSC",
+      "price": "$36.99/lb",
+      "unit_price": "$36.99/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market Patagonian Sea Scallops 80/120, 12 OZ",
+      "price": "$10.99",
+      "unit_price": "$0.92/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Popcorn Shrimp, 10 OZ",
+      "price": "$9.49",
+      "unit_price": "$0.95/oz"
+    },
+    {
+      "name": "SEAFOOD Lobster Tail 4 oz",
+      "price": "$10.99",
+      "unit_price": "$2.75/oz"
+    },
+    {
+      "name": "City Pier Grilled Shrimp with Sweet Chili Lime Sauce, 10 OZ",
+      "price": "$16.99",
+      "unit_price": "$1.70/oz"
+    },
+    {
+      "name": "Acme Smoked Fish, Salmon Atlantic Candy Smoked Previously Frozen, 3 Ounce",
+      "price": "$8.49",
+      "unit_price": "$2.83/oz"
+    },
+    {
+      "name": "Acme Smoked Fish Smoked Whitefish Spread, 7 oz.",
+      "price": "$8.44",
+      "unit_price": "$1.21/oz"
+    },
+    {
+      "name": "Seafood, Crab Cake Traditional, 1 Each",
+      "price": "$6.21",
+      "unit_price": null
+    },
+    {
+      "name": "365 by Whole Foods Market, Fish Sticks, Wild Caught MSC, Breaded, 32 oz",
+      "price": "$11.49",
+      "unit_price": "$0.36/oz"
+    },
+    {
+      "name": "Sea Tales, Tuna Skipjack In Water No Salt, 5 Ounce, 3 Pack",
+      "price": "$10.99",
+      "unit_price": "$0.73/oz"
+    },
+    {
+      "name": "Changing Seas Smoked Thick Cut Atlantic Salmon, 4 OZ",
+      "price": "$9.99",
+      "unit_price": "$2.50/oz"
+    },
+    {
+      "name": "SANTA BARBARA SMOKEHOUSE Balmoral Smoked Salmon, 4 OZ",
+      "price": "$13.99",
+      "unit_price": "$3.50/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Surimi Seafood Stick Style, 12 oz",
+      "price": "$4.79",
+      "unit_price": "$0.40/oz"
+    },
+    {
+      "name": "Jumbo Shell On White Shrimp 16/20 Count",
+      "price": "$13.32/lb",
+      "unit_price": "$13.32/lb"
+    },
+    {
+      "name": "Acme Smoked Fish Smoked Salmon, 3 oz.",
+      "price": "$8.49",
+      "unit_price": "$2.83/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Cold Smoked Atlantic Salmon, 12 OZ",
+      "price": "$21.99",
+      "unit_price": "$1.83/oz"
+    },
+    {
+      "name": "SEAFOOD Halibut Fillet",
+      "price": "$36.99/lb",
+      "unit_price": "$36.99/lb"
+    },
+    {
+      "name": "365 By Whole Foods Market, Wild Alaskan Pink Salmon, 14.75 Ounce",
+      "price": "$5.29",
+      "unit_price": "$0.36/oz"
+    },
+    {
+      "name": "Orange Roughy Fillet",
+      "price": "$11.99/lb",
+      "unit_price": "$11.99/lb"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Keta Salmon Caviar, 1.75 OZ",
+      "price": "$13.79",
+      "unit_price": "$7.88/oz"
+    },
+    {
+      "name": "Scott & Jons Honey Sesame Atlantic Salmon Bowl, 9.6 OZ",
+      "price": "$7.49",
+      "unit_price": "$0.78/oz"
+    },
+    {
+      "name": "Ducktrap River Cold Smoked Pepper Garlic Sockeye Salmon, 4 OZ",
+      "price": "$10.66",
+      "unit_price": "$2.67/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Peeled Tail-Off Shrimp 51-60 Count Value Pack, 32 OZ",
+      "price": "$22.99",
+      "unit_price": "$0.72/oz"
+    },
+    {
+      "name": "Ducktrap River Kendall Brook Cold Smoked Salmon, 4 OZ",
+      "price": "$12.99",
+      "unit_price": "$3.25/oz"
+    },
+    {
+      "name": "Acme Smoked Fish Cold Smoked Spicy Tuna, 3 Ounce",
+      "price": "$8.49",
+      "unit_price": "$2.83/oz"
+    },
+    {
+      "name": "Spence & Co., Ltd. Double-Smoked Salmon, 4 OZ",
+      "price": "$11.55",
+      "unit_price": "$2.89/oz"
+    },
+    {
+      "name": "Changing Seas Original Wild Salmon Burger, 14 OZ",
+      "price": "$9.99",
+      "unit_price": "$0.71/oz"
+    },
+    {
+      "name": "Acme Smoked Fish Everything Bagel Cold Smoked Atlantic Salmon, 3 Ounce",
+      "price": "$8.49",
+      "unit_price": "$2.83/oz"
+    },
+    {
+      "name": "Prime Shrimp Garlic Herb Butter | All-Natural Shrimp in Sauce",
+      "price": "$12.49",
+      "unit_price": null
+    },
+    {
+      "name": "365 by Whole Foods Market Cooked Shrimp 16-20 Count Value Pack, 32 OZ",
+      "price": "$32.99",
+      "unit_price": "$1.03/oz"
+    },
+    {
+      "name": "365 By Whole Foods Market, Breaded Butterfly Shrimp, 10 Ounce",
+      "price": "$9.49",
+      "unit_price": "$0.95/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Seafood Medley, 14 OZ",
+      "price": "$11.79",
+      "unit_price": "$0.84/oz"
+    },
+    {
+      "name": "Branzini Whole Farm Raised",
+      "price": "$18.99/lb",
+      "unit_price": "$18.99/lb"
+    },
+    {
+      "name": "Squid Tube Tentacle Previously Frozen",
+      "price": "$8.99/lb",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "Ducktrap River Smoked Trout Fillet, 8 OZ",
+      "price": "$14.99",
+      "unit_price": "$1.87/oz"
+    },
+    {
+      "name": "Royal Asia Shrimp Pad Thai, 10 OZ",
+      "price": "$5.99",
+      "unit_price": "$0.60/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Shrimp 41-55 Value Pack, 32 OZ",
+      "price": "$22.99",
+      "unit_price": "$0.72/oz"
+    },
+    {
+      "name": "Ducktrap River Kendall Brook Cold Smoked Salmon, 8 OZ",
+      "price": "$19.99",
+      "unit_price": "$2.50/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET King Salmon, 10 OZ",
+      "price": "$18.99",
+      "unit_price": "$1.90/oz"
+    },
+    {
+      "name": "Flounder Fillet",
+      "price": "$21.99/lb",
+      "unit_price": "$21.99/lb"
+    },
+    {
+      "name": "Royal Asia Crab Rangoon, 6.6 OZ",
+      "price": "$8.49",
+      "unit_price": "$1.29/oz"
+    },
+    {
+      "name": "Seafood, Trout Steelhead Fillet Farm Raised",
+      "price": "$16.99/lb",
+      "unit_price": "$16.99/lb"
+    },
+    {
+      "name": "365 By Whole Foods Market, Mussels In Garlic Butter Sauce, Farm Raised, 16 Ounce",
+      "price": "$5.49",
+      "unit_price": "$0.34/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Hot Smoked Atlantic Salmon, 4 OZ",
+      "price": "$7.99",
+      "unit_price": "$2.00/oz"
+    },
+    {
+      "name": "The Better Fish Lemon Herb Butter Barramundi Fillet, 12 Ounce",
+      "price": "$11.99",
+      "unit_price": "$1.00/oz"
+    },
+    {
+      "name": "Natural Catch, Filets Tuna Yellowfin In Evoo, 4.4 Ounce",
+      "price": "$5.49",
+      "unit_price": "$1.25/oz"
+    },
+    {
+      "name": "Scott & Jons Fish Baja Taco Bowl, 9.6 OZ",
+      "price": "$7.49",
+      "unit_price": "$0.78/oz"
+    },
+    {
+      "name": "Whole Foods Market, Swordfish Steaks Wild Caught, 12 Ounce",
+      "price": "$15.79",
+      "unit_price": "$1.32/oz"
+    },
+    {
+      "name": "Prime Shrimp Signature | Cajun Seasoned All-Natural Frozen Shrimp",
+      "price": "$9.99",
+      "unit_price": null
+    },
+    {
+      "name": "WHOLE FOODS MARKET Hot Smoked Sockeye Salmon, 4 OZ",
+      "price": "$9.99",
+      "unit_price": "$2.50/oz"
+    },
+    {
+      "name": "Sea For Yourself Cod Cakes, 6 OZ",
+      "price": "$6.49",
+      "unit_price": "$1.08/oz"
+    },
+    {
+      "name": "Acme Smoked Fish Smoked Atlantic Salmon Dip, 7 oz.",
+      "price": "$8.44",
+      "unit_price": "$1.21/oz"
+    },
+    {
+      "name": "Changing Seas Easy Peel Black Tiger Shrimp 21-25 Count, 12 OZ",
+      "price": "$10.99",
+      "unit_price": "$0.92/oz"
+    },
+    {
+      "name": "Crab Cluster Snow Previously Frozen Marine Steward Council",
+      "price": "$22.99/lb",
+      "unit_price": "$22.99/lb"
+    },
+    {
+      "name": "Scott & Jons Creamy Herb Atlantic Salmon Bowl, 9.6 OZ",
+      "price": "$5.83",
+      "unit_price": "$0.61/oz"
+    },
+    {
+      "name": "Fremantle Octopus Cooked Octopus Tentacles, 7 Oz",
+      "price": "$14.99",
+      "unit_price": "$2.14/oz"
+    },
+    {
+      "name": "Crab Cluster Dungeness Previously Frozen",
+      "price": "$24.99/lb",
+      "unit_price": "$24.99/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market Wild Caught Salmon Burger, 8 OZ",
+      "price": "$4.99",
+      "unit_price": "$0.62/oz"
+    },
+    {
+      "name": "Acme Smoked Fish Smoked Whitefish Portion, 7 oz.",
+      "price": "$8.44",
+      "unit_price": "$1.21/oz"
+    },
+    {
+      "name": "LUKES LOBSTER Lobster Cakes, 8 OZ",
+      "price": "$15.99",
+      "unit_price": "$2.00/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Shrimp Dumplings With Sauce",
+      "price": "$8.09",
+      "unit_price": null
+    },
+    {
+      "name": "365 By Whole Foods Market, Sweet And Smokey Marinated Atlantic Salmon Fillets, 12 Ounce",
+      "price": "$11.99",
+      "unit_price": "$1.00/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Hot Smoked Sockeye Salmon Peppered, 4 OZ",
+      "price": "$9.99",
+      "unit_price": "$2.50/oz"
+    },
+    {
+      "name": "St. James Smokehouse Oak Wood Cold Smoked Salmon, 4 Ounce",
+      "price": "$13.99",
+      "unit_price": "$3.50/oz"
+    },
+    {
+      "name": "SEAFOOD Jumbo Lump Crab Cakes",
+      "price": "$10.99",
+      "unit_price": null
+    },
+    {
+      "name": "Arctic Char Fillet Farm Raised",
+      "price": "$15.99/lb",
+      "unit_price": "$15.99/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market Cooked Mussel Meat, 16 OZ",
+      "price": "$5.99",
+      "unit_price": "$0.37/oz"
+    },
+    {
+      "name": "Honey Smoked Fish Co. Original Flavor Honey Smoked Salmon, 4 OZ",
+      "price": "$10.99",
+      "unit_price": "$2.75/oz"
+    },
+    {
+      "name": "Sea For Yourself Scallop & Shrimp Cakes, 6 OZ",
+      "price": "$10.99",
+      "unit_price": "$1.83/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Cooked Shrimp 41-55 Count, 32 OZ",
+      "price": "$22.99",
+      "unit_price": "$0.72/oz"
+    },
+    {
+      "name": "Lukes Lobster Vodka Sauce Lobster Ravioli, 8 Oz",
+      "price": "$8.88",
+      "unit_price": "$1.11/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Farm-Raised Atlantic Salmon Burger, 8 OZ",
+      "price": "$4.99",
+      "unit_price": "$0.62/oz"
+    },
+    {
+      "name": "LUKES LOBSTER Creamy Shrimp Alfredo, 9.6 OZ",
+      "price": "$6.49",
+      "unit_price": "$0.68/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Yellowfin Tuna Value Pack, 32 OZ",
+      "price": "$25.99",
+      "unit_price": "$0.81/oz"
+    },
+    {
+      "name": "SIlver Salmon Group (1, Rosemary in smoked Olive Oil)",
+      "price": "$12.99",
+      "unit_price": null
+    },
+    {
+      "name": "Acme Smoked Fish Pastrami Smoked Salmon, 3 oz.",
+      "price": "$8.49",
+      "unit_price": "$2.83/oz"
+    },
+    {
+      "name": "CAVIAR RUSSE Cocktail Blinis, 3.5 OZ",
+      "price": "$9.99",
+      "unit_price": "$2.85/oz"
+    },
+    {
+      "name": "Sea For Yourself Lump Crab Cakes, 6 OZ",
+      "price": "$14.99",
+      "unit_price": "$2.50/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Cooked Tail-On Shrimp 16-20 Count Value Pack, 32 OZ",
+      "price": "$32.99",
+      "unit_price": "$1.03/oz"
+    },
+    {
+      "name": "Grilled Shrimp",
+      "price": "$15.99/lb",
+      "unit_price": "$15.99/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market Wild Caught Sea Scallops 20/30, 24 OZ",
+      "price": "$46.99",
+      "unit_price": "$1.96/oz"
+    },
+    {
+      "name": "Whole Catch Cold Smoked Atlantic Salmon Farmed-Raised Gravlax Style, 4 oz (Frozen)",
+      "price": "$11.99",
+      "unit_price": "$3.00/oz"
+    },
+    {
+      "name": "SEAFOOD Mustard Dill Atlantic Salmon Fillet",
+      "price": "$16.99/lb",
+      "unit_price": "$16.99/lb"
+    },
+    {
+      "name": "Changing Seas Easy Peel Black Tiger Shrimp 16-20 Count, 12 OZ",
+      "price": "$12.99",
+      "unit_price": "$1.08/oz"
+    },
+    {
+      "name": "Sea Tales, Salmon Atlantic Smoked Flame Roasted Previously Frozen, 4 Ounce",
+      "price": "$13.99",
+      "unit_price": "$3.50/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Cilantro Lime Shrimp, 10 OZ",
+      "price": "$9.49",
+      "unit_price": "$0.95/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Wild Caught Sablefish, 10 OZ",
+      "price": "$16.99",
+      "unit_price": "$1.70/oz"
+    },
+    {
+      "name": "Scott & Jons Fish Tikka Masala Bowl, 9.6 OZ",
+      "price": "$7.49",
+      "unit_price": "$0.78/oz"
+    },
+    {
+      "name": "SEAFOOD Shrimp Scampi",
+      "price": "$14.99/lb",
+      "unit_price": "$14.99/lb"
+    },
+    {
+      "name": "Sea Tales, Salmon Sockeye Smoked Flame Roasted Previously Frozen, 4 Ounce",
+      "price": "$14.99",
+      "unit_price": "$3.75/oz"
+    },
+    {
+      "name": "FRUITS DE MER Marinated Anchovies In Garlic, 7 OZ",
+      "price": "$8.49",
+      "unit_price": "$1.21/oz"
+    },
+    {
+      "name": "Catsmo, Artisan Smoke House Gold Label, Smoked Salmon, 4 oz",
+      "price": "$12.99",
+      "unit_price": "$3.25/oz"
+    },
+    {
+      "name": "DANIEL BOULUD Smoked Baja Salmon, 4 OZ",
+      "price": "$14.99",
+      "unit_price": "$3.75/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Maryland Style Crab Cakes 2 Count, 6 OZ",
+      "price": "$15.99",
+      "unit_price": "$2.67/oz"
+    },
+    {
+      "name": "LUKES LOBSTER Twin Lobster Tails, 8 OZ",
+      "price": "$17.99",
+      "unit_price": "$2.25/oz"
+    },
+    {
+      "name": "Kikka Sushi Spicy Sriracha Salmon Roll, 8 OZ",
+      "price": "$16.49",
+      "unit_price": "$2.06/oz"
+    },
+    {
+      "name": "Patagonia Provisions Salmon Wild Pink Smoked Pastrami Spice, 3 Ounce",
+      "price": "$8.49",
+      "unit_price": "$2.83/oz"
+    },
+    {
+      "name": "Kikka Sushi Crunchy Sriracha Salmon Sushi Roll, 8 OZ",
+      "price": "$16.99",
+      "unit_price": "$2.12/oz"
+    },
+    {
+      "name": "SEAFOOD Stuffed Clams Casino",
+      "price": "$5.29",
+      "unit_price": null
+    },
+    {
+      "name": "TSAR NICOULAI Applewood Smoked Sturgeon Spread, 6 OZ",
+      "price": "$8.44",
+      "unit_price": "$1.41/oz"
+    },
+    {
+      "name": "SEAFOOD Halibut Fillet",
+      "price": "$31.99/lb",
+      "unit_price": "$31.99/lb"
+    },
+    {
+      "name": "SEAFOOD Sea Scallops 10/20 Count",
+      "price": "$26.99/lb",
+      "unit_price": "$26.99/lb"
+    },
+    {
+      "name": "Seafood, Salmon Sockeye Fillet Previously Frozen Tray Pack MSC",
+      "price": "$18.99/lb",
+      "unit_price": "$18.99/lb"
+    },
+    {
+      "name": "Shrimp Skewer Lemon Pepper",
+      "price": "$13.99/lb",
+      "unit_price": "$13.99/lb"
+    },
+    {
+      "name": "SEA WATCH INTERANTIONAL Clam Chopped Meat, 16 OZ",
+      "price": "$13.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "FRUITS DE MER Marinated Mussels with Garlic, 7 OZ",
+      "price": "$8.49",
+      "unit_price": "$1.21/oz"
+    },
+    {
+      "name": "Shrimp Pink Shell On Wild Previously Frozen 31/40",
+      "price": "$11.99/lb",
+      "unit_price": "$11.99/lb"
+    },
+    {
+      "name": "SEAFOOD Creole Crawfish Cake",
+      "price": "$5.99",
+      "unit_price": null
+    },
+    {
+      "name": "Chilean Sea Bass Fillet",
+      "price": "$37.99/lb",
+      "unit_price": "$37.99/lb"
+    },
+    {
+      "name": "DANIEL BOULUD Highland: Whiskey & Cardamom Seeds, 4 OZ",
+      "price": "$14.99",
+      "unit_price": "$3.75/oz"
+    },
+    {
+      "name": "SEAFOOD Stuffed Bay Scallops",
+      "price": "$5.29",
+      "unit_price": null
+    },
+    {
+      "name": "Lemon Pepper Cooked Shrimp",
+      "price": "$14.99/lb",
+      "unit_price": "$14.99/lb"
+    },
+    {
+      "name": "Changing Seas Herbs de Provence Cod with Garlic Herb Butter, 8 OZ",
+      "price": "$8.88",
+      "unit_price": "$1.11/oz"
+    },
+    {
+      "name": "My Fish Dish, Scallops Seasoned Blackened Smoked Butter Prev Frozen, 7 Ounce",
+      "price": "$12.99",
+      "unit_price": "$1.86/oz"
+    },
+    {
+      "name": "Changing Seas Kansas Cit BBQ Sockeye Salmon Fillet, 8 OZ",
+      "price": "$8.88",
+      "unit_price": "$1.11/oz"
+    },
+    {
+      "name": "Changing Seas Citrus Allepo Atlantic Salmon Fillet, 8 OZ",
+      "price": "$9.44",
+      "unit_price": "$1.18/oz"
+    },
+    {
+      "name": "Shrimp Skewer",
+      "price": "$13.99/lb",
+      "unit_price": "$13.99/lb"
+    }
+  ]
+}

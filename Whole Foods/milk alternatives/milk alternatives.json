@@ -1,0 +1,634 @@
+{
+  "products": [
+    {
+      "name": "Califia Farms - Organic Unsweetened Almond Milk, 48 Oz",
+      "price": "$6.49",
+      "unit_price": "$0.14/fl oz"
+    },
+    {
+      "name": "MALK Organic Unsweetened Almond Beverage, 28 FZ",
+      "price": "$6.99",
+      "unit_price": "$0.25/fl oz"
+    },
+    {
+      "name": "Oatly Original Oat Milk, 64 oz",
+      "price": "$5.99",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "MALK Organic Vanilla Almond Milk, 28 FZ",
+      "price": "$6.99",
+      "unit_price": "$0.25/fl oz"
+    },
+    {
+      "name": "Oatly Full Fat Oat Milk, 64 Fl Oz",
+      "price": "$5.99",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Almondmilk Unsweetened, 64 fl oz",
+      "price": "$3.99",
+      "unit_price": "$0.06/fl oz"
+    },
+    {
+      "name": "Califia Farms - Organic Unsweetened Coconut Milk, 48 Oz",
+      "price": "$7.29",
+      "unit_price": "$0.15/fl oz"
+    },
+    {
+      "name": "Oatly Barista Edition Oatmilk, vegan, 32 Fl Oz",
+      "price": "$4.99",
+      "unit_price": "$0.16/fl oz"
+    },
+    {
+      "name": "Almond Breeze Blue Diamond, Almond milk, Original, 64 Fl Oz",
+      "price": "$4.49",
+      "unit_price": "$0.07/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Unsweetened Soymilk, 64 fl oz",
+      "price": "$3.09",
+      "unit_price": "$0.05/fl oz"
+    },
+    {
+      "name": "Califia Farms - Organic Vanilla Almond Milk, 48 Oz",
+      "price": "$6.49",
+      "unit_price": "$0.14/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Unsweetened Almond Milk, 96 FZ",
+      "price": "$5.99",
+      "unit_price": "$0.06/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Almondmilk Unsweetened Vanilla, 64 fl oz",
+      "price": "$3.99",
+      "unit_price": "$0.06/fl oz"
+    },
+    {
+      "name": "MALK Organic Unsweetened Coconut Milk, 28 FZ",
+      "price": "$6.99",
+      "unit_price": "$0.25/fl oz"
+    },
+    {
+      "name": "BLUE DIAMOND Unsweetened Vanilla Almondmilk, 0.5 GL",
+      "price": "$4.49",
+      "unit_price": "$0.07/fl oz"
+    },
+    {
+      "name": "Califia Farms - Unsweetened Almond Milk, 48 Oz",
+      "price": "$4.79",
+      "unit_price": "$0.10/fl oz"
+    },
+    {
+      "name": "Silk, Organic Milk Substitute, Soy, Unsweetened, 64 Fl Oz",
+      "price": "$5.49",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "Califia Farms - Oat Barista Blend Oat Milk, 32 Oz",
+      "price": "$5.49",
+      "unit_price": "$0.17/fl oz"
+    },
+    {
+      "name": "Ripple, Pea Milk, Original, Unsweetened, 48 Oz",
+      "price": "$5.99",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "Ripple Kids Non-Dairy Milk, Vegan, Original, 48 Fl Oz",
+      "price": "$5.99",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "Oatly Oatmilk 4 Ingredient",
+      "price": "$5.99",
+      "unit_price": null
+    },
+    {
+      "name": "Chobani Extra Creamy Oatmilk 52 Fl Oz",
+      "price": "$5.49",
+      "unit_price": "$0.11/fl oz"
+    },
+    {
+      "name": "MALK Organic Oat Milk, 28 FZ",
+      "price": "$6.99",
+      "unit_price": "$0.25/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Unsweetened Original Coconut milk Beverage, 64 fl oz",
+      "price": "$4.19",
+      "unit_price": "$0.07/fl oz"
+    },
+    {
+      "name": "SOWN Organic Oat Creamer Sweet & Creamy, 32oz",
+      "price": "$7.39",
+      "unit_price": "$0.23/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Original Oatmilk, 64 FZ",
+      "price": "$4.09",
+      "unit_price": "$0.06/fl oz"
+    },
+    {
+      "name": "Califia Farms - Extra Creamy Oat Milk, 48 Oz",
+      "price": "$5.59",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "Califia Farms - Unsweetened Vanilla Almond Milk, 48 Oz",
+      "price": "$4.79",
+      "unit_price": "$0.10/fl oz"
+    },
+    {
+      "name": "ELMHURST Unsweetened Almond Milk, 32 FZ",
+      "price": "$7.29",
+      "unit_price": "$0.23/fl oz"
+    },
+    {
+      "name": "Elmhurst, Cashew Beverage Unsweetened, 32 Fl Oz",
+      "price": "$7.29",
+      "unit_price": "$0.23/fl oz"
+    },
+    {
+      "name": "Edensoy Unsweetened Eden Organic Soymilk, 32 oz",
+      "price": "$5.49",
+      "unit_price": "$0.17/fl oz"
+    },
+    {
+      "name": "Good Karma Unsweetened Vanilla Flaxmilk +Protein, 64 Ounce",
+      "price": "$5.99",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "Minor Figures Organic Barista Oat Milk, 32 fl oz",
+      "price": "$5.00",
+      "unit_price": "$0.16/fl oz"
+    },
+    {
+      "name": "Good Karma Unsweetened Flaxmilk +Protein, 64 Ounce",
+      "price": "$5.99",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "West Life Organic Unsweetened Soy Milk, 32 FZ",
+      "price": "$4.19",
+      "unit_price": "$0.13/fl oz"
+    },
+    {
+      "name": "Califia Farms, Creamer Almond Salted Caramel Organic, 25.4 Fl Oz",
+      "price": "$6.49",
+      "unit_price": "$0.26/fl oz"
+    },
+    {
+      "name": "MALK Organic Chocolate Almond Milk, 28 FZ",
+      "price": "$6.99",
+      "unit_price": "$0.25/fl oz"
+    },
+    {
+      "name": "Silk Soy Creamer, Original, 1 Quart",
+      "price": "$5.89",
+      "unit_price": "$0.18/fl oz"
+    },
+    {
+      "name": "Pop And Bottle, Lattee Almond Milk Matcha Green Tea Organic, 11 Fl Oz",
+      "price": "$4.49",
+      "unit_price": "$0.41/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Original Soy Milk, 64 fl oz",
+      "price": "$3.09",
+      "unit_price": "$0.05/fl oz"
+    },
+    {
+      "name": "Califia Farms - Organic Pistachio Almond Milk Coffee Creamer, 25.4 Oz",
+      "price": "$6.49",
+      "unit_price": "$0.26/fl oz"
+    },
+    {
+      "name": "Elmhurst, Milk Oat Unsweetened, 32 Fl Oz",
+      "price": "$7.29",
+      "unit_price": "$0.23/fl oz"
+    },
+    {
+      "name": "Chobani Oatmilk Original 52 Fl Oz",
+      "price": "$5.49",
+      "unit_price": "$0.11/fl oz"
+    },
+    {
+      "name": "MALK Organic Unsweetened Cashew Malk, 28 FZ",
+      "price": "$6.99",
+      "unit_price": "$0.25/fl oz"
+    },
+    {
+      "name": "MALK Organic Unsweetened Soy Milk, 28 FZ",
+      "price": "$6.99",
+      "unit_price": "$0.25/fl oz"
+    },
+    {
+      "name": "Pacific Foods Organic Unsweetened Coconut Milk, 32 oz",
+      "price": "$4.69",
+      "unit_price": "$0.15/fl oz"
+    },
+    {
+      "name": "Forager Project Organic Sweet Creamer, 20 Fl Oz",
+      "price": "$5.77",
+      "unit_price": "$0.29/fl oz"
+    },
+    {
+      "name": "Califia Farms Soymilk Unsweetened Organic, 48 Fl Oz",
+      "price": "$6.99",
+      "unit_price": "$0.15/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Original Oatmilk, 32 Fl Oz",
+      "price": "$2.99",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "Remedy Organics Protein | Cacao Essentials 12 FL Oz",
+      "price": "$4.00",
+      "unit_price": "$0.33/fl oz"
+    },
+    {
+      "name": "Milkadamia Milk Macadamia Unsweetned, 32 oz",
+      "price": "$6.19",
+      "unit_price": "$0.19/fl oz"
+    },
+    {
+      "name": "Blue Diamond Dairy, Almond Milk Original Unsweetened, 32 Fl Oz",
+      "price": "$3.19",
+      "unit_price": "$0.10/fl oz"
+    },
+    {
+      "name": "Westsoy, Soy Milk Vanilla Unsweetened Organic, 32 Fl Oz",
+      "price": "$4.19",
+      "unit_price": "$0.13/fl oz"
+    },
+    {
+      "name": "Oatly Barista Oat Milk, 32 Fl Oz",
+      "price": "$5.79",
+      "unit_price": "$0.18/fl oz"
+    },
+    {
+      "name": "LAIRD SUPERFOOD Organic Vanilla Plant Based Creamer, 22 FZ",
+      "price": "$6.49",
+      "unit_price": "$0.30/fl oz"
+    },
+    {
+      "name": "ORGANIC VALLEY Organic Simple Creamy Oat Beverage, 42 FZ",
+      "price": "$6.49",
+      "unit_price": "$0.15/fl oz"
+    },
+    {
+      "name": "Planet Oat Original Unsweetened Oatmilk, 32 Fl Oz",
+      "price": "$3.99",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "Elmhurst, Milk Hazelnut Unsweetened, 32 Fl Oz",
+      "price": "$7.29",
+      "unit_price": "$0.23/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Mango Chantilly Oat Milk Frozen Dessert, 1 PT",
+      "price": "$4.89",
+      "unit_price": "$0.31/fl oz"
+    },
+    {
+      "name": "Silk Shelf-Stable Soy Milk Singles, Chocolate, 8 oz., 6 Pack",
+      "price": "$8.29",
+      "unit_price": "$0.17/fl oz"
+    },
+    {
+      "name": "Almond Breeze, Dairy Free Almondmilk, Chocolate, 32 Fl Oz",
+      "price": "$3.19",
+      "unit_price": "$0.10/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Vanilla Oat Milk Frozen Dessert, 1 PT",
+      "price": "$4.89",
+      "unit_price": "$0.31/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Vanilla Soy Beverage, 32 Fl Oz",
+      "price": "$2.59",
+      "unit_price": "$0.08/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Original Almond Milk, 32 Fl Oz",
+      "price": "$2.99",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Mint Chip Oat Milk Frozen Dessert, 1 PT",
+      "price": "$4.89",
+      "unit_price": "$0.31/fl oz"
+    },
+    {
+      "name": "Blue Diamond, Almond Milk Vanilla Unsweetened, 32 Fl Oz",
+      "price": "$3.19",
+      "unit_price": "$0.10/fl oz"
+    },
+    {
+      "name": "OATLY Vanilla Oatmilk, 64 FZ",
+      "price": "$5.79",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Unsweetened Almond Beverage, 64 FZ",
+      "price": "$3.29",
+      "unit_price": "$0.05/fl oz"
+    },
+    {
+      "name": "Blue Diamond, Almond Milk Vanilla, 32 Fl Oz",
+      "price": "$3.19",
+      "unit_price": "$0.10/fl oz"
+    },
+    {
+      "name": "Silk Shelf-Stable Soy Milk Singles, Very Vanilla, 8 oz., 6 Pack",
+      "price": "$8.29",
+      "unit_price": "$0.17/fl oz"
+    },
+    {
+      "name": "nutpods Unsweetened Hazelnut Coffee Creamer, 11.2oz",
+      "price": "$3.99",
+      "unit_price": "$0.36/fl oz"
+    },
+    {
+      "name": "nutpods Unsweetened Caramel Coffee Creamer, 11.2oz",
+      "price": "$3.99",
+      "unit_price": "$0.36/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Vanilla Oatmilk, 32 Fl Oz",
+      "price": "$2.79",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "Silk Protein Complete Plant Protein Milk, Original, 48 fl oz",
+      "price": "$6.49",
+      "unit_price": "$0.14/fl oz"
+    },
+    {
+      "name": "Oatly Oatmilk Orig Ambient 32 FO",
+      "price": "$4.79",
+      "unit_price": "$0.15/fl oz"
+    },
+    {
+      "name": "MALK Organic Unsweetened Original Oat Milk, 32 FZ",
+      "price": "$7.29",
+      "unit_price": "$0.23/fl oz"
+    },
+    {
+      "name": "Oatly Low Fat Oat Milk, 64 oz",
+      "price": "$5.99",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "DREAM Organic Enriched Original Rice Dream, 64 FZ",
+      "price": "$7.49",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "MALK Organic Almond Milk Vanilla, 32 FZ",
+      "price": "$7.29",
+      "unit_price": "$0.23/fl oz"
+    },
+    {
+      "name": "Malk Organic Unsweetened Coconut Creamer, 16 Fl Oz",
+      "price": "$6.99",
+      "unit_price": "$0.44/fl oz"
+    },
+    {
+      "name": "So Delicious Dairy Free Shelf-Stable Coconut Milk, Original, 1 Quart",
+      "price": "$4.19",
+      "unit_price": "$0.13/fl oz"
+    },
+    {
+      "name": "Silk, Pure Almond Aseptic Dark Chocolate, 8 Ounce, 6 Pack",
+      "price": "$8.29",
+      "unit_price": "$0.17/fl oz"
+    },
+    {
+      "name": "Oatly Oatmilk Full Fat Amb 32 FO",
+      "price": "$5.79",
+      "unit_price": "$0.18/fl oz"
+    },
+    {
+      "name": "ORGANIC VALLEY Organic Simple Oat Beverage, 42 FZ",
+      "price": "$6.49",
+      "unit_price": "$0.15/fl oz"
+    },
+    {
+      "name": "CREDO FOODS Medium Oatmilk Queso, 11 OZ",
+      "price": "$7.49",
+      "unit_price": "$0.68/oz"
+    },
+    {
+      "name": "PLANTSTRONG Plant-Based Milk 32oz - Almond Milk",
+      "price": "$5.19",
+      "unit_price": "$0.16/fl oz"
+    },
+    {
+      "name": "POP AND BOTTLE Organic Matcha Almond Milk Latte, 32 FZ",
+      "price": "$7.99",
+      "unit_price": "$0.25/fl oz"
+    },
+    {
+      "name": "ORGANIC VALLEY Organic Cinnamon Spice Oat Creamer, 32 FZ",
+      "price": "$6.99",
+      "unit_price": "$0.22/fl oz"
+    },
+    {
+      "name": "Califia Almondmilk Unsweetened 32 FO",
+      "price": "$5.29",
+      "unit_price": "$0.17/fl oz"
+    },
+    {
+      "name": "JENNYS TOFU Organic Unsweetened Soy Milk, 32 FZ",
+      "price": "$4.43",
+      "unit_price": "$0.14/fl oz"
+    },
+    {
+      "name": "Blue Diamond, Almond Milk Original, 32 Fl Oz",
+      "price": "$3.19",
+      "unit_price": "$0.10/fl oz"
+    },
+    {
+      "name": "Dream Blends Enriched Original Organic Rice Drink, 32 oz",
+      "price": "$3.89",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "ELMHURST Vanilla Lavender Oat and Cashew Milk, 32 FZ",
+      "price": "$1.77",
+      "unit_price": "$0.06/fl oz"
+    },
+    {
+      "name": "JENNYS TOFU Organic Sweetened Soy Milk, 32 FZ",
+      "price": "$4.43",
+      "unit_price": "$0.14/fl oz"
+    },
+    {
+      "name": "Pacific Foods, Beverage Oat Original Organic, 32 Fl Oz",
+      "price": "$4.99",
+      "unit_price": "$0.16/fl oz"
+    },
+    {
+      "name": "LAIRD SUPERFOOD Vanilla Superfood Creamer, 8 OZ",
+      "price": "$13.49",
+      "unit_price": "$1.69/oz"
+    },
+    {
+      "name": "Califia Farms - Unsweetened Vanilla Almond Milk, 32 Oz",
+      "price": "$5.29",
+      "unit_price": "$0.17/fl oz"
+    },
+    {
+      "name": "FORAGER PROJECT Organic Strawberry Plant-Based Protein Shake, 12 FZ",
+      "price": "$4.49",
+      "unit_price": "$0.37/fl oz"
+    },
+    {
+      "name": "Ripple, Milk Kids Original, 32 Fl Oz",
+      "price": "$5.99",
+      "unit_price": "$0.19/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Unsweetened Almond Beverage, 32 FZ",
+      "price": "$4.29",
+      "unit_price": "$0.13/fl oz"
+    },
+    {
+      "name": "West Life Unsweetened Smoothie Blend Soymilk, 32 FZ",
+      "price": "$5.99",
+      "unit_price": "$0.19/fl oz"
+    },
+    {
+      "name": "NEW BARN Organic Unsweetened Vanilla Almond Milk, 32 FZ",
+      "price": "$7.49",
+      "unit_price": "$0.23/fl oz"
+    },
+    {
+      "name": "Rice Dream RFG Horchata, 32 Oz",
+      "price": "$3.89",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "DREAM Organic Whole Ricemilk, 32 FZ",
+      "price": "$3.89",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "Tache, Original Pistachio Milk, 32 Ounce",
+      "price": "$7.09",
+      "unit_price": "$0.22/fl oz"
+    },
+    {
+      "name": "Elmhurst, Milked Oats Chocolate, 32 Fl Oz",
+      "price": "$7.29",
+      "unit_price": "$0.23/fl oz"
+    },
+    {
+      "name": "Almond Breeze Unsweetened Vanilla Almond Coconutmilk, 32 FZ",
+      "price": "$3.19",
+      "unit_price": "$0.10/fl oz"
+    },
+    {
+      "name": "Dream Rice Drink - Unsweetened Original - 32 oz",
+      "price": "$3.89",
+      "unit_price": "$0.12/fl oz"
+    },
+    {
+      "name": "NATURES CHARM Evaporated Oat Milk, 12.2 FZ",
+      "price": "$5.19",
+      "unit_price": "$0.43/fl oz"
+    },
+    {
+      "name": "Edenesque, Milk Oat Unsweetened, 32 Fl Oz",
+      "price": "$7.49",
+      "unit_price": "$0.23/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Unsweetened Almond Milk, 32 Fl Oz",
+      "price": "$2.99",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "SOWN Organic Oat Creamer Vanilla, 32oz",
+      "price": "$7.39",
+      "unit_price": "$0.23/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Unsweetened Soy Beverage, 32 Fl Oz",
+      "price": "$2.59",
+      "unit_price": "$0.08/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Unsweetened Vanilla Almond Milk, 32 Fl Oz",
+      "price": "$2.99",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Almondmilk Vanilla, 64 fl oz",
+      "price": "$3.99",
+      "unit_price": "$0.06/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Unsweetened Vanilla Coconut milk Beverage, 64 fl oz",
+      "price": "$4.19",
+      "unit_price": "$0.07/fl oz"
+    },
+    {
+      "name": "Minor Figures - Organic, Light Oat Milk, Barista Quality, 32 Fl oz",
+      "price": "$5.00",
+      "unit_price": "$0.16/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Chocolate Unsweetened Almond Milk, 32 Fl Oz",
+      "price": "$2.99",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Almondmilk Original 64 FZ",
+      "price": "$3.99",
+      "unit_price": "$0.06/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Soymilk Original, 32 fl oz",
+      "price": "$2.59",
+      "unit_price": "$0.08/fl oz"
+    },
+    {
+      "name": "Pacific Foods Unsweetened Hemp Milk, 32 oz",
+      "price": "$5.49",
+      "unit_price": "$0.17/fl oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Vanilla Almond Milk, 32 Fl Oz",
+      "price": "$2.99",
+      "unit_price": "$0.09/fl oz"
+    },
+    {
+      "name": "Pacific Foods Unsweetened Vanilla Hemp Milk, 32 oz",
+      "price": "$5.49",
+      "unit_price": "$0.17/fl oz"
+    },
+    {
+      "name": "PLANTSTRONG Oat & Walnut Milk 32oz",
+      "price": "$5.19",
+      "unit_price": "$0.16/fl oz"
+    },
+    {
+      "name": "PLANTSTRONG Plant-Based Milk 32oz - Oat Milk",
+      "price": "$5.19",
+      "unit_price": "$0.16/fl oz"
+    },
+    {
+      "name": "PLANTSTRONG Plant-Based Milk 32oz - Oat & Almond Milk",
+      "price": "$5.19",
+      "unit_price": "$0.16/fl oz"
+    }
+  ]
+}

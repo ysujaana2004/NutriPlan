@@ -1,0 +1,354 @@
+{
+  "products": [
+    {
+      "name": "365 by Whole Foods Market, Organic Black Beans, 15 Ounce",
+      "price": "$1.69",
+      "unit_price": "$0.11/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Garbanzo Beans, 15.5 Ounce",
+      "price": "$1.69",
+      "unit_price": "$0.11/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Cannellini Beans, 15.5 Ounce",
+      "price": "$1.69",
+      "unit_price": "$0.11/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Unsalted Garbanzo Beans, 15.5 Ounce",
+      "price": "$1.09",
+      "unit_price": "$0.07/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Pinto Beans, 15.5 Ounce",
+      "price": "$1.69",
+      "unit_price": "$0.11/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Dark Red Kidney Beans, 15.5 Ounce",
+      "price": "$1.69",
+      "unit_price": "$0.11/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Unsalted Garbanzo Beans, 13.4 Ounce",
+      "price": "$1.59",
+      "unit_price": "$0.12/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Bean Trio (Kidney, Pinto, & Black Beans), 15 Ounce",
+      "price": "$1.69",
+      "unit_price": "$0.11/oz"
+    },
+    {
+      "name": "JOVIAL Organic Chickpeas In Glass Jar, 13 OZ",
+      "price": "$4.39",
+      "unit_price": "$0.34/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Unsalted Cannellini Beans, 13.4 Ounce",
+      "price": "$1.59",
+      "unit_price": "$0.12/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Refried Pinto Beans, 16 oz",
+      "price": "$1.69",
+      "unit_price": "$0.11/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Spicy Black Beans, 15 Ounce",
+      "price": "$1.69",
+      "unit_price": "$0.11/oz"
+    },
+    {
+      "name": "Jovial Organic Cannellini Beans, 13 oz",
+      "price": "$4.39",
+      "unit_price": "$0.34/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Dark Red Kidney Beans, No Salt Added, 15.5 oz",
+      "price": "$1.09",
+      "unit_price": "$0.07/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Refried Black Beans, 16 oz",
+      "price": "$1.69",
+      "unit_price": "$0.11/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Pinto Beans, No Salt Added, 15.5 oz",
+      "price": "$1.09",
+      "unit_price": "$0.07/oz"
+    },
+    {
+      "name": "Eden Organic Butter Beans, 15 oz Can",
+      "price": "$3.99",
+      "unit_price": "$0.27/oz"
+    },
+    {
+      "name": "Eden Organic Black Beans, 15 oz Can, No Salt",
+      "price": "$3.99",
+      "unit_price": "$0.27/oz"
+    },
+    {
+      "name": "Eden Organic Garbanzo Beans, 15 oz Can, No Salt",
+      "price": "$3.99",
+      "unit_price": "$0.27/oz"
+    },
+    {
+      "name": "Amy's Bean Refried Tradtnl Gf",
+      "price": "$4.99",
+      "unit_price": null
+    },
+    {
+      "name": "FILLOS Cuban Black Beans And Sofrito, 10 OZ",
+      "price": "$4.69",
+      "unit_price": "$0.47/oz"
+    },
+    {
+      "name": "Somos, Beans Black Pinto, 10 Ounce",
+      "price": "$2.49",
+      "unit_price": "$0.25/oz"
+    },
+    {
+      "name": "Amy's Organic Refried Vegetarian Black Beans, 15.4 oz",
+      "price": "$4.99",
+      "unit_price": "$0.32/oz"
+    },
+    {
+      "name": "365 By Whole Foods Market, Organic Baked Beans, Maple With Onion, 15 Ounce",
+      "price": "$1.69",
+      "unit_price": "$0.11/oz"
+    },
+    {
+      "name": "365 By Whole Foods Market, Organic Baked Beans, Campfire Style, 15 Ounce",
+      "price": "$1.69",
+      "unit_price": "$0.11/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Sweet Peas No Salt Added, 15 oz",
+      "price": "$2.19",
+      "unit_price": "$0.15/oz"
+    },
+    {
+      "name": "Amy's Organic Low Sodium Refried Beans, 15.4 OZ",
+      "price": "$4.99",
+      "unit_price": "$0.32/oz"
+    },
+    {
+      "name": "SIETE FAMILY FOODS Vegan Refried Black Beans, 16 OZ",
+      "price": "$3.25",
+      "unit_price": "$0.20/oz"
+    },
+    {
+      "name": "Siete Beans Charro, 15.5 OZ",
+      "price": "$3.25",
+      "unit_price": "$0.21/oz"
+    },
+    {
+      "name": "Siete Beans Refried Ranchero, 16 OZ",
+      "price": "$3.25",
+      "unit_price": "$0.20/oz"
+    },
+    {
+      "name": "Eden Foods Organic White Kidney Beans, 15 oz",
+      "price": "$3.99",
+      "unit_price": "$0.27/oz"
+    },
+    {
+      "name": "Westbrae Natural Vegetarian Organic Black Beans, 15 oz",
+      "price": "$3.79",
+      "unit_price": "$0.25/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Blackeye Peas No Salt Added, 15.5 oz",
+      "price": "$1.09",
+      "unit_price": "$0.07/oz"
+    },
+    {
+      "name": "SIMPLi Regenerative Organic Certified Gigantes Beans, 12 oz",
+      "price": "$7.99",
+      "unit_price": "$0.67/oz"
+    },
+    {
+      "name": "Heyday Canning Co, Beans Black Enchilada, 15 Ounce",
+      "price": "$4.63",
+      "unit_price": "$0.31/oz"
+    },
+    {
+      "name": "Eden Organic Garbanzo Beans, 29 oz Can, No Salt",
+      "price": "$6.49",
+      "unit_price": "$0.22/oz"
+    },
+    {
+      "name": "BRAMI Lupini Beans Snack, Mediterranean Medley, 5.3 Ounce",
+      "price": "$4.66",
+      "unit_price": "$0.88/oz"
+    },
+    {
+      "name": "FILLOS Puerto Rican Pink Beans & Sofrito, 10 OZ",
+      "price": "$4.69",
+      "unit_price": "$0.47/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Refried Beans Roasted Chili & Lime, 16 oz",
+      "price": "$1.69",
+      "unit_price": "$0.11/oz"
+    },
+    {
+      "name": "JOVIAL Organic Italian Cannellini Beans Tomatoes, 12.9 OZ",
+      "price": "$4.59",
+      "unit_price": "$0.36/oz"
+    },
+    {
+      "name": "A Dozen Cousins Classic Refried Pinto Beans, 10 Oz",
+      "price": "$3.33",
+      "unit_price": "$0.33/oz"
+    },
+    {
+      "name": "Eden Organic Great Northern Beans, 15 oz Can, No Salt",
+      "price": "$3.99",
+      "unit_price": "$0.27/oz"
+    },
+    {
+      "name": "Lentiful, Lentils Tomato Bolognese Low Sodium, 2 Ounce",
+      "price": "$2.85",
+      "unit_price": "$1.43/oz"
+    },
+    {
+      "name": "Somos Refried Black Beans Beef Tallow, 10 Ounce",
+      "price": "$3.32",
+      "unit_price": "$0.33/oz"
+    },
+    {
+      "name": "Eden Foods Organic Black Beans, 29 oz",
+      "price": "$6.49",
+      "unit_price": "$0.22/oz"
+    },
+    {
+      "name": "Heyday Canning Co, Beans Cannellini Tomato Alla Vodka, 15 Ounce",
+      "price": "$4.63",
+      "unit_price": "$0.31/oz"
+    },
+    {
+      "name": "Westbrae Natural, Beans Garbanzo Organic, 15 Ounce",
+      "price": "$3.79",
+      "unit_price": "$0.25/oz"
+    },
+    {
+      "name": "Amys, Beans Baked Vegetarian Organic, 15 Ounce",
+      "price": "$4.99",
+      "unit_price": "$0.33/oz"
+    },
+    {
+      "name": "Eden Organic Kidney Beans, 15 oz",
+      "price": "$3.99",
+      "unit_price": "$0.27/oz"
+    },
+    {
+      "name": "Eden Organic Aduki Red Beans, 15 oz Can, No Salt Added",
+      "price": "$3.99",
+      "unit_price": "$0.27/oz"
+    },
+    {
+      "name": "Westbrae Natural, Vegetarian Organic, Chili Beans, 15 oz",
+      "price": "$3.79",
+      "unit_price": "$0.25/oz"
+    },
+    {
+      "name": "Amys, Beans Refried With Green Chiles Organic, 15.4 Ounce",
+      "price": "$4.99",
+      "unit_price": "$0.32/oz"
+    },
+    {
+      "name": "A DOZEN COUSINS Brown Sugar Baked Beans, 10 OZ",
+      "price": "$3.33",
+      "unit_price": "$0.33/oz"
+    },
+    {
+      "name": "Heyday Canning Co Pinto & Black Bean Mole Chili, 15 OZ",
+      "price": "$5.00",
+      "unit_price": "$0.33/oz"
+    },
+    {
+      "name": "BIOITALIA Organic Canned Green Lentils, 14 OZ",
+      "price": "$2.78",
+      "unit_price": "$0.20/oz"
+    },
+    {
+      "name": "Heyday Canning Co, Beans Black Simply Perfect, 15 Ounce",
+      "price": "$3.72",
+      "unit_price": "$0.25/oz"
+    },
+    {
+      "name": "Rancho Gordo Heirloom Midnight Black Beans, 16 oz",
+      "price": "$8.09",
+      "unit_price": "$0.51/oz"
+    },
+    {
+      "name": "Bioitalia Organic Black Beans, 14 oz",
+      "price": "$2.78",
+      "unit_price": "$0.20/oz"
+    },
+    {
+      "name": "Heyday Canning Co, Beans Cannellini Simply Perfect, 15 Ounce",
+      "price": "$3.72",
+      "unit_price": "$0.25/oz"
+    },
+    {
+      "name": "Heyday Canning Co, Beans Baked Apricot Glazed, 15 Ounce",
+      "price": "$4.63",
+      "unit_price": "$0.31/oz"
+    },
+    {
+      "name": "A DOZEN COUSINS Creole Red Beans, 10 OZ",
+      "price": "$3.33",
+      "unit_price": "$0.33/oz"
+    },
+    {
+      "name": "AURORA PRODUCTS Organic Red Kidney Beans, 13 OZ",
+      "price": "$4.99",
+      "unit_price": "$0.38/oz"
+    },
+    {
+      "name": "AURORA PRODUCTS Organic Garbanzo Beans, 14 OZ",
+      "price": "$4.99",
+      "unit_price": "$0.36/oz"
+    },
+    {
+      "name": "AURORA PRODUCTS Organic Black Beans, 14 OZ",
+      "price": "$4.99",
+      "unit_price": "$0.36/oz"
+    },
+    {
+      "name": "BIOITALIA Organic Canned White Cannellini Beans, 14 OZ",
+      "price": "$2.78",
+      "unit_price": "$0.20/oz"
+    },
+    {
+      "name": "D ALLASANDRO Cannellini Beans, 12 OZ",
+      "price": "$4.19",
+      "unit_price": "$0.35/oz"
+    },
+    {
+      "name": "D ALLASANDRO Blackeyed Peas, 12 OZ",
+      "price": "$4.19",
+      "unit_price": "$0.35/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Traditional Baked Beans, 15 Ounce",
+      "price": "$1.69",
+      "unit_price": "$0.11/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Kidney Beans No Salt Added, 13.4 oz",
+      "price": "$1.59",
+      "unit_price": "$0.12/oz"
+    },
+    {
+      "name": "Jovial 100% Organic Kidney Beans, 13 Oz",
+      "price": "$4.39",
+      "unit_price": "$0.34/oz"
+    }
+  ]
+}

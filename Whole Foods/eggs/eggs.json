@@ -1,0 +1,214 @@
+{
+  "products": [
+    {
+      "name": "Vital Farms Organic Pasture-Raised Large Eggs 12ct",
+      "price": "$10.03",
+      "unit_price": "$0.84/egg"
+    },
+    {
+      "name": "Vital Farms, Egg Large Organic, 18 Count",
+      "price": "$15.29",
+      "unit_price": "$0.85/egg"
+    },
+    {
+      "name": "Pete and Gerry's Organic Eggs Jumbo 12 CT",
+      "price": "$9.49",
+      "unit_price": "$0.79/egg"
+    },
+    {
+      "name": "Pete & Gerrys Organic Eggs Large 18 CT",
+      "price": "$11.49",
+      "unit_price": "$0.64/egg"
+    },
+    {
+      "name": "PETE & GERRYS Organic Brown Large Grade A Eggs, 12 CT",
+      "price": "$7.09",
+      "unit_price": "$0.59/egg"
+    },
+    {
+      "name": "Vital Farms, Eggs Pasture Raised Large, 18 Count",
+      "price": "$12.49",
+      "unit_price": "$0.69/egg"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Egg Whites, 16 oz",
+      "price": "$5.99",
+      "unit_price": "$0.37/oz"
+    },
+    {
+      "name": "Vital Farms, Large Grade A Eggs, 12 Count",
+      "price": "$8.99",
+      "unit_price": "$0.75/egg"
+    },
+    {
+      "name": "365 by Whole Foods Market Large Brown Grade A Eggs 12 Count, 12 CT",
+      "price": "$4.49",
+      "unit_price": "$0.37/egg"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Large Brown Grade A Eggs 12 Count, 12 CT",
+      "price": "$5.99",
+      "unit_price": "$0.50/egg"
+    },
+    {
+      "name": "Organic Eggs Free Range Large Brown, 12 Count",
+      "price": "$8.49",
+      "unit_price": "$0.71/egg"
+    },
+    {
+      "name": "PETE & GERRYS Large Grade A Pasture Raised Eggs 18 Count, 18 CT",
+      "price": "$10.99",
+      "unit_price": "$0.61/egg"
+    },
+    {
+      "name": "Nellie's Free Range Large Eggs, 12 Count",
+      "price": "$7.99",
+      "unit_price": "$0.67/egg"
+    },
+    {
+      "name": "Pete & Gerry's Organic Pasture Raised Eggs Large 12 Ct",
+      "price": "$7.99",
+      "unit_price": "$0.67/egg"
+    },
+    {
+      "name": "Vital Farms Organic Pasture-Raised Hard-Boiled Eggs Resealable Bag, 6 Ct",
+      "price": "$7.53",
+      "unit_price": "$1.26/egg"
+    },
+    {
+      "name": "Organic Valley Organic Large Eggs — Free Range, Brown Eggs — 18 Count",
+      "price": "$10.99",
+      "unit_price": "$0.61/egg"
+    },
+    {
+      "name": "365 by Whole Foods Market, Hard Cooked Medium Grade A Eggs, 6 ct",
+      "price": "$4.99",
+      "unit_price": "$0.83/egg"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Pasture Large Brown Grade A Eggs 18 Count, 18 CT",
+      "price": "$9.99",
+      "unit_price": "$0.56/egg"
+    },
+    {
+      "name": "PETE & GERRYS Large Grade A Eggs, 12 CT",
+      "price": "$6.83",
+      "unit_price": "$0.57/egg"
+    },
+    {
+      "name": "Crafty Counter, WunderEggs Vegan Hardboiled Eggs, 5 Ounce",
+      "price": "$8.49",
+      "unit_price": "$1.70/oz"
+    },
+    {
+      "name": "Vital Farms Organic Pasture-Raised XL Eggs 12ct",
+      "price": "$12.99",
+      "unit_price": "$1.08/egg"
+    },
+    {
+      "name": "365 by Whole Foods Market Large Brown Grade A Eggs 18 Count, 18 CT",
+      "price": "$6.49",
+      "unit_price": "$0.36/egg"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Pasture Large Brown Grade A Eggs 12 Count, 12 CT",
+      "price": "$6.99",
+      "unit_price": "$0.58/egg"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Large Brown Grade A Eggs 18 Count, 18 CT",
+      "price": "$7.99",
+      "unit_price": "$0.44/egg"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Extra Large Brown Grade A Eggs 12 Count, 12 ct",
+      "price": "$6.49",
+      "unit_price": "$0.54/egg"
+    },
+    {
+      "name": "Eat Just Plant Based Egg Patties, 8 OZ",
+      "price": "$5.54",
+      "unit_price": "$0.69/oz"
+    },
+    {
+      "name": "Whole Foods Market Organic Pasture Regen Large Brown Grade A Eggs, 12 Count",
+      "price": "$7.99",
+      "unit_price": "$0.67/egg"
+    },
+    {
+      "name": "Just Inc, Egg Liquid Plant Based, 16 Ounce",
+      "price": "$7.48",
+      "unit_price": "$0.47/oz"
+    },
+    {
+      "name": "Vital Farms, Restorative Pasture Raised Eggs, 12 Count",
+      "price": "$12.49",
+      "unit_price": "$1.04/egg"
+    },
+    {
+      "name": "Vital Farms True Blues Medium, 12 ct",
+      "price": "$11.49",
+      "unit_price": "$0.96/egg"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Large Brown Grade A Eggs 6 Count, 6 CT",
+      "price": "$3.79",
+      "unit_price": "$0.63/egg"
+    },
+    {
+      "name": "365 by Whole Foods Market, Large White Grade A Eggs, 12 ct",
+      "price": "$4.49",
+      "unit_price": "$0.37/egg"
+    },
+    {
+      "name": "THE COUNTRY HEN Organic Large Grade A Eggs, 6 CT",
+      "price": "$6.29",
+      "unit_price": "$1.05/egg"
+    },
+    {
+      "name": "365 By Whole Foods Market, Liquid Eggs, 32 Ounce",
+      "price": "$6.79",
+      "unit_price": "$0.21/oz"
+    },
+    {
+      "name": "Vital Farms Pasture-Raised Liquid Whole Eggs 16 oz",
+      "price": "$7.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "Oliver's Organic Eggs, Eggs Large Organic, 2 Ounce (Pack of 6)",
+      "price": "$4.39",
+      "unit_price": "$0.37/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Omega 3 Large Brown Grade A Eggs 12 Count, 12 CT",
+      "price": "$6.39",
+      "unit_price": "$0.53/egg"
+    },
+    {
+      "name": "Vital Farms Pasture-Raised XL Eggs 12ct",
+      "price": "$8.49",
+      "unit_price": "$0.71/egg"
+    },
+    {
+      "name": "NEST FRESH Large Brown Grade A Eggs 12ct, 12 CT",
+      "price": "$7.29",
+      "unit_price": "$0.61/egg"
+    },
+    {
+      "name": "Bob's Red Mill Gluten Free Egg Replacer, 12oz",
+      "price": "$6.59",
+      "unit_price": "$0.55/oz"
+    },
+    {
+      "name": "HIDDEN NEST EGGS Half Dozen Duck Eggs, 6 CT",
+      "price": "$9.99",
+      "unit_price": "$1.67/egg"
+    },
+    {
+      "name": "365 by Whole Foods Market Extra Large Brown Grade A Eggs 12 Count, 12 CT",
+      "price": "$5.59",
+      "unit_price": "$0.47/egg"
+    }
+  ]
+}

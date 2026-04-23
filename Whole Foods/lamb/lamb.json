@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "name": "Lamb Loin Chop Bone-In",
+      "price": "$18.99/lb",
+      "unit_price": "$18.99/lb"
+    },
+    {
+      "name": "Organic Rancher, Lamb Ground Brick Organic, 16 Ounce",
+      "price": "$13.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "Lamb Rib Rack Frenched Nz Grass Fed",
+      "price": "$31.99/lb",
+      "unit_price": "$31.99/lb"
+    },
+    {
+      "name": "Lamb Shank",
+      "price": "$12.99/lb",
+      "unit_price": "$12.99/lb"
+    },
+    {
+      "name": "Lamb Stew Meat Grass Fed",
+      "price": "$13.99/lb",
+      "unit_price": "$13.99/lb"
+    },
+    {
+      "name": "Lamb Ground 80/20",
+      "price": "$12.99/lb",
+      "unit_price": "$12.99/lb"
+    }
+  ]
+}

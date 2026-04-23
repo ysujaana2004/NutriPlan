@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "name": "Pork Shoulder Butt Boneless",
+      "price": "$6.99/lb",
+      "unit_price": "$6.99/lb"
+    },
+    {
+      "name": "Niman Ranch, Pork Ham Steak Bnls Smoked Uncured, 8 Ounce",
+      "price": "$5.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "Dubreton Organic Boneless Pork Loin Chops, 12 OZ",
+      "price": "$8.44",
+      "unit_price": "$0.70/oz"
+    },
+    {
+      "name": "Pork Loin Tenderloin",
+      "price": "$13.99/lb",
+      "unit_price": "$13.99/lb"
+    },
+    {
+      "name": "Pork Rib Baby Back Previously Frozen",
+      "price": "$8.99/lb",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "Whole Foods Market Kitchens, Pork Bulgogi",
+      "price": "$8.99/lb",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "Wellshire Farms Maple Ham",
+      "price": "$12.99/lb",
+      "unit_price": "$12.99/lb"
+    },
+    {
+      "name": "Pork Bratwurst",
+      "price": "$7.49/lb",
+      "unit_price": "$7.49/lb"
+    },
+    {
+      "name": "MEAT Boneless Pork Loin Roast",
+      "price": "$6.39/lb",
+      "unit_price": "$6.39/lb"
+    },
+    {
+      "name": "Schaller & Weber Cooked Bratwurst Traditional German Style Sausage Links Fully Cooked Ready to Eat Gluten Free 12 oz",
+      "price": "$7.79",
+      "unit_price": "$0.65/oz"
+    },
+    {
+      "name": "Campo Grande Sliced Salchichon Iberico, 2 Ounce",
+      "price": "$8.99",
+      "unit_price": "$4.50/oz"
+    },
+    {
+      "name": "NORTH COUNTRY SMOKEHOUSE Organic Applewood Smoked Diced Ham, 8 OZ",
+      "price": "$5.05",
+      "unit_price": "$0.63/oz"
+    },
+    {
+      "name": "My Original Pulled Pork, 8 OZ",
+      "price": "$10.49",
+      "unit_price": "$1.31/oz"
+    }
+  ]
+}
