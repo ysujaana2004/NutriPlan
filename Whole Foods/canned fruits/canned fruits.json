@@ -1,0 +1,119 @@
+{
+  "products": [
+    {
+      "name": "365 by Whole Foods Market, Organic Diced Peaches, 16 Ounce",
+      "price": "$3.79",
+      "unit_price": "$0.24/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Oranges Mandarin, 4 Ounce, 4 Pack",
+      "price": "$3.99",
+      "unit_price": "$0.25/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Yellow Cling Peach Slices, 15 Ounce",
+      "price": "$2.99",
+      "unit_price": "$0.20/oz"
+    },
+    {
+      "name": "Solely - Organic Mango Fruit Jerky, 0.8oz (5 strips)",
+      "price": "$8.29",
+      "unit_price": "$2.07/oz"
+    },
+    {
+      "name": "Native Forest Pineapple Chunks, Organic, 14 Oz",
+      "price": "$5.59",
+      "unit_price": "$0.40/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Sour Cherries, 8 OZ",
+      "price": "$8.99",
+      "unit_price": "$1.12/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Peaches & Pears Snack Cups, 4 Count",
+      "price": "$3.79",
+      "unit_price": null
+    },
+    {
+      "name": "Native Forest Oranges, Mandarin, 10.75 oz",
+      "price": "$3.99",
+      "unit_price": "$0.37/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Oranges Mandarin, 10.5 Ounce",
+      "price": "$2.09",
+      "unit_price": "$0.20/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Pear Halves, 15 Ounce",
+      "price": "$2.99",
+      "unit_price": "$0.20/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Diced Pears, 16 Ounce",
+      "price": "$3.79",
+      "unit_price": "$0.24/oz"
+    },
+    {
+      "name": "Native Forest Pineapple Slices Organic, 15 oz",
+      "price": "$5.59",
+      "unit_price": "$0.37/oz"
+    },
+    {
+      "name": "Fruit Riot x Olipop Crunchy Candy Cherries, Vintage Cola, 8oz",
+      "price": "$7.19",
+      "unit_price": "$0.90/oz"
+    },
+    {
+      "name": "Native Forest Organic Young Jackfruit, 14 Ounce",
+      "price": "$4.99",
+      "unit_price": "$0.36/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Maraschino Cherries, 13.5 Ounce",
+      "price": "$5.19",
+      "unit_price": "$0.38/oz"
+    },
+    {
+      "name": "Fruit Riot! Sour Mixed Mangos, 8 OZ",
+      "price": "$7.19",
+      "unit_price": "$0.90/oz"
+    },
+    {
+      "name": "Aurora Natural Products Apple Juice Infused Cherries, 10 Ounce",
+      "price": "$14.49",
+      "unit_price": "$1.45/oz"
+    },
+    {
+      "name": "Native Forest, Crushed Pineapple, Organic, 14 oz",
+      "price": "$5.59",
+      "unit_price": "$0.40/oz"
+    },
+    {
+      "name": "Mina Preserved Lemons, 12.5 Ounce",
+      "price": "$4.26",
+      "unit_price": "$0.34/oz"
+    },
+    {
+      "name": "Tillen Farms Bada Bing Cherries, 13.5 oz",
+      "price": "$10.49",
+      "unit_price": "$0.78/oz"
+    },
+    {
+      "name": "Amazi Ginger Lime Jackfruit Chews, 2.3oz",
+      "price": "$6.29",
+      "unit_price": "$2.73/oz"
+    },
+    {
+      "name": "Luxardo The Original Maraschino Cherries, 400g Jar (14.1 oz)",
+      "price": "$24.99",
+      "unit_price": "$1.77/oz"
+    },
+    {
+      "name": "AMARENA FABBRI Wild Cherries In Syrup, 8.1 OZ",
+      "price": "$21.99",
+      "unit_price": "$2.71/oz"
+    }
+  ]
+}

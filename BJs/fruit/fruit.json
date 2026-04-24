@@ -1,0 +1,314 @@
+{
+  "products": [
+    {
+      "name": "Strawberries, 2 lbs.",
+      "price": "$4.29",
+      "unit_price": "$2.15/lb"
+    },
+    {
+      "name": "Bananas, 3 lbs.",
+      "price": "$1.49",
+      "unit_price": "$0.50/lb"
+    },
+    {
+      "name": "Pineapple, 1 ct.",
+      "price": "$2.99",
+      "unit_price": null
+    },
+    {
+      "name": "Cantaloupes, 1 ct.",
+      "price": "$2.99",
+      "unit_price": null
+    },
+    {
+      "name": "Blueberries, 18 oz.",
+      "price": "$8.99",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Hass Avocados, 5 ct.",
+      "price": "$5.99",
+      "unit_price": null
+    },
+    {
+      "name": "Mandarins, 5 lbs.",
+      "price": "$6.99",
+      "unit_price": "$1.40/lb"
+    },
+    {
+      "name": "Seedless Green Grapes, 3 lbs.",
+      "price": "$6.99",
+      "unit_price": "$2.33/lb"
+    },
+    {
+      "name": "Kiwi Fruit, 3 lbs.",
+      "price": "$6.99",
+      "unit_price": "$2.33/lb"
+    },
+    {
+      "name": "WOW Dreamberry Strawberries, 10 oz.",
+      "price": "$4.69",
+      "unit_price": "$7.50/lb"
+    },
+    {
+      "name": "Sumo Oranges, 3 lbs.",
+      "price": "$8.49",
+      "unit_price": "$2.83/lb"
+    },
+    {
+      "name": "Honey Mangoes, 5.5 lbs.",
+      "price": "$9.99",
+      "unit_price": "$1.82/lb"
+    },
+    {
+      "name": "Anjou Pears, 5 lbs.",
+      "price": "$7.49",
+      "unit_price": "$1.50/lb"
+    },
+    {
+      "name": "Extra Sweet Plums, 2 lbs.",
+      "price": "$4.49",
+      "unit_price": "$2.25/lb"
+    },
+    {
+      "name": "Organic Bartlett Pears, 4 lbs.",
+      "price": "$7.99",
+      "unit_price": "$2.00/lb"
+    },
+    {
+      "name": "Chiquita Organic Bananas, 2 lbs.",
+      "price": "$1.49",
+      "unit_price": "$0.75/lb"
+    },
+    {
+      "name": "Wellsley Farms Fuji Apples, 5 lbs.",
+      "price": "$5.99",
+      "unit_price": "$1.20/lb"
+    },
+    {
+      "name": "Sweet Karoline Blackberries, 12 oz.",
+      "price": "$6.99",
+      "unit_price": "$9.32/lb"
+    },
+    {
+      "name": "Mott's Bosc Pears, 5 lbs.",
+      "price": "$6.99",
+      "unit_price": "$1.40/lb"
+    },
+    {
+      "name": "Seedless Red Grapes, 3 lbs.",
+      "price": "$5.99",
+      "unit_price": "$2.00/lb"
+    },
+    {
+      "name": "Wellsley Farms Lemons, 2 lbs.",
+      "price": "$3.89",
+      "unit_price": "$1.95/lb"
+    },
+    {
+      "name": "Wellsley Farms Oranges, 8 lbs.",
+      "price": "$7.99",
+      "unit_price": "$1.00/lb"
+    },
+    {
+      "name": "Mini Watermelon",
+      "price": "$3.99",
+      "unit_price": null
+    },
+    {
+      "name": "Mangoes, 5.5 lbs.",
+      "price": "$6.99",
+      "unit_price": "$1.27/lb"
+    },
+    {
+      "name": "Bi-Color Seedless Grapes, 3 lbs.",
+      "price": "$7.99",
+      "unit_price": "$2.66/lb"
+    },
+    {
+      "name": "Organic Strawberries, 1 lb.",
+      "price": "$3.99",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Fresh Cut Watermelon Chunks, 22 oz.",
+      "price": "$4.99",
+      "unit_price": "$3.63/lb"
+    },
+    {
+      "name": "Plantains, 1 ct.",
+      "price": "$0.06",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Energy Medjool Dates, 2lbs.",
+      "price": "$9.99",
+      "unit_price": "$5.00/lb"
+    },
+    {
+      "name": "Candy Heart Grapes, 3 lbs.",
+      "price": "$5.99",
+      "unit_price": "$2.00/lb"
+    },
+    {
+      "name": "Honeydew Melon, 1 ct.",
+      "price": "$4.49",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Limes, 2 lbs.",
+      "price": "$4.99",
+      "unit_price": "$2.50/lb"
+    },
+    {
+      "name": "Fresh Papaya, 1 ct.",
+      "price": "$3.99",
+      "unit_price": null
+    },
+    {
+      "name": "Fresh Cut Pineapple Chunks, 22 oz.",
+      "price": "$5.99",
+      "unit_price": "$4.36/lb"
+    },
+    {
+      "name": "Wellsley Farms Organic Granny Smith Apples, 5 lbs.",
+      "price": "$9.99",
+      "unit_price": "$2.00/lb"
+    },
+    {
+      "name": "Wellsley Farms Cara Cara Oranges, 8 lbs.",
+      "price": "$10.99",
+      "unit_price": "$1.37/lb"
+    },
+    {
+      "name": "Wellsley Farms Gala Apples, 5 lbs.",
+      "price": "$5.49",
+      "unit_price": "$1.10/lb"
+    },
+    {
+      "name": "Mott's Organic Red Apple Multipack Slices, 6 pk./2 oz.",
+      "price": "$4.49",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Red Delicious Apples, 5 lbs.",
+      "price": "$5.99",
+      "unit_price": "$1.20/lb"
+    },
+    {
+      "name": "Sugarbee Apples, 4 lbs.",
+      "price": "$9.99",
+      "unit_price": "$2.50/lb"
+    },
+    {
+      "name": "Wellsley Farms Red Grapefruit, 5 lbs.",
+      "price": "$6.99",
+      "unit_price": "$1.40/lb"
+    },
+    {
+      "name": "Seedless Black Grapes, 3 lbs.",
+      "price": "$6.99",
+      "unit_price": "$2.33/lb"
+    },
+    {
+      "name": "Red Dragon Fruit, 2 lbs.",
+      "price": "$6.99",
+      "unit_price": "$3.50/lb"
+    },
+    {
+      "name": "Wellsley Farms Organic Gala Apples, 5 lbs.",
+      "price": "$9.99",
+      "unit_price": "$2.00/lb"
+    },
+    {
+      "name": "Cotton Candy Table Grapes, 2 lbs.",
+      "price": "$6.99",
+      "unit_price": "$3.50/lb"
+    },
+    {
+      "name": "POM Wonderful Pomegranate Arils, 2 pk./8 oz.",
+      "price": "$8.99",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "Pummelo, 3 ct.",
+      "price": "$7.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms McIntosh Apples, 5 lbs.",
+      "price": "$5.49",
+      "unit_price": "$1.10/lb"
+    },
+    {
+      "name": "Clementines, 3 lbs.",
+      "price": "$4.99",
+      "unit_price": "$1.66/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Red Grapefruit, 5 lbs.",
+      "price": "$5.99",
+      "unit_price": "$1.20/lb"
+    },
+    {
+      "name": "Pomegranate, 4 ct.",
+      "price": "$11.99",
+      "unit_price": null
+    },
+    {
+      "name": "Seedless Watermelon, 1 ct.",
+      "price": "$8.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Organic Pink Lady Apples, 5 lbs.",
+      "price": "$8.99",
+      "unit_price": "$1.80/lb"
+    },
+    {
+      "name": "Fresh Cut Pineapple Chunks, 24 oz.",
+      "price": "$5.99",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Fresh Cut Watermelon Chunks, 24 oz.",
+      "price": "$5.99",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Fresh Pomegranates, 5 ct.",
+      "price": "$9.99",
+      "unit_price": null
+    },
+    {
+      "name": "Mangoes, 8.8 lbs.",
+      "price": "$14.99",
+      "unit_price": "$1.70/lb"
+    },
+    {
+      "name": "Envy Apples, 4 lbs.",
+      "price": "$6.99",
+      "unit_price": "$1.75/lb"
+    },
+    {
+      "name": "Ocean Spray Fresh Cranberries, 2 lbs.",
+      "price": "$3.99",
+      "unit_price": "$2.00/lb"
+    },
+    {
+      "name": "Peaches, 4 lbs.",
+      "price": "$8.99",
+      "unit_price": "$2.25/lb"
+    },
+    {
+      "name": "Pumpkin, 1 ct.",
+      "price": "$3.98",
+      "unit_price": null
+    },
+    {
+      "name": "Oranges, 5 lbs.",
+      "price": "$6.99",
+      "unit_price": "$1.40/lb"
+    }
+  ]
+}

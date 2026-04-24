@@ -1,0 +1,174 @@
+{
+  "products": [
+    {
+      "name": "Applegate, Organic No Sugar Uncured Bacon, 8 oz",
+      "price": "$9.99",
+      "unit_price": "$1.25/oz"
+    },
+    {
+      "name": "Applegate Farms Organic Hickory Smoked Uncured Sunday Bacon, 8 OZ",
+      "price": "$9.99",
+      "unit_price": "$1.25/oz"
+    },
+    {
+      "name": "Niman Ranch, Pork Bacon Applewood Smoked Uncured Chef's Case, 12 Ounce",
+      "price": "$9.49",
+      "unit_price": "$0.79/oz"
+    },
+    {
+      "name": "Tender Belly Thick Cut Bacon, Uncured, Seasoned with Freshly Ground Spices - Signature Dry Rub, 10 oz",
+      "price": "$8.33",
+      "unit_price": "$0.83/oz"
+    },
+    {
+      "name": "Niman Ranch, Applewood Smoked Uncured Bacon, 12 oz",
+      "price": "$9.49",
+      "unit_price": "$0.79/oz"
+    },
+    {
+      "name": "Applegate, Organic Hickory Smoked Uncured Turkey Bacon, 8oz",
+      "price": "$9.49",
+      "unit_price": "$1.19/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Uncured Center Cut Smokehouse Bacon, 12 oz",
+      "price": "$7.29",
+      "unit_price": "$0.61/oz"
+    },
+    {
+      "name": "Applegate, Fully Cooked Uncured Sunday Bacon, Hickory Smoked, Ready to eat, 10 Slices, 2.52 Oz",
+      "price": "$8.49",
+      "unit_price": "$3.37/oz"
+    },
+    {
+      "name": "Applegate Farms Uncured Sunday Bacon, 12 OZ",
+      "price": "$9.99",
+      "unit_price": "$0.83/oz"
+    },
+    {
+      "name": "Wellshire Farms 8oz Uncured Turkey Bacon",
+      "price": "$8.49",
+      "unit_price": "$1.06/oz"
+    },
+    {
+      "name": "Niman Ranch Bacon, Maple Uncured, 12oz",
+      "price": "$9.49",
+      "unit_price": "$0.79/oz"
+    },
+    {
+      "name": "Wellshire Farms Fully Cooked Salt Uncured Bacon Bits, 3 OZ",
+      "price": "$6.39",
+      "unit_price": "$2.13/oz"
+    },
+    {
+      "name": "Tender Belly Uncured Hardwood Smoked Bacon Crumbles, 3 Ounce",
+      "price": "$5.68",
+      "unit_price": "$1.89/oz"
+    },
+    {
+      "name": "365 By Whole Foods Market, Bacon, Uncured Applewood Smoked, 12 Ounce",
+      "price": "$6.69",
+      "unit_price": "$0.56/oz"
+    },
+    {
+      "name": "Wellshire Farms 8 oz Organic Sugar Free Turkey Bacon",
+      "price": "$8.49",
+      "unit_price": "$1.06/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Reduced Sodium Uncured Center Cut Bacon, 12 Ounce",
+      "price": "$7.29",
+      "unit_price": "$0.61/oz"
+    },
+    {
+      "name": "North Country Smokehouse Organic Bacon, 8 Ounce",
+      "price": "$9.29",
+      "unit_price": "$1.16/oz"
+    },
+    {
+      "name": "Pederson Natural Farms Applewood Smoked Bacon",
+      "price": "$10.49/lb",
+      "unit_price": "$10.49/lb"
+    },
+    {
+      "name": "Niman Ranch, Bacon Pork Canadian, 7 Ounce",
+      "price": "$7.49",
+      "unit_price": "$1.07/oz"
+    },
+    {
+      "name": "Whole Foods Market, Pork Bacon No Sugar Added Organic Step 1, 8 Ounce",
+      "price": "$7.49",
+      "unit_price": "$0.94/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Sugar Free Uncured Turkey Bacon, 8 OZ",
+      "price": "$7.49",
+      "unit_price": "$0.94/oz"
+    },
+    {
+      "name": "Tender Belly Thick Cut Bacon, Uncured, Seasoned with Freshly Ground Spices - No Sugar, 10 oz",
+      "price": "$8.33",
+      "unit_price": "$0.83/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market 365 Turkey Bacon Uncured Sugar Free ABF, 12 OZ",
+      "price": "$6.39",
+      "unit_price": "$0.53/oz"
+    },
+    {
+      "name": "Colameco, Pork Pancetta Diced Uncured, 4 Ounce",
+      "price": "$7.49",
+      "unit_price": "$1.87/oz"
+    },
+    {
+      "name": "True Story Foods Applewood Smoked Kurobuta Pork Bacon, 12 OZ",
+      "price": "$8.74",
+      "unit_price": "$0.73/oz"
+    },
+    {
+      "name": "365 By Whole Foods Market, Thick Cut Uncured Applewood Smoked Bacon, 16 Ounce",
+      "price": "$9.79",
+      "unit_price": "$0.61/oz"
+    },
+    {
+      "name": "Wellshire Farms Thick Sliced Dry Rubbed Uncured Bacon, 12 oz",
+      "price": "$8.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "North Country Smokehouse Applewood Smoked Pork Bacon, 12 Ounce",
+      "price": "$8.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "Wellshire Farms 8 oz Organic Uncured Bacon",
+      "price": "$8.49",
+      "unit_price": "$1.06/oz"
+    },
+    {
+      "name": "Wellshire Farms Fully Cooked Uncured Turkey Bacon, 3 OZ",
+      "price": "$7.99",
+      "unit_price": "$2.66/oz"
+    },
+    {
+      "name": "North Country Smokehouse, Organic Reduced Sodium Applewood Smoked Uncured Bacon, 8 Ounce",
+      "price": "$9.29",
+      "unit_price": "$1.16/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market No Sugar Added Uncured Pork Bacon, 12 OZ",
+      "price": "$6.69",
+      "unit_price": "$0.56/oz"
+    },
+    {
+      "name": "Wellshire Farms, Uncured Chicken Bacon, 3 oz",
+      "price": "$7.99",
+      "unit_price": "$2.66/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Kimchi Dumplings With Sauce",
+      "price": "$8.09",
+      "unit_price": null
+    }
+  ]
+}

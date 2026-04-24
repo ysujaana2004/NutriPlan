@@ -1,0 +1,469 @@
+{
+  "products": [
+    {
+      "name": "365 by Whole Foods Market, Organic Creamy Peanut Butter, Unsweetened & Unsalted, 16 Ounce",
+      "price": "$4.99",
+      "unit_price": "$0.31/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Creamy Almond Butter, 16 Ounce",
+      "price": "$10.99",
+      "unit_price": "$0.69/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Creamy Peanut Butter Spread, No Stir, 16 Ounce",
+      "price": "$4.99",
+      "unit_price": "$0.31/oz"
+    },
+    {
+      "name": "Teddie All Natural Peanut Butter, Smooth, 16 Ounce",
+      "price": "$4.22",
+      "unit_price": "$0.26/oz"
+    },
+    {
+      "name": "Once Again Organic Creamy Peanut Butter, 16 oz",
+      "price": "$8.99",
+      "unit_price": "$0.56/oz"
+    },
+    {
+      "name": "SANTA CRUZ ORGANIC Organic Dark Roasted Creamy Peanut Butter, 16 OZ",
+      "price": "$7.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Creamy Peanut Butter Spread, No Stir, 16 Ounce",
+      "price": "$2.69",
+      "unit_price": "$0.17/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Creamy Peanut Butter, Unsweetened & Unsalted, 26 Ounce",
+      "price": "$8.29",
+      "unit_price": "$0.32/oz"
+    },
+    {
+      "name": "Justin's Classic Peanut Butter, 16oz",
+      "price": "$6.79",
+      "unit_price": "$0.42/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Creamy Almond Butter, 16 Ounce",
+      "price": "$7.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "SANTA CRUZ ORGANIC Organic Dark Roasted Crunchy Peanut Butter, 16 OZ",
+      "price": "$7.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "MaraNatha Organic Creamy Peanut Butter, 16 Ounce",
+      "price": "$7.49",
+      "unit_price": "$0.47/oz"
+    },
+    {
+      "name": "Teddie All Natural Peanut Butter, Super Chunky, 16 Ounce",
+      "price": "$4.22",
+      "unit_price": "$0.26/oz"
+    },
+    {
+      "name": "Justin's Classic Peanut Butter Creamy Spread, 28 Ounce",
+      "price": "$8.69",
+      "unit_price": "$0.31/oz"
+    },
+    {
+      "name": "SANTA CRUZ ORGANIC Organic No Stir Dark Roast Creamy Peanut Butter Spread, 16 OZ",
+      "price": "$7.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "RUDIS BAKERY Peanut Butter & Strawberry Spread Sandos, 8 OZ",
+      "price": "$7.69",
+      "unit_price": "$0.96/oz"
+    },
+    {
+      "name": "PBfit 8 Ounce Organic Peanut Butter Powder, 8 oz",
+      "price": "$8.99",
+      "unit_price": "$1.12/oz"
+    },
+    {
+      "name": "PUFFS SNACK PNUT BTR",
+      "price": "$4.24",
+      "unit_price": null
+    },
+    {
+      "name": "365 by Whole Foods Market, Creamy Peanut Butter Spread, No Stir, 40 Ounce",
+      "price": "$4.79",
+      "unit_price": "$0.12/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Mini Dark Chocolate Almond Butter Cups, 4.7 Ounce",
+      "price": "$5.49",
+      "unit_price": "$1.17/oz"
+    },
+    {
+      "name": "UNREAL Dark Chocolate Almond Butter Cups 6Pk, 3.2 OZ",
+      "price": "$6.89",
+      "unit_price": "$2.15/oz"
+    },
+    {
+      "name": "Artisana Organics Raw Almond Butter, 14oz",
+      "price": "$19.99",
+      "unit_price": "$1.43/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Creamy Almond Butter, 28 Ounce",
+      "price": "$14.49",
+      "unit_price": "$0.52/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Creamy Cashew Butter, 16 Ounce",
+      "price": "$8.49",
+      "unit_price": "$0.53/oz"
+    },
+    {
+      "name": "Justin's, Almond Butter Classic Jar, 16 Ounce",
+      "price": "$13.29",
+      "unit_price": "$0.83/oz"
+    },
+    {
+      "name": "JUSTINS Organic Super Dark Chocolate Peanut Butter Cups, 4.2 OZ",
+      "price": "$7.29",
+      "unit_price": "$1.74/oz"
+    },
+    {
+      "name": "Artisana Organics Raw Cashew Butter, 14oz",
+      "price": "$16.99",
+      "unit_price": "$1.21/oz"
+    },
+    {
+      "name": "Nassau Candy, Candy Milk Chocolate Peanut Butter Cup, 11.5 Ounce",
+      "price": "$13.49",
+      "unit_price": "$1.17/oz"
+    },
+    {
+      "name": "Justins Organic Dark Chocolate Cashew Butter Cups, 1.4 OZ",
+      "price": "$2.22",
+      "unit_price": "$1.59/oz"
+    },
+    {
+      "name": "SANTA CRUZ ORGANIC Organic No Stir Dark Roast Crunchy Peanut Butter Spread, 16 OZ",
+      "price": "$7.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "Teddie All Natural Peanut Butter, Smooth Unsalted, 16 Ounce",
+      "price": "$4.22",
+      "unit_price": "$0.26/oz"
+    },
+    {
+      "name": "Oat Haus Organic Vanilla Cookie Granola Butter, 12 oz",
+      "price": "$8.91",
+      "unit_price": "$0.74/oz"
+    },
+    {
+      "name": "RUDIS BAKERY Peanut Butter & Grape Spread Sandos, 8 OZ",
+      "price": "$7.69",
+      "unit_price": "$0.96/oz"
+    },
+    {
+      "name": "GoMacro Macrobar, Double Chocolate Peanut Butter Chips, 2.3 Ounce",
+      "price": "$2.99",
+      "unit_price": "$1.30/oz"
+    },
+    {
+      "name": "Once Again Organic Crunchy Peanut Butter, 16 oz",
+      "price": "$8.99",
+      "unit_price": "$0.56/oz"
+    },
+    {
+      "name": "MAISIE JANES Organic Almond Butter Smooth, 12 OZ",
+      "price": "$21.99",
+      "unit_price": "$1.83/oz"
+    },
+    {
+      "name": "Artisana Organics Raw Walnut Butter with Cashews, 9oz",
+      "price": "$13.99",
+      "unit_price": "$1.55/oz"
+    },
+    {
+      "name": "ONCE AGAIN Organic Smooth Almond Butter, 12 OZ",
+      "price": "$15.99",
+      "unit_price": "$1.33/oz"
+    },
+    {
+      "name": "Barney Butter Almond Butter, Smooth, No Stir, 16 Ounce",
+      "price": "$13.79",
+      "unit_price": "$0.86/oz"
+    },
+    {
+      "name": "GOMACRO Organic Peanut Butter Chocolate Chip Mini MacroBars 8 Pack, 7.2 OZ",
+      "price": "$10.69",
+      "unit_price": "$1.48/oz"
+    },
+    {
+      "name": "JUSTINS Organic Dark Chocolate Almond Butter Cup, 1.4 OZ",
+      "price": "$2.22",
+      "unit_price": "$1.59/oz"
+    },
+    {
+      "name": "CB's Nuts Organic Creamunchy Peanut Butter, 16 oz",
+      "price": "$10.49",
+      "unit_price": "$0.66/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Crunchy Peanut Butter Spread, No Stir, 40 Ounce",
+      "price": "$4.79",
+      "unit_price": "$0.12/oz"
+    },
+    {
+      "name": "NuttZo Organic Power Fuel 7 Nuts and Seeds Butter, Smooth, 12 oz",
+      "price": "$15.29",
+      "unit_price": "$1.27/oz"
+    },
+    {
+      "name": "Oat Haus Cinnamon Graham Original Granola Butter, 12 oz",
+      "price": "$8.91",
+      "unit_price": "$0.74/oz"
+    },
+    {
+      "name": "Justin's Crunchy Classic Peanut Butter, 16oz",
+      "price": "$6.79",
+      "unit_price": "$0.42/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Crunchy Peanut Butter Spread, No Stir, 16 Ounce",
+      "price": "$2.69",
+      "unit_price": "$0.17/oz"
+    },
+    {
+      "name": "Justin's, Hazelnut Almond Butter Chocolate, 16 Ounce",
+      "price": "$13.29",
+      "unit_price": "$0.83/oz"
+    },
+    {
+      "name": "KIND Almond Butter Clusters, 11 Oz",
+      "price": "$7.39",
+      "unit_price": "$0.67/oz"
+    },
+    {
+      "name": "Fix & Fogg Crunchy Almond Butter, 10 oz",
+      "price": "$8.59",
+      "unit_price": "$0.86/oz"
+    },
+    {
+      "name": "Maranatha Organic Creamy Peanut Butter, No Stir, 16 oz",
+      "price": "$7.49",
+      "unit_price": "$0.47/oz"
+    },
+    {
+      "name": "Heaven & Earth, Bite Almond Butter Coconut Date, 5.25 Ounce",
+      "price": "$5.99",
+      "unit_price": "$1.14/oz"
+    },
+    {
+      "name": "Grandy Organics, Coconola Peanut Butter Organic, 9 Ounce",
+      "price": "$5.19",
+      "unit_price": "$0.58/oz"
+    },
+    {
+      "name": "Fix & Fogg Super Crunchy Peanut Butter, 13.2 oz",
+      "price": "$7.29",
+      "unit_price": "$0.55/oz"
+    },
+    {
+      "name": "Justin's, Almond Butter Vanilla Jar, 16 Ounce",
+      "price": "$13.29",
+      "unit_price": "$0.83/oz"
+    },
+    {
+      "name": "Bonne Maman Peanut Chocolate, 12.3 oz",
+      "price": "$5.42",
+      "unit_price": "$0.44/oz"
+    },
+    {
+      "name": "MaraNatha Natural Creamy Raw Almond Butter, 16 Ounce",
+      "price": "$19.49",
+      "unit_price": "$1.22/oz"
+    },
+    {
+      "name": "Maisie Jane's Organic Cashew Butter, 12 Oz",
+      "price": "$20.49",
+      "unit_price": "$1.71/oz"
+    },
+    {
+      "name": "MAISIE JANES Organic Almond Butter Crunchy, 12 OZ",
+      "price": "$21.99",
+      "unit_price": "$1.83/oz"
+    },
+    {
+      "name": "Sunbutter On-the-go Cups, Creamy, 4.55 Pound",
+      "price": "$6.65",
+      "unit_price": "$0.09/oz"
+    },
+    {
+      "name": "Barney Butter Almond Butter, Crunchy, 16 Ounce",
+      "price": "$13.79",
+      "unit_price": "$0.86/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Organic Maple Butter, 8.8 OZ",
+      "price": "$8.99",
+      "unit_price": "$1.02/oz"
+    },
+    {
+      "name": "MaraNatha, No Stir Almond Butter, Creamy, 12 oz",
+      "price": "$13.79",
+      "unit_price": "$1.15/oz"
+    },
+    {
+      "name": "Justin's, Maple Almond Butter, 16 oz",
+      "price": "$13.29",
+      "unit_price": "$0.83/oz"
+    },
+    {
+      "name": "Artisana, Organic Raw Pecan Butter, 8 Ounce",
+      "price": "$13.99",
+      "unit_price": "$1.75/oz"
+    },
+    {
+      "name": "Orgain X Justin's Organic Vegan Nut Butter Protein Powder, Chocolate Peanut Butter, 1.17 lb (18.72 oz)",
+      "price": "$33.99",
+      "unit_price": "$1.82/oz"
+    },
+    {
+      "name": "Pbfit, Fit Chocolate Peanut Butter Powder, 7.94 Ounce",
+      "price": "$6.98",
+      "unit_price": "$0.88/oz"
+    },
+    {
+      "name": "NuttZo Keto Chocolate Almond Coconut 7 Nut and Seed Butter, 12 oz",
+      "price": "$12.99",
+      "unit_price": "$1.08/oz"
+    },
+    {
+      "name": "Fix & Fogg Smooth Peanut Butter, 13.2 oz",
+      "price": "$7.29",
+      "unit_price": "$0.55/oz"
+    },
+    {
+      "name": "Fix & Fogg Creamy Cashew Butter, 10 oz",
+      "price": "$9.99",
+      "unit_price": "$1.00/oz"
+    },
+    {
+      "name": "Barney Butter Peanut Butter, Bare Smooth, 16 Ounce",
+      "price": "$5.99",
+      "unit_price": "$0.37/oz"
+    },
+    {
+      "name": "88 ACRES Organic Sunflower Seed Butter Chocolate, 14 OZ",
+      "price": "$12.99",
+      "unit_price": "$0.93/oz"
+    },
+    {
+      "name": "Fix & Fogg Almond Everything Butter, 10 oz",
+      "price": "$9.99",
+      "unit_price": "$1.00/oz"
+    },
+    {
+      "name": "MaraNatha Organic Creamy Raw Almond Butter, 12 Ounce",
+      "price": "$25.99",
+      "unit_price": "$2.17/oz"
+    },
+    {
+      "name": "Artisana Organics Raw Coconut Butter, 14 oz",
+      "price": "$14.29",
+      "unit_price": "$1.02/oz"
+    },
+    {
+      "name": "BARNEY BUTTER Bare Peanut Butter Dip Cups 6ct, 1.25 OZ each",
+      "price": "$4.99",
+      "unit_price": "$0.67/oz"
+    },
+    {
+      "name": "Once Again Organic Creamy Cashew Butter, 16oz",
+      "price": "$15.99",
+      "unit_price": "$1.00/oz"
+    },
+    {
+      "name": "MAISIE JANES Italian Dark Chocolate Almond Butter, 12 OZ",
+      "price": "$12.99",
+      "unit_price": "$1.08/oz"
+    },
+    {
+      "name": "Oat Haus, Granola Butter Squeeze Sgl, 1.13 Ounce",
+      "price": "$0.99",
+      "unit_price": "$0.88/oz"
+    },
+    {
+      "name": "NuttZo S'mores Nut & Seed Butter, 16oz",
+      "price": "$8.55",
+      "unit_price": "$0.53/oz"
+    },
+    {
+      "name": "ZEN Organic Chocolate Peanut Butter Balls, 1.5 OZ",
+      "price": "$3.99",
+      "unit_price": "$2.66/oz"
+    },
+    {
+      "name": "Barney Butter Powdered Almond Butter, Unsweetened, 8 Ounce",
+      "price": "$8.05",
+      "unit_price": "$1.01/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Creamy Peanut Butter Spread, No Stir, 28 Ounce",
+      "price": "$8.29",
+      "unit_price": "$0.30/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Creamy Peanut Butter, Stir and Enjoy, 16 Ounce",
+      "price": "$2.69",
+      "unit_price": "$0.17/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Peanut Butter Crunchy, Stir and Enjoy, 16 Ounce",
+      "price": "$2.69",
+      "unit_price": "$0.17/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Creamy Peanut Butter Spread, Unsweetened, No Stir, 16 Ounce",
+      "price": "$3.15",
+      "unit_price": "$0.20/oz"
+    },
+    {
+      "name": "Justins, Peanut Butter Blend Honey Jar, 16 Ounce",
+      "price": "$6.79",
+      "unit_price": "$0.42/oz"
+    },
+    {
+      "name": "SANTA CRUZ ORGANIC Organic Dark Roasted Creamy Peanut Butter, 26 OZ",
+      "price": "$11.49",
+      "unit_price": "$0.44/oz"
+    },
+    {
+      "name": "JUSTINS No Stir, Gluten-Free, Honey Peanut Butter, 28 oz",
+      "price": "$8.69",
+      "unit_price": "$0.31/oz"
+    },
+    {
+      "name": "Artisana Organics Raw Tahini Sesame Seed Butter, 14oz",
+      "price": "$11.99",
+      "unit_price": "$0.86/oz"
+    },
+    {
+      "name": "Justin's Nut Butter, Honey Almond Butter, 16 Ounce",
+      "price": "$13.29",
+      "unit_price": "$0.83/oz"
+    },
+    {
+      "name": "Orgain X Justin's Organic Vegan Nut Butter Protein Powder, Peanut Butter, 1.17 lb (18.72 oz)",
+      "price": "$33.99",
+      "unit_price": "$1.82/oz"
+    },
+    {
+      "name": "NuttZo Keto Almond Coconut 7 Nut and Seed Butter, 12 oz",
+      "price": "$12.99",
+      "unit_price": "$1.08/oz"
+    }
+  ]
+}

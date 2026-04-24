@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "name": "Applegate, Organic Chicken & Maple Breakfast Sausage, 7 oz (frozen)",
+      "price": "$8.49",
+      "unit_price": "$1.21/oz"
+    },
+    {
+      "name": "Amylu Chicken Sausage Breakfast Time 9oz",
+      "price": "$6.49",
+      "unit_price": "$0.72/oz"
+    },
+    {
+      "name": "Amylu Foods Roasted Garlic & Asiago Chicken Sausage, 12 oz",
+      "price": "$6.49",
+      "unit_price": "$0.54/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Organic Mild Italian Chicken Sausage, 12 OZ",
+      "price": "$6.24",
+      "unit_price": "$0.52/oz"
+    },
+    {
+      "name": "Applegate Farms Maple Chicken Breakfast Sausage Links, 7 OZ",
+      "price": "$7.49",
+      "unit_price": "$1.07/oz"
+    },
+    {
+      "name": "Applegate Farms Organic Sweet Apple Chicken Sausage, 12 OZ",
+      "price": "$9.49",
+      "unit_price": "$0.79/oz"
+    },
+    {
+      "name": "Mild Italian Chicken Sausage",
+      "price": "$7.49/lb",
+      "unit_price": "$7.49/lb"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Organic Apple Chicken Sausage, 12 OZ",
+      "price": "$6.24",
+      "unit_price": "$0.52/oz"
+    },
+    {
+      "name": "Mild Italian Pork Sausage",
+      "price": "$7.49/lb",
+      "unit_price": "$7.49/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market 365 Country Breakfast Pork Sausage, 16 OZ",
+      "price": "$6.49",
+      "unit_price": "$0.41/oz"
+    },
+    {
+      "name": "Bilinski, Organic Mild Italian Chicken Sausage, 12 Ounce",
+      "price": "$6.91",
+      "unit_price": "$0.58/oz"
+    },
+    {
+      "name": "Applegate Organic Chicken & Apple Breakfast Sausage, 7oz (Frozen)",
+      "price": "$8.49",
+      "unit_price": "$1.21/oz"
+    },
+    {
+      "name": "Teton Waters Ranch 100% Grass-Fed Beef Kielbasa Polish Rope Sausage, 12oz",
+      "price": "$10.99",
+      "unit_price": "$0.92/oz"
+    },
+    {
+      "name": "Bilinski Organic Wild Mushroom Chicken Sausage, 12 OZ",
+      "price": "$6.91",
+      "unit_price": "$0.58/oz"
+    },
+    {
+      "name": "True Story Foods Organic Country Morning Chicken Breakfast Patties, 12 OZ",
+      "price": "$10.99",
+      "unit_price": "$0.92/oz"
+    },
+    {
+      "name": "Bilinski, Organic Apple Chicken Breakfast Sausage, 12 Ounce",
+      "price": "$6.91",
+      "unit_price": "$0.58/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Organic Spicy Italian Chicken Sausage, 12 OZ",
+      "price": "$6.24",
+      "unit_price": "$0.52/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Organic Spinach Feta Chicken Sausage, 12 OZ",
+      "price": "$6.24",
+      "unit_price": "$0.52/oz"
+    },
+    {
+      "name": "Spicy Italian Chicken Sausage",
+      "price": "$7.49/lb",
+      "unit_price": "$7.49/lb"
+    },
+    {
+      "name": "Bilinski Country Style Breakfast Chicken Sausage, 12 OZ",
+      "price": "$5.24",
+      "unit_price": "$0.44/oz"
+    },
+    {
+      "name": "Bilinski, Organic Spicy Italian Chicken Sausage, 12 Ounce",
+      "price": "$6.91",
+      "unit_price": "$0.58/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market 365 Chorizo Pork Sausage, 16 OZ",
+      "price": "$6.49",
+      "unit_price": "$0.41/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Grass Fed Beef Summer Sausage, 10 OZ",
+      "price": "$9.99",
+      "unit_price": "$1.00/oz"
+    },
+    {
+      "name": "Bilinski, Organic Spicy Cajun Chicken Sausage, 12 Ounce",
+      "price": "$6.91",
+      "unit_price": "$0.58/oz"
+    },
+    {
+      "name": "NORTH COUNTRY SMOKEHOUSE Andouille Pork Sausage, 12 OZ",
+      "price": "$7.49",
+      "unit_price": "$0.62/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Organic Chicken Bratwurst, 12 OZ",
+      "price": "$6.24",
+      "unit_price": "$0.52/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Organic Jalapeno & Monterey Jack Chicken Sausage, 12 OZ",
+      "price": "$6.24",
+      "unit_price": "$0.52/oz"
+    },
+    {
+      "name": "Upton's Natural, Chorizo Seitan, 8 oz",
+      "price": "$6.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "True Story Foods Organic Cinnamon Swirl Chicken Breakfast Links, 12 OZ",
+      "price": "$10.99",
+      "unit_price": "$0.92/oz"
+    },
+    {
+      "name": "FIELD ROAST Classic Smoked Plant Based Frankfurter, 12 OZ",
+      "price": "$7.99",
+      "unit_price": "$0.67/oz"
+    },
+    {
+      "name": "Pork Chorizo",
+      "price": "$7.49/lb",
+      "unit_price": "$7.49/lb"
+    },
+    {
+      "name": "Bilinski Spinach & Garlic Chicken Sausage, 12 OZ",
+      "price": "$6.29",
+      "unit_price": "$0.52/oz"
+    },
+    {
+      "name": "Schaller & Weber Uncured Andouille Pork Sausage, 12 OZ",
+      "price": "$7.79",
+      "unit_price": "$0.65/oz"
+    },
+    {
+      "name": "Brooklyn Cured Lamb Merguez Sausage, 9 OZ",
+      "price": "$8.49",
+      "unit_price": "$0.94/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Organic Chorizo Salami Chub, 7 OZ",
+      "price": "$11.99",
+      "unit_price": "$1.71/oz"
+    },
+    {
+      "name": "Applegate Farms Organic Sweet Italian Chicken Sausage, 12 OZ",
+      "price": "$9.49",
+      "unit_price": "$0.79/oz"
+    }
+  ]
+}

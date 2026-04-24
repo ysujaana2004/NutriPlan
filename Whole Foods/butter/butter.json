@@ -1,0 +1,269 @@
+{
+  "products": [
+    {
+      "name": "Kerrygold Naturally Softer Pure Irish Butter, 8 oz",
+      "price": "$6.39",
+      "unit_price": "$0.80/oz"
+    },
+    {
+      "name": "Kerrygold Pure Irish Butter, Salted, 8 oz",
+      "price": "$5.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Salted Butter, 16 OZ",
+      "price": "$4.29",
+      "unit_price": "$0.27/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Unsalted Butter, 16 OZ",
+      "price": "$4.29",
+      "unit_price": "$0.27/oz"
+    },
+    {
+      "name": "Kerrygold Butter Sticks, Unsalted, 8 oz",
+      "price": "$5.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "Maple Hill Creamery, Organic Salted Butter, 8 Ounce",
+      "price": "$6.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "Kerrygold Grass-Fed Pure Irish Salted Butter Sticks, 16 OZ",
+      "price": "$10.99",
+      "unit_price": "$0.69/oz"
+    },
+    {
+      "name": "Maple Hill Creamery, Butter Unsalted Organic, 8 Ounce",
+      "price": "$6.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "Earth Balance Plant Butter Original Plant Based Oil Spread, 15-oz. Tub",
+      "price": "$5.49",
+      "unit_price": "$0.37/oz"
+    },
+    {
+      "name": "Isigny Ste Mere Salted Churned Butter, 8.8 Oz",
+      "price": "$7.99",
+      "unit_price": "$0.91/oz"
+    },
+    {
+      "name": "Kerrygold Irish Butter Tub with Olive Oil, 7.5 Oz",
+      "price": "$6.39",
+      "unit_price": "$0.85/oz"
+    },
+    {
+      "name": "Vital Farms Salted Butter, 8oz",
+      "price": "$4.70",
+      "unit_price": "$0.59/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Unsalted Butter, 16 OZ",
+      "price": "$6.49",
+      "unit_price": "$0.41/oz"
+    },
+    {
+      "name": "Vital Farms Salted Butter, 16oz",
+      "price": "$9.99",
+      "unit_price": "$0.62/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Organic Salted Butter, 16 OZ",
+      "price": "$6.49",
+      "unit_price": "$0.41/oz"
+    },
+    {
+      "name": "Kerrygold Pure Irish Butter, Unsalted, 8 oz",
+      "price": "$5.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "Earth Balance, Spread Buttery Whipped Organic, 13 Ounce",
+      "price": "$5.49",
+      "unit_price": "$0.42/oz"
+    },
+    {
+      "name": "Vital Farms Unsalted Butter, 8oz",
+      "price": "$4.70",
+      "unit_price": "$0.59/oz"
+    },
+    {
+      "name": "LES PRES SALES Sea Salt Camargue Butter, 8.8 OZ",
+      "price": "$4.49",
+      "unit_price": "$0.51/oz"
+    },
+    {
+      "name": "Organic Valley Butter (Unsalted), 16 oz",
+      "price": "$9.99",
+      "unit_price": "$0.62/oz"
+    },
+    {
+      "name": "Vital Farms Unsalted Butter, 16oz",
+      "price": "$9.99",
+      "unit_price": "$0.62/oz"
+    },
+    {
+      "name": "Kerrygold Grass-Fed Pure Irish Unsalted Butter Sticks, 16 OZ",
+      "price": "$10.99",
+      "unit_price": "$0.69/oz"
+    },
+    {
+      "name": "Kerrygold Grassfed Pure Irish Naturally Softer Butter Tub, 14oz",
+      "price": "$10.99",
+      "unit_price": "$0.79/oz"
+    },
+    {
+      "name": "Green Valley Lactose Free Butter, two 4 Ounce sticks",
+      "price": "$5.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "EARTH BALANCE Vegan Buttery Sticks, 16 OZ",
+      "price": "$5.99",
+      "unit_price": "$0.37/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET European Style Salted Butter, 8.8 OZ",
+      "price": "$4.49",
+      "unit_price": "$0.51/oz"
+    },
+    {
+      "name": "KATES BUTTER Homemade Salted Butter, 16 OZ",
+      "price": "$6.99",
+      "unit_price": "$0.44/oz"
+    },
+    {
+      "name": "Horizon Organic Unsalted Butter Sticks, 16 oz",
+      "price": "$8.88",
+      "unit_price": "$0.56/oz"
+    },
+    {
+      "name": "Organic Ghee, Clarified Butter, 13 oz",
+      "price": "$15.74",
+      "unit_price": "$1.21/oz"
+    },
+    {
+      "name": "4th & Heart Himalayan Pink Salt Grass-Fed Ghee, 9 oz",
+      "price": "$13.99",
+      "unit_price": "$1.55/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Ghee, 9 OZ",
+      "price": "$8.99",
+      "unit_price": "$1.00/oz"
+    },
+    {
+      "name": "Horizon Organic Salted Butter, 16 oz",
+      "price": "$8.88",
+      "unit_price": "$0.56/oz"
+    },
+    {
+      "name": "Organic Valley, Ghee Butter Clarified Organic, 7.5 Ounce",
+      "price": "$13.29",
+      "unit_price": "$1.77/oz"
+    },
+    {
+      "name": "KATES BUTTER Homemade Unsalted Butter, 16 OZ",
+      "price": "$6.99",
+      "unit_price": "$0.44/oz"
+    },
+    {
+      "name": "NANCYS Organic Unsalted Butter, 8 OZ",
+      "price": "$6.49",
+      "unit_price": "$0.81/oz"
+    },
+    {
+      "name": "NANCYS YOGURT Organic Sea Salted Butter, 8 OZ",
+      "price": "$6.49",
+      "unit_price": "$0.81/oz"
+    },
+    {
+      "name": "4th & Heart California Garlic Grass-Fed Ghee, 9 oz",
+      "price": "$13.99",
+      "unit_price": "$1.55/oz"
+    },
+    {
+      "name": "Red Feather Brand Pure Creamery Butter, 12 OZ",
+      "price": "$10.52",
+      "unit_price": "$0.88/oz"
+    },
+    {
+      "name": "Ivy's Reserve Carbon Neutral Salted Butter, 8 OZ",
+      "price": "$6.99",
+      "unit_price": "$0.87/oz"
+    },
+    {
+      "name": "Vital Farms Butter Grass Fed Salted Brick, 8 Ounce",
+      "price": "$4.43",
+      "unit_price": "$0.55/oz"
+    },
+    {
+      "name": "Frentel, Butter French Salted, 8.8 Ounce",
+      "price": "$6.99",
+      "unit_price": "$0.79/oz"
+    },
+    {
+      "name": "Vital Farms Butter Grass Fed Unsalted Brick, 8 Ounce",
+      "price": "$4.43",
+      "unit_price": "$0.55/oz"
+    },
+    {
+      "name": "Bioitalia Organic Butter Beans, 14 oz",
+      "price": "$2.78",
+      "unit_price": "$0.20/oz"
+    },
+    {
+      "name": "88 ACRES Organic Vanilla Cinnamon Sunflower Seed Butter Jar, 14 OZ",
+      "price": "$13.49",
+      "unit_price": "$0.96/oz"
+    },
+    {
+      "name": "RONNYBROOK FARM DAIRY Salted Butter, 8 OZ",
+      "price": "$7.99",
+      "unit_price": "$1.00/oz"
+    },
+    {
+      "name": "CHIMAY Unsalted Pasteurized Butter, 8.8 OZ",
+      "price": "$4.99",
+      "unit_price": "$0.57/oz"
+    },
+    {
+      "name": "4th & Heart Truffle Ghee, 9 oz",
+      "price": "$13.99",
+      "unit_price": "$1.55/oz"
+    },
+    {
+      "name": "RONNYBROOK FARM DAIRY Unsalted Butter, 8 OZ",
+      "price": "$7.99",
+      "unit_price": "$1.00/oz"
+    },
+    {
+      "name": "BUTTER GOAT DELAMER",
+      "price": "$10.99",
+      "unit_price": null
+    },
+    {
+      "name": "Regalis Foods, Black Truffle Butter, 4 Ounce",
+      "price": "$15.99",
+      "unit_price": "$4.00/oz"
+    },
+    {
+      "name": "Regalis Foods, Ramp Butter, 4 Ounce",
+      "price": "$15.99",
+      "unit_price": "$4.00/oz"
+    },
+    {
+      "name": "Kerrygold High Heat Cooking Butter",
+      "price": "$5.99",
+      "unit_price": null
+    },
+    {
+      "name": "SMJOR Unsalted Icelandic Butter, 8.81 OZ",
+      "price": "$3.59",
+      "unit_price": "$0.41/oz"
+    }
+  ]
+}

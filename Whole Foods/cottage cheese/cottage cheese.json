@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "name": "Good Culture, Organic Cottage Cheese - Double Cream 6%, 16 Ounce",
+      "price": "$7.29",
+      "unit_price": "$0.46/oz"
+    },
+    {
+      "name": "Friendship Dairy Cottage Cheese, 16 oz",
+      "price": "$4.39",
+      "unit_price": "$0.27/oz"
+    },
+    {
+      "name": "Friendship 4% Cottage Cheese, 16 Ounce",
+      "price": "$4.39",
+      "unit_price": "$0.27/oz"
+    },
+    {
+      "name": "365 By Whole Foods Market, Farmer Cheese, 16 Ounce",
+      "price": "$5.49",
+      "unit_price": "$0.34/oz"
+    },
+    {
+      "name": "Daisy Brand Single Service Twin Pack 4% Cottage Cheese, 10.6 Oz (Pack Of 2)",
+      "price": "$2.99",
+      "unit_price": "$0.28/oz"
+    },
+    {
+      "name": "Cypress Grove, Chevre Psychedillic, 4 Ounce",
+      "price": "$7.01",
+      "unit_price": "$1.75/oz"
+    }
+  ]
+}

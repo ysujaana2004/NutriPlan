@@ -1,0 +1,99 @@
+{
+  "products": [
+    {
+      "name": "Wellsley Farms Salted Butter Quarters, 4 ct./1 lb.",
+      "price": "$9.29",
+      "unit_price": "$9.29/lb"
+    },
+    {
+      "name": "Country Crock Original Spread, 5 lbs.",
+      "price": "$7.99",
+      "unit_price": "$1.60/lb"
+    },
+    {
+      "name": "Kerrygold Grass-fed Pure Irish Salted Butter Sticks, 6 pk./4 oz.",
+      "price": "$14.29",
+      "unit_price": "$9.53/lb"
+    },
+    {
+      "name": "Kerrygold Grass-Fed Pure Irish Salted Butter Tub, 17.6 oz.",
+      "price": "$11.49",
+      "unit_price": "$10.45/lb"
+    },
+    {
+      "name": "Wellsley Farms Unsalted Butter, Quarters, 4 pk./1 lb.",
+      "price": "$9.29",
+      "unit_price": "$9.29/lb"
+    },
+    {
+      "name": "Land O'Lakes Butter with Canola Oil, Spreadable, Tubs, 2 pk./15 oz.",
+      "price": "$6.99",
+      "unit_price": "$3.73/lb"
+    },
+    {
+      "name": "I Can't Believe It's Not Butter Original Spread Tub, 2 pk./30 oz.",
+      "price": "$10.49",
+      "unit_price": "$2.80/lb"
+    },
+    {
+      "name": "Wellsley Farms Spreadable Butter with Olive Oil, 30 oz.",
+      "price": "$5.99",
+      "unit_price": "$3.20/lb"
+    },
+    {
+      "name": "Country Crock Dairy Free Plant Butter with Olive Oil, 30 oz.",
+      "price": "$6.99",
+      "unit_price": "$3.73/lb"
+    },
+    {
+      "name": "Kerrygold Grass-Fed Pure Irish Unsalted Butter Sticks, 6 ct./4 oz.",
+      "price": "$14.29",
+      "unit_price": "$9.53/lb"
+    },
+    {
+      "name": "Land O'Lakes Salted Butter, 3 pk./1 lb.",
+      "price": "$14.29",
+      "unit_price": "$4.76/lb"
+    },
+    {
+      "name": "Texas Roadhouse Whipped Buttery Spread, Honey Cinnamon, 20 oz.",
+      "price": "$7.99",
+      "unit_price": "$6.39/lb"
+    },
+    {
+      "name": "Smart Balance Buttery Spread, 2 pk./32 oz.",
+      "price": "$8.99",
+      "unit_price": "$2.25/lb"
+    },
+    {
+      "name": "Country Crock Dairy Free Plant Butter with Olive Oil Sticks, 2 lbs.",
+      "price": "$6.99",
+      "unit_price": "$3.50/lb"
+    },
+    {
+      "name": "Wellsley Farms Organic Salted Butter, 2 pk./1 lb.",
+      "price": "$12.79",
+      "unit_price": "$6.40/lb"
+    },
+    {
+      "name": "Finlandia Pure Milk Butter, 3 ct./8 oz.",
+      "price": "$12.79",
+      "unit_price": "$8.53/lb"
+    },
+    {
+      "name": "Land O'Lakes Unsalted Butter, 3 pk./1 lb.",
+      "price": "$14.29",
+      "unit_price": "$4.76/lb"
+    },
+    {
+      "name": "Wellsley Farms Organic Unsalted Butter, 2 pk./1 lb.",
+      "price": "$12.79",
+      "unit_price": "$6.40/lb"
+    },
+    {
+      "name": "Kerrygold Grass-fed Pure Irish Salted Butter Sticks, 6 pk./4 oz.",
+      "price": "$11.99",
+      "unit_price": "$8.00/lb"
+    }
+  ]
+}

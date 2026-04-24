@@ -1,0 +1,344 @@
+{
+  "products": [
+    {
+      "name": "Wellsley Farms Extra Large Uncooked Shrimp, 2 lbs.",
+      "price": "$15.99",
+      "unit_price": "$8.00/lb"
+    },
+    {
+      "name": "Wellsley Farms Extra Jumbo Uncooked Shrimp, 1.5 lbs.",
+      "price": "$14.99",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Wild Caught Sockeye Salmon, 2 lbs.",
+      "price": "$27.99",
+      "unit_price": "$14.00/lb"
+    },
+    {
+      "name": "Wellsley Farms Tilapia Loins, 2 lbs.",
+      "price": "$12.99",
+      "unit_price": "$6.50/lb"
+    },
+    {
+      "name": "Seafood Festival Low Country Boil Steamer Pot, 2 lbs.",
+      "price": "$17.99",
+      "unit_price": "$9.00/lb"
+    },
+    {
+      "name": "SeaPak Wild Caught Breaded Scallops, Frozen, 22 oz.",
+      "price": "$15.49",
+      "unit_price": "$11.27/lb"
+    },
+    {
+      "name": "Wellsley Farms Wild-Caught Pacific Cod, 2 lbs.",
+      "price": "$23.99",
+      "unit_price": "$12.00/lb"
+    },
+    {
+      "name": "Wellsley Farms Extra Large Cooked Shrimp, 2 lbs.",
+      "price": "$18.99",
+      "unit_price": "$9.50/lb"
+    },
+    {
+      "name": "Wellsley Farms Colossal Uncooked Shrimp, 1.5 lbs.",
+      "price": "$16.99",
+      "unit_price": "$11.33/lb"
+    },
+    {
+      "name": "Gorton's Golden Crispy Panko Wild Caught Pollock Fish Sticks, 60 ct.",
+      "price": "$14.99",
+      "unit_price": null
+    },
+    {
+      "name": "Gorton's Pub Style Wild Caught Cod 100% Whole Fish Fillets, 10 ct.",
+      "price": "$15.99",
+      "unit_price": null
+    },
+    {
+      "name": "Canadian Snow Crab Sections, 2 lbs.",
+      "price": "$24.99",
+      "unit_price": "$12.50/lb"
+    },
+    {
+      "name": "Wellsley Farms Wild-Caught Flounder, 3 lbs.",
+      "price": "$17.99",
+      "unit_price": "$6.00/lb"
+    },
+    {
+      "name": "SeaPak Jumbo Butterfly Shrimp, 2 lbs.",
+      "price": "$15.49",
+      "unit_price": "$7.75/lb"
+    },
+    {
+      "name": "SeaPak Shrimp Scampi, Tail Off Shrimp In Butter, Garlic & Seasonings, 1.5 lbs.",
+      "price": "$13.99",
+      "unit_price": "$9.33/lb"
+    },
+    {
+      "name": "SeaPak Wild Caught Clam Strips, 1.75 lbs.",
+      "price": "$15.49",
+      "unit_price": "$8.85/lb"
+    },
+    {
+      "name": "Morey's Seasoned Grilled Atlantic Salmon, Frozen Fillets, 4 pk./5 oz.",
+      "price": "$19.99",
+      "unit_price": "$15.99/lb"
+    },
+    {
+      "name": "SeaPak Jumbo Popcorn Shrimp, 2.5 lbs.",
+      "price": "$15.49",
+      "unit_price": "$6.20/lb"
+    },
+    {
+      "name": "Wellsley Farms Jumbo Butterfly Shrimp, 32 oz.",
+      "price": "$13.99",
+      "unit_price": "$7.00/lb"
+    },
+    {
+      "name": "Morey's Wild Alaskan Flounder Garlic & Herb, Individually Wrapped, Frozen Fillets, 4 ct./5 oz.",
+      "price": "$13.99",
+      "unit_price": "$11.19/lb"
+    },
+    {
+      "name": "Wellsley Farms Wild Argentine Red Shrimp 20/40, Frozen, 2 lbs.",
+      "price": "$19.99",
+      "unit_price": "$10.00/lb"
+    },
+    {
+      "name": "Morey's Wild Alaskan Salmon Burger, 2 lbs.",
+      "price": "$17.99",
+      "unit_price": "$9.00/lb"
+    },
+    {
+      "name": "Wellsley Farms Snapper Fillets, 1-2 lbs.",
+      "price": "$9.99 - $19.98",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "Sea Best Tempura Tilapia Tenders, 2 lbs.",
+      "price": "$13.99",
+      "unit_price": "$7.00/lb"
+    },
+    {
+      "name": "Gorton's Parmesan Crunchy Fish Bites, Wild Caught Alaskan Pollock, 32 oz.",
+      "price": "$12.99",
+      "unit_price": "$6.50/lb"
+    },
+    {
+      "name": "Wellsley Farms Ahi Yellowfin Tuna, 0.8-1.5 lbs.",
+      "price": "$7.99 - $14.98",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "Morey's Atlantic Salmon Lemon Pepper, Individually Wrapped, Frozen Fillets, 4 ct./5 oz.",
+      "price": "$19.99",
+      "unit_price": "$15.99/lb"
+    },
+    {
+      "name": "ICYBAY Steelhead Trout Portions, Skinless, Boneless, 32 oz.",
+      "price": "$15.99",
+      "unit_price": "$8.00/lb"
+    },
+    {
+      "name": "Mama Belle's Maryland Style Crab Cakes, 10 ct.",
+      "price": "$14.99",
+      "unit_price": null
+    },
+    {
+      "name": "Seamazz North Atlantic Lobster Tails, 16 oz.",
+      "price": "$34.99",
+      "unit_price": "$34.99/lb"
+    },
+    {
+      "name": "Aqua Star Seafood Medley, 1.5 lbs.",
+      "price": "$14.99",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "BBQ Bay Wild Caught Grilling Shrimp, 13-15 ct.",
+      "price": "$19.99",
+      "unit_price": null
+    },
+    {
+      "name": "Gorton's Golden Crispy Panko Wild Caught Pollock 100% Whole Fish Fillets, 32 ct.",
+      "price": "$16.99",
+      "unit_price": null
+    },
+    {
+      "name": "Gorton's Crispy Panko Wild Caught Haddock 100% Whole Fish Fillets, 10 ct.",
+      "price": "$14.99",
+      "unit_price": null
+    },
+    {
+      "name": "Inland Market Bourbon Marinated Wild Salmon, 30 oz.",
+      "price": "$19.99",
+      "unit_price": "$10.66/lb"
+    },
+    {
+      "name": "Wellsley Farms Atlantic Salmon Burgers Lightly Seasoned, 8 ct./4 oz.",
+      "price": "$15.99",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "Sea Best Warm Water Lobster Tails, 0.75 lbs.",
+      "price": "$20.99 - $55.98",
+      "unit_price": "$27.99/lb"
+    },
+    {
+      "name": "Margaritaville Salt & Pepper Calamari Rings With Sweet Chili Sauce, Frozen, 24 oz.",
+      "price": "$12.99",
+      "unit_price": "$8.66/lb"
+    },
+    {
+      "name": "Town Dock Wild Caught Calamari, 2 lbs.",
+      "price": "$14.99",
+      "unit_price": "$7.50/lb"
+    },
+    {
+      "name": "Wellsley Farms Extra Jumbo Cooked Shrimp, 1.5 lbs.",
+      "price": "$15.99",
+      "unit_price": "$10.66/lb"
+    },
+    {
+      "name": "Jubilee Brand Headless Shrimp, 16/20, Chem Free, USA Wild Caught, 2 lbs.",
+      "price": "$24.99",
+      "unit_price": "$12.50/lb"
+    },
+    {
+      "name": "Seamazz Prime Swai Fillets, 48 oz.",
+      "price": "$13.99",
+      "unit_price": "$4.66/lb"
+    },
+    {
+      "name": "Wellsley Farms Salad-Size Cooked Shrimp, 1.5 lbs.",
+      "price": "$14.99",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "North Coast Naked Mussels in Garlic Butter Sauce, 2 lbs.",
+      "price": "$9.99",
+      "unit_price": "$5.00/lb"
+    },
+    {
+      "name": "Phillips Maryland Style Crab Cakes, 6 pk./3 oz.",
+      "price": "$19.99",
+      "unit_price": "$17.77/lb"
+    },
+    {
+      "name": "The Better Fish Barramundi Fillets, White Fish, Mercury-Free, Frozen, Sustainably Raised, 1.5 lbs.",
+      "price": "$17.99",
+      "unit_price": "$11.99/lb"
+    },
+    {
+      "name": "Matlaw's Large Stuffed Clams, 18 ct./40 oz.",
+      "price": "$14.99",
+      "unit_price": "$6.00/lb"
+    },
+    {
+      "name": "Nuataaq North Atlantic Cod Fillets, Frozen, 2 lbs.",
+      "price": "$19.99",
+      "unit_price": "$10.00/lb"
+    },
+    {
+      "name": "Naked Shrimp 16/20 Raw Easy Peel, Shell On, Deveined, Frozen, 1.5 lbs.",
+      "price": "$14.99",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "Social Kitchens Sweet & Spicy Shrimp, 1.5 lbs.",
+      "price": "$13.99",
+      "unit_price": "$9.33/lb"
+    },
+    {
+      "name": "Acme Smoked Fish Sesame Crusted Smoked Ahi Tuna, Value Pack, 2 pk./4 oz.",
+      "price": "$12.99",
+      "unit_price": "$25.98/lb"
+    },
+    {
+      "name": "Wellsley Farms North Atlantic Sea Scallops, 1.5 lbs.",
+      "price": "$34.99",
+      "unit_price": "$23.33/lb"
+    },
+    {
+      "name": "SeaPak Beer Battered Shrimp with Tangy Citrus Sauce, 26 oz.",
+      "price": "$14.99",
+      "unit_price": "$9.22/lb"
+    },
+    {
+      "name": "Gorton's Crispy Battered Wild Caught Pollock Frozen Fish Fillets, 32 ct.",
+      "price": "$16.99",
+      "unit_price": null
+    },
+    {
+      "name": "Treasures from the Sea Gold King Crab Leg and Claw, 2 lbs.",
+      "price": "$89.99",
+      "unit_price": "$45.00/lb"
+    },
+    {
+      "name": "Wellsley Farms Shrimp Ring, 1.5 lbs.",
+      "price": "$18.99",
+      "unit_price": "$12.66/lb"
+    },
+    {
+      "name": "The Better Fish Lemon Herb Butter Barramundi Fillets, Frozen, Sustainably Raised, 1.5 lbs.",
+      "price": "$17.99",
+      "unit_price": "$11.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Coconut Breaded Shrimp with Sweet Thai Chili Dipping Sauce, 2 lbs.",
+      "price": "$13.99",
+      "unit_price": "$7.00/lb"
+    },
+    {
+      "name": "Wellsley Farms Premium Crab Cakes, 6 ct./3 oz.",
+      "price": "$17.99",
+      "unit_price": "$15.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Gulf Shrimp, 2 lbs.",
+      "price": "$23.99",
+      "unit_price": "$12.00/lb"
+    },
+    {
+      "name": "Margaritaville Baja Buffalo Shrimp, Crispy Shrimp With Buffalo Sauce, Frozen, 24 oz.",
+      "price": "$9.99",
+      "unit_price": "$6.66/lb"
+    },
+    {
+      "name": "Wellsley Farms Frozen Swordfish Steak, 3 ct., 1.25-2.5 lb",
+      "price": "$12.49 - $24.98",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "Panamei All Natural Whole Tilapia, 3 lbs.",
+      "price": "$9.99",
+      "unit_price": "$3.33/lb"
+    },
+    {
+      "name": "Wellsley Farms Raw Shrimp, 13-15 ct.",
+      "price": "$17.99",
+      "unit_price": null
+    },
+    {
+      "name": "Gorton's Air Fried Garlic & Herb Fish Fillets, Whole Fillets, Wild Caught Alaskan Pollock, 28 ct.",
+      "price": "$16.99",
+      "unit_price": null
+    },
+    {
+      "name": "AZ Gems Raw EZ Peel Black Tiger Shrimp, Shell-On, 8-12 ct.",
+      "price": "$27.99",
+      "unit_price": null
+    },
+    {
+      "name": "Naked Shrimp 26/30 Cooked, Peeled, Deveined, Tail-On, Frozen, 1.5 lbs.",
+      "price": "$15.99",
+      "unit_price": "$10.66/lb"
+    },
+    {
+      "name": "Naked Shrimp 16/20 Cooked, Peeled, Deveined, Tail-On, Frozen, 1.5 lbs.",
+      "price": "$19.99",
+      "unit_price": "$13.33/lb"
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "products": [
+    {
+      "name": "Wellsley Farms Whole Milk, 1 gal.",
+      "price": "$4.07",
+      "unit_price": "$4.07/gal"
+    },
+    {
+      "name": "Wellsley Farms 2% Reduced-Fat Milk, 1 gal.",
+      "price": "$3.85",
+      "unit_price": "$3.85/gal"
+    },
+    {
+      "name": "Wellsley Farms Heavy Whipping Cream, 32 oz.",
+      "price": "$4.99",
+      "unit_price": "$2.50/qt"
+    },
+    {
+      "name": "Lactaid 2% Reduced-Fat Lactose-Free Milk, 96 oz.",
+      "price": "$5.99",
+      "unit_price": "$2.00/qt"
+    },
+    {
+      "name": "Wellsley Farms Half And Half, 32 oz.",
+      "price": "$2.99",
+      "unit_price": "$1.50/qt"
+    },
+    {
+      "name": "Lactaid Whole Lactose-Free Milk, 96 oz.",
+      "price": "$5.99",
+      "unit_price": "$2.00/qt"
+    },
+    {
+      "name": "Fairlife 2% Reduced Fat Ultra-Filtered Milk, Lactose Free, 52 fl. oz.",
+      "price": "$4.79",
+      "unit_price": "$1.18/qt"
+    },
+    {
+      "name": "Silk Soy Milk Original, Dairy Free, Gluten Free, Vegan Plant Based Milk, 96 fl. oz.",
+      "price": "$5.79",
+      "unit_price": "$1.93/qt"
+    },
+    {
+      "name": "Land O'Lakes Traditional Half And Half Creamer, 32 oz.",
+      "price": "$3.29",
+      "unit_price": "$1.65/qt"
+    },
+    {
+      "name": "Wellsley Farms 1% Low-Fat Milk, 1 gal.",
+      "price": "$3.67",
+      "unit_price": "$3.67/gal"
+    },
+    {
+      "name": "Daisy Brand Squeezable Sour Cream Pouches, 2 pk./14 oz.",
+      "price": "$4.99",
+      "unit_price": "$2.85/lb"
+    },
+    {
+      "name": "Coffee-Mate French Vanilla Creamer, 66 fl. oz.",
+      "price": "$6.79",
+      "unit_price": "$1.65/qt"
+    },
+    {
+      "name": "A2 Whole Milk, 59 oz.",
+      "price": "$4.49",
+      "unit_price": "$2.44/qt"
+    },
+    {
+      "name": "International Delight Caramel Macchiato Gourmet Coffee Creamer, 48 oz.",
+      "price": "$4.49",
+      "unit_price": "$1.50/qt"
+    },
+    {
+      "name": "International Delight French Vanilla Cream, 48 oz.",
+      "price": "$4.49",
+      "unit_price": "$1.50/qt"
+    },
+    {
+      "name": "Fairlife Fat Free Ultra-Filtered Milk, Lactose Free, 52 fl. oz.",
+      "price": "$4.79",
+      "unit_price": "$1.18/qt"
+    },
+    {
+      "name": "Daisy Brand Sour Cream, 2 lb.",
+      "price": "$3.99",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Silk Almond Milk, Unsweetened, Dairy Free, Gluten Free, Plant Based Milk, 3 pk./64 fl. oz.",
+      "price": "$9.99",
+      "unit_price": "$1.67/qt"
+    },
+    {
+      "name": "Horizon Organic Real Dairy Chantilly Sweet Cream Coffee Creamer, 24 fl. oz.",
+      "price": "$5.49",
+      "unit_price": "$3.66/qt"
+    },
+    {
+      "name": "Reddi Wip Dairy Whipped Topping, 2 pk./15 oz.",
+      "price": "$8.49",
+      "unit_price": "$4.53/lb"
+    },
+    {
+      "name": "Fairlife 2% Chocolate Ultra-Filtered Milk, Lactose Free, 52 fl. oz.",
+      "price": "$4.79",
+      "unit_price": "$1.18/qt"
+    },
+    {
+      "name": "Natural Bliss Sweet Cream Flavored Creamer, Gluten Free Creamer For Iced or Hot Coffee, 56 fl oz.",
+      "price": "$7.29",
+      "unit_price": "$2.08/qt"
+    },
+    {
+      "name": "Wellsley Farms Organic Whole Milk, 3 pk./64 oz.",
+      "price": "$11.99",
+      "unit_price": "$4.00/gal"
+    },
+    {
+      "name": "Blue Diamond Almond Breeze Unsweetened Vanilla Almondmilk, 96 fl. oz.",
+      "price": "$4.69",
+      "unit_price": "$1.56/qt"
+    },
+    {
+      "name": "Coffee-Mate Hazelnut Creamer, 66 fl. oz.",
+      "price": "$6.79",
+      "unit_price": "$1.65/qt"
+    },
+    {
+      "name": "International Delight Hazelnut Creamer, 48 oz.",
+      "price": "$4.49",
+      "unit_price": "$1.50/qt"
+    },
+    {
+      "name": "Dunkin Donuts Coffee Creamer, 48 oz.",
+      "price": "$6.49",
+      "unit_price": "$2.16/qt"
+    },
+    {
+      "name": "Horizon Organic Growing Years Whole Milk with DHA Omega-3, Carton, 59 fl. oz.",
+      "price": "$5.99",
+      "unit_price": "$3.25/qt"
+    },
+    {
+      "name": "Wellsley Farms Organic Half And Half, 32 oz.",
+      "price": "$4.49",
+      "unit_price": "$2.25/qt"
+    },
+    {
+      "name": "Wellsley Farms Organic 2% Milk, 3 pk./64 fl. oz.",
+      "price": "$11.99",
+      "unit_price": "$4.00/gal"
+    },
+    {
+      "name": "Wellsley Farms Light Cream, 32 oz.",
+      "price": "$3.99",
+      "unit_price": "$2.00/qt"
+    },
+    {
+      "name": "Silk Unsweetened Almond Milk, 2 pk./64 oz.",
+      "price": "$6.29",
+      "unit_price": "$1.57/qt"
+    },
+    {
+      "name": "Land O'Lakes Fat-Free Half And Half Creamer, 32 oz.",
+      "price": "$3.29",
+      "unit_price": "$1.65/qt"
+    },
+    {
+      "name": "Chobani Sweet Cream Flavored Dairy Creamer, 52 fl. oz.",
+      "price": "$8.99",
+      "unit_price": "$2.77/qt"
+    },
+    {
+      "name": "Wellsley Farms All Natural Sour Cream, 32 oz.",
+      "price": "$2.99",
+      "unit_price": "$1.50/lb"
+    },
+    {
+      "name": "Horizon Organic Grassfed Vitamin D Whole Milk, Carton, 59 fl. oz.",
+      "price": "$6.89",
+      "unit_price": "$3.74/qt"
+    },
+    {
+      "name": "Wellsley Farms Skim Milk, 1 gal.",
+      "price": "$3.55",
+      "unit_price": "$3.55/gal"
+    },
+    {
+      "name": "Silk 13g Protein Soy Milk, Chocolate, Dairy Free, Lactose Free, Plant Based Milk, 48 fl. oz.",
+      "price": "$4.99",
+      "unit_price": "$1.66/qt"
+    },
+    {
+      "name": "Starbucks Caramel Flavored Liquid Coffee Creamer, 58 fl. oz.",
+      "price": "$8.99",
+      "unit_price": "$2.48/qt"
+    },
+    {
+      "name": "Coffee-Mate Sugar Free French Vanilla, 66 fl. oz.",
+      "price": "$6.79",
+      "unit_price": "$1.65/qt"
+    },
+    {
+      "name": "Nestle Nesquik Chocolate Low-Fat Milk Bottles, 15 ct./8 oz.",
+      "price": "$14.79",
+      "unit_price": "$1.58/qt"
+    },
+    {
+      "name": "Planet Oat Original Oatmilk, 86 oz.",
+      "price": "$4.79",
+      "unit_price": "$1.78/qt"
+    },
+    {
+      "name": "Blue Diamond Almond Breeze Original Almond Milk, 96 oz.",
+      "price": "$4.69",
+      "unit_price": "$1.56/qt"
+    },
+    {
+      "name": "Yoo-hoo Chocolate Drink, Boxes, 40 pk./6.5 fl oz.",
+      "price": "$13.79",
+      "unit_price": "$0.34/bottle"
+    },
+    {
+      "name": "Coffee Mate Original Powdered Coffee Creamer, 56.015 oz.",
+      "price": "$9.99",
+      "unit_price": "$2.86/lb"
+    },
+    {
+      "name": "Wellsley Farms USDA Organic Unsweetened Original Almond Milk, 2 pk./52 oz.",
+      "price": "$8.29",
+      "unit_price": "$2.55/qt"
+    },
+    {
+      "name": "Califia Farms Toasted Coconut Almond Milk, 2 pk./48 fl. oz.",
+      "price": "$7.29",
+      "unit_price": "$2.43/qt"
+    },
+    {
+      "name": "Silk Original Almond Milk, 2 pk./64 oz.",
+      "price": "$6.29",
+      "unit_price": "$1.57/qt"
+    },
+    {
+      "name": "Planet Oat French Vanilla Coffee Creamer, 32 oz.",
+      "price": "$3.99",
+      "unit_price": "$2.00/qt"
+    },
+    {
+      "name": "Horizon Organic DHA Omega-3 Milk, DHA 2 Percent Milk, Half Gallon Carton, 64 fl. oz.",
+      "price": "$5.99",
+      "unit_price": "$3.00/gal"
+    },
+    {
+      "name": "Wellsley Farms Organic 1% Milk, 3 pk./64 oz.",
+      "price": "$11.99",
+      "unit_price": "$4.00/gal"
+    },
+    {
+      "name": "Wellsley Farms Organic Whole Milk Gallon, 1 gal.",
+      "price": "$8.29",
+      "unit_price": "$8.29/gal"
+    },
+    {
+      "name": "Planet Oat Original Oatmilk Unsweetened, 86 oz.",
+      "price": "$4.79",
+      "unit_price": "$1.78/qt"
+    },
+    {
+      "name": "Lactaid Free Fat-Free Milk, 96 oz.",
+      "price": "$5.99",
+      "unit_price": "$2.00/qt"
+    },
+    {
+      "name": "Horizon Organic Shelf-Stable 1% Low Fat Milk Boxes with DHA Omega-3, Chocolate, 18 pk./8 fl. oz.",
+      "price": "$22.79",
+      "unit_price": "$1.27/box"
+    },
+    {
+      "name": "Savia Coconut Milk Drink, Made with Real Coconut Pulp, Gluten-Free, 12 pk./9.8 oz.",
+      "price": "$19.99",
+      "unit_price": "$1.67/box"
+    },
+    {
+      "name": "Almond Breeze Unsweetened Original Almond Milk, 6 pk./32 fl. oz.",
+      "price": "$11.99",
+      "unit_price": "$1.60/qt"
+    },
+    {
+      "name": "Horizon Organic Shelf Stable Lactose Free No Added Sugar Lowfat Chocolate Milk Boxes, 18 ct./8 fl. oz.",
+      "price": "$21.98",
+      "unit_price": "$1.22/box"
+    },
+    {
+      "name": "Horizon Organic Shelf-Stable Whole Milk Boxes, 18 pk./8 fl. oz.",
+      "price": "$22.79",
+      "unit_price": "$1.27/box"
+    },
+    {
+      "name": "Wellsley Farms USDA Organic Unsweetened Vanilla Almond Milk, 2 pk./52 oz.",
+      "price": "$8.29",
+      "unit_price": "$2.55/qt"
+    },
+    {
+      "name": "Nestle Coffee-Mate Original Flavor Coffee Creamer Singles, 180 ct.",
+      "price": "$12.99",
+      "unit_price": "$0.07/serving"
+    },
+    {
+      "name": "Horizon Organic Half and Half, Carton, 32 fl. oz.",
+      "price": "$5.49",
+      "unit_price": "$2.75/qt"
+    },
+    {
+      "name": "Land O'Lakes Mini Moo's Half & Half, 192 ct./0.28 fl. oz.",
+      "price": "$22.99",
+      "unit_price": "$0.12/serving"
+    },
+    {
+      "name": "Wellsley Farms Organic Fat Free Milk, 3 pk./64 fl. oz.",
+      "price": "$11.99",
+      "unit_price": "$4.00/gal"
+    },
+    {
+      "name": "Planet Oat Original Oat Milk Cartons, 6 pk./32 oz.",
+      "price": "$15.99",
+      "unit_price": "$1.33/qt"
+    },
+    {
+      "name": "Almond Breeze Unsweetened Vanilla Almond Milk, 6 pk./32 oz.",
+      "price": "$11.99",
+      "unit_price": "$1.33/qt"
+    },
+    {
+      "name": "Horizon Organic Shelf-Stable 1% Low Fat Milk Boxes, Vanilla, 18 pk./8 fl. oz.",
+      "price": "$18.98",
+      "unit_price": "$1.05/box"
+    },
+    {
+      "name": "Starbucks Pink Drink Coconut Milk Beverage, Strawberry Acai, 12 ct./8 fl. oz.",
+      "price": "$18.59",
+      "unit_price": "$1.55/can"
+    },
+    {
+      "name": "Wellsley Farms Organic 1% Milk, 2 pk./64 fl. oz.",
+      "price": "$6.79",
+      "unit_price": "$3.40/gal"
+    },
+    {
+      "name": "Wellsley Farms Organic Grass-Fed Whole Milk, 64 oz.",
+      "price": "$5.49",
+      "unit_price": "$2.75/qt"
+    },
+    {
+      "name": "Starbucks Peppermint Mocha Flavored Coffee Creamer, Inspired by Peppermint Mocha, 58 fl. oz.",
+      "price": "$8.49",
+      "unit_price": "$2.34/qt"
+    },
+    {
+      "name": "International Delight Pumpkin Pie Spice Creamer, 48 oz.",
+      "price": "$4.49",
+      "unit_price": "$1.50/qt"
+    }
+  ]
+}

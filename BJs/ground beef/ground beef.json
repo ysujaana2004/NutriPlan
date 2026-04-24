@@ -1,0 +1,99 @@
+{
+  "products": [
+    {
+      "name": "Wellsley Farms 90% Lean Ground Beef, 3.75-4.5 lbs.",
+      "price": "$23.59 - $28.30",
+      "unit_price": "$6.29/lb"
+    },
+    {
+      "name": "Wellsley Farms 80% Lean Ground Beef, 4.75-5.5 lbs.",
+      "price": "$25.13 - $29.09",
+      "unit_price": "$5.29/lb"
+    },
+    {
+      "name": "93% Lean Ground Beef, 4 lbs.",
+      "price": "$25.99",
+      "unit_price": "$6.50/lb"
+    },
+    {
+      "name": "Farm to Family by Butterball 93% Lean/7% Fat Ground Turkey, 2.5 lbs.",
+      "price": "$11.99",
+      "unit_price": "$4.80/lb"
+    },
+    {
+      "name": "Wellsley Farms 85% Ground Beef Patties, 3.75-4.5 lbs.",
+      "price": "$23.59 - $28.30",
+      "unit_price": "$6.29/lb"
+    },
+    {
+      "name": "Swift & Company 100% Pure Ground Beef, 5 lbs.",
+      "price": "$19.49",
+      "unit_price": "$3.90/lb"
+    },
+    {
+      "name": "Verde Farms Organic Grass Fed 93% Ground Beef, 3 pk./1 lb.",
+      "price": "$24.49",
+      "unit_price": "$8.16/lb"
+    },
+    {
+      "name": "Perdue Fresh Ground Chicken, 3 lbs.",
+      "price": "$10.49",
+      "unit_price": "$3.50/lb"
+    },
+    {
+      "name": "Farm To Table Fresh 96% Lean Ground Beef Sirloin, 2 lbs.",
+      "price": "$14.99",
+      "unit_price": "$7.50/lb"
+    },
+    {
+      "name": "Wellsley Farms 80% Lean Ground Beef, 9.75-10.5 lbs.",
+      "price": "$50.60 - $54.50",
+      "unit_price": "$5.19/lb"
+    },
+    {
+      "name": "Butterball All Natural 93% Lean 7% Fat Lean Ground Turkey, 3 pk./1.33 lbs.",
+      "price": "$16.99",
+      "unit_price": "$4.26/lb"
+    },
+    {
+      "name": "Verde Farms Organic Grass Fed 85% Ground Beef, 3 pk./1 lb.",
+      "price": "$23.49",
+      "unit_price": "$7.83/lb"
+    },
+    {
+      "name": "Wellsley Farms 90% Lean Ground Beef, 9.75-10.5 lbs.",
+      "price": "$60.35 - $65.00",
+      "unit_price": "$6.19/lb"
+    },
+    {
+      "name": "Swift Ground Pork, 3 pk./1 lb.",
+      "price": "$11.49",
+      "unit_price": "$3.83/lb"
+    },
+    {
+      "name": "Australian Ground Lamb, 1.25 lb.",
+      "price": "$8.99 - $11.24",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "Swiss Cheese, Pepper & Onion Turkey Burger Patties, 2 lbs.",
+      "price": "$15.49",
+      "unit_price": "$7.75/lb"
+    },
+    {
+      "name": "Great Range Ground Bison, 90% Lean, 2 pk./1 lb. each",
+      "price": "$22.49",
+      "unit_price": "$11.25/lb"
+    },
+    {
+      "name": "Wellsley Farms Sweet Italian Ground Sausage, 2 ct./16 oz.",
+      "price": "$6.99",
+      "unit_price": "$3.50/lb"
+    },
+    {
+      "name": "Good Nature 85% Ground Beef, 3 lbs.",
+      "price": "$17.99",
+      "unit_price": "$6.00/lb"
+    }
+  ]
+}

@@ -1,0 +1,514 @@
+{
+  "products": [
+    {
+      "name": "Kinder's Buttery Garlic and Herb Seasoning, 8 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.75 per oz"
+    },
+    {
+      "name": "Wellsley Farms Granulated Garlic, 22.1 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.45 per oz"
+    },
+    {
+      "name": "Kinder's The Blend Seasoning, 10.5 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.57 per oz"
+    },
+    {
+      "name": "Kinder's Sweet Heat Seasoning, 8.9 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.67 per oz"
+    },
+    {
+      "name": "Goya Sazon with Culantro and Achiote, 36 pk./6.3 oz.",
+      "price": "$3.79",
+      "unit_price": "$0.60 per oz"
+    },
+    {
+      "name": "Wellsley Farms Onion Powder, 22 oz.",
+      "price": "$8.49",
+      "unit_price": "$0.39 per oz"
+    },
+    {
+      "name": "Badia Granulated Onion Seasoning, 20 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.35 per oz"
+    },
+    {
+      "name": "Kinder's All Purpose Seasoning, 9.4 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.64 per oz"
+    },
+    {
+      "name": "Wellsley Farms Pure Ground Pepper, 17.5 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.57 per oz"
+    },
+    {
+      "name": "Better Than Bouillon Roasted Chicken Base, 16 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.56 per oz"
+    },
+    {
+      "name": "Kinder's Buttery Steakhouse Rub, 9.5 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.63 per oz"
+    },
+    {
+      "name": "Wellsley Farms Minced Garlic with Water, 2 lbs.",
+      "price": "$4.99",
+      "unit_price": "$0.16 per oz"
+    },
+    {
+      "name": "Olde Thompson Everything Italian Seasoning 7.9 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.89 per oz"
+    },
+    {
+      "name": "Spice World Chili Onion Crunch Seasoning Blend, 28 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.32 per oz"
+    },
+    {
+      "name": "Olde Thompson Organic Oregano, 2 oz.",
+      "price": "$4.99",
+      "unit_price": "$2.50 per oz"
+    },
+    {
+      "name": "Goya Adobo All Purpose Seasoning, 28 oz.",
+      "price": "$4.49",
+      "unit_price": "$0.16 per oz"
+    },
+    {
+      "name": "Wellsley Farms Taco Seasoning, 24 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.29 per oz"
+    },
+    {
+      "name": "Olde Thompson Bang Bang Seasoning, 8 oz.",
+      "price": "$4.49",
+      "unit_price": "$0.56 per oz"
+    },
+    {
+      "name": "Olde Thompson Organic Paprika, 8 oz.",
+      "price": "$7.99",
+      "unit_price": "$1.00 per oz"
+    },
+    {
+      "name": "Badia Sazon Complete Seasoning, 1.75 lbs.",
+      "price": "$9.99",
+      "unit_price": "$0.36 per oz"
+    },
+    {
+      "name": "Wellsley Farms Parsley Flakes, 2.7 oz.",
+      "price": "$5.49",
+      "unit_price": "$2.03 per oz"
+    },
+    {
+      "name": "Badia Granulated Garlic Seasoning, 24 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.42 per oz"
+    },
+    {
+      "name": "Wellsley Farms Himalayan Pink Salt, 5 lbs.",
+      "price": "$7.49",
+      "unit_price": "$0.09 per oz"
+    },
+    {
+      "name": "Olde Thompson Nashville Hot Chicken Blend Seasoning, 11.2 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.53 per oz"
+    },
+    {
+      "name": "Wellsley Farms Paprika, 17.5 oz.",
+      "price": "$9.49",
+      "unit_price": "$0.54 per oz"
+    },
+    {
+      "name": "Dash Original Seasoning Blend, Salt-Free, Kosher, 10 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.80 per oz"
+    },
+    {
+      "name": "Spice World Fresh Peeled Garlic Cloves, 1 lb.",
+      "price": "$3.99",
+      "unit_price": "$0.25 per oz"
+    },
+    {
+      "name": "Wellsley Farms Fine Sea Salt, 45 oz.",
+      "price": "$5.49",
+      "unit_price": "$0.12 per oz"
+    },
+    {
+      "name": "Premium Fresh Whole Garlic, 24 oz.",
+      "price": "$5.39",
+      "unit_price": "$0.22 per oz"
+    },
+    {
+      "name": "Wellsley Farms Ground Cinnamon, 16 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.44 per oz"
+    },
+    {
+      "name": "Kinder's Woodfired Garlic Seasoning, 9.5 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.63 per oz"
+    },
+    {
+      "name": "4C Seasoned Bread Crumbs, 2 pk./46 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.22 per oz"
+    },
+    {
+      "name": "Kinder's Cowboy Butter Seasoning, 9.7 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.62 per oz"
+    },
+    {
+      "name": "Old Bay Seasoning, 24 oz.",
+      "price": "$10.49",
+      "unit_price": "$0.44 per oz"
+    },
+    {
+      "name": "Wellsley Farms Bay Leaves, 2 oz.",
+      "price": "$7.49",
+      "unit_price": "$3.75 per oz"
+    },
+    {
+      "name": "Knorr Granulated Bouillon Chicken Flavor Seasoning, 40.5 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.17 per oz"
+    },
+    {
+      "name": "Wellsley Farms Oregano, 5.9 oz.",
+      "price": "$6.99",
+      "unit_price": "$1.18 per oz"
+    },
+    {
+      "name": "Badia Mojo Rub Citrus Blend, 24 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.42 per oz"
+    },
+    {
+      "name": "Olde Thompson Organic Ground Cinnamon, 7.4 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.81 per oz"
+    },
+    {
+      "name": "Lawry's Seasoned Salt, 40 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.22 per oz"
+    },
+    {
+      "name": "Wellsley Farms Table Grind Pepper, 16 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.62 per oz"
+    },
+    {
+      "name": "Wellsley Farms Ground Cayenne Red Pepper, 17 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.47 per oz"
+    },
+    {
+      "name": "Dash Garlic & Herb Seasoning Blend, Salt-Free, Kosher, 10 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.90 per oz"
+    },
+    {
+      "name": "McCormick Italian Seasoning, 6.25 oz.",
+      "price": "$6.99",
+      "unit_price": "$1.12 per oz"
+    },
+    {
+      "name": "McCormick Perfect Pinch Bayou Cajun Seasoning, 13.5 oz.",
+      "price": "$9.49",
+      "unit_price": "$0.70 per oz"
+    },
+    {
+      "name": "Wellsley Farms Chicken Flavored Bouillon Cubes, 75 ct.",
+      "price": "$8.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Whole Black Peppercorns, 18.5 oz.",
+      "price": "$11.99",
+      "unit_price": "$0.65 per oz"
+    },
+    {
+      "name": "Olde Thompson Organic Turmeric, 10.6 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.66 per oz"
+    },
+    {
+      "name": "Olde Thompson Organic Ground Ginger, 6.9 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.87 per oz"
+    },
+    {
+      "name": "Wellsley Farms Garlic Powder, 20.2 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.49 per oz"
+    },
+    {
+      "name": "Badia Paprika, 16 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.62 per oz"
+    },
+    {
+      "name": "Wellsley Farms Ground Tumeric, 22 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.41 per oz"
+    },
+    {
+      "name": "Olde Thompson Organic Ground Cumin, 7.5 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.93 per oz"
+    },
+    {
+      "name": "Wellsley Farms Thyme Leaves, 6.4 oz.",
+      "price": "$5.49",
+      "unit_price": "$0.86 per oz"
+    },
+    {
+      "name": "4C Foods Japanese Style Panko Plain Bread Crumbs, 2 pk./25 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.40 per oz"
+    },
+    {
+      "name": "Hidden Valley Original Ranch Salad Dressing and Seasoning Mix, Canister, 16 oz.",
+      "price": "$12.79",
+      "unit_price": "$0.80 per oz"
+    },
+    {
+      "name": "Lipton Recipe Secrets Onion Recipe Soup and Dip Mix, 6 pk/ 2 oz.",
+      "price": "$7.99",
+      "unit_price": "$4.00 per oz"
+    },
+    {
+      "name": "Wellsley Farms Ground Ginger, 13.76 oz.",
+      "price": "$8.79",
+      "unit_price": "$0.64 per oz"
+    },
+    {
+      "name": "Wellsley Farms Fine Table Salt, 4 lbs.",
+      "price": "$3.79",
+      "unit_price": "$0.06 per oz"
+    },
+    {
+      "name": "Fresh Italian Parsley, 2.5 oz.",
+      "price": "$1.99",
+      "unit_price": "$0.80 per oz"
+    },
+    {
+      "name": "Wellsley Farms Everything Bagel Seasoning, 11.5 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.52 per oz"
+    },
+    {
+      "name": "Fresh Cilantro, 2.5 oz.",
+      "price": "$2.99",
+      "unit_price": "$1.20 per oz"
+    },
+    {
+      "name": "Wellsley Farms Crushed Red Pepper, 13.5 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.44 per oz"
+    },
+    {
+      "name": "Fresh Rosemary, 2.5 oz.",
+      "price": "$2.99",
+      "unit_price": "$1.20 per oz"
+    },
+    {
+      "name": "Wellsley Farms Whole Black Peppercorn Grinder, 6.5 oz.",
+      "price": "$9.99",
+      "unit_price": "$1.54 per oz"
+    },
+    {
+      "name": "Gotham Greens Greenhouse Basil, 2 oz.",
+      "price": "$3.99",
+      "unit_price": "$2.00 per oz"
+    },
+    {
+      "name": "Badia Adobo Seasoning With Pepper, 32 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.22 per oz"
+    },
+    {
+      "name": "Spice World Organic Whole Garlic, 5 ct.",
+      "price": "$3.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Dark Chili Powder, 20 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.45 per oz"
+    },
+    {
+      "name": "Olde Thompson Organic Onion Powder 10.2 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.88 per oz"
+    },
+    {
+      "name": "Dan-O's Original Seasoning, 8.9 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.79 per oz"
+    },
+    {
+      "name": "Lawry's All Purpose Chicken Seasoning, 16.5 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.48 per oz"
+    },
+    {
+      "name": "Wellsley Farms Ground Cumin, 19.4 oz.",
+      "price": "$11.99",
+      "unit_price": "$0.62 per oz"
+    },
+    {
+      "name": "Spiceology Smoky Bourbon & Maple Seasoning, 11.6 oz.",
+      "price": "$10.49",
+      "unit_price": "$0.90 per oz"
+    },
+    {
+      "name": "Olde Thompson Organic Cracked Black Pepper, Coarse, 8.5 oz.",
+      "price": "$8.99",
+      "unit_price": "$1.06 per oz"
+    },
+    {
+      "name": "Lawry's Coarse Ground Garlic Salt With Parsley, 33 oz.",
+      "price": "$10.99",
+      "unit_price": "$0.33 per oz"
+    },
+    {
+      "name": "Good Seasons Italian Dressing and Recipe Mix, 10 pk.",
+      "price": "$11.49",
+      "unit_price": null
+    },
+    {
+      "name": "Maggi Chicken Flavor Bouillon, 128 ct.",
+      "price": "$10.79",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Mediterranean Sea Salt Grinder, 14.6 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.41 per oz"
+    },
+    {
+      "name": "McCormick Grill Mates Montreal Steak Seasoning, 29 oz.",
+      "price": "$9.29",
+      "unit_price": "$0.32 per oz"
+    },
+    {
+      "name": "Olde Thompson Saigon Cinnamon Sticks, 6.6 oz.",
+      "price": "$9.49",
+      "unit_price": "$1.44 per oz"
+    },
+    {
+      "name": "Wellsley Farms Himalayan Pink Salt Grinder, 13.5 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.44 per oz"
+    },
+    {
+      "name": "Badia Jamaican Style Curry Powder, 16 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.37 per oz"
+    },
+    {
+      "name": "Spiceology Pizza Pie Italian Seasoning, 5.3 oz.",
+      "price": "$10.49",
+      "unit_price": "$1.98 per oz"
+    },
+    {
+      "name": "Badia Sazon Tropical Seasoning, 28 oz.",
+      "price": "$12.49",
+      "unit_price": "$0.45 per oz"
+    },
+    {
+      "name": "McCormick Grill Mates Montreal Chicken Seasoning, 23 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.39 per oz"
+    },
+    {
+      "name": "Wellsley Farms Chopped Onions, 15 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.47 per oz"
+    },
+    {
+      "name": "Dan-O's Original Seasoning, 20 oz.",
+      "price": "$12.99",
+      "unit_price": "$0.65 per oz"
+    },
+    {
+      "name": "Badia Harlem Garlic Pepper, 24 oz.",
+      "price": "$7.49",
+      "unit_price": "$0.31 per oz"
+    },
+    {
+      "name": "McCormick Brown Gravy Mix, 21 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.48 per oz"
+    },
+    {
+      "name": "McCormick Perfect Pinch Lemon & Pepper Seasoning, 19.75 oz.",
+      "price": "$11.99",
+      "unit_price": "$0.61 per oz"
+    },
+    {
+      "name": "McCormick Grill Mates Roasted Garlic & Herb Seasoning, 18 oz.",
+      "price": "$8.29",
+      "unit_price": "$0.46 per oz"
+    },
+    {
+      "name": "Old El Paso Taco Seasoning Mix, 10 ct.",
+      "price": "$7.29",
+      "unit_price": null
+    },
+    {
+      "name": "Tajin Clasico Chili Lime Seasoning, 2 pk./14 oz.",
+      "price": "$10.99",
+      "unit_price": "$0.79 per oz"
+    },
+    {
+      "name": "GOYA Sazon Natural Y Completo Seasoning, 36 ct.",
+      "price": "$4.99",
+      "unit_price": null
+    },
+    {
+      "name": "McCormick Poultry Gravy Mix, Premium, 20 oz.",
+      "price": "$4.98",
+      "unit_price": "$0.25 per oz"
+    },
+    {
+      "name": "Goya Adobo All Purpose Seasoning with Cumin, 28 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.25 per oz"
+    },
+    {
+      "name": "Olde Thompson Harvest Turkey Brine, 21 oz.",
+      "price": "$8.98",
+      "unit_price": "$0.43 per oz"
+    },
+    {
+      "name": "Ham Flavor Concentrate, 3 pk./3.52 oz.",
+      "price": "$9.99",
+      "unit_price": "$2.84 per oz"
+    },
+    {
+      "name": "Poultry Blend, 3 oz.",
+      "price": "$2.99",
+      "unit_price": "$1.00 per oz"
+    },
+    {
+      "name": "Spice World Minced Garlic Squeeze Bottle, 20 oz.",
+      "price": "$4.99",
+      "unit_price": "$0.25 per oz"
+    },
+    {
+      "name": "Gotham Greens Basil, 2 oz.",
+      "price": "$3.99",
+      "unit_price": "$2.00 per oz"
+    }
+  ]
+}

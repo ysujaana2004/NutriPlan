@@ -1,0 +1,294 @@
+{
+  "products": [
+    {
+      "name": "365 by Whole Foods Market, Organic Dried Mango, 8 Ounce",
+      "price": "$8.39",
+      "unit_price": "$1.05/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Raisins, 12 Ounce",
+      "price": "$4.99",
+      "unit_price": "$0.42/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Mango 8 Pack, 12 Ounce",
+      "price": "$13.99",
+      "unit_price": "$1.17/oz"
+    },
+    {
+      "name": "Pack of 6, 365 by Whole Foods Market, Organic Raisins, 1 Ounce",
+      "price": "$3.19",
+      "unit_price": "$0.53/oz"
+    },
+    {
+      "name": "CRISPY GREEN Freeze Dried Strawberry, 1.69 OZ",
+      "price": "$11.49",
+      "unit_price": "$6.80/oz"
+    },
+    {
+      "name": "Natural Delights Fresh Medjool Dates (1 lb.)",
+      "price": "$8.99",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "365 by Whole Foods Market, Pitted Dates, 8 Ounce",
+      "price": "$4.29",
+      "unit_price": "$0.54/oz"
+    },
+    {
+      "name": "Plantain, 1 Each",
+      "price": "$1.29/lb",
+      "unit_price": "$1.29/lb"
+    },
+    {
+      "name": "SOLELY Organic Dried Mango Halves, Large",
+      "price": "$9.99",
+      "unit_price": null
+    },
+    {
+      "name": "Whole Foods Market, Organic Regenerative Dried Mango, 8 Ounce",
+      "price": "$9.49",
+      "unit_price": "$1.19/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Thompson Raisins, 8 Ounce",
+      "price": "$4.49",
+      "unit_price": "$0.56/oz"
+    },
+    {
+      "name": "SOLELY - Organic Mango Raspberry Fruit Jerky, 0.8oz (5 strips)",
+      "price": "$8.29",
+      "unit_price": "$2.07/oz"
+    },
+    {
+      "name": "Organic Medjool Dates, 32 OZ",
+      "price": "$15.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "International Harvest, Organic Mango Slices, 12 Ounce",
+      "price": "$15.79",
+      "unit_price": "$1.32/oz"
+    },
+    {
+      "name": "Crispy Green, Mangoes Freeze Dried, 2.54 Ounce",
+      "price": "$11.49",
+      "unit_price": "$4.52/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Amelie Mango, 8 Ounce",
+      "price": "$8.39",
+      "unit_price": "$1.05/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Unsweetened Dried Pineapple, 8 Ounce",
+      "price": "$9.79",
+      "unit_price": "$1.22/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Mango Fruit Bites, 6 Ounce",
+      "price": "$6.49",
+      "unit_price": "$1.08/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Dried Unsweetened Bing Cherries, 8 Ounce",
+      "price": "$12.49",
+      "unit_price": "$1.56/oz"
+    },
+    {
+      "name": "SOLELY Organic Dried Pineapple Rings, Large",
+      "price": "$9.99",
+      "unit_price": null
+    },
+    {
+      "name": "Pitaya Foods, Organic Acai Berry Pieces, 32 Ounce",
+      "price": "$16.99",
+      "unit_price": "$0.53/oz"
+    },
+    {
+      "name": "Whole Foods Market, Lemon Blueberry Bar 4 Count, 16 Ounce",
+      "price": "$7.55",
+      "unit_price": "$0.47/oz"
+    },
+    {
+      "name": "Solely, Mango Halves Dried Organic, 14 Ounce",
+      "price": "$14.99",
+      "unit_price": "$1.07/oz"
+    },
+    {
+      "name": "Navitas Organics Goji Berries, 8oz",
+      "price": "$19.99",
+      "unit_price": "$2.50/oz"
+    },
+    {
+      "name": "Joolies Organic Whole Medjool Dates, 12 Ounce Pouch",
+      "price": "$7.99",
+      "unit_price": "$0.67/oz"
+    },
+    {
+      "name": "Aurora Products Organic Medjool Dates, 10 Ounce",
+      "price": "$8.79",
+      "unit_price": "$0.88/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Dried Upcycled Apple Slices, 3 Ounce",
+      "price": "$4.59",
+      "unit_price": "$1.53/oz"
+    },
+    {
+      "name": "AURORA PRODUCTS Organic Pitted Dates, 9 OZ",
+      "price": "$6.19",
+      "unit_price": "$0.69/oz"
+    },
+    {
+      "name": "BIENA FOODS Naked Roasted Edamame, 4.75 OZ",
+      "price": "$5.00",
+      "unit_price": "$1.05/oz"
+    },
+    {
+      "name": "AURORA PRODUCTS Organic Black Mission Figs, 11 OZ",
+      "price": "$9.99",
+      "unit_price": "$0.91/oz"
+    },
+    {
+      "name": "MADE IN NATURE Organic Apricots Dried, 11 OZ",
+      "price": "$15.79",
+      "unit_price": "$1.44/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Goldenberries, 8 Ounce",
+      "price": "$8.79",
+      "unit_price": "$1.10/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Organic Dried Blueberries, Sweetened, 8 Ounce",
+      "price": "$11.99",
+      "unit_price": "$1.50/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Freeze Dried Mango Slices, 1.2 OZ",
+      "price": "$5.49",
+      "unit_price": "$4.58/oz"
+    },
+    {
+      "name": "Organic Oyster Mushroom",
+      "price": "$9.99/lb",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "DERLEA Garlic Minced, 4.4 OZ",
+      "price": "$3.69",
+      "unit_price": "$0.84/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market, Fruit Bites, Mango Chili Lime, 6 Ounce",
+      "price": "$6.49",
+      "unit_price": "$1.08/oz"
+    },
+    {
+      "name": "Wymans Of Maine, Banana Berry, 48 Ounce",
+      "price": "$14.99",
+      "unit_price": "$0.31/oz"
+    },
+    {
+      "name": "SOLELY Organic Dried Mango Strips with Chili and Salt, 2.8 oz",
+      "price": "$5.69",
+      "unit_price": "$2.03/oz"
+    },
+    {
+      "name": "Made in Nature Organic Dried Apricots, 28oz",
+      "price": "$17.79",
+      "unit_price": "$0.64/oz"
+    },
+    {
+      "name": "WHOLE FOODS MARKET Organic Regenerative Dried Pineapple Rings, 8 OZ",
+      "price": "$9.99",
+      "unit_price": "$1.25/oz"
+    },
+    {
+      "name": "Natural Delights, Khala Dates, 7 Ounce",
+      "price": "$7.49",
+      "unit_price": "$1.07/oz"
+    },
+    {
+      "name": "Amazi, Dried Fruit Pineapple Moringa Hibiscus Organic, 2.3 Ounce",
+      "price": "$6.29",
+      "unit_price": "$2.73/oz"
+    },
+    {
+      "name": "Amazi, Dried Fruit Pineapple Pina Colada Organic, 2.3 Ounce",
+      "price": "$6.29",
+      "unit_price": "$2.73/oz"
+    },
+    {
+      "name": "LIMPEX Sun Dried Tomatoes",
+      "price": "$11.99/lb",
+      "unit_price": "$11.99/lb"
+    },
+    {
+      "name": "INTERNATIONAL HARVEST Organic Raw Hunza Goji Berries, 12 OZ",
+      "price": "$21.99",
+      "unit_price": "$1.83/oz"
+    },
+    {
+      "name": "Navitas Organics Superfood+ for Immune Support (Acai + Goji + Blueberry), 5.3 Oz",
+      "price": "$18.49",
+      "unit_price": "$3.49/oz"
+    },
+    {
+      "name": "UPTONS NATURALS Organic Lightly Seasoned Shredded Jackfruit, 7 OZ",
+      "price": "$5.49",
+      "unit_price": "$0.78/oz"
+    },
+    {
+      "name": "Organic Dried Mango (4 ounce)",
+      "price": "$7.29",
+      "unit_price": "$1.82/oz"
+    },
+    {
+      "name": "Organic Coconut Pieces",
+      "price": "$5.99",
+      "unit_price": null
+    },
+    {
+      "name": "Sol Simple, Mango Solar Dried Organic, 6 Ounce",
+      "price": "$8.69",
+      "unit_price": "$1.45/oz"
+    },
+    {
+      "name": "Organicville Sun Dried Tomato & Garlic Salad Dressing, 8 fl oz",
+      "price": "$4.09",
+      "unit_price": "$0.51/fl oz"
+    },
+    {
+      "name": "INTERNATIONAL HARVEST Organic Chili Lime Mango, 4 OZ",
+      "price": "$6.29",
+      "unit_price": "$1.57/oz"
+    },
+    {
+      "name": "Himalayan Harvest Organic Raw Goldenberries, 4 Oz",
+      "price": "$8.69",
+      "unit_price": "$2.17/oz"
+    },
+    {
+      "name": "D ALLASANDRO Fava Beans, 12 OZ",
+      "price": "$4.59",
+      "unit_price": "$0.38/oz"
+    },
+    {
+      "name": "Sol Simple Dried Pineapple, 6 Ounce",
+      "price": "$8.69",
+      "unit_price": "$1.45/oz"
+    },
+    {
+      "name": "Barnana Organic Plantain Chips with Himalayan Pink Salt, 5 Oz",
+      "price": "$5.29",
+      "unit_price": "$1.06/oz"
+    },
+    {
+      "name": "Barnana Organic Peanut Butter Dipped Chewy Banana Bites, 3.5 Ounce",
+      "price": "$5.69",
+      "unit_price": "$1.63/oz"
+    }
+  ]
+}

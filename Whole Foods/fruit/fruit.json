@@ -1,0 +1,529 @@
+{
+  "products": [
+    {
+      "name": "Organic Banana, 1 Each",
+      "price": "$0.79/lb",
+      "unit_price": "$0.79/lb"
+    },
+    {
+      "name": "Banana Conventional, 1 Each",
+      "price": "$0.59/lb",
+      "unit_price": "$0.59/lb"
+    },
+    {
+      "name": "Organic Strawberries, 1 Lb",
+      "price": "$5.32",
+      "unit_price": "$5.32/lb"
+    },
+    {
+      "name": "Organic Honeycrisp Apple",
+      "price": "$3.99/lb",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Large Hass Avocado",
+      "price": "$1.67",
+      "unit_price": "$1.67/ea"
+    },
+    {
+      "name": "Medium Hass Avocado",
+      "price": "$1.09",
+      "unit_price": "$1.09/ea"
+    },
+    {
+      "name": "Avocado Hass Organic, 4 Count",
+      "price": "$6.49",
+      "unit_price": "$1.62/ea"
+    },
+    {
+      "name": "Large Organic Hass Avocado",
+      "price": "$2.22",
+      "unit_price": "$2.22/ea"
+    },
+    {
+      "name": "PRODUCE Organic Mandarin Bag, 48 OZ",
+      "price": "$7.99",
+      "unit_price": "$0.17/oz"
+    },
+    {
+      "name": "Yellow Mango",
+      "price": "$1.39",
+      "unit_price": "$1.39/ea"
+    },
+    {
+      "name": "Lime Regular Conventional, 1 Each",
+      "price": "$0.79",
+      "unit_price": "$0.79/ea"
+    },
+    {
+      "name": "Sumo Citrus",
+      "price": "$3.88/lb",
+      "unit_price": "$3.88/lb"
+    },
+    {
+      "name": "Lemon Regular Organic, 1 Each",
+      "price": "$1.29",
+      "unit_price": "$1.29/ea"
+    },
+    {
+      "name": "Lemon",
+      "price": "$0.56",
+      "unit_price": "$0.56/ea"
+    },
+    {
+      "name": "Organic Green Kiwi, 16 Oz",
+      "price": "$6.29",
+      "unit_price": "$0.39/oz"
+    },
+    {
+      "name": "Organic Lemons, 2 Lb Bag",
+      "price": "$5.99",
+      "unit_price": "$2.99/lb"
+    },
+    {
+      "name": "Red Seedless Grapes",
+      "price": "$3.49/lb",
+      "unit_price": "$3.49/lb"
+    },
+    {
+      "name": "Red Raspberries, 6 oz",
+      "price": "$3.99",
+      "unit_price": "$0.67/oz"
+    },
+    {
+      "name": "Mandarin Clementine, 3 Lb Bag",
+      "price": "$5.99",
+      "unit_price": "$2.00/lb"
+    },
+    {
+      "name": "Green Seedless Grapes, 1 Bag",
+      "price": "$3.99/lb",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Organic Raspberries, 12 OZ",
+      "price": "$8.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "Cantaloupe Melon, 1 Each",
+      "price": "$3.99",
+      "unit_price": "$3.99/ea"
+    },
+    {
+      "name": "Organic Strawberries, 32 Ounce",
+      "price": "$8.99",
+      "unit_price": "$0.28/oz"
+    },
+    {
+      "name": "NATURAL DELIGHTS Dates-MEDJOOL-Whole-ORG-PKG",
+      "price": "$9.49",
+      "unit_price": null
+    },
+    {
+      "name": "Earthbound Farm Organic Apple Slices 12oz",
+      "price": "$4.29",
+      "unit_price": "$0.36/oz"
+    },
+    {
+      "name": "Natural Delights Fresh Medjool Dates (1 lb.)",
+      "price": "$8.99",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "Honeycrisp Apple",
+      "price": "$3.10/lb",
+      "unit_price": "$3.10/lb"
+    },
+    {
+      "name": "PRODUCE Organic Hnycrisp Apple, 48 OZ",
+      "price": "$8.99",
+      "unit_price": "$0.19/oz"
+    },
+    {
+      "name": "Organic Cosmic Crisp Apples",
+      "price": "$3.10/lb",
+      "unit_price": "$3.10/lb"
+    },
+    {
+      "name": "Frieda's, Lemon Seedless, 16 Ounce Bag",
+      "price": "$2.99",
+      "unit_price": "$0.19/oz"
+    },
+    {
+      "name": "Organic Navel Orange",
+      "price": "$2.99/lb",
+      "unit_price": "$2.99/lb"
+    },
+    {
+      "name": "Granny Smith Organic Apple",
+      "price": "$3.09/lb",
+      "unit_price": "$3.09/lb"
+    },
+    {
+      "name": "Organic Red Grapefruit",
+      "price": "$2.21/lb",
+      "unit_price": "$2.21/lb"
+    },
+    {
+      "name": "Organic Fuji Apple",
+      "price": "$2.59/lb",
+      "unit_price": "$2.59/lb"
+    },
+    {
+      "name": "Large Mango, 1 Each",
+      "price": "$2.49",
+      "unit_price": "$2.49/ea"
+    },
+    {
+      "name": "Organic Limes, 1 Lb Bag",
+      "price": "$5.49",
+      "unit_price": "$5.49/lb"
+    },
+    {
+      "name": "Red Raspberries, 12 Oz",
+      "price": "$7.49",
+      "unit_price": "$0.62/oz"
+    },
+    {
+      "name": "Suntreat, Mandarin Dekopon Bag, 48 Ounce",
+      "price": "$8.99",
+      "unit_price": "$0.19/oz"
+    },
+    {
+      "name": "Black Plum",
+      "price": "$3.99/lb",
+      "unit_price": "$3.99/lb"
+    },
+    {
+      "name": "Produce Organic Fuji Apples, 3 lb",
+      "price": "$6.99",
+      "unit_price": "$2.33/lb"
+    },
+    {
+      "name": "Organic Gala Apple",
+      "price": "$2.59/lb",
+      "unit_price": "$2.59/lb"
+    },
+    {
+      "name": "NORTHWEST PRODUCE Organic Bagged Gala Apples, 48 Ounce",
+      "price": "$6.99",
+      "unit_price": "$0.15/oz"
+    },
+    {
+      "name": "Organic Envy Apples",
+      "price": "$2.77/lb",
+      "unit_price": "$2.77/lb"
+    },
+    {
+      "name": "Pineapple, 1 Each",
+      "price": "$3.99",
+      "unit_price": "$3.99/ea"
+    },
+    {
+      "name": "Organic Royal Star Papaya",
+      "price": "$2.69/lb",
+      "unit_price": "$2.69/lb"
+    },
+    {
+      "name": "Organic Greenhouse Strawberries, 10 Ounce",
+      "price": "$6.99",
+      "unit_price": "$0.70/oz"
+    },
+    {
+      "name": "Seedless Mini Watermelon",
+      "price": "$5.99",
+      "unit_price": "$5.99/ea"
+    },
+    {
+      "name": "Avocados, 4 Count",
+      "price": "$4.49",
+      "unit_price": "$1.12/ea"
+    },
+    {
+      "name": "Organic Blackberries, 12 Ounce",
+      "price": "$8.99",
+      "unit_price": "$0.75/oz"
+    },
+    {
+      "name": "Bagged Hass Avocados, 6 Count",
+      "price": "$3.49",
+      "unit_price": "$0.58/ea"
+    },
+    {
+      "name": "PRODUCE Organic Cosmic Crisp Apples Bag, 48 OZ",
+      "price": "$7.99",
+      "unit_price": "$0.17/oz"
+    },
+    {
+      "name": "Organic Opal Apple",
+      "price": "$3.09/lb",
+      "unit_price": "$3.09/lb"
+    },
+    {
+      "name": "Bartlett Pear",
+      "price": "$2.09/lb",
+      "unit_price": "$2.09/lb"
+    },
+    {
+      "name": "Honeydew Melon, 1 Each",
+      "price": "$4.99",
+      "unit_price": "$4.99/ea"
+    },
+    {
+      "name": "Organic Navel Oranges, 4 Lb Bag",
+      "price": "$7.49",
+      "unit_price": "$1.87/lb"
+    },
+    {
+      "name": "Yellow Dragonfruit",
+      "price": "$7.99/lb",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "PRODUCE Organic Red Pear",
+      "price": "$2.99/lb",
+      "unit_price": "$2.99/lb"
+    },
+    {
+      "name": "Organic Pineapple, 1 Each",
+      "price": "$4.99",
+      "unit_price": "$4.99/ea"
+    },
+    {
+      "name": "Granny Smith Apples, Organic, 3 lb Bag",
+      "price": "$6.99",
+      "unit_price": "$2.33/lb"
+    },
+    {
+      "name": "Lemons, 2 Lb Bag",
+      "price": "$3.99",
+      "unit_price": "$2.00/lb"
+    },
+    {
+      "name": "Pear Bosc Organic",
+      "price": "$2.99/lb",
+      "unit_price": "$2.99/lb"
+    },
+    {
+      "name": "Navel Oranges, 4 Lb Bag",
+      "price": "$5.49",
+      "unit_price": "$1.37/lb"
+    },
+    {
+      "name": "Grapes Small",
+      "price": "$6.49/lb",
+      "unit_price": "$6.49/lb"
+    },
+    {
+      "name": "Blackberries, 1 Pint",
+      "price": "$6.99",
+      "unit_price": "$0.58/oz"
+    },
+    {
+      "name": "Joolies Organic Pit-Free Medjool Dates, 9 Ounce Pouch",
+      "price": "$7.99",
+      "unit_price": "$0.89/oz"
+    },
+    {
+      "name": "Organic Sugarbee Apple",
+      "price": "$3.59/lb",
+      "unit_price": "$3.59/lb"
+    },
+    {
+      "name": "Organic Valencia Oranges, 4 Lb Bag",
+      "price": "$6.99",
+      "unit_price": "$1.75/lb"
+    },
+    {
+      "name": "Red Cherries, 1 Bag",
+      "price": "$8.99/lb",
+      "unit_price": "$8.99/lb"
+    },
+    {
+      "name": "PRODUCE Organic Abate Fetel Pear",
+      "price": "$2.77/lb",
+      "unit_price": "$2.77/lb"
+    },
+    {
+      "name": "Mixed Berries Medium",
+      "price": "$12.49/lb",
+      "unit_price": "$12.49/lb"
+    },
+    {
+      "name": "Organic Cripps Pink Apple",
+      "price": "$3.09/lb",
+      "unit_price": "$3.09/lb"
+    },
+    {
+      "name": "Asian Pear",
+      "price": "$3.49/lb",
+      "unit_price": "$3.49/lb"
+    },
+    {
+      "name": "Organic Lady Alice Apple",
+      "price": "$3.09/lb",
+      "unit_price": "$3.09/lb"
+    },
+    {
+      "name": "PRODUCE Stem & Leaf Mandarins",
+      "price": "$3.49/lb",
+      "unit_price": "$3.49/lb"
+    },
+    {
+      "name": "Peeled Cape Gooseberries, 6 Ounce",
+      "price": "$3.99",
+      "unit_price": "$0.67/oz"
+    },
+    {
+      "name": "Seedless Watermelon",
+      "price": "$10.99",
+      "unit_price": "$10.99/ea"
+    },
+    {
+      "name": "Organic Coconut Small",
+      "price": "$10.49/lb",
+      "unit_price": "$10.49/lb"
+    },
+    {
+      "name": "PRODUCE Organic Pink Cripps Apples Bag, 48 OZ",
+      "price": "$7.99",
+      "unit_price": "$0.17/oz"
+    },
+    {
+      "name": "Grapefruit Star Conventional, 1 Each",
+      "price": "$1.99/lb",
+      "unit_price": "$1.99/lb"
+    },
+    {
+      "name": "SUNKIST Organic Grapefruit, 64 OZ",
+      "price": "$6.99",
+      "unit_price": "$0.11/oz"
+    },
+    {
+      "name": "Meyer Lemons, 1 lb Bag",
+      "price": "$2.99",
+      "unit_price": "$2.99/lb"
+    },
+    {
+      "name": "PRODUCE Black Seedless Grapes, 1 LB",
+      "price": "$5.29",
+      "unit_price": "$5.29/lb"
+    },
+    {
+      "name": "Orange Slices Small",
+      "price": "$7.29/lb",
+      "unit_price": "$7.29/lb"
+    },
+    {
+      "name": "Royal Star Papaya",
+      "price": "$2.09/lb",
+      "unit_price": "$2.09/lb"
+    },
+    {
+      "name": "Berry Pineapple Small",
+      "price": "$12.49/lb",
+      "unit_price": "$12.49/lb"
+    },
+    {
+      "name": "Lollieberries, 10 OZ",
+      "price": "$5.99",
+      "unit_price": "$0.60/oz"
+    },
+    {
+      "name": "PRODUCE Cara Cara Orange Bag, 48 OZ",
+      "price": "$5.99",
+      "unit_price": "$0.12/oz"
+    },
+    {
+      "name": "Seedless Black Grapes",
+      "price": "$3.49/lb",
+      "unit_price": "$3.49/lb"
+    },
+    {
+      "name": "Macintosh Apples",
+      "price": "$2.09/lb",
+      "unit_price": "$2.09/lb"
+    },
+    {
+      "name": "Yellow Peach",
+      "price": "$5.99/lb",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "Kiwi Pineapple Strawberry Small",
+      "price": "$12.49/lb",
+      "unit_price": "$12.49/lb"
+    },
+    {
+      "name": "Organic Coconut Chunks, 4 OZ",
+      "price": "$4.99",
+      "unit_price": "$1.25/oz"
+    },
+    {
+      "name": "PRODUCE Black Mission Figs, 8 OZ",
+      "price": "$4.99",
+      "unit_price": "$0.62/oz"
+    },
+    {
+      "name": "Cocobear Organic Thai Coconuts with Bamboo Drinking Straws",
+      "price": "$9.99",
+      "unit_price": "$9.99/ea"
+    },
+    {
+      "name": "Coconut Young, 1 Count",
+      "price": "$5.29",
+      "unit_price": "$5.29/ea"
+    },
+    {
+      "name": "SEAL THE SEASONS Organic New Jersey Blueberries, 32 OZ",
+      "price": "$12.00",
+      "unit_price": "$0.38/oz"
+    },
+    {
+      "name": "Altamont Orchards Honeycrisp Apple Cider, 64 FZ",
+      "price": "$4.99",
+      "unit_price": "$0.08/fl oz"
+    },
+    {
+      "name": "Green Avocado",
+      "price": "$2.69",
+      "unit_price": "$2.69/ea"
+    },
+    {
+      "name": "Snap Dragon Apple",
+      "price": "$2.49/lb",
+      "unit_price": "$2.49/lb"
+    },
+    {
+      "name": "Grapefruit Bag Conventional, 5 Pound",
+      "price": "$7.99",
+      "unit_price": "$1.60/lb"
+    },
+    {
+      "name": "Apple Evercrisp Conventional, 1 Each",
+      "price": "$2.59/lb",
+      "unit_price": "$2.59/lb"
+    },
+    {
+      "name": "The Strawberry Farm Strawberries, 1 PT",
+      "price": "$7.99",
+      "unit_price": "$0.50/oz"
+    },
+    {
+      "name": "EAT THIS YUM! Tipsy Peach Preserve, 2.85 OZ",
+      "price": "$6.99",
+      "unit_price": "$2.45/oz"
+    },
+    {
+      "name": "Dragon Fruit, 1 Each",
+      "price": "$7.99/lb",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "Muscat Grapes",
+      "price": "$4.99",
+      "unit_price": null
+    }
+  ]
+}

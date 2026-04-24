@@ -1,0 +1,459 @@
+{
+  "products": [
+    {
+      "name": "Planters Individual Variety Pack, 24 pk.",
+      "price": "$11.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Omega-3 Trail Mix, 40 oz.",
+      "price": "$12.99",
+      "unit_price": "$5.20/lb"
+    },
+    {
+      "name": "Wellsley Farms Classic Trail Mix, Multi-Pack Snack Packs, 28 ct./2 oz.",
+      "price": "$15.99",
+      "unit_price": "$4.57/lb"
+    },
+    {
+      "name": "Wellsley Farms Black Forest Inspired Trail Mix, 40 oz.",
+      "price": "$12.99",
+      "unit_price": "$5.20/lb"
+    },
+    {
+      "name": "Mott's Fruit Flavored Snacks, 90 ct.",
+      "price": "$12.99",
+      "unit_price": null
+    },
+    {
+      "name": "Welch's Fruit Snacks, Snack Packs, 90 ct./0.8 oz.",
+      "price": "$14.99",
+      "unit_price": "$0.17/pouch"
+    },
+    {
+      "name": "Go Raw Organic Sprouted Pumpkin Seeds with Sea Salt, 18 oz.",
+      "price": "$10.99",
+      "unit_price": "$9.77/lb"
+    },
+    {
+      "name": "Wellsley Farms Whole Fancy Roasted Salted Cashews, 42 oz.",
+      "price": "$18.99",
+      "unit_price": "$7.23/lb"
+    },
+    {
+      "name": "Wonderful Pistachios, No Shells Roasted & Salted Nuts, Resealable Pouch, 24 oz.",
+      "price": "$19.99",
+      "unit_price": "$13.33/lb"
+    },
+    {
+      "name": "Wellsley Farms Classic Trail Mix, 48 oz.",
+      "price": "$9.99",
+      "unit_price": "$3.33/lb"
+    },
+    {
+      "name": "Fresh Energy Medjool Dates, 2lbs.",
+      "price": "$9.99",
+      "unit_price": "$5.00/lb"
+    },
+    {
+      "name": "Fruit by the Foot Variety Pack, Strawberry and Berry Tie Dye, 48 ct.",
+      "price": "$15.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Heart Healthy Nut Mix, 20 oz.",
+      "price": "$10.99",
+      "unit_price": "$8.79/lb"
+    },
+    {
+      "name": "Wellsley Farms Organic Dried Mango, 20 oz.",
+      "price": "$13.99",
+      "unit_price": "$11.19/lb"
+    },
+    {
+      "name": "Pure Organic Layered Fruit Bars Variety Pack, 28 pk.",
+      "price": "$14.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wonderful Pistachios, In Shell Roasted & Salted Nuts, Resealable Bag, 48 oz.",
+      "price": "$19.99",
+      "unit_price": "$6.66/lb"
+    },
+    {
+      "name": "Wellsley Farms 100 Calorie Almond Packs, 32 ct.",
+      "price": "$13.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Honey Roasted Dry Roasted Peanuts, 40 oz.",
+      "price": "$4.99",
+      "unit_price": "$2.00/lb"
+    },
+    {
+      "name": "Wellsley Farms Peanut Butter Lovers Trail Mix, 40 oz.",
+      "price": "$12.99",
+      "unit_price": "$5.20/lb"
+    },
+    {
+      "name": "Sahale Maple Pecan Trail Mix, 13.3 oz.",
+      "price": "$12.99",
+      "unit_price": "$15.63/lb"
+    },
+    {
+      "name": "Wellsley Farms Roasted Unsalted Fancy Mixed Nuts, 40 oz.",
+      "price": "$17.99",
+      "unit_price": "$7.20/lb"
+    },
+    {
+      "name": "Welch's Fruit 'n Yogurt Snacks, 36 ct./0.7 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.40/pouch"
+    },
+    {
+      "name": "Bare Baked Crunchy Fruit Snacks Variety Pack, 18 pk./0.53 oz.",
+      "price": "$17.99",
+      "unit_price": "$1.89/pouch"
+    },
+    {
+      "name": "Wellsley Farms Dried Pitted Dates, 2.5 lbs.",
+      "price": "$8.99",
+      "unit_price": "$3.60/lb"
+    },
+    {
+      "name": "Wellsley Farms Peanut Buttery Trail Mix, 22 oz.",
+      "price": "$9.99",
+      "unit_price": "$7.27/lb"
+    },
+    {
+      "name": "Ocean Spray Craisins, 50% Less Sugar Dried Cranberries, Dried Fruit, 43 oz.",
+      "price": "$10.99",
+      "unit_price": "$4.09/lb"
+    },
+    {
+      "name": "Sun-Maid California Sun-Dried Raisins, 2 pk./2 lbs.",
+      "price": "$11.49",
+      "unit_price": "$2.87/lb"
+    },
+    {
+      "name": "Wellsley Farms Sunflower Seed Kernels, 22 oz.",
+      "price": "$4.99",
+      "unit_price": "$3.63/lb"
+    },
+    {
+      "name": "Wellsley Farms Dark Chocolate Covered Almonds, 45 oz.",
+      "price": "$18.99",
+      "unit_price": "$6.75/lb"
+    },
+    {
+      "name": "Wellsley Farms Organic Chia Seeds, 2 lbs.",
+      "price": "$9.79",
+      "unit_price": "$4.90/lb"
+    },
+    {
+      "name": "Planters Salted Peanuts, 56 oz.",
+      "price": "$8.99",
+      "unit_price": "$2.57/lb"
+    },
+    {
+      "name": "Planters Dry Roasted Peanuts, 52 oz.",
+      "price": "$7.99",
+      "unit_price": "$2.46/lb"
+    },
+    {
+      "name": "Wellsley Farms Premium Dried Apricots, 32 oz.",
+      "price": "$12.99",
+      "unit_price": "$6.50/lb"
+    },
+    {
+      "name": "Bear Real Fruit Snack Rolls, Strawberry & Raspberry Variety Pack, 16 ct.",
+      "price": "$10.99",
+      "unit_price": null
+    },
+    {
+      "name": "Welch's Fruit Snacks Tray, 20 ct.",
+      "price": "$14.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Roasted and Salted Pistachios, 48 oz.",
+      "price": "$18.99",
+      "unit_price": "$6.33/lb"
+    },
+    {
+      "name": "Wellsley Farms Whole Fancy Roasted Unsalted Cashews, 42 oz.",
+      "price": "$18.99",
+      "unit_price": "$7.23/lb"
+    },
+    {
+      "name": "Wellsley Farms Milk Chocolate Covered Cashews, 44 oz.",
+      "price": "$19.99",
+      "unit_price": "$7.27/lb"
+    },
+    {
+      "name": "Wellsley Farms Tropical Harvest Mix, 22 oz.",
+      "price": "$6.99",
+      "unit_price": "$5.08/lb"
+    },
+    {
+      "name": "Wellsley Farms Tavern Blend, 19 oz.",
+      "price": "$5.99",
+      "unit_price": "$5.04/lb"
+    },
+    {
+      "name": "Wellsley Farms Veggie Crunch Mix, 10 oz.",
+      "price": "$7.99",
+      "unit_price": "$12.78/lb"
+    },
+    {
+      "name": "Wellsley Farms Unsalted & Roasted In-Shell Peanuts, 5 lbs.",
+      "price": "$7.49",
+      "unit_price": "$1.50/lb"
+    },
+    {
+      "name": "Gushers Strawberry Splash and Tropical Flavor Fruit Snacks, 42 ct.",
+      "price": "$14.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Whole Almonds, 40 oz.",
+      "price": "$13.99",
+      "unit_price": "$5.60/lb"
+    },
+    {
+      "name": "Wellsley Farms Wholesome Nut Mix with Sea Salt, 20 oz.",
+      "price": "$10.99",
+      "unit_price": "$8.79/lb"
+    },
+    {
+      "name": "Wellsley Farms Tropical Trail Mix, 40 oz.",
+      "price": "$12.99",
+      "unit_price": "$5.20/lb"
+    },
+    {
+      "name": "Wellsley Farms Extra Fancy Salted Mixed Nuts, 40 oz.",
+      "price": "$17.99",
+      "unit_price": "$7.20/lb"
+    },
+    {
+      "name": "Wellsley Farms Gourmet Dried California Plums, 44 oz.",
+      "price": "$8.99",
+      "unit_price": "$3.27/lb"
+    },
+    {
+      "name": "Wellsley Farms Macadamia Nuts with Sea Salt, 10 oz.",
+      "price": "$8.99",
+      "unit_price": "$14.38/lb"
+    },
+    {
+      "name": "Wellsley Farms Dried Mango, 30 oz.",
+      "price": "$12.99",
+      "unit_price": "$6.93/lb"
+    },
+    {
+      "name": "Wellsley Farms Milk Chocolate Covered Raisins, 50 oz.",
+      "price": "$17.99",
+      "unit_price": "$5.76/lb"
+    },
+    {
+      "name": "Pure Organic Twisted Fruit Bites Variety Pack, Kid Snacks, 24 ct./0.71 oz.",
+      "price": "$15.99",
+      "unit_price": "$0.94/pouch"
+    },
+    {
+      "name": "Wellsley Farms Honey Roasted Cashews, 20 oz.",
+      "price": "$9.99",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Peanut Butter Bliss Trail Mix, 22 oz.",
+      "price": "$9.99",
+      "unit_price": "$7.27/lb"
+    },
+    {
+      "name": "Ocean Spray Craisins Original Dried Cranberries, Dried Fruit, 48 oz.",
+      "price": "$8.99",
+      "unit_price": "$3.00/lb"
+    },
+    {
+      "name": "Wellsley Farms Sweet And Crunchy Trail Mix, 22 oz.",
+      "price": "$8.99",
+      "unit_price": "$6.54/lb"
+    },
+    {
+      "name": "Butter Toffee Cashews, 37 oz.",
+      "price": "$18.99",
+      "unit_price": "$8.21/lb"
+    },
+    {
+      "name": "Wellsley Farms Raw Cashews, 20 oz.",
+      "price": "$9.99",
+      "unit_price": "$7.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Balanced Blend Snack Mix, Yogurt Covered Fruit & Nuts, 22 oz.",
+      "price": "$9.99",
+      "unit_price": "$7.27/lb"
+    },
+    {
+      "name": "Blue Diamond Lightly Salted Almonds, 32 oz.",
+      "price": "$13.49",
+      "unit_price": "$6.75/lb"
+    },
+    {
+      "name": "Fruit Roll-Ups Razzberry Fruit Flavored Snacks, 64 ct.",
+      "price": "$14.49",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Organic Dried Calimyrna Figs, 36 oz.",
+      "price": "$13.99",
+      "unit_price": "$6.22/lb"
+    },
+    {
+      "name": "Wellsley Farms Oil Roasted and Unsalted Almonds, 40 oz.",
+      "price": "$13.99",
+      "unit_price": "$5.60/lb"
+    },
+    {
+      "name": "M&M'S Bulk Chocolate Candy, Peanut Milk Chocolate, Jar, 62 oz.",
+      "price": "$16.99",
+      "unit_price": "$4.38/lb"
+    },
+    {
+      "name": "Wellsley Farms Cranberry & Raisin Trail Mix, 20 oz.",
+      "price": "$6.99",
+      "unit_price": "$5.59/lb"
+    },
+    {
+      "name": "Wellsley Farms Organic Trail Mix, 20 oz.",
+      "price": "$7.99",
+      "unit_price": "$6.39/lb"
+    },
+    {
+      "name": "Wonderful Pistachios, No Shells Sea Salt & Vinegar Pistachios, Resealable Pouch, 22 oz.",
+      "price": "$19.99",
+      "unit_price": "$14.54/lb"
+    },
+    {
+      "name": "Wellsley Farms Oil Roasted & Sea Salted Almonds, 40 oz.",
+      "price": "$13.99",
+      "unit_price": "$5.60/lb"
+    },
+    {
+      "name": "Wellsley Farms Salted & Roasted In-Shell Peanuts, 5 lbs.",
+      "price": "$7.49",
+      "unit_price": "$1.50/lb"
+    },
+    {
+      "name": "Wellsley Farms Raw Almonds, 22 oz.",
+      "price": "$8.99",
+      "unit_price": "$6.54/lb"
+    },
+    {
+      "name": "Lilly's Family Foods Raw Nut Blend, 12 oz.",
+      "price": "$8.49",
+      "unit_price": "$11.32/lb"
+    },
+    {
+      "name": "Wellsley Farms Organic Raisins, 2 lbs.",
+      "price": "$9.99",
+      "unit_price": "$5.00/lb"
+    },
+    {
+      "name": "Welch's Fruit Snacks Easter Box, Pouches, 85 ct.",
+      "price": "$9.98",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Lightly Salted Cashew Halves and Pieces, 42 oz.",
+      "price": "$18.99",
+      "unit_price": "$7.23/lb"
+    },
+    {
+      "name": "Black Forest Gummy Bears, 4 lbs.",
+      "price": "$11.79",
+      "unit_price": "$2.95/lb"
+    },
+    {
+      "name": "Blue Diamond Lightly Salted Whole Almonds, 40 oz.",
+      "price": "$17.49",
+      "unit_price": "$7.00/lb"
+    },
+    {
+      "name": "Skittles Original Real Fruit Juice Fruit Snacks, 42 ct.",
+      "price": "$10.99",
+      "unit_price": null
+    },
+    {
+      "name": "Skittles Gummies Fun Size Candy, Variety Pack, 120 ct.",
+      "price": "$19.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Organic Pine Nuts, 8 oz.",
+      "price": "$14.99",
+      "unit_price": "$29.98/lb"
+    },
+    {
+      "name": "Wellsley Farms Dark Chocolate Covered Almonds, 45 oz.",
+      "price": "$18.99",
+      "unit_price": "$6.75/lb"
+    },
+    {
+      "name": "Wellsley Farms Milk Chocolate Covered Cashews, 44 oz.",
+      "price": "$19.99",
+      "unit_price": "$7.27/lb"
+    },
+    {
+      "name": "Orchard Valley Harvest Omega-3 Snack Mix, 15 pk./1 oz.",
+      "price": "$9.99",
+      "unit_price": "$10.66/lb"
+    },
+    {
+      "name": "Wellsley Farms Classic Trail Mix, 42 oz.",
+      "price": "$7.99",
+      "unit_price": "$3.04/lb"
+    },
+    {
+      "name": "Annie's Organic Bees, Bugs, and Butterflies Fruit Flavored Snacks, Pouches, 50 ct./0.7 oz.",
+      "price": "$8.98",
+      "unit_price": "$0.18/pouch"
+    },
+    {
+      "name": "Nature's Garden Mixed Salted Nuts, 26 oz.",
+      "price": "$6.99",
+      "unit_price": "$4.30/lb"
+    },
+    {
+      "name": "Welch's Fruit Snacks Valentine Box, 85 ct.",
+      "price": "$13.49",
+      "unit_price": null
+    },
+    {
+      "name": "Chocxo Organic Dark Chocolate Coconut Cups, 11.85 oz.",
+      "price": "$6.98",
+      "unit_price": "$9.42/lb"
+    },
+    {
+      "name": "Wellsley Farms Nuts & Berries Trail Mix, 26 oz.",
+      "price": "$10.99",
+      "unit_price": "$6.76/lb"
+    },
+    {
+      "name": "Oh!asis Snack Size Coconut Patties, Original Flavor, 20 oz.",
+      "price": "$10.99",
+      "unit_price": "$8.79/lb"
+    },
+    {
+      "name": "Nature's Garden Mixed Unsalted Nuts, 26 oz.",
+      "price": "$6.99",
+      "unit_price": "$4.30/lb"
+    },
+    {
+      "name": "Wellsley Farms Organic Trail Mix, 17 oz.",
+      "price": "$6.99",
+      "unit_price": "$6.58/lb"
+    }
+  ]
+}

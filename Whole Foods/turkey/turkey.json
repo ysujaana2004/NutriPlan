@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "name": "KOCHS TURKEY FARM Organic Ground Turkey, 16 OZ",
+      "price": "$9.49",
+      "unit_price": "$0.59/oz"
+    },
+    {
+      "name": "365 by Whole Foods Market Ground Dark Turkey 94/6, 16 OZ",
+      "price": "$6.99",
+      "unit_price": "$0.44/oz"
+    },
+    {
+      "name": "KOCHS TURKEY FARM Organic Ground Turkey Breast, 16 OZ",
+      "price": "$10.99",
+      "unit_price": "$0.69/oz"
+    },
+    {
+      "name": "Applegate, Natural Honey & Maple Turkey Breast Family Size, 10.5oz",
+      "price": "$9.49",
+      "unit_price": "$0.90/oz"
+    },
+    {
+      "name": "CHOMPS Original Turkey Sticks 8 Count, 1.15 OZ",
+      "price": "$19.99",
+      "unit_price": "$2.17/oz"
+    },
+    {
+      "name": "KOCHS TURKEY FARM Ground Turkey Breast, 16 OZ",
+      "price": "$8.99",
+      "unit_price": "$0.56/oz"
+    },
+    {
+      "name": "Applegate, Organic Herb Turkey Breast, 6oz",
+      "price": "$8.49",
+      "unit_price": "$1.42/oz"
+    },
+    {
+      "name": "Smoked Turkey Kielbasa, 12 OZ",
+      "price": "$6.99",
+      "unit_price": "$0.58/oz"
+    },
+    {
+      "name": "Whole Foods Market, Turkey Breast Oven Roasted Alto-Shaam In House Charcuterie",
+      "price": "$16.99/lb",
+      "unit_price": "$16.99/lb"
+    },
+    {
+      "name": "Whole Foods Market, Turkey Breast Herb Roasted Alto-Shaam In House Charcuterie",
+      "price": "$16.99/lb",
+      "unit_price": "$16.99/lb"
+    },
+    {
+      "name": "KOCHS TURKEY FARM Boneless Turkey Breast Roast",
+      "price": "$9.99/lb",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "Whole Foods Market Kitchens Classic Ketchup Turkey Meatloaf",
+      "price": "$12.79/lb",
+      "unit_price": "$12.79/lb"
+    }
+  ]
+}

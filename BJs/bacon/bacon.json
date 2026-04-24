@@ -1,0 +1,309 @@
+{
+  "products": [
+    {
+      "name": "Wellsley Farms Sliced Bacon, 3 pk./16 oz.",
+      "price": "$11.79",
+      "unit_price": "$3.93/lb"
+    },
+    {
+      "name": "Nathan's Famous Skinless All Beef Hot Dogs, Bun Length, 24 ct.",
+      "price": "$13.99",
+      "unit_price": null
+    },
+    {
+      "name": "Smithfield Hometown Original Bacon, Naturally Hickory Smoked, 3 pk./16 oz.",
+      "price": "$16.99",
+      "unit_price": "$5.66/lb"
+    },
+    {
+      "name": "Ball Park Beef Hot Dogs, 24 ct.",
+      "price": "$10.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Thick-Sliced Bacon, 3 lbs.",
+      "price": "$12.29",
+      "unit_price": "$4.10/lb"
+    },
+    {
+      "name": "Oscar Mayer Naturally Hardwood Smoked Bacon, 3 ct.",
+      "price": "$17.79",
+      "unit_price": "$5.93/lb"
+    },
+    {
+      "name": "Wellsley Farms Sweet Italian Sausage, 14 Links, 3 lbs.",
+      "price": "$10.49",
+      "unit_price": "$3.50/lb"
+    },
+    {
+      "name": "Hillshire Farm Polska Kielbasa Smoked Sausage Family Pack, 48 oz.",
+      "price": "$11.79",
+      "unit_price": "$3.93/lb"
+    },
+    {
+      "name": "Oscar Mayer Fully Cooked Smoked Turkey Bacon, 4 pk./12 oz.",
+      "price": "$16.99",
+      "unit_price": "$22.65/lb"
+    },
+    {
+      "name": "Nathans Quarter Pound Beef Franks, 3 lbs.",
+      "price": "$13.99",
+      "unit_price": "$4.66/lb"
+    },
+    {
+      "name": "Jimmy Dean Regular Premium Pork Sausage Roll, 32 oz.",
+      "price": "$8.99",
+      "unit_price": "$4.50/lb"
+    },
+    {
+      "name": "Hatfield Recipe Essentials Chorizo, Frozen, 2 pk./16 oz.",
+      "price": "$8.49",
+      "unit_price": "$4.25/lb"
+    },
+    {
+      "name": "Johnsonville Beddar with Cheddar Smoked Sausages, 18 ct.",
+      "price": "$12.49",
+      "unit_price": null
+    },
+    {
+      "name": "Sabrett Skinless Beef Franks, 3 lbs.",
+      "price": "$15.79",
+      "unit_price": "$5.26/lb"
+    },
+    {
+      "name": "Johnsonville Breakfast Sausages, 3 pk./14 ct.",
+      "price": "$10.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Hot Italian Sausage, 14 Links, 3 lbs.",
+      "price": "$10.49",
+      "unit_price": "$3.50/lb"
+    },
+    {
+      "name": "Hillshire Farm Beef Smoked Sausage Family Pack, 48 oz.",
+      "price": "$18.29",
+      "unit_price": "$6.10/lb"
+    },
+    {
+      "name": "Ball Park Classic Franks, 24 ct.",
+      "price": "$9.79",
+      "unit_price": null
+    },
+    {
+      "name": "Hormel Black Thick Cut Fully Cooked Bacon, 10.5 oz./36 ct.",
+      "price": "$16.99",
+      "unit_price": "$25.90/lb"
+    },
+    {
+      "name": "Johnsonville Vermont Maple Sausage Links, 14 ct./2.25 lbs.",
+      "price": "$10.99",
+      "unit_price": "$4.88/lb"
+    },
+    {
+      "name": "Gwaltney Bun-Length Chicken Hot Dogs, 24 ct.",
+      "price": "$5.99",
+      "unit_price": null
+    },
+    {
+      "name": "Oscar Mayer Classic Wieners Hot Dogs, 30 ct.",
+      "price": "$8.29",
+      "unit_price": null
+    },
+    {
+      "name": "Hebrew National Beef Franks, 3 pk./12 oz.",
+      "price": "$12.99",
+      "unit_price": "$5.78/lb"
+    },
+    {
+      "name": "Hillshire Farm Turkey Kielbasa, 39 oz.",
+      "price": "$12.79",
+      "unit_price": "$5.25/lb"
+    },
+    {
+      "name": "Jimmy Dean Turkey Sausage Patties, 24 ct.",
+      "price": "$14.99",
+      "unit_price": null
+    },
+    {
+      "name": "Caroline Smoked Beef Sausage, 40 oz.",
+      "price": "$11.99",
+      "unit_price": "$4.80/lb"
+    },
+    {
+      "name": "Premio Sweet Italian Ground Sausage Meat, 32 oz.",
+      "price": "$9.19",
+      "unit_price": "$4.60/lb"
+    },
+    {
+      "name": "Hormel Original Microwave Ready Bacon, 24 oz.",
+      "price": "$14.99",
+      "unit_price": "$9.99/lb"
+    },
+    {
+      "name": "Wellsley Farms Fully Cooked Hickory Smoked Bacon, 16 oz.",
+      "price": "$18.99",
+      "unit_price": "$18.99/lb"
+    },
+    {
+      "name": "Jones Dairy Farm Canadian Bacon, 18 oz.",
+      "price": "$9.99",
+      "unit_price": "$8.88/lb"
+    },
+    {
+      "name": "Amylu Foods Classic Breakfast Chicken Sausages, Mini Links, 32 oz.",
+      "price": "$11.99",
+      "unit_price": "$6.00/lb"
+    },
+    {
+      "name": "Hillshire Farm Lit'L Smokies Smoked Sausages, 48 oz.",
+      "price": "$13.99",
+      "unit_price": "$4.66/lb"
+    },
+    {
+      "name": "Smithfield Low Sodium Bacon, Naturally Hickory Smoked, 3 pk./16 oz.",
+      "price": "$16.99",
+      "unit_price": "$5.66/lb"
+    },
+    {
+      "name": "Sabrett Natural-Casing Beef Frankfurters, 16 ct.",
+      "price": "$14.49",
+      "unit_price": null
+    },
+    {
+      "name": "Jones Golden Brown All Natural Pork Sausages, 28 oz.",
+      "price": "$8.99",
+      "unit_price": "$5.14/lb"
+    },
+    {
+      "name": "Oscar Mayer Turkey Franks Hot Dogs, 30 ct.",
+      "price": "$11.29",
+      "unit_price": null
+    },
+    {
+      "name": "Dietz & Watson Beef Franks, 3 lbs.",
+      "price": "$13.99",
+      "unit_price": "$4.66/lb"
+    },
+    {
+      "name": "Al Fresco Roasted Garlic Chicken Dinner Sausage, 32 oz.",
+      "price": "$11.99",
+      "unit_price": "$6.00/lb"
+    },
+    {
+      "name": "Premio Hot Italian Sausage Links, 14 ct.",
+      "price": "$12.29",
+      "unit_price": null
+    },
+    {
+      "name": "Sabrett All-Beef Hot Sausage, 3 lbs.",
+      "price": "$16.49",
+      "unit_price": "$5.50/lb"
+    },
+    {
+      "name": "Al Fresco Sweet Apple Chicken Dinner Sausage, 32 oz.",
+      "price": "$11.99",
+      "unit_price": "$6.00/lb"
+    },
+    {
+      "name": "Al Fresco Italian Style Chicken Dinner Sausage, 32 oz.",
+      "price": "$11.99",
+      "unit_price": "$6.00/lb"
+    },
+    {
+      "name": "Smithfield Center Cut Applewood Smoked Bacon, 3 pk./12 oz",
+      "price": "$15.99",
+      "unit_price": "$21.32/lb"
+    },
+    {
+      "name": "Caroline Hot Smoked Beef Sausage, 40 oz.",
+      "price": "$11.99",
+      "unit_price": "$4.80/lb"
+    },
+    {
+      "name": "El Parcero Colombian Chorizo, 30 oz.",
+      "price": "$8.49",
+      "unit_price": "$4.53/lb"
+    },
+    {
+      "name": "Kiolbassa Traditional Pork & Beef Hickory Smoked Sausage, 11 Links, 41.89 oz.",
+      "price": "$16.99",
+      "unit_price": "$6.49/lb"
+    },
+    {
+      "name": "Johnsonville Original Mild Breakfast Sausage Patties, 24 ct.",
+      "price": "$10.49",
+      "unit_price": null
+    },
+    {
+      "name": "Parks Mild Beef Sausage, 3 lbs.",
+      "price": "$16.99",
+      "unit_price": "$5.66/lb"
+    },
+    {
+      "name": "Parks Hot Beef Sausage, 3 lbs.",
+      "price": "$16.99",
+      "unit_price": "$5.66/lb"
+    },
+    {
+      "name": "Goya Naturally Smoked Chorizos, 14 oz.",
+      "price": "$9.99",
+      "unit_price": "$11.42/lb"
+    },
+    {
+      "name": "Mr. Tango Argentinian Sausage Links, 10 ct.",
+      "price": "$11.99",
+      "unit_price": null
+    },
+    {
+      "name": "Dietz and Watson Twin Pack Polska Kieblasa, 2 pk./14 oz.",
+      "price": "$10.99",
+      "unit_price": "$12.56/lb"
+    },
+    {
+      "name": "Parks Hot Smoked Turkey Sausage, 3 lbs.",
+      "price": "$15.99",
+      "unit_price": "$5.33/lb"
+    },
+    {
+      "name": "Bridgford Summer Sausage, 16 oz.",
+      "price": "$5.99",
+      "unit_price": "$5.99/lb"
+    },
+    {
+      "name": "Botto's Chorizo Sausage, 2.5 lbs.",
+      "price": "$11.99",
+      "unit_price": "$4.80/lb"
+    },
+    {
+      "name": "Aidells Italian Style Smoked Chicken Sausage with Mozzarella Cheese, 32 oz.",
+      "price": "$11.99",
+      "unit_price": "$6.00/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Sweet Italian Sausages, 2 pk./1.5 lbs.",
+      "price": "$9.99",
+      "unit_price": "$6.66/lb"
+    },
+    {
+      "name": "Ball Park Original Length Angus Beef Hot Dogs, 24 ct.",
+      "price": "$14.99",
+      "unit_price": null
+    },
+    {
+      "name": "Wellsley Farms Sweet Italian Ground Sausage, 2 ct./16 oz.",
+      "price": "$6.99",
+      "unit_price": "$3.50/lb"
+    },
+    {
+      "name": "Wellsley Farms Sweet Italian Style Chicken Sausage, 32 oz.",
+      "price": "$10.99",
+      "unit_price": "$5.50/lb"
+    },
+    {
+      "name": "Wellsley Farms Fresh Hot Italian Sausage, 2 pk./1.5 lbs.",
+      "price": "$9.99",
+      "unit_price": "$6.66/lb"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "products": [
+    {
+      "name": "Del Monte Whole Corn, 12 pk./15.25 oz.",
+      "price": "$15.49",
+      "unit_price": "$0.08 per oz"
+    },
+    {
+      "name": "Del Monte Cut Green Beans, 12 ct.",
+      "price": "$15.49",
+      "unit_price": null
+    },
+    {
+      "name": "Goya Black Beans, 8 pk./15.5 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.06 per oz"
+    },
+    {
+      "name": "Goya Red Kidney Beans, 8 pk./15.5 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.06 per oz"
+    },
+    {
+      "name": "Del Monte Sweet Peas, 8 pk./15 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.08 per oz"
+    },
+    {
+      "name": "Bush's Original Baked Beans, 8 pk./16.5 oz.",
+      "price": "$15.79",
+      "unit_price": "$0.12 per oz"
+    },
+    {
+      "name": "Del Monte Blue Lake French Style Green Beans, 8 pk./14.5 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.09 per oz"
+    },
+    {
+      "name": "Hunt's Tomato Paste, 12 pk./6 oz.",
+      "price": "$10.99",
+      "unit_price": "$0.15 per oz"
+    },
+    {
+      "name": "Hunt's Diced Tomatoes, 8 pk./14.5 oz.",
+      "price": "$9.89",
+      "unit_price": "$0.09 per oz"
+    },
+    {
+      "name": "Tuttorosso Crushed Tomatoes with Basil, 6 pk./28 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.06 per oz"
+    },
+    {
+      "name": "Goya Pink Beans, 8 pk./15.5 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.06 per oz"
+    },
+    {
+      "name": "Le Sueur Very Young Small Sweet Peas, 8 pk./15 oz.",
+      "price": "$12.79",
+      "unit_price": "$0.11 per oz"
+    },
+    {
+      "name": "Goya Cannellini Beans, 6 pk./15 oz.",
+      "price": "$9.39",
+      "unit_price": "$0.10 per oz"
+    },
+    {
+      "name": "Pennsylvania Dutchman Mushroom Pieces and Stems, 12 pk./4 oz.",
+      "price": "$14.49",
+      "unit_price": "$0.30 per oz"
+    },
+    {
+      "name": "Hunt's Tomato Sauce, 12 pk./15 oz.",
+      "price": "$12.99",
+      "unit_price": "$0.07 per oz"
+    },
+    {
+      "name": "Cento Certified San Marzano Tomatoes, 3 pk./28 oz.",
+      "price": "$11.99",
+      "unit_price": "$0.14 per oz"
+    },
+    {
+      "name": "Bush's Grillin' Beans Bourbon and Brown Sugar, 6 ct./22 oz.",
+      "price": "$13.99",
+      "unit_price": "$0.11 per oz"
+    },
+    {
+      "name": "Rotel Original Diced Tomatoes and Green Chilies, 8 pk./10 oz.",
+      "price": "$8.79",
+      "unit_price": "$0.11 per oz"
+    },
+    {
+      "name": "Goya Large Red Kidney Beans, 4 lb.",
+      "price": "$6.49",
+      "unit_price": "$0.10 per oz"
+    },
+    {
+      "name": "Goya Black Beans, 10 lb., Bag",
+      "price": "$15.49",
+      "unit_price": "$0.10 per oz"
+    },
+    {
+      "name": "Goya Pinto Beans, 8 pk./15.5 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.06 per oz"
+    },
+    {
+      "name": "Goya Black Beans, 4 lbs.",
+      "price": "$6.99",
+      "unit_price": "$0.11 per oz"
+    },
+    {
+      "name": "Del Monte Blue Lake Fancy Cut Green Beans, 101 oz.",
+      "price": "$5.99",
+      "unit_price": "$0.06 per oz"
+    },
+    {
+      "name": "Hunts Fire Roasted Diced Tomatoes, 8 ct./14.5 oz.",
+      "price": "$12.29",
+      "unit_price": "$0.11 per oz"
+    },
+    {
+      "name": "Muir Glen Organic Diced Tomatoes, 6 pk./14.5 oz.",
+      "price": "$10.99",
+      "unit_price": "$0.13 per oz"
+    },
+    {
+      "name": "Wellsley Farms Petite Artichoke Hearts, 33.5 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.24 per oz"
+    },
+    {
+      "name": "Goya Roman Beans, 10 lbs.",
+      "price": "$18.99",
+      "unit_price": "$0.12 per oz"
+    },
+    {
+      "name": "Goya Small Red Beans, 4 lb.",
+      "price": "$8.79",
+      "unit_price": "$0.14 per oz"
+    },
+    {
+      "name": "Goya Pinto Beans, 10 lb. Bag",
+      "price": "$15.49",
+      "unit_price": "$0.10 per oz"
+    },
+    {
+      "name": "Wellsley Farms Marinated Mushrooms, 30.4 oz.",
+      "price": "$7.99",
+      "unit_price": "$0.26 per oz"
+    },
+    {
+      "name": "Goya Pinto Beans, 4 lbs.",
+      "price": "$7.49",
+      "unit_price": "$0.12 per oz"
+    },
+    {
+      "name": "Diana Dry Black Beans Bulk Dry Bags, 6 Bags/12 oz.",
+      "price": "$9.99",
+      "unit_price": "$0.14 per oz"
+    },
+    {
+      "name": "Goya Chipotle Peppers in Adobo Sauce, 6 pk./7 oz.",
+      "price": "$5.98",
+      "unit_price": "$0.14 per oz"
+    },
+    {
+      "name": "Kirby Black Beans, 6 pk./15 oz.",
+      "price": "$11.99",
+      "unit_price": "$0.13 per oz"
+    },
+    {
+      "name": "Goya Pink Beans, 4 lb.",
+      "price": "$7.99",
+      "unit_price": "$0.12 per oz"
+    },
+    {
+      "name": "Diana Dry Red Kidney Beans, 6 Bags/12 oz.",
+      "price": "$9.49",
+      "unit_price": "$0.13 per oz"
+    },
+    {
+      "name": "Goya Low Sodium Black Beans, 6 pk./15.5 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.10 per oz"
+    },
+    {
+      "name": "Goya Small Red Beans, 6 pk./15.5 oz.",
+      "price": "$8.99",
+      "unit_price": "$0.10 per oz"
+    },
+    {
+      "name": "Goya American Beans, 4 lb., 1 Jar",
+      "price": "$11.99",
+      "unit_price": "$0.19 per oz"
+    },
+    {
+      "name": "Wellsley Farms Sundried Tomatoes, 32 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.22 per oz"
+    },
+    {
+      "name": "Wellsley Farms Roasted Red Peppers, 2 pk./24 oz.",
+      "price": "$6.99",
+      "unit_price": "$0.29 per oz"
+    }
+  ]
+}
