@@ -20,6 +20,7 @@ export function Dashboard() {
     setGenerateOpen(false);
     // Store generated plan data so other pages can use the same backend payload.
     sessionStorage.setItem('generatedPlan', JSON.stringify(plan));
+    sessionStorage.setItem('generatedBackendPlan', JSON.stringify(backendPlan));
     sessionStorage.setItem('generatedShoppingList', JSON.stringify(backendPlan.shopping_list ?? null));
     navigate('/meal-plans');
   };

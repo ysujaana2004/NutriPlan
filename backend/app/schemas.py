@@ -104,3 +104,12 @@ class WeeklyPlan(BaseModel):
     week_totals: Nutrition
     week_total_cost_usd: float
     shopping_list: Optional[ShoppingListSummary] = None
+
+
+class ReplaceMealRequest(BaseModel):
+    """Payload for replacing one meal in an already-generated weekly plan."""
+
+    current_plan: WeeklyPlan
+    day_index: int = Field(..., ge=0, le=6)
+    meal_type: Literal["breakfast", "lunch", "dinner"]
+    current_recipe_id: Optional[str] = None

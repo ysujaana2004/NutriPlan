@@ -64,11 +64,19 @@ export interface BackendWeeklyPlan {
     calories: number;
     diet: string;
     start_date: string | null;
+    store_name?: string;
   };
   days: BackendDayPlan[];
   week_totals: BackendNutrition;
   week_total_cost_usd: number;
   shopping_list?: BackendShoppingListSummary | null;
+}
+
+export interface ReplaceMealParams {
+  current_plan: BackendWeeklyPlan;
+  day_index: number;
+  meal_type: 'breakfast' | 'lunch' | 'dinner';
+  current_recipe_id?: string;
 }
 
 export interface MealPlanParams {
@@ -94,6 +102,26 @@ export async function fetchMealPlan(params: MealPlanParams): Promise<BackendWeek
   if (!response.ok) {
     const errorText = await response.text();
     throw new Error(`Failed to fetch meal plan: ${response.status} ${errorText}`);
+  }
+
+  return response.json();
+}
+
+/**
+ * Replaces one meal in an existing backend weekly plan.
+ */
+export async function replaceMealInPlan(params: ReplaceMealParams): Promise<BackendWeeklyPlan> {
+  const response = await fetch(`${API_BASE_URL}/optimize/meal-plan/replace`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(params),
+  });
+
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new Error(`Failed to replace meal: ${response.status} ${errorText}`);
   }
 
   return response.json();

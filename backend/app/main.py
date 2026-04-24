@@ -14,6 +14,7 @@ What this file intentionally does NOT do:
 
 Endpoint overview:
 - /optimize/meal-plan: real nutrition-first planner (uses optimizer module).
+- /optimize/meal-plan/replace: replace one generated meal and recompute totals.
 - /health: simple readiness check.
 
 Design goal:
@@ -29,8 +30,8 @@ from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 
 # from ..archive.demo_planner import build_demo_weekly_plan
-from .optimizer import build_optimized_weekly_plan
-from .schemas import Diet, WeeklyPlan
+from .optimizer import build_optimized_weekly_plan, replace_meal_in_weekly_plan
+from .schemas import Diet, ReplaceMealRequest, WeeklyPlan
 
 
 app = FastAPI(
@@ -93,6 +94,19 @@ async def optimized_meal_plan(
         carbs_target_g=carbs_target_g,
         fat_target_g=fat_target_g,
     )
+
+
+@app.post("/optimize/meal-plan/replace", response_model=WeeklyPlan)
+async def replace_meal(request: ReplaceMealRequest) -> WeeklyPlan:
+    """Replace one meal in an existing weekly plan and recompute aggregate outputs."""
+
+    return replace_meal_in_weekly_plan(
+        current_plan=request.current_plan,
+        day_index=request.day_index,
+        meal_type=request.meal_type,
+        current_recipe_id=request.current_recipe_id,
+    )
+
 
 # added this for location (March 20th )
 @app.get("/stores/nearby")
