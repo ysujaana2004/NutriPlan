@@ -20,6 +20,7 @@ def test_nearby_stores_success():
     data = response.json()
     assert data["zip_code"] == "90210"
     assert data["store_name"] == "Target"
+    assert len(data["results"]) > 0  # We should get at least one result
     
     # Ensure there is a "results" list (even if the list is empty locally due to missing API keys)
     assert "results" in data

@@ -1,5 +1,6 @@
 from fastapi.testclient import TestClient
 from app.main import app
+from app.optimizer import build_optimized_weekly_plan, replace_meal_in_weekly_plan
 
 # Create a test client
 client = TestClient(app)
@@ -65,3 +66,72 @@ def test_optimize_respects_calorie_target():
     upper_bound = target_daily_calories * 1.15
     
     assert lower_bound <= average_daily_calories <= upper_bound, f"Average {average_daily_calories} is outside bounds {lower_bound}-{upper_bound}"
+
+
+def test_replace_meal_recomputes_totals_and_shopping_list():
+    plan = build_optimized_weekly_plan(
+        store_name="Target",
+        budget=150,
+        calories=2000,
+        diet="none",
+        start_date="2026-01-05",
+        protein_target_g=None,
+        carbs_target_g=None,
+        fat_target_g=None,
+    )
+
+    day_index = 0
+    meal_type = "lunch"
+    original_meal = next(meal for meal in plan.days[day_index].meals if meal.meal_type == meal_type)
+    original_recipe_id = original_meal.recipe_id
+
+    updated = replace_meal_in_weekly_plan(
+        current_plan=plan,
+        day_index=day_index,
+        meal_type=meal_type,
+        current_recipe_id=original_recipe_id,
+    )
+
+    updated_meal = next(meal for meal in updated.days[day_index].meals if meal.meal_type == meal_type)
+    assert updated_meal.recipe_id != original_recipe_id
+
+    # Ensure original plan is not mutated.
+    unchanged_original_meal = next(meal for meal in plan.days[day_index].meals if meal.meal_type == meal_type)
+    assert unchanged_original_meal.recipe_id == original_recipe_id
+
+    updated_day = updated.days[day_index]
+    assert updated_day.totals.calories == sum(meal.nutrition.calories for meal in updated_day.meals)
+    assert updated_day.totals.protein_g == sum(meal.nutrition.protein_g for meal in updated_day.meals)
+    assert updated_day.totals.carbs_g == sum(meal.nutrition.carbs_g for meal in updated_day.meals)
+    assert updated_day.totals.fat_g == sum(meal.nutrition.fat_g for meal in updated_day.meals)
+
+    assert updated.week_totals.calories == sum(day.totals.calories for day in updated.days)
+    assert updated.week_totals.protein_g == sum(day.totals.protein_g for day in updated.days)
+    assert updated.week_totals.carbs_g == sum(day.totals.carbs_g for day in updated.days)
+    assert updated.week_totals.fat_g == sum(day.totals.fat_g for day in updated.days)
+
+    assert updated.shopping_list is not None
+    assert updated.shopping_list.total_estimated_cost_usd > 0
+
+
+def test_replace_meal_api_route_success():
+    initial = client.get("/optimize/meal-plan?budget=150&calories=2000&diet=none&store_preference=Target")
+    assert initial.status_code == 200
+    plan = initial.json()
+
+    lunch = next(meal for meal in plan["days"][0]["meals"] if meal["meal_type"] == "lunch")
+    payload = {
+        "current_plan": plan,
+        "day_index": 0,
+        "meal_type": "lunch",
+        "current_recipe_id": lunch["recipe_id"],
+    }
+
+    response = client.post("/optimize/meal-plan/replace", json=payload)
+    assert response.status_code == 200
+    updated = response.json()
+
+    updated_lunch = next(meal for meal in updated["days"][0]["meals"] if meal["meal_type"] == "lunch")
+    assert updated_lunch["recipe_id"] != lunch["recipe_id"]
+    assert "shopping_list" in updated
+    assert updated["shopping_list"] is not None

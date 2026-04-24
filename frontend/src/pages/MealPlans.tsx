@@ -3,8 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import { ShoppingCart, Plus, Trash2, RefreshCw, Settings2 } from 'lucide-react';
 import { MOCK_WEEK_PLAN, MOCK_RECIPES } from '../data/mock';
 import type { DayPlan, MealSlot, MealType, Recipe } from '../types';
+import { replaceMealInPlan, type BackendWeeklyPlan } from '../services/api';
+import { transformBackendPlanToFrontend } from '../utils/transform';
 import { RecipeDetailModal } from '../components/Modals/RecipeDetailModal';
-import { ChangeMealModal } from '../components/Modals/ChangeMealModal';
 import { WeekPreferencesModal } from '../components/Modals/WeekPreferencesModal';
 
 const MEAL_LABELS: Record<MealType, string> = {
@@ -16,29 +17,46 @@ const MEAL_LABELS: Record<MealType, string> = {
 
 export function MealPlans() {
   const navigate = useNavigate();
-  
-  // Check for generated plan from sessionStorage, otherwise use mock data
-  const getInitialPlan = (): DayPlan[] => {
+
+  const loadGeneratedBackendPlan = (): BackendWeeklyPlan | null => {
+    try {
+      const stored = sessionStorage.getItem('generatedBackendPlan');
+      if (stored) {
+        return JSON.parse(stored) as BackendWeeklyPlan;
+      }
+    } catch (e) {
+      console.error('Failed to parse stored backend plan:', e);
+    }
+    return null;
+  };
+
+  // Check for generated plan from sessionStorage, otherwise use mock data.
+  const getInitialPlan = (backendPlan: BackendWeeklyPlan | null): DayPlan[] => {
+    if (backendPlan) {
+      return transformBackendPlanToFrontend(backendPlan);
+    }
+
     try {
       const stored = sessionStorage.getItem('generatedPlan');
       if (stored) {
-        const parsed = JSON.parse(stored);
-        sessionStorage.removeItem('generatedPlan'); // Clear after reading
-        return parsed;
+        return JSON.parse(stored) as DayPlan[];
       }
     } catch (e) {
-      console.error('Failed to parse stored plan:', e);
+      console.error('Failed to parse stored frontend plan:', e);
     }
     return MOCK_WEEK_PLAN;
   };
 
-  const [plan, setPlan] = useState<DayPlan[]>(getInitialPlan);
+  const [backendPlan, setBackendPlan] = useState<BackendWeeklyPlan | null>(loadGeneratedBackendPlan);
+  const [plan, setPlan] = useState<DayPlan[]>(getInitialPlan(backendPlan));
   const [activeDay, setActiveDay] = useState(0);
   const [recipeModal, setRecipeModal] = useState<Recipe | null>(null);
-  const [changeMealSlot, setChangeMealSlot] = useState<MealSlot | null>(null);
   const [weekPrefsOpen, setWeekPrefsOpen] = useState(false);
+  const [refreshingSlotId, setRefreshingSlotId] = useState<string | null>(null);
+  const [refreshError, setRefreshError] = useState<string | null>(null);
 
   const day = plan[activeDay];
+  const backendManaged = backendPlan !== null;
   const totalWeeklyCost = plan.reduce((s, d) => s + d.totalCost, 0);
   const totalWeeklyCal = plan.reduce((s, d) => s + d.totalCalories, 0);
 
@@ -76,18 +94,40 @@ export function MealPlans() {
     });
   };
 
-  const changeMeal = (slotId: string, recipeId: string) => {
-    const recipe = MOCK_RECIPES.find((r) => r.id === recipeId);
-    if (!recipe) return;
-    setPlan((prev) =>
-      prev.map((d) => ({
-        ...d,
-        meals: d.meals.map((m) => (m.id !== slotId ? m : { ...m, recipe })),
-        totalCost: d.meals.reduce((s, m) => s + (m.id === slotId ? recipe.cost : m.recipe.cost), 0),
-        totalCalories: d.meals.reduce((s, m) => s + (m.id === slotId ? recipe.calories : m.recipe.calories), 0),
-      }))
-    );
-    setChangeMealSlot(null);
+  const isRefreshableMealType = (type: MealType): type is 'breakfast' | 'lunch' | 'dinner' =>
+    type === 'breakfast' || type === 'lunch' || type === 'dinner';
+
+  const handleRefreshMeal = async (slot: MealSlot) => {
+    setRefreshError(null);
+    if (!backendPlan) {
+      setRefreshError('Refresh is only available for backend-generated meal plans.');
+      return;
+    }
+    if (!isRefreshableMealType(slot.type)) {
+      setRefreshError('Only breakfast, lunch, and dinner can be refreshed.');
+      return;
+    }
+
+    setRefreshingSlotId(slot.id);
+    try {
+      const updatedBackendPlan = await replaceMealInPlan({
+        current_plan: backendPlan,
+        day_index: activeDay,
+        meal_type: slot.type,
+        current_recipe_id: slot.recipe.id,
+      });
+      const updatedFrontendPlan = transformBackendPlanToFrontend(updatedBackendPlan);
+      setBackendPlan(updatedBackendPlan);
+      setPlan(updatedFrontendPlan);
+
+      sessionStorage.setItem('generatedBackendPlan', JSON.stringify(updatedBackendPlan));
+      sessionStorage.setItem('generatedPlan', JSON.stringify(updatedFrontendPlan));
+      sessionStorage.setItem('generatedShoppingList', JSON.stringify(updatedBackendPlan.shopping_list ?? null));
+    } catch (error) {
+      setRefreshError(error instanceof Error ? error.message : 'Failed to refresh meal.');
+    } finally {
+      setRefreshingSlotId(null);
+    }
   };
 
   return (
@@ -111,6 +151,11 @@ export function MealPlans() {
           </button>
         </div>
       </div>
+      {refreshError && (
+        <div className="mb-4 rounded-lg border border-red-200 bg-red-50 p-3 text-sm text-red-700">
+          {refreshError}
+        </div>
+      )}
 
       <div className="flex flex-col gap-6 lg:flex-row">
         <div className="flex-1">
@@ -159,14 +204,16 @@ export function MealPlans() {
                       View Recipe
                     </button>
                     <button
-                      onClick={() => setChangeMealSlot(slot)}
+                      onClick={() => handleRefreshMeal(slot)}
+                      disabled={!backendManaged || refreshingSlotId !== null || !isRefreshableMealType(slot.type)}
                       className="flex items-center gap-1 rounded-lg border border-primary bg-primary-light/30 px-3 py-1.5 text-sm font-medium text-primary hover:bg-primary-light/50"
                     >
                       <RefreshCw className="h-3.5 w-3.5" />
-                      Change
+                      {refreshingSlotId === slot.id ? 'Refreshing...' : 'Change'}
                     </button>
                     <button
                       onClick={() => removeMeal(slot.id)}
+                      disabled={backendManaged}
                       className="flex items-center gap-1 rounded-lg border border-red-200 bg-red-50 px-3 py-1.5 text-sm font-medium text-red-600 hover:bg-red-100"
                     >
                       <Trash2 className="h-3.5 w-3.5" />
@@ -180,6 +227,7 @@ export function MealPlans() {
                   <button
                     key={type}
                     onClick={() => addMeal(activeDay, type)}
+                    disabled={backendManaged}
                     className="flex items-center gap-1 rounded-lg border border-dashed border-gray-300 bg-white px-3 py-2 text-sm text-gray-500 hover:border-primary hover:bg-primary-light/10 hover:text-primary"
                   >
                     <Plus className="h-4 w-4" />
@@ -226,12 +274,6 @@ export function MealPlans() {
         recipe={recipeModal}
         onClose={() => setRecipeModal(null)}
         onAddToShoppingList={() => {}}
-      />
-      <ChangeMealModal
-        open={!!changeMealSlot}
-        slot={changeMealSlot}
-        onClose={() => setChangeMealSlot(null)}
-        onSelect={(recipeId) => changeMealSlot && changeMeal(changeMealSlot.id, recipeId)}
       />
       <WeekPreferencesModal
         open={weekPrefsOpen}

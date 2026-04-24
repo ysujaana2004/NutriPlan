@@ -23,6 +23,7 @@ Scope of this optimizer (intentionally simple):
 
 from __future__ import annotations
 
+from copy import deepcopy
 from datetime import timedelta
 from typing import Literal, Optional
 
@@ -374,6 +375,37 @@ def canonical_display_name(canonical_id: str, canonical_name_by_id: dict[str, st
     return canonical_name_by_id.get(canonical_id, canonical_id.replace("_", " "))
 
 
+def meal_from_real_recipe(
+    recipe: RealRecipe,
+    meal_type: Literal["breakfast", "lunch", "dinner"],
+) -> Meal:
+    """Convert one optimized RealRecipe row into a response Meal model."""
+
+    return Meal(
+        recipe_id=recipe.id,
+        meal_type=meal_type,
+        name=recipe.title,
+        servings=1,
+        nutrition=Nutrition(
+            calories=int(round(recipe.calories)),
+            protein_g=int(round(recipe.protein_g)),
+            carbs_g=int(round(recipe.carbs_g)),
+            fat_g=int(round(recipe.fat_g)),
+        ),
+        estimated_cost_usd=round(recipe.estimated_cost_usd, 2),
+        image_url=recipe.image_url or None,
+        ingredients=[
+            IngredientLine(
+                id=f"{recipe.id}-ing-{idx}",
+                name=name,
+                amount=amount,
+            )
+            for idx, (name, amount) in enumerate(recipe.ingredient_lines, start=1)
+        ],
+        instructions=list(recipe.instruction_steps),
+    )
+
+
 def build_shopping_list_summary(
     selected_recipe_ids: list[str],
     recipe_name_by_id: dict[str, str],
@@ -444,6 +476,122 @@ def build_shopping_list_summary(
         missing_items=missing_items,
         total_estimated_cost_usd=total_estimated_cost,
     )
+
+
+def resolve_store_name_from_plan_inputs(inputs: dict) -> str:
+    """Resolve store name from plan inputs with a safe Target default."""
+
+    value = str(inputs.get("store_name") or "").strip()
+    if value.lower() == "walmart":
+        return "Walmart"
+    return "Target"
+
+
+def replace_meal_in_weekly_plan(
+    current_plan: WeeklyPlan,
+    day_index: int,
+    meal_type: Literal["breakfast", "lunch", "dinner"],
+    current_recipe_id: Optional[str] = None,
+) -> WeeklyPlan:
+    """Replace one meal with a nutritionally similar recipe and recompute plan totals."""
+
+    if day_index < 0 or day_index >= len(current_plan.days):
+        raise HTTPException(status_code=400, detail="day_index is out of range for this plan.")
+
+    store_name = resolve_store_name_from_plan_inputs(current_plan.inputs)
+    recipes = load_real_recipes(store_name)
+    if not recipes:
+        raise HTTPException(status_code=500, detail="No real recipes available for replacement.")
+
+    updated_plan = deepcopy(current_plan)
+    day_to_update = updated_plan.days[day_index]
+    meal_position = next((idx for idx, meal in enumerate(day_to_update.meals) if meal.meal_type == meal_type), None)
+    if meal_position is None:
+        raise HTTPException(status_code=400, detail=f"No {meal_type} meal found on day_index={day_index}.")
+
+    original_meal = day_to_update.meals[meal_position]
+    if current_recipe_id and original_meal.recipe_id != current_recipe_id:
+        raise HTTPException(
+            status_code=400,
+            detail=(
+                f"current_recipe_id mismatch: expected '{original_meal.recipe_id}' "
+                f"for {meal_type} on day_index={day_index}."
+            ),
+        )
+
+    times_used_by_id: dict[str, int] = {}
+    times_used_by_slot_and_id: dict[tuple[Literal["breakfast", "lunch", "dinner"], str], int] = {}
+    for day in updated_plan.days:
+        for meal in day.meals:
+            times_used_by_id[meal.recipe_id] = times_used_by_id.get(meal.recipe_id, 0) + 1
+            slot_key = (meal.meal_type, meal.recipe_id)
+            times_used_by_slot_and_id[slot_key] = times_used_by_slot_and_id.get(slot_key, 0) + 1
+
+    # Remove existing meal usage before selecting replacement.
+    times_used_by_id[original_meal.recipe_id] = max(times_used_by_id.get(original_meal.recipe_id, 1) - 1, 0)
+    original_slot_key = (meal_type, original_meal.recipe_id)
+    times_used_by_slot_and_id[original_slot_key] = max(times_used_by_slot_and_id.get(original_slot_key, 1) - 1, 0)
+
+    recent_recipe_ids_for_slot = [
+        next((meal.recipe_id for meal in day.meals if meal.meal_type == meal_type), "")
+        for day in updated_plan.days[:day_index]
+    ]
+    recent_recipe_ids_for_slot = [recipe_id for recipe_id in recent_recipe_ids_for_slot if recipe_id]
+    recent_recipe_ids_for_slot = recent_recipe_ids_for_slot[-RECENT_SLOT_WINDOW_DAYS:]
+
+    used_today = {meal.recipe_id for idx, meal in enumerate(day_to_update.meals) if idx != meal_position}
+    excluded_ids = {original_meal.recipe_id}
+    if current_recipe_id:
+        excluded_ids.add(current_recipe_id)
+
+    candidate_recipes = [recipe for recipe in recipes if recipe.id not in excluded_ids]
+    if not candidate_recipes:
+        raise HTTPException(status_code=500, detail="No candidate recipes available for replacement.")
+
+    budget = float(updated_plan.inputs.get("budget") or 0.0)
+    target_meal_budget_usd = original_meal.estimated_cost_usd
+    if target_meal_budget_usd <= 0 and budget > 0:
+        target_meal_budget_usd = (budget / 7.0) * MEAL_SPLITS[meal_type]
+
+    replacement_seed = stable_int_seed(
+        str(updated_plan.inputs.get("start_date", "")),
+        str(day_index),
+        meal_type,
+        original_meal.recipe_id,
+    )
+    replacement_recipe = pick_optimized_recipe(
+        candidates=candidate_recipes,
+        meal_type=meal_type,
+        target_calories=float(original_meal.nutrition.calories),
+        target_protein_g=float(original_meal.nutrition.protein_g),
+        target_carbs_g=float(original_meal.nutrition.carbs_g),
+        target_fat_g=float(original_meal.nutrition.fat_g),
+        target_meal_budget_usd=max(target_meal_budget_usd, 0.01),
+        times_used_by_id=times_used_by_id,
+        times_used_by_slot_and_id=times_used_by_slot_and_id,
+        recent_recipe_ids_for_slot=recent_recipe_ids_for_slot,
+        used_today=used_today,
+        seed=replacement_seed,
+    )
+
+    day_to_update.meals[meal_position] = meal_from_real_recipe(replacement_recipe, meal_type)
+    day_totals, day_total_cost = compute_day_totals(day_to_update.meals)
+    day_to_update.totals = day_totals
+    day_to_update.total_cost_usd = day_total_cost
+
+    updated_plan.week_totals = Nutrition(
+        calories=sum(day.totals.calories for day in updated_plan.days),
+        protein_g=sum(day.totals.protein_g for day in updated_plan.days),
+        carbs_g=sum(day.totals.carbs_g for day in updated_plan.days),
+        fat_g=sum(day.totals.fat_g for day in updated_plan.days),
+    )
+    updated_plan.week_total_cost_usd = round(sum(day.total_cost_usd for day in updated_plan.days), 2)
+
+    selected_recipe_ids = [meal.recipe_id for day in updated_plan.days for meal in day.meals]
+    recipe_name_by_id = {meal.recipe_id: meal.name for day in updated_plan.days for meal in day.meals}
+    updated_plan.shopping_list = build_shopping_list_summary(selected_recipe_ids, recipe_name_by_id, store_name)
+
+    return updated_plan
 
 
 def build_optimized_weekly_plan(
@@ -530,31 +678,7 @@ def build_optimized_weekly_plan(
             selected_recipe_ids.append(recipe.id)
             recipe_name_by_id[recipe.id] = recipe.title
 
-            meals.append(
-                Meal(
-                    recipe_id=recipe.id,
-                    meal_type=meal_type,
-                    name=recipe.title,
-                    servings=1,
-                    nutrition=Nutrition(
-                        calories=int(round(recipe.calories)),
-                        protein_g=int(round(recipe.protein_g)),
-                        carbs_g=int(round(recipe.carbs_g)),
-                        fat_g=int(round(recipe.fat_g)),
-                    ),
-                    estimated_cost_usd=round(recipe.estimated_cost_usd, 2),
-                    image_url=recipe.image_url or None,
-                    ingredients=[
-                        IngredientLine(
-                            id=f"{recipe.id}-ing-{idx}",
-                            name=name,
-                            amount=amount,
-                        )
-                        for idx, (name, amount) in enumerate(recipe.ingredient_lines, start=1)
-                    ],
-                    instructions=list(recipe.instruction_steps),
-                )
-            )
+            meals.append(meal_from_real_recipe(recipe, meal_type))
 
         totals, total_cost = compute_day_totals(meals)
         days.append(
@@ -580,6 +704,7 @@ def build_optimized_weekly_plan(
             "budget": budget,
             "calories": calories,
             "diet": diet,
+            "store_name": store_name,
             "start_date": start_date,
             "optimizer": "nutrition_v1",
             "target_lookup_size": len(get_store_pricing(store_name)),
