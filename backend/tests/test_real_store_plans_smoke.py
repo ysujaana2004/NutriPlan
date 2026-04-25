@@ -1,4 +1,4 @@
-"""Optimizer-style real-data checks for Target and Walmart plan generation."""
+"""Optimizer-style real-data checks for all integrated store plan generation."""
 
 from __future__ import annotations
 
@@ -34,12 +34,14 @@ def _assert_optimizer_success_shape(data: dict, budget: int, calories: int) -> N
 
 
 class TestRealStorePlansSmoke(unittest.TestCase):
-    """Equivalent checks to test_optimizer_api, but for both stores with real data."""
+    """Equivalent checks to test_optimizer_api, but for all stores with real data."""
 
-    def test_real_data_optimize_success_for_target_and_walmart(self):
+    STORES = ("Target", "Walmart", "BJs", "Whole Foods")
+
+    def test_real_data_optimize_success_for_all_stores(self):
         budget = 150
         calories = 2000
-        for store in ("Target", "Walmart"):
+        for store in self.STORES:
             response = client.get(
                 f"/optimize/meal-plan?budget={budget}&calories={calories}&diet=none&store_preference={store}"
             )
@@ -47,9 +49,9 @@ class TestRealStorePlansSmoke(unittest.TestCase):
             data = response.json()
             _assert_optimizer_success_shape(data, budget=budget, calories=calories)
 
-    def test_real_data_optimize_respects_calorie_target_for_target_and_walmart(self):
+    def test_real_data_optimize_respects_calorie_target_for_all_stores(self):
         target_daily_calories = 2000
-        for store in ("Target", "Walmart"):
+        for store in self.STORES:
             response = client.get(
                 f"/optimize/meal-plan?budget=150&calories={target_daily_calories}&diet=none&store_preference={store}"
             )

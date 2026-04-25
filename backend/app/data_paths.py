@@ -4,6 +4,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from .store_registry import BJS, SUPPORTED_STORE_KEYS, TARGET, WALMART, WHOLE_FOODS
+
 
 APP_DIR = Path(__file__).resolve().parent
 BACKEND_DIR = APP_DIR.parent
@@ -20,9 +22,11 @@ INGREDIENTS_FROM_RECIPES_PATH = RECIPES_DIR / "ingredients-from-recipes.json"
 CANONICAL_INGREDIENTS_PATH = RECIPES_DIR / "canonical_ingredients.json"
 CANONICAL_INGREDIENTS_FALLBACK_PATH = RECIPES_DIR / "canconical_ingredients.json"
 
-TARGET_STORE_KEY = "target"
-WALMART_STORE_KEY = "walmart"
-SUPPORTED_STORE_KEYS = (TARGET_STORE_KEY, WALMART_STORE_KEY)
+# Backward-compatible key names used by existing modules/tests.
+TARGET_STORE_KEY = TARGET
+WALMART_STORE_KEY = WALMART
+BJS_STORE_KEY = BJS
+WHOLE_FOODS_STORE_KEY = WHOLE_FOODS
 
 
 def store_dir(store_key: str) -> Path:

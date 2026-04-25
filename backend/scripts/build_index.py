@@ -3,6 +3,8 @@ build_index.py
 
 Generic store index builder.
 
+Build store product indexes from raw item JSON files for a given store (i.e. Target, Walmart, BJs, Whole Foods). The script reads all JSON files in the specified items directory, extracts product information, and builds two output files: a flat list of products and a categorized mapping of products.
+
 Usage:
   python backend/scripts/build_index.py --store target
   python backend/scripts/build_index.py --store walmart
@@ -107,7 +109,14 @@ def main(argv: list[str] | None = None) -> None:
         by_cat.setdefault(category, [])
 
         for file_path in sorted(category_path.glob("*.json")):
-            payload = safe_read_json(file_path)
+            try:
+                payload = safe_read_json(file_path)
+            except RuntimeError as exc:
+                print(f"[warn] Skipping malformed JSON file: {file_path} ({exc})")
+                continue
+            if not isinstance(payload, dict):
+                print(f"[warn] Skipping unexpected payload shape (expected object): {file_path}")
+                continue
             products = payload.get("products", [])
             if not isinstance(products, list):
                 continue

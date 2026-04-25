@@ -14,7 +14,7 @@ Caching strategy:
 
 Why this layer matters:
 - It is the bridge between offline preprocessing outputs
-  (recipes-with-canonical, target_products_flat, recipes-nutrition)
+  (recipes-with-canonical, store products, recipes-nutrition)
   and runtime optimization inputs.
 """
 
@@ -25,18 +25,23 @@ import re
 from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
-from typing import Any, Callable, Optional
+from typing import Any, Optional
 
 from . import data_paths
 from .matching import map_text_to_canonical_id, normalize_match_text, parse_price_to_usd
+from .store_registry import normalize_store_key
 
 
 RECIPES_NUTRITION_PATH = data_paths.RECIPES_NUTRITION_PATH
 RECIPES_FULL_PATH = data_paths.RECIPES_FULL_PATH
 TARGET_PRODUCTS_FLAT_PATH = data_paths.store_products_flat_path(data_paths.TARGET_STORE_KEY)
 WALMART_PRODUCTS_FLAT_PATH = data_paths.store_products_flat_path(data_paths.WALMART_STORE_KEY)
+BJS_PRODUCTS_FLAT_PATH = data_paths.store_products_flat_path(data_paths.BJS_STORE_KEY)
+WHOLE_FOODS_PRODUCTS_FLAT_PATH = data_paths.store_products_flat_path(data_paths.WHOLE_FOODS_STORE_KEY)
 RECIPES_WITH_CANONICAL_TARGET_PATH = data_paths.store_recipe_coverage_path(data_paths.TARGET_STORE_KEY)
 RECIPES_WITH_CANONICAL_WALMART_PATH = data_paths.store_recipe_coverage_path(data_paths.WALMART_STORE_KEY)
+RECIPES_WITH_CANONICAL_BJS_PATH = data_paths.store_recipe_coverage_path(data_paths.BJS_STORE_KEY)
+RECIPES_WITH_CANONICAL_WHOLE_FOODS_PATH = data_paths.store_recipe_coverage_path(data_paths.WHOLE_FOODS_STORE_KEY)
 # Backward-compatible alias for existing callers/tests that expect Target coverage.
 RECIPES_WITH_CANONICAL_PATH = RECIPES_WITH_CANONICAL_TARGET_PATH
 CANONICAL_INGREDIENTS_PATH = data_paths.CANONICAL_INGREDIENTS_PATH
@@ -45,7 +50,7 @@ CANONICAL_INGREDIENTS_FALLBACK_PATH = data_paths.CANONICAL_INGREDIENTS_FALLBACK_
 
 @dataclass(frozen=True)
 class RealRecipe:
-    """Nutrition recipe row enriched with Target coverage and estimated ingredient cost."""
+    """Nutrition recipe row enriched with store coverage and estimated ingredient cost."""
 
     id: str
     title: str
@@ -119,9 +124,7 @@ def canonical_ingredients_file_path() -> Path:
 def normalize_store_name(store_name: str) -> str:
     """Normalize incoming store preference to a known store key."""
 
-    if str(store_name).strip().lower() == "walmart":
-        return "walmart"
-    return "target"
+    return normalize_store_key(store_name, default=data_paths.TARGET_STORE_KEY)
 
 
 def _read_json_rows(path: Path) -> list[dict[str, Any]]:
@@ -145,10 +148,28 @@ def _load_canonical_rows() -> list[dict[str, Any]]:
 def _store_recipe_coverage_path(store_name: str) -> Path:
     """Resolve per-store recipes-with-canonical coverage file path."""
 
-    if normalize_store_name(store_name) == "walmart":
+    store_key = normalize_store_name(store_name)
+    if store_key == data_paths.WALMART_STORE_KEY:
         return RECIPES_WITH_CANONICAL_WALMART_PATH
+    if store_key == data_paths.BJS_STORE_KEY:
+        return RECIPES_WITH_CANONICAL_BJS_PATH
+    if store_key == data_paths.WHOLE_FOODS_STORE_KEY:
+        return RECIPES_WITH_CANONICAL_WHOLE_FOODS_PATH
     # Keep using alias so tests that monkeypatch RECIPES_WITH_CANONICAL_PATH keep working.
     return RECIPES_WITH_CANONICAL_PATH
+
+
+def _store_products_flat_path(store_name: str) -> Path:
+    """Resolve per-store products-flat path."""
+
+    store_key = normalize_store_name(store_name)
+    if store_key == data_paths.WALMART_STORE_KEY:
+        return WALMART_PRODUCTS_FLAT_PATH
+    if store_key == data_paths.BJS_STORE_KEY:
+        return BJS_PRODUCTS_FLAT_PATH
+    if store_key == data_paths.WHOLE_FOODS_STORE_KEY:
+        return WHOLE_FOODS_PRODUCTS_FLAT_PATH
+    return TARGET_PRODUCTS_FLAT_PATH
 
 
 def _normalize_amount_value(amount_value: object) -> str:
@@ -301,7 +322,7 @@ def load_canonical_phrase_index() -> list[tuple[str, str]]:
 def load_cheapest_target_by_canonical_id() -> dict[str, CanonicalProductChoice]:
     """Build lookup: canonical ingredient id -> cheapest matched Target product."""
 
-    return _load_cheapest_products_by_flat_path(TARGET_PRODUCTS_FLAT_PATH)
+    return load_cheapest_products_by_store(data_paths.TARGET_STORE_KEY)
 
 
 def _load_cheapest_products_by_flat_path(flat_path: Path) -> dict[str, CanonicalProductChoice]:
@@ -340,20 +361,36 @@ def _load_cheapest_products_by_flat_path(flat_path: Path) -> dict[str, Canonical
 def load_cheapest_walmart_by_canonical_id() -> dict[str, CanonicalProductChoice]:
     """Build lookup: canonical ingredient id -> cheapest matched Walmart product."""
 
-    return _load_cheapest_products_by_flat_path(WALMART_PRODUCTS_FLAT_PATH)
+    return load_cheapest_products_by_store(data_paths.WALMART_STORE_KEY)
 
 
-@lru_cache(maxsize=2)
+@lru_cache(maxsize=1)
+def load_cheapest_bjs_by_canonical_id() -> dict[str, CanonicalProductChoice]:
+    """Build lookup: canonical ingredient id -> cheapest matched BJ's product."""
+
+    return load_cheapest_products_by_store(data_paths.BJS_STORE_KEY)
+
+
+@lru_cache(maxsize=1)
+def load_cheapest_whole_foods_by_canonical_id() -> dict[str, CanonicalProductChoice]:
+    """Build lookup: canonical ingredient id -> cheapest matched Whole Foods product."""
+
+    return load_cheapest_products_by_store(data_paths.WHOLE_FOODS_STORE_KEY)
+
+
+@lru_cache(maxsize=len(data_paths.SUPPORTED_STORE_KEYS))
+def load_cheapest_products_by_store(store_name: str) -> dict[str, CanonicalProductChoice]:
+    """Build lookup for one store: canonical ingredient id -> cheapest matched product."""
+
+    return _load_cheapest_products_by_flat_path(_store_products_flat_path(store_name))
+
+
+@lru_cache(maxsize=len(data_paths.SUPPORTED_STORE_KEYS))
 def load_recipe_coverage_by_store(store_name: str) -> dict[str, RecipeCoverageSummary]:
     """Build coverage map for one store: recipe id -> coverage summary and estimated ingredient cost."""
 
     recipe_rows = _read_json_rows(_store_recipe_coverage_path(store_name))
-    cheapest_lookup_loader: Callable[[], dict[str, CanonicalProductChoice]]
-    if normalize_store_name(store_name) == "walmart":
-        cheapest_lookup_loader = load_cheapest_walmart_by_canonical_id
-    else:
-        cheapest_lookup_loader = load_cheapest_target_by_canonical_id
-    cheapest_lookup = cheapest_lookup_loader()
+    cheapest_lookup = load_cheapest_products_by_store(store_name)
     if not recipe_rows:
         return {}
 
@@ -415,7 +452,21 @@ def load_recipe_coverage_walmart_by_id() -> dict[str, RecipeCoverageSummary]:
     return load_recipe_coverage_by_store("Walmart")
 
 
-@lru_cache(maxsize=2)
+@lru_cache(maxsize=1)
+def load_recipe_coverage_bjs_by_id() -> dict[str, RecipeCoverageSummary]:
+    """Convenience helper returning BJ's recipe coverage."""
+
+    return load_recipe_coverage_by_store("BJs")
+
+
+@lru_cache(maxsize=1)
+def load_recipe_coverage_whole_foods_by_id() -> dict[str, RecipeCoverageSummary]:
+    """Convenience helper returning Whole Foods recipe coverage."""
+
+    return load_recipe_coverage_by_store("Whole Foods")
+
+
+@lru_cache(maxsize=len(data_paths.SUPPORTED_STORE_KEYS))
 def load_real_recipes(store_name: str = "Target") -> list[RealRecipe]:
     """Load nutrition recipes and enrich them with store coverage and estimated costs."""
 
@@ -485,7 +536,12 @@ def clear_caches() -> None:
     load_canonical_phrase_index.cache_clear()
     load_cheapest_target_by_canonical_id.cache_clear()
     load_cheapest_walmart_by_canonical_id.cache_clear()
+    load_cheapest_bjs_by_canonical_id.cache_clear()
+    load_cheapest_whole_foods_by_canonical_id.cache_clear()
+    load_cheapest_products_by_store.cache_clear()
     load_recipe_coverage_by_store.cache_clear()
     load_recipe_coverage_by_id.cache_clear()
     load_recipe_coverage_walmart_by_id.cache_clear()
+    load_recipe_coverage_bjs_by_id.cache_clear()
+    load_recipe_coverage_whole_foods_by_id.cache_clear()
     load_real_recipes.cache_clear()
