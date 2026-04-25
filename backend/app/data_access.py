@@ -31,7 +31,7 @@ from .matching import map_text_to_canonical_id, normalize_match_text, parse_pric
 
 
 RECIPES_NUTRITION_PATH = Path(__file__).resolve().parent.parent / "data" / "recipes-nutrition.json"
-RECIPES_RANDOM_FULL_PATH = Path(__file__).resolve().parent.parent / "data" / "recipes-random-full.json"
+RECIPES_FULL_PATH = Path(__file__).resolve().parent.parent / "data" / "recipes-full.json"
 WALMART_PRODUCTS_FLAT_PATH = Path(__file__).resolve().parent.parent / "data" / "walmart_products_flat.json"
 TARGET_PRODUCTS_FLAT_PATH = Path(__file__).resolve().parent.parent / "data" / "target_products_flat.json"
 RECIPES_WITH_CANONICAL_TARGET_PATH = Path(__file__).resolve().parent.parent / "data" / "recipes-with-canonical.json"
@@ -86,7 +86,7 @@ class RecipeCoverageSummary:
 
 @dataclass(frozen=True)
 class RecipeDetailSummary:
-    """Renderable details for one recipe id, pulled from recipes-random-full.json."""
+    """Renderable details for one recipe id, pulled from recipes-full.json."""
 
     image_url: str
     dish_types: tuple[str, ...]
@@ -254,7 +254,7 @@ def load_canonical_name_by_id() -> dict[str, str]:
 def load_recipe_details_by_id() -> dict[str, RecipeDetailSummary]:
     """Load recipe details (image, ingredients, instructions) keyed by recipe id."""
 
-    rows = _read_json_rows(RECIPES_RANDOM_FULL_PATH)
+    rows = _read_json_rows(RECIPES_FULL_PATH)
     if not rows:
         return {}
 

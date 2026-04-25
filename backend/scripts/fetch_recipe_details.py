@@ -2,9 +2,9 @@
 fetch_recipe_details.py
 
 Step 2 (efficient):
-- Reads data/recipes-random.json (list of {id, title})
+- Reads data/recipes.json (list of {id, title})
 - Fetches full recipe details in BULK (one request per chunk)
-- Saves to data/recipes-random-full.json
+- Saves to data/recipes-full.json
 
 Why bulk?
 - Much fewer HTTP requests (e.g., 60 recipes -> 1 request)
@@ -30,8 +30,8 @@ if not API_KEY:
 # CONFIG
 # ----------------------------
 
-INPUT_PATH = "data/recipes-random.json"
-OUTPUT_PATH = "data/recipes-random-full.json"
+INPUT_PATH = "data/recipes.json"
+OUTPUT_PATH = "data/recipes-full.json"
 
 # Chunk size: keep it <= 100 to be safe for URL/query length and API limits.
 CHUNK_SIZE = 80

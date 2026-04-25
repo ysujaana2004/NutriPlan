@@ -25,7 +25,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 BACKEND_DIR = SCRIPT_DIR.parent
 DATA_DIR = BACKEND_DIR / "data"
 
-RECIPES_PATH = DATA_DIR / "recipes-random-full.json"
+RECIPES_PATH = DATA_DIR / "recipes-full.json"
 TARGET_FLAT_PATH = DATA_DIR / "target_products_flat.json"
 CANONICAL_PATH = DATA_DIR / "canonical_ingredients.json"
 CANONICAL_FALLBACK_PATH = DATA_DIR / "canconical_ingredients.json"

@@ -2,7 +2,7 @@
 fetch_recipe_nutrition_bulk.py
 
 Goal:
-- Reads data/recipes-random.json (list of {id, title})
+- Reads data/recipes.json (list of {id, title})
 - Fetches nutrition in BULK (informationBulk with includeNutrition=true)
 - Extracts ONLY macros (calories, protein, carbs, fat)
 - Saves to data/recipes-nutrition.json
@@ -28,7 +28,7 @@ if not API_KEY:
 # ----------------------------
 # CONFIG
 # ----------------------------
-INPUT_PATH = "data/recipes-random.json"
+INPUT_PATH = "data/recipes.json"
 OUTPUT_PATH = "data/recipes-nutrition.json"
 
 CHUNK_SIZE = 80

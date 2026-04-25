@@ -30,7 +30,7 @@ class TestWalmartIntegration(unittest.TestCase):
         self.walmart_flat_path = self.tmp_dir / "walmart_products_flat.json"
         self.recipes_with_canonical_walmart_path = self.tmp_dir / "recipes-with-canonical-walmart.json"
         self.recipes_nutrition_path = self.tmp_dir / "recipes-nutrition.json"
-        self.recipes_random_full_path = self.tmp_dir / "recipes-random-full.json"
+        self.recipes_full_path = self.tmp_dir / "recipes-full.json"
 
         _write_json(
             self.canonical_path,
@@ -94,7 +94,7 @@ class TestWalmartIntegration(unittest.TestCase):
         )
 
         _write_json(
-            self.recipes_random_full_path,
+            self.recipes_full_path,
             [
                 {
                     "id": 201,
@@ -148,7 +148,7 @@ class TestWalmartIntegration(unittest.TestCase):
             "WALMART_PRODUCTS_FLAT_PATH": data_access.WALMART_PRODUCTS_FLAT_PATH,
             "RECIPES_WITH_CANONICAL_WALMART_PATH": data_access.RECIPES_WITH_CANONICAL_WALMART_PATH,
             "RECIPES_NUTRITION_PATH": data_access.RECIPES_NUTRITION_PATH,
-            "RECIPES_RANDOM_FULL_PATH": data_access.RECIPES_RANDOM_FULL_PATH,
+            "RECIPES_FULL_PATH": data_access.RECIPES_FULL_PATH,
         }
 
         data_access.CANONICAL_INGREDIENTS_PATH = self.canonical_path
@@ -156,7 +156,7 @@ class TestWalmartIntegration(unittest.TestCase):
         data_access.WALMART_PRODUCTS_FLAT_PATH = self.walmart_flat_path
         data_access.RECIPES_WITH_CANONICAL_WALMART_PATH = self.recipes_with_canonical_walmart_path
         data_access.RECIPES_NUTRITION_PATH = self.recipes_nutrition_path
-        data_access.RECIPES_RANDOM_FULL_PATH = self.recipes_random_full_path
+        data_access.RECIPES_FULL_PATH = self.recipes_full_path
         data_access.clear_caches()
 
     def tearDown(self) -> None:
@@ -165,7 +165,7 @@ class TestWalmartIntegration(unittest.TestCase):
         data_access.WALMART_PRODUCTS_FLAT_PATH = self._original_paths["WALMART_PRODUCTS_FLAT_PATH"]
         data_access.RECIPES_WITH_CANONICAL_WALMART_PATH = self._original_paths["RECIPES_WITH_CANONICAL_WALMART_PATH"]
         data_access.RECIPES_NUTRITION_PATH = self._original_paths["RECIPES_NUTRITION_PATH"]
-        data_access.RECIPES_RANDOM_FULL_PATH = self._original_paths["RECIPES_RANDOM_FULL_PATH"]
+        data_access.RECIPES_FULL_PATH = self._original_paths["RECIPES_FULL_PATH"]
         data_access.clear_caches()
         self.tmp.cleanup()
 

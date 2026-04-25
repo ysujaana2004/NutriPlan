@@ -2,7 +2,7 @@
 fetch_recipe_ids.py
 
 Fetch ~60 random recipe IDs from Spoonacular and save them to:
-data/recipes-random.json
+data/recipes.json
 
 This is Step 1 of a 3-step process to efficiently get detailed recipe info:
 1. Fetch random recipe IDs (this script)
@@ -52,7 +52,7 @@ recipes = [
 
 os.makedirs("data", exist_ok=True)
 
-with open("data/recipes-random.json", "w") as f:
+with open("data/recipes.json", "w") as f:
     json.dump(recipes, f, indent=2)
 
-print(f"Saved {len(recipes)} recipes to data/recipes-random.json")
+print(f"Saved {len(recipes)} recipes to data/recipes.json")

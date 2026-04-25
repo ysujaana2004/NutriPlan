@@ -1,16 +1,16 @@
 """
 analyze_ingredients.py
 
-Reads recipes from data/recipes-random.json
-Counts unique ingredients and saves them to data/ingredients-from-random.json
+Reads recipes from data/recipes.json
+Counts unique ingredients and saves them to data/ingredients-from-recipes.json
 """
 
 import json
 import re
 
 
-INPUT_PATH = "data/recipes-random.json"
-OUTPUT_PATH = "data/ingredients-from-random.json"
+INPUT_PATH = "data/recipes.json"
+OUTPUT_PATH = "data/ingredients-from-recipes.json"
 
 
 def normalize(name: str) -> str:

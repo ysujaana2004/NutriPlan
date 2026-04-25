@@ -2,8 +2,8 @@
 append_recipe_pipeline.py
 
 Append NEW recipes through your full existing pipeline:
-1) Append IDs/titles -> data/recipes-random.json
-2) Append full details -> data/recipes-random-full.json
+1) Append IDs/titles -> data/recipes.json
+2) Append full details -> data/recipes-full.json
 3) Append nutrition macros -> data/recipes-nutrition.json
 
 The script is append-safe:
@@ -14,7 +14,7 @@ The script is append-safe:
 Point-efficiency note:
 - We fetch bulk recipe data ONLY ONCE per chunk with includeNutrition=true.
 - From that single response, we build:
-  - recipes-random-full.json (full details, nutrition block removed)
+  - recipes-full.json (full details, nutrition block removed)
   - recipes-nutrition.json (just id/title/macros)
 """
 
@@ -37,8 +37,8 @@ BACKEND_DIR = SCRIPT_DIR.parent
 DATA_DIR = BACKEND_DIR / "data"
 BACKUP_DIR = DATA_DIR / "recipes-backups"
 
-RANDOM_PATH = DATA_DIR / "recipes-random.json"
-FULL_PATH = DATA_DIR / "recipes-random-full.json"
+RECIPES_PATH = DATA_DIR / "recipes.json"
+FULL_PATH = DATA_DIR / "recipes-full.json"
 NUTRITION_PATH = DATA_DIR / "recipes-nutrition.json"
 
 RANDOM_SEARCH_URL = "https://api.spoonacular.com/recipes/complexSearch"
@@ -52,7 +52,7 @@ SLEEP_SECONDS = 0.25
 def parse_args() -> argparse.Namespace:
     """Parse CLI flags that control how many recipes to append and run mode."""
     parser = argparse.ArgumentParser(
-        description="Append new recipes to random/full/nutrition files without overwriting existing data."
+        description="Append new recipes to recipes/full/nutrition files without overwriting existing data."
     )
     parser.add_argument(
         "--add-count",
@@ -201,13 +201,16 @@ def main() -> None:
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-    existing_random = load_json_list(RANDOM_PATH)
+    existing_recipes = load_json_list(RECIPES_PATH)
     existing_full = load_json_list(FULL_PATH)
     existing_nutrition = load_json_list(NUTRITION_PATH)
 
-    existing_ids_all = id_set(existing_random) | id_set(existing_full) | id_set(existing_nutrition)
+    existing_ids_all = id_set(existing_recipes) | id_set(existing_full) | id_set(existing_nutrition)
 
-    print(f"Existing rows: random={len(existing_random)} full={len(existing_full)} nutrition={len(existing_nutrition)}")
+    print(
+        f"Existing rows: recipes={len(existing_recipes)} "
+        f"full={len(existing_full)} nutrition={len(existing_nutrition)}"
+    )
     print(f"Existing unique recipe IDs across all files: {len(existing_ids_all)}")
 
     # Step 1: collect fresh IDs/titles
@@ -280,13 +283,13 @@ def main() -> None:
         if idx < len(id_chunks):
             time.sleep(SLEEP_SECONDS)
 
-    merged_random = dedupe_by_id_keep_first(existing_random + new_id_rows)
+    merged_recipes = dedupe_by_id_keep_first(existing_recipes + new_id_rows)
     merged_full = dedupe_by_id_keep_first(existing_full + new_full_rows)
     merged_nutrition = dedupe_by_id_keep_first(existing_nutrition + new_nutrition_rows)
 
     print(
         "Planned totals after append: "
-        f"random={len(merged_random)} full={len(merged_full)} nutrition={len(merged_nutrition)}"
+        f"recipes={len(merged_recipes)} full={len(merged_full)} nutrition={len(merged_nutrition)}"
     )
     print(
         f"New rows fetched: ids={len(new_id_rows)} full={len(new_full_rows)} nutrition={len(new_nutrition_rows)}"
@@ -297,12 +300,12 @@ def main() -> None:
         return
 
     backups = {
-        "random": backup_file(RANDOM_PATH),
+        "recipes": backup_file(RECIPES_PATH),
         "full": backup_file(FULL_PATH),
         "nutrition": backup_file(NUTRITION_PATH),
     }
 
-    RANDOM_PATH.write_text(json.dumps(merged_random, indent=2), encoding="utf-8")
+    RECIPES_PATH.write_text(json.dumps(merged_recipes, indent=2), encoding="utf-8")
     FULL_PATH.write_text(json.dumps(merged_full, indent=2), encoding="utf-8")
     NUTRITION_PATH.write_text(json.dumps(merged_nutrition, indent=2), encoding="utf-8")
 
@@ -310,7 +313,7 @@ def main() -> None:
     for key, path in backups.items():
         print(f"- {key}: {path if path else '(none, file did not exist)'}")
     print("Saved:")
-    print(f"- {RANDOM_PATH}")
+    print(f"- {RECIPES_PATH}")
     print(f"- {FULL_PATH}")
     print(f"- {NUTRITION_PATH}")
 
