@@ -33,8 +33,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from .optimizer import build_optimized_weekly_plan, replace_meal_in_weekly_plan
 from .schemas import Diet, ReplaceMealRequest, WeeklyPlan
 from .store_registry import (
+    SUPPORTED_STORE_KEYS,
     display_name_for_store_key,
-    location_query_name_for_store_key,
     normalize_store_key,
 )
 
@@ -82,9 +82,18 @@ async def optimized_meal_plan(
 
     store_key = normalize_store_key(store_preference)
     store_name = display_name_for_store_key(store_key)
+    selected_store_reason = "user_preference"
     if zip_code:
-        from .location_service import find_nearby_stores
-        await find_nearby_stores(zip_code, location_query_name_for_store_key(store_key))
+        from .location_service import find_nearest_supported_store_key
+
+        candidate_keys = (store_key,) + tuple(key for key in SUPPORTED_STORE_KEYS if key != store_key)
+        nearest_store_key = await find_nearest_supported_store_key(zip_code, candidate_keys)
+        if nearest_store_key:
+            store_key = nearest_store_key
+            store_name = display_name_for_store_key(store_key)
+            selected_store_reason = "nearest_by_zip"
+        else:
+            selected_store_reason = "fallback_to_preference"
 
     return build_optimized_weekly_plan(
         store_name=store_name,
@@ -95,6 +104,7 @@ async def optimized_meal_plan(
         protein_target_g=protein_target_g,
         carbs_target_g=carbs_target_g,
         fat_target_g=fat_target_g,
+        selected_store_reason=selected_store_reason,
     )
 
 

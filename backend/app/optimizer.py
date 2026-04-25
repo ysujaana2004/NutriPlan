@@ -600,6 +600,7 @@ def build_optimized_weekly_plan(
     protein_target_g: Optional[float],
     carbs_target_g: Optional[float],
     fat_target_g: Optional[float],
+    selected_store_reason: str = "user_preference",
 ) -> WeeklyPlan:
     """Build a weekly plan using nutrition targets and store-aware penalties."""
 
@@ -701,6 +702,7 @@ def build_optimized_weekly_plan(
             "calories": calories,
             "diet": diet,
             "store_name": store_name,
+            "selected_store_reason": selected_store_reason,
             "start_date": start_date,
             "optimizer": "nutrition_v1",
             "target_lookup_size": len(get_store_pricing(store_name)),
