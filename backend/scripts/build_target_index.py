@@ -6,8 +6,8 @@ Milestone 2.1:
 - Flattens all products into one list
 - Builds a category index (category -> list of products)
 - Saves:
-  - data/target_products_flat.json
-  - data/target_products_by_category.json
+  - data/stores/target/products_flat.json
+  - data/stores/target/products_by_category.json
 
 Your dataset shape today:
 {
@@ -29,8 +29,8 @@ BACKEND_DIR = SCRIPT_DIR.parent
 REPO_ROOT = BACKEND_DIR.parent
 
 TARGET_ITEMS_DIR = REPO_ROOT / "target_items"
-OUT_FLAT = BACKEND_DIR / "data" / "target_products_flat.json"
-OUT_BY_CAT = BACKEND_DIR / "data" / "target_products_by_category.json"
+OUT_FLAT = BACKEND_DIR / "data" / "stores" / "target" / "products_flat.json"
+OUT_BY_CAT = BACKEND_DIR / "data" / "stores" / "target" / "products_by_category.json"
 
 
 def safe_read_json(path: Path) -> Any:

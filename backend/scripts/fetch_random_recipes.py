@@ -2,7 +2,7 @@
 fetch_recipe_ids.py
 
 Fetch ~60 random recipe IDs from Spoonacular and save them to:
-data/recipes.json
+data/recipes/recipes.json
 
 This is Step 1 of a 3-step process to efficiently get detailed recipe info:
 1. Fetch random recipe IDs (this script)
@@ -12,6 +12,7 @@ This is Step 1 of a 3-step process to efficiently get detailed recipe info:
 import requests
 import json
 import os
+from pathlib import Path
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
@@ -22,13 +23,12 @@ API_KEY = os.getenv("SPOONACULAR_API_KEY")
 if not API_KEY:
     raise ValueError("SPOONACULAR_API_KEY not found in environment variables.")
 
-import requests
-import json
-import os
-
 # Config
 NUM_RECIPES = 60
 URL = "https://api.spoonacular.com/recipes/complexSearch"
+SCRIPT_DIR = Path(__file__).resolve().parent
+BACKEND_DIR = SCRIPT_DIR.parent
+OUTPUT_PATH = BACKEND_DIR / "data" / "recipes" / "recipes.json"
 
 params = {
     "number": NUM_RECIPES,
@@ -50,9 +50,9 @@ recipes = [
     for r in data.get("results", [])
 ]
 
-os.makedirs("data", exist_ok=True)
+OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
-with open("data/recipes.json", "w") as f:
+with open(OUTPUT_PATH, "w") as f:
     json.dump(recipes, f, indent=2)
 
-print(f"Saved {len(recipes)} recipes to data/recipes.json")
+print(f"Saved {len(recipes)} recipes to {OUTPUT_PATH}")

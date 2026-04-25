@@ -1,16 +1,21 @@
 """
 analyze_ingredients.py
 
-Reads recipes from data/recipes.json
-Counts unique ingredients and saves them to data/ingredients-from-recipes.json
+Reads recipes from data/recipes/recipes.json
+Counts unique ingredients and saves them to data/recipes/ingredients-from-recipes.json
 """
 
 import json
 import re
+from pathlib import Path
 
 
-INPUT_PATH = "data/recipes.json"
-OUTPUT_PATH = "data/ingredients-from-recipes.json"
+SCRIPT_DIR = Path(__file__).resolve().parent
+BACKEND_DIR = SCRIPT_DIR.parent
+RECIPES_DIR = BACKEND_DIR / "data" / "recipes"
+
+INPUT_PATH = RECIPES_DIR / "recipes.json"
+OUTPUT_PATH = RECIPES_DIR / "ingredients-from-recipes.json"
 
 
 def normalize(name: str) -> str:

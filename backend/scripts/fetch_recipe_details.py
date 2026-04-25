@@ -2,9 +2,9 @@
 fetch_recipe_details.py
 
 Step 2 (efficient):
-- Reads data/recipes.json (list of {id, title})
+- Reads data/recipes/recipes.json (list of {id, title})
 - Fetches full recipe details in BULK (one request per chunk)
-- Saves to data/recipes-full.json
+- Saves to data/recipes/recipes-full.json
 
 Why bulk?
 - Much fewer HTTP requests (e.g., 60 recipes -> 1 request)
@@ -15,6 +15,7 @@ import json
 import os
 import time
 import requests
+from pathlib import Path
 from typing import List, Dict, Any
 from dotenv import load_dotenv
 
@@ -30,8 +31,11 @@ if not API_KEY:
 # CONFIG
 # ----------------------------
 
-INPUT_PATH = "data/recipes.json"
-OUTPUT_PATH = "data/recipes-full.json"
+SCRIPT_DIR = Path(__file__).resolve().parent
+BACKEND_DIR = SCRIPT_DIR.parent
+RECIPES_DIR = BACKEND_DIR / "data" / "recipes"
+INPUT_PATH = RECIPES_DIR / "recipes.json"
+OUTPUT_PATH = RECIPES_DIR / "recipes-full.json"
 
 # Chunk size: keep it <= 100 to be safe for URL/query length and API limits.
 CHUNK_SIZE = 80
@@ -45,7 +49,7 @@ def chunk_list(items: List[int], size: int) -> List[List[int]]:
     return [items[i : i + size] for i in range(0, len(items), size)]
 
 
-def load_recipe_ids(path: str) -> List[int]:
+def load_recipe_ids(path: Path) -> List[int]:
     """Load recipe IDs from the Step 1 file."""
     with open(path, "r") as f:
         data = json.load(f)
@@ -98,7 +102,7 @@ def main():
         if idx < len(id_chunks):
             time.sleep(SLEEP_SECONDS)
 
-    os.makedirs("data", exist_ok=True)
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     with open(OUTPUT_PATH, "w") as f:
         json.dump(all_recipes, f, indent=2)

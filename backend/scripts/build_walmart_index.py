@@ -6,8 +6,8 @@ Walmart equivalent of build_target_index.py:
 - Flattens all products into one list
 - Builds a category index (category -> list of products)
 - Saves:
-  - data/walmart_products_flat.json
-  - data/walmart_products_by_category.json
+  - data/stores/walmart/products_flat.json
+  - data/stores/walmart/products_by_category.json
 
 Dataset shape:
 {
@@ -30,8 +30,8 @@ BACKEND_DIR = SCRIPT_DIR.parent
 REPO_ROOT = BACKEND_DIR.parent
 
 WALMART_ITEMS_DIR = REPO_ROOT / "walmart_items"
-OUT_FLAT = BACKEND_DIR / "data" / "walmart_products_flat.json"
-OUT_BY_CAT = BACKEND_DIR / "data" / "walmart_products_by_category.json"
+OUT_FLAT = BACKEND_DIR / "data" / "stores" / "walmart" / "products_flat.json"
+OUT_BY_CAT = BACKEND_DIR / "data" / "stores" / "walmart" / "products_by_category.json"
 
 
 def safe_read_json(path: Path) -> Any:

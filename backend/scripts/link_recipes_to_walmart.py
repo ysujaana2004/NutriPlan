@@ -8,7 +8,7 @@ Milestone 2.3 + 2.4:
 - Maps each recipe ingredient -> canonical id (best-effort)
 - Maps each Walmart product -> canonical id (best-effort)
 - Computes coverage: which canonical ingredients in a recipe are purchasable in Walmart datasets
-- Saves data/recipes-with-canonical-walmart.json + prints report
+- Saves data/stores/walmart/recipes-with-canonical.json + prints report
 
 This is intentionally rule-based first. You will expand aliases over time.
 """
@@ -25,11 +25,11 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 BACKEND_DIR = SCRIPT_DIR.parent
 DATA_DIR = BACKEND_DIR / "data"
 
-RECIPES_PATH = DATA_DIR / "recipes-full.json"
-WALMART_FLAT_PATH = DATA_DIR / "walmart_products_flat.json"
-CANONICAL_PATH = DATA_DIR / "canonical_ingredients.json"
-CANONICAL_FALLBACK_PATH = DATA_DIR / "canconical_ingredients.json"
-OUT_PATH = DATA_DIR / "recipes-with-canonical-walmart.json"
+RECIPES_PATH = DATA_DIR / "recipes" / "recipes-full.json"
+WALMART_FLAT_PATH = DATA_DIR / "stores" / "walmart" / "products_flat.json"
+CANONICAL_PATH = DATA_DIR / "recipes" / "canonical_ingredients.json"
+CANONICAL_FALLBACK_PATH = DATA_DIR / "recipes" / "canconical_ingredients.json"
+OUT_PATH = DATA_DIR / "stores" / "walmart" / "recipes-with-canonical.json"
 
 # Items commonly treated as pantry staples/seasonings for MVP shopping logic.
 # These are ignored in recipe->canonical matching coverage.

@@ -2,9 +2,9 @@
 append_recipe_pipeline.py
 
 Append NEW recipes through your full existing pipeline:
-1) Append IDs/titles -> data/recipes.json
-2) Append full details -> data/recipes-full.json
-3) Append nutrition macros -> data/recipes-nutrition.json
+1) Append IDs/titles -> data/recipes/recipes.json
+2) Append full details -> data/recipes/recipes-full.json
+3) Append nutrition macros -> data/recipes/recipes-nutrition.json
 
 The script is append-safe:
 - never deletes existing rows
@@ -35,11 +35,12 @@ from dotenv import load_dotenv
 SCRIPT_DIR = Path(__file__).resolve().parent
 BACKEND_DIR = SCRIPT_DIR.parent
 DATA_DIR = BACKEND_DIR / "data"
-BACKUP_DIR = DATA_DIR / "recipes-backups"
+RECIPES_DIR = DATA_DIR / "recipes"
+BACKUP_DIR = RECIPES_DIR / "recipes-backups"
 
-RECIPES_PATH = DATA_DIR / "recipes.json"
-FULL_PATH = DATA_DIR / "recipes-full.json"
-NUTRITION_PATH = DATA_DIR / "recipes-nutrition.json"
+RECIPES_PATH = RECIPES_DIR / "recipes.json"
+FULL_PATH = RECIPES_DIR / "recipes-full.json"
+NUTRITION_PATH = RECIPES_DIR / "recipes-nutrition.json"
 
 RANDOM_SEARCH_URL = "https://api.spoonacular.com/recipes/complexSearch"
 BULK_INFO_URL = "https://api.spoonacular.com/recipes/informationBulk"
@@ -122,7 +123,7 @@ def dedupe_by_id_keep_first(rows: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
 
 def backup_file(path: Path) -> Path | None:
-    """Create a timestamped backup copy in backend/data/recipes-backups."""
+    """Create a timestamped backup copy in backend/data/recipes/recipes-backups."""
     if not path.exists():
         return None
     BACKUP_DIR.mkdir(parents=True, exist_ok=True)
@@ -199,7 +200,7 @@ def main() -> None:
     if not api_key:
         raise ValueError("SPOONACULAR_API_KEY not found in environment variables.")
 
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    RECIPES_DIR.mkdir(parents=True, exist_ok=True)
 
     existing_recipes = load_json_list(RECIPES_PATH)
     existing_full = load_json_list(FULL_PATH)

@@ -27,21 +27,20 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Any, Callable, Optional
 
+from . import data_paths
 from .matching import map_text_to_canonical_id, normalize_match_text, parse_price_to_usd
 
 
-RECIPES_NUTRITION_PATH = Path(__file__).resolve().parent.parent / "data" / "recipes-nutrition.json"
-RECIPES_FULL_PATH = Path(__file__).resolve().parent.parent / "data" / "recipes-full.json"
-WALMART_PRODUCTS_FLAT_PATH = Path(__file__).resolve().parent.parent / "data" / "walmart_products_flat.json"
-TARGET_PRODUCTS_FLAT_PATH = Path(__file__).resolve().parent.parent / "data" / "target_products_flat.json"
-RECIPES_WITH_CANONICAL_TARGET_PATH = Path(__file__).resolve().parent.parent / "data" / "recipes-with-canonical.json"
-RECIPES_WITH_CANONICAL_WALMART_PATH = (
-    Path(__file__).resolve().parent.parent / "data" / "recipes-with-canonical-walmart.json"
-)
+RECIPES_NUTRITION_PATH = data_paths.RECIPES_NUTRITION_PATH
+RECIPES_FULL_PATH = data_paths.RECIPES_FULL_PATH
+TARGET_PRODUCTS_FLAT_PATH = data_paths.store_products_flat_path(data_paths.TARGET_STORE_KEY)
+WALMART_PRODUCTS_FLAT_PATH = data_paths.store_products_flat_path(data_paths.WALMART_STORE_KEY)
+RECIPES_WITH_CANONICAL_TARGET_PATH = data_paths.store_recipe_coverage_path(data_paths.TARGET_STORE_KEY)
+RECIPES_WITH_CANONICAL_WALMART_PATH = data_paths.store_recipe_coverage_path(data_paths.WALMART_STORE_KEY)
 # Backward-compatible alias for existing callers/tests that expect Target coverage.
 RECIPES_WITH_CANONICAL_PATH = RECIPES_WITH_CANONICAL_TARGET_PATH
-CANONICAL_INGREDIENTS_PATH = Path(__file__).resolve().parent.parent / "data" / "canonical_ingredients.json"
-CANONICAL_INGREDIENTS_FALLBACK_PATH = Path(__file__).resolve().parent.parent / "data" / "canconical_ingredients.json"
+CANONICAL_INGREDIENTS_PATH = data_paths.CANONICAL_INGREDIENTS_PATH
+CANONICAL_INGREDIENTS_FALLBACK_PATH = data_paths.CANONICAL_INGREDIENTS_FALLBACK_PATH
 
 
 @dataclass(frozen=True)

@@ -34,7 +34,7 @@ class TestTargetIntegration(unittest.TestCase):
         self.canonical_path = self.tmp_dir / "canonical_ingredients.json"
         self.fallback_canonical_path = self.tmp_dir / "canconical_ingredients.json"
         self.target_flat_path = self.tmp_dir / "target_products_flat.json"
-        self.recipes_with_canonical_path = self.tmp_dir / "recipes-with-canonical.json"
+        self.recipes_with_canonical_path = self.tmp_dir / "recipes-with-canonical-target.json"
         self.recipes_nutrition_path = self.tmp_dir / "recipes-nutrition.json"
         self.recipes_full_path = self.tmp_dir / "recipes-full.json"
 
