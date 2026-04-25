@@ -1,19 +1,24 @@
 """
 build_ingredient_universe.py
 
-- Reads data/recipes-random-full.json
+- Reads data/recipes/recipes-full.json
 - Extracts ingredient names using nameClean when available
 - Aggressively filters out instruction fragments / junk
 - Normalizes common variants
-- Writes data/ingredients-from-random.json
+- Writes data/recipes/ingredients-from-recipes.json
 """
 
 import json
 import os
 import re
+from pathlib import Path
 
-INPUT_PATH = "data/recipes-random-full.json"
-OUTPUT_PATH = "data/ingredients-from-random.json"
+SCRIPT_DIR = Path(__file__).resolve().parent
+BACKEND_DIR = SCRIPT_DIR.parent
+RECIPES_DIR = BACKEND_DIR / "data" / "recipes"
+
+INPUT_PATH = RECIPES_DIR / "recipes-full.json"
+OUTPUT_PATH = RECIPES_DIR / "ingredients-from-recipes.json"
 
 # Expand over time as you see patterns.
 NORMALIZE_MAP = {

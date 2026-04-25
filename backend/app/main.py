@@ -32,6 +32,11 @@ from fastapi.middleware.cors import CORSMiddleware
 # from ..archive.demo_planner import build_demo_weekly_plan
 from .optimizer import build_optimized_weekly_plan, replace_meal_in_weekly_plan
 from .schemas import Diet, ReplaceMealRequest, WeeklyPlan
+from .store_registry import (
+    display_name_for_store_key,
+    location_query_name_for_store_key,
+    normalize_store_key,
+)
 
 
 app = FastAPI(
@@ -50,14 +55,13 @@ app.add_middleware(
 
 
 @app.get("/optimize/meal-plan", response_model=WeeklyPlan)
-#def optimized_meal_plan(
 async def optimized_meal_plan(
     budget: float = Query(..., gt=0, description="Weekly budget in USD."),
     calories: int = Query(..., gt=0, description="Target calories per day."),
     diet: Diet = Query("none", description="Diet preference."),
     start_date: Optional[str] = Query(None, description="Optional YYYY-MM-DD start date."),
     zip_code: Optional[str] = Query(None, description="Optional ZIP code to find local stores."),
-    store_preference: str = Query("Target", description="Preferred store (Target or Walmart)"),
+    store_preference: str = Query("Target", description="Preferred store (Target, Walmart, BJs, Whole Foods)."),
     protein_target_g: Optional[float] = Query(
         None,
         gt=0,
@@ -74,15 +78,13 @@ async def optimized_meal_plan(
         description="Optional daily fat grams (must be provided with protein/carbs targets).",
     ),
 ) -> WeeklyPlan:
-    """Return nutrition-first weekly plan enriched with Target coverage/cost metadata."""
+    """Return nutrition-first weekly plan enriched with store coverage/cost metadata."""
 
-    store_name = store_preference
+    store_key = normalize_store_key(store_preference)
+    store_name = display_name_for_store_key(store_key)
     if zip_code:
         from .location_service import find_nearby_stores
-        # If the preferred store isn't nearby, blindly fallback to the other
-        stores = await find_nearby_stores(zip_code, store_preference)
-        if not stores:
-            store_name = "Walmart" if store_preference.lower() == "target" else "Target"
+        await find_nearby_stores(zip_code, location_query_name_for_store_key(store_key))
 
     return build_optimized_weekly_plan(
         store_name=store_name,
@@ -108,16 +110,17 @@ async def replace_meal(request: ReplaceMealRequest) -> WeeklyPlan:
     )
 
 
-# added this for location (March 20th )
 @app.get("/stores/nearby")
 async def nearby_stores(
     zip_code: str = Query(..., description="ZIP Code to search near"),
-    store_name: str = Query("Target", description="Store name, e.g., 'Target' or 'Walmart'")
+    store_name: str = Query("Target", description="Store name, e.g., Target, Walmart, BJs, Whole Foods.")
 ) -> dict:
-    """Find nearby Target or Walmart stores using the Google Places API."""
+    """Find nearby stores using the Google Places API."""
     from .location_service import find_nearby_stores
-    stores = await find_nearby_stores(zip_code, store_name)
-    return {"store_name": store_name, "zip_code": zip_code, "results": stores}
+    store_key = normalize_store_key(store_name)
+    normalized_display_name = display_name_for_store_key(store_key)
+    stores = await find_nearby_stores(zip_code, location_query_name_for_store_key(store_key))
+    return {"store_name": normalized_display_name, "zip_code": zip_code, "results": stores}
 
 
 @app.get("/health")

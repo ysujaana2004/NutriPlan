@@ -32,7 +32,6 @@ from fastapi import HTTPException
 from .data_access import (
     RealRecipe,
     load_canonical_name_by_id,
-   # load_cheapest_target_by_canonical_id,
     load_real_recipes,
     load_recipe_coverage_by_store,
 )
@@ -49,6 +48,7 @@ from .schemas import (
     ShoppingListSummary,
     WeeklyPlan,
 )
+from .store_registry import display_name_for_store_key, normalize_store_key
 
 
 MEAL_SPLITS: dict[Literal["breakfast", "lunch", "dinner"], float] = {
@@ -415,7 +415,6 @@ def build_shopping_list_summary(
 
     coverage_by_id = load_recipe_coverage_by_store(store_name)
     cheapest_lookup = get_store_pricing(store_name)
-    #cheapest_lookup = load_cheapest_target_by_canonical_id()
     canonical_name_by_id = load_canonical_name_by_id()
 
     covered_units: dict[str, int] = {}
@@ -481,10 +480,8 @@ def build_shopping_list_summary(
 def resolve_store_name_from_plan_inputs(inputs: dict) -> str:
     """Resolve store name from plan inputs with a safe Target default."""
 
-    value = str(inputs.get("store_name") or "").strip()
-    if value.lower() == "walmart":
-        return "Walmart"
-    return "Target"
+    store_key = normalize_store_key(str(inputs.get("store_name") or ""))
+    return display_name_for_store_key(store_key)
 
 
 def replace_meal_in_weekly_plan(
@@ -595,7 +592,7 @@ def replace_meal_in_weekly_plan(
 
 
 def build_optimized_weekly_plan(
-    store_name: str,  #Addec store name param
+    store_name: str,
     budget: float,
     calories: int,
     diet: Diet,
@@ -698,7 +695,6 @@ def build_optimized_weekly_plan(
     )
     week_total_cost = round(sum(day.total_cost_usd for day in days), 2)
     shopping_list = build_shopping_list_summary(selected_recipe_ids, recipe_name_by_id, store_name)
-   #shopping_list = build_shopping_list_summary(selected_recipe_ids, recipe_name_by_id)
     return WeeklyPlan(
         inputs={
             "budget": budget,
@@ -710,7 +706,6 @@ def build_optimized_weekly_plan(
             "target_lookup_size": len(get_store_pricing(store_name)),
             "recipe_coverage_rows": len(load_recipe_coverage_by_store(store_name)),
             "protein_target_g": round(daily_protein_target, 2),
-            # "target_lookup_size": len(load_cheapest_target_by_canonical_id()),
             "carbs_target_g": round(daily_carbs_target, 2),
             "fat_target_g": round(daily_fat_target, 2),
 

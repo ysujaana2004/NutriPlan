@@ -2,10 +2,10 @@
 fetch_recipe_nutrition_bulk.py
 
 Goal:
-- Reads data/recipes-random.json (list of {id, title})
+- Reads data/recipes/recipes.json (list of {id, title})
 - Fetches nutrition in BULK (informationBulk with includeNutrition=true)
 - Extracts ONLY macros (calories, protein, carbs, fat)
-- Saves to data/recipes-nutrition.json
+- Saves to data/recipes/recipes-nutrition.json
 
 Why bulk?
 - 60 recipes -> usually 1 request
@@ -16,6 +16,7 @@ import json
 import os
 import time
 import requests
+from pathlib import Path
 from typing import List, Dict, Any
 from dotenv import load_dotenv
 
@@ -28,8 +29,11 @@ if not API_KEY:
 # ----------------------------
 # CONFIG
 # ----------------------------
-INPUT_PATH = "data/recipes-random.json"
-OUTPUT_PATH = "data/recipes-nutrition.json"
+SCRIPT_DIR = Path(__file__).resolve().parent
+BACKEND_DIR = SCRIPT_DIR.parent
+RECIPES_DIR = BACKEND_DIR / "data" / "recipes"
+INPUT_PATH = RECIPES_DIR / "recipes.json"
+OUTPUT_PATH = RECIPES_DIR / "recipes-nutrition.json"
 
 CHUNK_SIZE = 80
 SLEEP_SECONDS = 0.25
@@ -39,7 +43,7 @@ def chunk_list(items: List[int], size: int) -> List[List[int]]:
     return [items[i : i + size] for i in range(0, len(items), size)]
 
 
-def load_recipe_ids(path: str) -> List[int]:
+def load_recipe_ids(path: Path) -> List[int]:
     with open(path, "r") as f:
         data = json.load(f)
     return [int(r["id"]) for r in data if "id" in r]
@@ -115,7 +119,7 @@ def main():
         if idx < len(chunk_list(ids, CHUNK_SIZE)):
             time.sleep(SLEEP_SECONDS)
 
-    os.makedirs("data", exist_ok=True)
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_PATH, "w") as f:
         json.dump(all_rows, f, indent=2)
 

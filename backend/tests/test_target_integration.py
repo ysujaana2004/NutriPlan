@@ -34,9 +34,9 @@ class TestTargetIntegration(unittest.TestCase):
         self.canonical_path = self.tmp_dir / "canonical_ingredients.json"
         self.fallback_canonical_path = self.tmp_dir / "canconical_ingredients.json"
         self.target_flat_path = self.tmp_dir / "target_products_flat.json"
-        self.recipes_with_canonical_path = self.tmp_dir / "recipes-with-canonical.json"
+        self.recipes_with_canonical_path = self.tmp_dir / "recipes-with-canonical-target.json"
         self.recipes_nutrition_path = self.tmp_dir / "recipes-nutrition.json"
-        self.recipes_random_full_path = self.tmp_dir / "recipes-random-full.json"
+        self.recipes_full_path = self.tmp_dir / "recipes-full.json"
 
         _write_json(
             self.canonical_path,
@@ -152,7 +152,7 @@ class TestTargetIntegration(unittest.TestCase):
         )
 
         _write_json(
-            self.recipes_random_full_path,
+            self.recipes_full_path,
             [
                 {
                     "id": 101,
@@ -205,7 +205,7 @@ class TestTargetIntegration(unittest.TestCase):
             "TARGET_PRODUCTS_FLAT_PATH": data_access.TARGET_PRODUCTS_FLAT_PATH,
             "RECIPES_WITH_CANONICAL_PATH": data_access.RECIPES_WITH_CANONICAL_PATH,
             "RECIPES_NUTRITION_PATH": data_access.RECIPES_NUTRITION_PATH,
-            "RECIPES_RANDOM_FULL_PATH": data_access.RECIPES_RANDOM_FULL_PATH,
+            "RECIPES_FULL_PATH": data_access.RECIPES_FULL_PATH,
         }
 
         data_access.CANONICAL_INGREDIENTS_PATH = self.canonical_path
@@ -213,7 +213,7 @@ class TestTargetIntegration(unittest.TestCase):
         data_access.TARGET_PRODUCTS_FLAT_PATH = self.target_flat_path
         data_access.RECIPES_WITH_CANONICAL_PATH = self.recipes_with_canonical_path
         data_access.RECIPES_NUTRITION_PATH = self.recipes_nutrition_path
-        data_access.RECIPES_RANDOM_FULL_PATH = self.recipes_random_full_path
+        data_access.RECIPES_FULL_PATH = self.recipes_full_path
 
         self._clear_cached_loaders()
 
@@ -224,7 +224,7 @@ class TestTargetIntegration(unittest.TestCase):
         data_access.TARGET_PRODUCTS_FLAT_PATH = self._original_paths["TARGET_PRODUCTS_FLAT_PATH"]
         data_access.RECIPES_WITH_CANONICAL_PATH = self._original_paths["RECIPES_WITH_CANONICAL_PATH"]
         data_access.RECIPES_NUTRITION_PATH = self._original_paths["RECIPES_NUTRITION_PATH"]
-        data_access.RECIPES_RANDOM_FULL_PATH = self._original_paths["RECIPES_RANDOM_FULL_PATH"]
+        data_access.RECIPES_FULL_PATH = self._original_paths["RECIPES_FULL_PATH"]
 
         self._clear_cached_loaders()
         self.tmp.cleanup()
