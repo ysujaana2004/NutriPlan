@@ -1,6 +1,7 @@
 from fastapi.testclient import TestClient
 from app.main import app
 from app.optimizer import build_optimized_weekly_plan, replace_meal_in_weekly_plan
+from unittest.mock import AsyncMock, patch
 
 # Create a test client
 client = TestClient(app)
@@ -34,6 +35,7 @@ def test_optimize_success():
     # 2. Check the inputs made it into the plan
     assert data["inputs"]["budget"] == 150
     assert data["inputs"]["calories"] == 2000
+    assert data["inputs"]["selected_store_reason"] == "user_preference"
     
     # 3. Ensure the optimizer actually respected macro bounds and budget
     # Check that week_total_cost_usd exists and isn't wildly broken
@@ -135,3 +137,25 @@ def test_replace_meal_api_route_success():
     assert updated_lunch["recipe_id"] != lunch["recipe_id"]
     assert "shopping_list" in updated
     assert updated["shopping_list"] is not None
+
+
+def test_optimize_uses_nearest_store_when_zip_is_provided():
+    with patch("app.location_service.find_nearest_supported_store_key", new=AsyncMock(return_value="walmart")):
+        response = client.get(
+            "/optimize/meal-plan?budget=150&calories=2000&diet=none&store_preference=Target&zip_code=10001"
+        )
+    assert response.status_code == 200
+    data = response.json()
+    assert data["inputs"]["store_name"] == "Walmart"
+    assert data["inputs"]["selected_store_reason"] == "nearest_by_zip"
+
+
+def test_optimize_falls_back_to_preference_when_nearest_store_not_found():
+    with patch("app.location_service.find_nearest_supported_store_key", new=AsyncMock(return_value=None)):
+        response = client.get(
+            "/optimize/meal-plan?budget=150&calories=2000&diet=none&store_preference=Target&zip_code=10001"
+        )
+    assert response.status_code == 200
+    data = response.json()
+    assert data["inputs"]["store_name"] == "Target"
+    assert data["inputs"]["selected_store_reason"] == "fallback_to_preference"
