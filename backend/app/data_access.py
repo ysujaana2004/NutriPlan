@@ -45,7 +45,6 @@ RECIPES_WITH_CANONICAL_WHOLE_FOODS_PATH = data_paths.store_recipe_coverage_path(
 # Backward-compatible alias for existing callers/tests that expect Target coverage.
 RECIPES_WITH_CANONICAL_PATH = RECIPES_WITH_CANONICAL_TARGET_PATH
 CANONICAL_INGREDIENTS_PATH = data_paths.CANONICAL_INGREDIENTS_PATH
-CANONICAL_INGREDIENTS_FALLBACK_PATH = data_paths.CANONICAL_INGREDIENTS_FALLBACK_PATH
 
 
 @dataclass(frozen=True)
@@ -113,14 +112,6 @@ EMPTY_RECIPE_DETAIL_SUMMARY = RecipeDetailSummary(
 )
 
 
-def canonical_ingredients_file_path() -> Path:
-    """Return the canonical ingredient file path, supporting naming variants."""
-
-    if CANONICAL_INGREDIENTS_PATH.exists():
-        return CANONICAL_INGREDIENTS_PATH
-    return CANONICAL_INGREDIENTS_FALLBACK_PATH
-
-
 def normalize_store_name(store_name: str) -> str:
     """Normalize incoming store preference to a known store key."""
 
@@ -140,9 +131,9 @@ def _read_json_rows(path: Path) -> list[dict[str, Any]]:
 
 
 def _load_canonical_rows() -> list[dict[str, Any]]:
-    """Load canonical ingredient rows from primary/fallback files."""
+    """Load canonical ingredient rows from the canonical ingredients file."""
 
-    return _read_json_rows(canonical_ingredients_file_path())
+    return _read_json_rows(CANONICAL_INGREDIENTS_PATH)
 
 
 def _store_recipe_coverage_path(store_name: str) -> Path:

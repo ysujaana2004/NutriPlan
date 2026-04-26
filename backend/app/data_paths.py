@@ -20,7 +20,6 @@ RECIPES_NUTRITION_PATH = RECIPES_DIR / "recipes-nutrition.json"
 INGREDIENTS_FROM_RECIPES_PATH = RECIPES_DIR / "ingredients-from-recipes.json"
 
 CANONICAL_INGREDIENTS_PATH = RECIPES_DIR / "canonical_ingredients.json"
-CANONICAL_INGREDIENTS_FALLBACK_PATH = RECIPES_DIR / "canconical_ingredients.json"
 
 # Backward-compatible key names used by existing modules/tests.
 TARGET_STORE_KEY = TARGET

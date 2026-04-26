@@ -26,7 +26,6 @@ class TestWalmartIntegration(unittest.TestCase):
         self.tmp_dir = Path(self.tmp.name)
 
         self.canonical_path = self.tmp_dir / "canonical_ingredients.json"
-        self.fallback_canonical_path = self.tmp_dir / "canconical_ingredients.json"
         self.walmart_flat_path = self.tmp_dir / "walmart_products_flat.json"
         self.recipes_with_canonical_walmart_path = self.tmp_dir / "recipes-with-canonical-walmart.json"
         self.recipes_nutrition_path = self.tmp_dir / "recipes-nutrition.json"
@@ -144,7 +143,6 @@ class TestWalmartIntegration(unittest.TestCase):
 
         self._original_paths = {
             "CANONICAL_INGREDIENTS_PATH": data_access.CANONICAL_INGREDIENTS_PATH,
-            "CANONICAL_INGREDIENTS_FALLBACK_PATH": data_access.CANONICAL_INGREDIENTS_FALLBACK_PATH,
             "WALMART_PRODUCTS_FLAT_PATH": data_access.WALMART_PRODUCTS_FLAT_PATH,
             "RECIPES_WITH_CANONICAL_WALMART_PATH": data_access.RECIPES_WITH_CANONICAL_WALMART_PATH,
             "RECIPES_NUTRITION_PATH": data_access.RECIPES_NUTRITION_PATH,
@@ -152,7 +150,6 @@ class TestWalmartIntegration(unittest.TestCase):
         }
 
         data_access.CANONICAL_INGREDIENTS_PATH = self.canonical_path
-        data_access.CANONICAL_INGREDIENTS_FALLBACK_PATH = self.fallback_canonical_path
         data_access.WALMART_PRODUCTS_FLAT_PATH = self.walmart_flat_path
         data_access.RECIPES_WITH_CANONICAL_WALMART_PATH = self.recipes_with_canonical_walmart_path
         data_access.RECIPES_NUTRITION_PATH = self.recipes_nutrition_path
@@ -161,7 +158,6 @@ class TestWalmartIntegration(unittest.TestCase):
 
     def tearDown(self) -> None:
         data_access.CANONICAL_INGREDIENTS_PATH = self._original_paths["CANONICAL_INGREDIENTS_PATH"]
-        data_access.CANONICAL_INGREDIENTS_FALLBACK_PATH = self._original_paths["CANONICAL_INGREDIENTS_FALLBACK_PATH"]
         data_access.WALMART_PRODUCTS_FLAT_PATH = self._original_paths["WALMART_PRODUCTS_FLAT_PATH"]
         data_access.RECIPES_WITH_CANONICAL_WALMART_PATH = self._original_paths["RECIPES_WITH_CANONICAL_WALMART_PATH"]
         data_access.RECIPES_NUTRITION_PATH = self._original_paths["RECIPES_NUTRITION_PATH"]
