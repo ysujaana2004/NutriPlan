@@ -5,16 +5,19 @@ interface WeekPreferencesModalProps {
   open: boolean;
   weekLabel: string;
   onClose: () => void;
-  onSave: (prefs: { budget?: number; goal?: string; dietary?: string[] }) => void;
+  onSave: (prefs: { budget?: number; goal?: string; dietary?: string[]; storePreference?: string; zipCode?: string }) => void;
 }
 
 const DIET_OPTIONS = ['Vegan', 'Halal', 'Gluten-free', 'Low-carb'];
 const GOALS = ['Balanced', 'Weight loss', 'Muscle gain', 'Low carb'];
+const STORES = ['Target', 'Walmart', 'BJs', 'Whole Foods'];
 
 export function WeekPreferencesModal({ open, weekLabel, onClose, onSave }: WeekPreferencesModalProps) {
   const [budget, setBudget] = useState('100');
   const [goal, setGoal] = useState('Balanced');
   const [dietary, setDietary] = useState<string[]>([]);
+  const [storePreference, setStorePreference] = useState('');
+  const [zipCode, setZipCode] = useState('');
 
   const toggleDiet = (d: string) => {
     setDietary((prev) => (prev.includes(d) ? prev.filter((x) => x !== d) : [...prev, d]));
@@ -25,6 +28,8 @@ export function WeekPreferencesModal({ open, weekLabel, onClose, onSave }: WeekP
       budget: Number(budget) || undefined,
       goal: goal || undefined,
       dietary: dietary.length ? dietary : undefined,
+      storePreference: storePreference,
+      zipCode: zipCode || undefined,
     });
     onClose();
   };
@@ -65,6 +70,29 @@ export function WeekPreferencesModal({ open, weekLabel, onClose, onSave }: WeekP
                 <option key={g} value={g}>{g}</option>
               ))}
             </select>
+          </div>
+          <div>
+            <label className="mb-1 block text-sm font-medium text-gray-700">Store Preference</label>
+            <select
+              value={storePreference}
+              onChange={(e) => setStorePreference(e.target.value)}
+              className="w-full rounded-lg border border-gray-200 px-3 py-2 text-gray-700 bg-white focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+            >
+              <option value="">Auto (Find closest to zip code)</option>
+              {STORES.map((s) => (
+                <option key={s} value={s}>{s}</option>
+              ))}
+            </select>
+          </div>
+          <div>
+            <label className="mb-1 block text-sm font-medium text-gray-700">Location (Address or Zip)</label>
+            <input
+              type="text"
+              placeholder="e.g. 123 Main St, NY or 10001"
+              value={zipCode}
+              onChange={(e) => setZipCode(e.target.value)}
+              className="w-full rounded-lg border border-gray-200 px-3 py-2 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+            />
           </div>
           <div>
             <label className="mb-2 block text-sm font-medium text-gray-700">Dietary (optional)</label>

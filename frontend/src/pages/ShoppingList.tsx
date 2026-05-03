@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
-import { AlertTriangle, DollarSign, LayoutGrid, ShoppingCart } from 'lucide-react';
-import type { BackendShoppingListItem, BackendShoppingListSummary } from '../services/api';
+import { AlertTriangle, DollarSign, LayoutGrid, ShoppingCart, MapPin } from 'lucide-react';
+import type { BackendWeeklyPlan, BackendShoppingListItem } from '../services/api';
 
 type SortBy = 'line_total' | 'unit_price';
 type GroupBy = 'category' | 'product';
@@ -8,16 +8,13 @@ type GroupBy = 'category' | 'product';
 /**
  * Reads the last generated backend shopping list from session storage.
  */
-function loadGeneratedShoppingList(): BackendShoppingListSummary | null {
+function loadGeneratedBackendPlan(): BackendWeeklyPlan | null {
   try {
-    const raw = sessionStorage.getItem('generatedShoppingList');
-    if (!raw) {
-      return null;
-    }
-    const parsed = JSON.parse(raw) as BackendShoppingListSummary | null;
-    return parsed;
+    const raw = sessionStorage.getItem('generatedBackendPlan');
+    if (!raw) return null;
+    return JSON.parse(raw);
   } catch (error) {
-    console.error('Failed to parse generated shopping list:', error);
+    console.error('Failed to parse generated backend plan:', error);
     return null;
   }
 }
@@ -52,7 +49,10 @@ function groupShoppingItems(items: BackendShoppingListItem[], groupBy: GroupBy):
 export function ShoppingList() {
   const [sortBy, setSortBy] = useState<SortBy>('line_total');
   const [groupBy, setGroupBy] = useState<GroupBy>('category');
-  const generated = useMemo(loadGeneratedShoppingList, []);
+  const backendPlan = useMemo(loadGeneratedBackendPlan, []);
+  const generated = backendPlan?.shopping_list ?? null;
+  const storeName = backendPlan?.inputs?.store_name ?? 'Target';
+  const storeLocations = backendPlan?.inputs?.store_locations || [];
 
   const groupedItems = useMemo(() => {
     if (!generated) {
@@ -69,7 +69,7 @@ export function ShoppingList() {
         <div className="rounded-xl border border-gray-200 bg-white p-6">
           <p className="text-gray-700">No generated shopping list found yet.</p>
           <p className="mt-2 text-sm text-gray-500">
-            Generate a meal plan first, then come back here to see Target-matched items.
+            Generate a meal plan first, then come back here to see your store-matched items.
           </p>
         </div>
       </div>
@@ -78,7 +78,13 @@ export function ShoppingList() {
 
   return (
     <div className="mx-auto max-w-7xl">
-      <h1 className="mb-6 text-2xl font-bold text-gray-900">Shopping List</h1>
+      <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
+        <h1 className="text-2xl font-bold text-gray-900">Shopping List</h1>
+        <span className="inline-flex items-center gap-1.5 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-semibold text-primary">
+          <MapPin className="h-4 w-4" />
+          {storeName} prices
+        </span>
+      </div>
 
       <div className="mb-4 flex flex-wrap items-center gap-3">
         <span className="text-sm font-medium text-gray-700">Sort by:</span>
@@ -172,7 +178,7 @@ export function ShoppingList() {
           <div>
             <h3 className="mb-2 flex items-center gap-2 font-semibold text-gray-900">
               <AlertTriangle className="h-4 w-4 text-amber-600" />
-              Missing Target Matches
+              Missing {storeName} Matches
             </h3>
             {generated.missing_items.length === 0 ? (
               <p className="text-sm text-gray-500">None. Every canonical ingredient has a matched product.</p>
@@ -187,6 +193,26 @@ export function ShoppingList() {
               </ul>
             )}
           </div>
+
+          {storeLocations.length > 0 && (
+            <div className="mt-4 pt-4 border-t border-gray-100">
+              <h3 className="mb-2 flex items-center gap-2 font-semibold text-gray-900">
+                <MapPin className="h-4 w-4 text-primary" />
+                Selected Stores Location
+              </h3>
+              <div className="flex flex-col gap-3">
+                {storeLocations.slice(0, 3).map((loc, idx) => (
+                  <div key={idx} className="rounded-md bg-gray-50 p-3 text-sm">
+                    <p className="font-medium text-gray-900">{loc.name}</p>
+                    <p className="text-gray-600 mt-0.5">{loc.address}</p>
+                    {loc.distance_miles !== undefined && (
+                      <p className="text-gray-400 mt-1">{loc.distance_miles} miles away</p>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </aside>
       </div>
     </div>

@@ -2,7 +2,6 @@ import { NavLink } from 'react-router-dom';
 import {
   LayoutDashboard,
   CalendarDays,
-  BookOpen,
   ShoppingCart,
   BarChart3,
   Wallet,
@@ -15,7 +14,6 @@ import { useState } from 'react';
 const nav = [
   { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
   { to: '/meal-plans', icon: CalendarDays, label: 'Meal Plans' },
-  { to: '/recipes', icon: BookOpen, label: 'Recipes' },
   { to: '/shopping-list', icon: ShoppingCart, label: 'Shopping List' },
   { to: '/analytics', icon: BarChart3, label: 'Analytics' },
   { to: '/budget', icon: Wallet, label: 'Budget' },

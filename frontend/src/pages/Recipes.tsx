@@ -59,7 +59,7 @@ export function Recipes() {
       <RecipeDetailModal
         recipeId={selectedId}
         onClose={() => setSelectedId(null)}
-        onAddToShoppingList={() => {}}
+        onAddToShoppingList={() => { }}
       />
     </div>
   );

@@ -36,6 +36,7 @@ from .store_registry import (
     SUPPORTED_STORE_KEYS,
     display_name_for_store_key,
     normalize_store_key,
+    location_query_name_for_store_key,
 )
 
 
@@ -61,7 +62,7 @@ async def optimized_meal_plan(
     diet: Diet = Query("none", description="Diet preference."),
     start_date: Optional[str] = Query(None, description="Optional YYYY-MM-DD start date."),
     zip_code: Optional[str] = Query(None, description="Optional ZIP code to find local stores."),
-    store_preference: str = Query("Target", description="Preferred store (Target, Walmart, BJs, Whole Foods)."),
+    store_preference: Optional[str] = Query(None, description="Preferred store (Target, Walmart, BJs, Whole Foods)."),
     protein_target_g: Optional[float] = Query(
         None,
         gt=0,
@@ -77,23 +78,58 @@ async def optimized_meal_plan(
         gt=0,
         description="Optional daily fat grams (must be provided with protein/carbs targets).",
     ),
+    random_seed: Optional[int] = Query(None, description="Optional seed to shuffle recipes."),
 ) -> WeeklyPlan:
     """Return nutrition-first weekly plan enriched with store coverage/cost metadata."""
 
-    store_key = normalize_store_key(store_preference)
-    store_name = display_name_for_store_key(store_key)
-    selected_store_reason = "user_preference"
-    if zip_code:
-        from .location_service import find_nearest_supported_store_key
+    store_locations = []
 
-        candidate_keys = (store_key,) + tuple(key for key in SUPPORTED_STORE_KEYS if key != store_key)
-        nearest_store_key = await find_nearest_supported_store_key(zip_code, candidate_keys)
-        if nearest_store_key:
-            store_key = nearest_store_key
-            store_name = display_name_for_store_key(store_key)
-            selected_store_reason = "nearest_by_zip"
+    if not store_preference:
+        # User wants the easiest nearest store
+        selected_store_reason = "auto_closest"
+        if zip_code:
+            from .location_service import find_nearest_supported_store_key
+            result = await find_nearest_supported_store_key(zip_code, SUPPORTED_STORE_KEYS)
+            if result:
+                nearest_store_key, nearest_rows = result
+                store_key = nearest_store_key
+                store_name = display_name_for_store_key(nearest_store_key)
+                store_locations = nearest_rows
+            else:
+                store_key = normalize_store_key("Target")
+                store_name = display_name_for_store_key(store_key)
+                selected_store_reason = "auto_fallback_to_default"
         else:
-            selected_store_reason = "fallback_to_preference"
+            store_key = normalize_store_key("Target")
+            store_name = display_name_for_store_key(store_key)
+            selected_store_reason = "auto_fallback_no_zip"
+    else:
+        store_key = normalize_store_key(store_preference)
+        store_name = display_name_for_store_key(store_key)
+        selected_store_reason = "user_preference"
+        if zip_code:
+            from .location_service import find_nearby_stores, find_nearest_supported_store_key
+            from .store_registry import location_query_name_for_store_key
+    
+            # First check if the preferred store is near the user
+            stores = await find_nearby_stores(zip_code, location_query_name_for_store_key(store_key))
+            if stores:
+                # The preferred store is available nearby!
+                store_locations = stores
+                store_name = display_name_for_store_key(store_key)
+                selected_store_reason = "preference_nearby"
+            else:
+                # Fallback to the closest supported alternative store!
+                candidate_keys = tuple(key for key in SUPPORTED_STORE_KEYS if key != store_key)
+                result = await find_nearest_supported_store_key(zip_code, candidate_keys)
+                if result:
+                    nearest_store_key, nearest_rows = result
+                    store_key = nearest_store_key
+                    store_name = display_name_for_store_key(store_key)
+                    store_locations = nearest_rows
+                    selected_store_reason = "nearest_by_zip"
+                else:
+                    selected_store_reason = "fallback_to_preference"
 
     return build_optimized_weekly_plan(
         store_name=store_name,
@@ -105,6 +141,8 @@ async def optimized_meal_plan(
         carbs_target_g=carbs_target_g,
         fat_target_g=fat_target_g,
         selected_store_reason=selected_store_reason,
+        store_locations=store_locations,
+        random_seed=random_seed,
     )
 
 

@@ -65,6 +65,11 @@ export interface BackendWeeklyPlan {
     diet: string;
     start_date: string | null;
     store_name?: string;
+    store_locations?: {
+      name: string;
+      address: string;
+      distance_miles?: number;
+    }[];
   };
   days: BackendDayPlan[];
   week_totals: BackendNutrition;
@@ -84,6 +89,9 @@ export interface MealPlanParams {
   calories: number;
   diet?: 'none' | 'vegetarian' | 'high_protein' | 'low_carb';
   start_date?: string;
+  store_preference?: string;
+  zip_code?: string;
+  random_seed?: number;
 }
 
 /**
@@ -95,6 +103,9 @@ export async function fetchMealPlan(params: MealPlanParams): Promise<BackendWeek
     calories: params.calories.toString(),
     ...(params.diet && { diet: params.diet }),
     ...(params.start_date && { start_date: params.start_date }),
+    ...(params.store_preference && { store_preference: params.store_preference }),
+    ...(params.zip_code && { zip_code: params.zip_code }),
+    ...(params.random_seed && { random_seed: params.random_seed.toString() }),
   });
 
   const response = await fetch(`${API_BASE_URL}/optimize/meal-plan?${queryParams}`);

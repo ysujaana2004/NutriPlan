@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { ShoppingCart, Plus, Trash2, RefreshCw, Settings2 } from 'lucide-react';
 import { MOCK_WEEK_PLAN, MOCK_RECIPES } from '../data/mock';
 import type { DayPlan, MealSlot, MealType, Recipe } from '../types';
-import { replaceMealInPlan, type BackendWeeklyPlan } from '../services/api';
+import { fetchMealPlan, replaceMealInPlan, type BackendWeeklyPlan } from '../services/api';
 import { transformBackendPlanToFrontend } from '../utils/transform';
 import { RecipeDetailModal } from '../components/Modals/RecipeDetailModal';
 import { WeekPreferencesModal } from '../components/Modals/WeekPreferencesModal';
@@ -54,6 +54,7 @@ export function MealPlans() {
   const [weekPrefsOpen, setWeekPrefsOpen] = useState(false);
   const [refreshingSlotId, setRefreshingSlotId] = useState<string | null>(null);
   const [refreshError, setRefreshError] = useState<string | null>(null);
+  const [isGenerating, setIsGenerating] = useState(false);
 
   const day = plan[activeDay];
   const backendManaged = backendPlan !== null;
@@ -130,6 +131,31 @@ export function MealPlans() {
     }
   };
 
+  const handleGeneratePlan = async (prefs: any) => {
+    setIsGenerating(true);
+    setRefreshError(null);
+    try {
+      const result = await fetchMealPlan({
+        budget: prefs.budget || 100,
+        calories: 2000,
+        diet: 'none',
+        store_preference: prefs.storePreference,
+        zip_code: prefs.zipCode,
+        random_seed: Math.floor(Math.random() * 1000000),
+      });
+      const frontendPlan = transformBackendPlanToFrontend(result);
+      setBackendPlan(result);
+      setPlan(frontendPlan);
+      sessionStorage.setItem('generatedBackendPlan', JSON.stringify(result));
+      sessionStorage.setItem('generatedPlan', JSON.stringify(frontendPlan));
+      sessionStorage.setItem('generatedShoppingList', JSON.stringify(result.shopping_list ?? null));
+    } catch (error) {
+      setRefreshError(error instanceof Error ? error.message : 'Failed to generate new meal plan.');
+    } finally {
+      setIsGenerating(false);
+    }
+  };
+
   return (
     <div className="mx-auto max-w-7xl">
       <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
@@ -137,10 +163,11 @@ export function MealPlans() {
         <div className="flex gap-2">
           <button
             onClick={() => setWeekPrefsOpen(true)}
-            className="flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
+            disabled={isGenerating}
+            className="flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 disabled:opacity-50"
           >
             <Settings2 className="h-4 w-4" />
-            Week preferences
+            {isGenerating ? 'Generating...' : 'Week preferences'}
           </button>
           <button
             onClick={() => navigate('/shopping-list')}
@@ -164,9 +191,8 @@ export function MealPlans() {
               <button
                 key={d.day}
                 onClick={() => setActiveDay(i)}
-                className={`min-w-[4rem] rounded-lg px-3 py-2 text-sm font-medium transition-colors ${
-                  i === activeDay ? 'bg-white text-primary shadow-sm' : 'text-gray-600 hover:bg-white/60'
-                }`}
+                className={`min-w-[4rem] rounded-lg px-3 py-2 text-sm font-medium transition-colors ${i === activeDay ? 'bg-white text-primary shadow-sm' : 'text-gray-600 hover:bg-white/60'
+                  }`}
               >
                 {d.day}
               </button>
@@ -222,19 +248,7 @@ export function MealPlans() {
                   </div>
                 </div>
               ))}
-              <div className="flex flex-wrap gap-2">
-                {(['breakfast', 'lunch', 'dinner'] as MealType[]).map((type) => (
-                  <button
-                    key={type}
-                    onClick={() => addMeal(activeDay, type)}
-                    disabled={backendManaged}
-                    className="flex items-center gap-1 rounded-lg border border-dashed border-gray-300 bg-white px-3 py-2 text-sm text-gray-500 hover:border-primary hover:bg-primary-light/10 hover:text-primary"
-                  >
-                    <Plus className="h-4 w-4" />
-                    Add {MEAL_LABELS[type]}
-                  </button>
-                ))}
-              </div>
+
             </div>
           </div>
         </div>
@@ -273,13 +287,13 @@ export function MealPlans() {
       <RecipeDetailModal
         recipe={recipeModal}
         onClose={() => setRecipeModal(null)}
-        onAddToShoppingList={() => {}}
+        onAddToShoppingList={() => { }}
       />
       <WeekPreferencesModal
         open={weekPrefsOpen}
         weekLabel="This week"
         onClose={() => setWeekPrefsOpen(false)}
-        onSave={() => {}}
+        onSave={handleGeneratePlan}
       />
     </div>
   );

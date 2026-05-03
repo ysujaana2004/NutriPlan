@@ -28,13 +28,13 @@ def _haversine_miles(lat1: float, lon1: float, lat2: float, lon2: float) -> floa
     return earth_radius_miles * c
 
 
-async def _geocode_zip_to_lat_lng(client: httpx.AsyncClient, zip_code: str) -> Optional[tuple[float, float]]:
-    """Resolve a US ZIP code to latitude/longitude using Google Geocoding."""
+async def _geocode_location_to_lat_lng(client: httpx.AsyncClient, location_query: str) -> Optional[tuple[float, float]]:
+    """Resolve a location string (ZIP, full address, city) to latitude/longitude using Google Geocoding."""
 
     geocode_url = "https://maps.googleapis.com/maps/api/geocode/json"
     geocode_params = {
-        "address": zip_code,
-        "components": f"postal_code:{zip_code}|country:US",
+        "address": location_query,
+        "components": "country:US",
         "key": GOOGLE_MAPS_API_KEY,
     }
     response = await client.get(geocode_url, params=geocode_params)
@@ -42,7 +42,7 @@ async def _geocode_zip_to_lat_lng(client: httpx.AsyncClient, zip_code: str) -> O
     data = response.json()
 
     if data.get("status") != "OK":
-        logger.error("Google Geocoding API Error for ZIP %s: %s - %s", zip_code, data.get("status"), data.get("error_message"))
+        logger.error("Google Geocoding API Error for location %s: %s - %s", location_query, data.get("status"), data.get("error_message"))
         return None
 
     results = data.get("results", [])
@@ -117,7 +117,7 @@ async def find_nearby_stores(zip_code: str, store_name: str) -> List[Dict[str, A
 
     try:
         async with httpx.AsyncClient() as client:
-            origin = await _geocode_zip_to_lat_lng(client, zip_code)
+            origin = await _geocode_location_to_lat_lng(client, zip_code)
             if origin is None:
                 return []
             origin_lat, origin_lng = origin
@@ -130,8 +130,8 @@ async def find_nearby_stores(zip_code: str, store_name: str) -> List[Dict[str, A
 async def find_nearest_supported_store_key(
     zip_code: str,
     candidate_store_keys: Optional[Iterable[str]] = None,
-) -> Optional[str]:
-    """Return the supported store key with the nearest match for this ZIP code."""
+) -> Optional[tuple[str, Any]]:
+    """Return the supported store key and store details with the nearest match for this ZIP code."""
 
     keys = tuple(candidate_store_keys or SUPPORTED_STORE_KEYS)
     if not keys:
@@ -142,7 +142,7 @@ async def find_nearest_supported_store_key(
 
     try:
         async with httpx.AsyncClient() as client:
-            origin = await _geocode_zip_to_lat_lng(client, zip_code)
+            origin = await _geocode_location_to_lat_lng(client, zip_code)
             if origin is None:
                 return None
             origin_lat, origin_lng = origin
@@ -162,11 +162,13 @@ async def find_nearest_supported_store_key(
         return None
 
     nearest_key: Optional[str] = None
+    nearest_rows: list[dict] = []
     nearest_distance = float("inf")
     for store_key, rows in zip(keys, per_store_results):
         if not rows:
             continue
-        distance = rows[0].get("distance_miles")
+        row = rows[0]
+        distance = row.get("distance_miles")
         if distance is None:
             continue
         try:
@@ -176,5 +178,8 @@ async def find_nearest_supported_store_key(
         if distance_value < nearest_distance:
             nearest_distance = distance_value
             nearest_key = store_key
+            nearest_rows = rows
 
-    return nearest_key
+    if nearest_key and nearest_rows:
+        return nearest_key, nearest_rows
+    return None

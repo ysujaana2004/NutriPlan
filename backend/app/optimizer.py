@@ -601,6 +601,8 @@ def build_optimized_weekly_plan(
     carbs_target_g: Optional[float],
     fat_target_g: Optional[float],
     selected_store_reason: str = "user_preference",
+    store_locations: list[dict] = [],
+    random_seed: Optional[int] = None,
 ) -> WeeklyPlan:
     """Build a weekly plan using nutrition targets and store-aware penalties."""
 
@@ -632,6 +634,7 @@ def build_optimized_weekly_plan(
         str(daily_protein_target),
         str(daily_carbs_target),
         str(daily_fat_target),
+        str(random_seed or "default"),
     )
 
     times_used_by_id: dict[str, int] = {}
@@ -710,7 +713,7 @@ def build_optimized_weekly_plan(
             "protein_target_g": round(daily_protein_target, 2),
             "carbs_target_g": round(daily_carbs_target, 2),
             "fat_target_g": round(daily_fat_target, 2),
-
+            "store_locations": store_locations,
         },
         days=days,
         week_totals=week_totals,

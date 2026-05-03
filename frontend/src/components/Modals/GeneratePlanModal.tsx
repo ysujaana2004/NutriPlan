@@ -9,7 +9,7 @@ interface GeneratePlanModalProps {
   onClose: () => void;
   onDone: (frontendPlan: DayPlan[], backendPlan: BackendWeeklyPlan) => void;
 }
-
+/*
 // Map frontend goal values to backend diet values
 function mapGoalToDiet(goal: string): 'none' | 'vegetarian' | 'high_protein' | 'low_carb' {
   switch (goal) {
@@ -23,29 +23,30 @@ function mapGoalToDiet(goal: string): 'none' | 'vegetarian' | 'high_protein' | '
       return 'none';
   }
 }
-
+*/
 export function GeneratePlanModal({ open, onClose, onDone }: GeneratePlanModalProps) {
   const [budget, setBudget] = useState('100');
   const [calories, setCalories] = useState('2000');
   const [goal, setGoal] = useState('balanced');
   const [location, setLocation] = useState('');
+  const [storePreference, setStorePreference] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   const handleGenerate = async () => {
     setError(null);
     setLoading(true);
-    
+
     try {
       const budgetNum = parseFloat(budget);
       const caloriesNum = parseInt(calories, 10);
-      
+
       if (isNaN(budgetNum) || budgetNum <= 0) {
         setError('Please enter a valid budget greater than 0');
         setLoading(false);
         return;
       }
-      
+
       if (isNaN(caloriesNum) || caloriesNum <= 0) {
         setError('Please enter a valid calorie target greater than 0');
         setLoading(false);
@@ -55,7 +56,10 @@ export function GeneratePlanModal({ open, onClose, onDone }: GeneratePlanModalPr
       const backendPlan = await fetchMealPlan({
         budget: budgetNum,
         calories: caloriesNum,
-        diet: mapGoalToDiet(goal),
+        //diet: mapGoalToDiet(goal),
+        store_preference: storePreference || undefined,
+        zip_code: location || undefined,
+        random_seed: Math.floor(Math.random() * 1000000),
       });
 
       const frontendPlan = transformBackendPlanToFrontend(backendPlan);
@@ -97,6 +101,7 @@ export function GeneratePlanModal({ open, onClose, onDone }: GeneratePlanModalPr
               className="w-full rounded-lg border border-gray-200 px-3 py-2 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
             />
           </div>
+          {/*
           <div>
             <label className="mb-1 block text-sm font-medium text-gray-700">Health goal</label>
             <select
@@ -110,11 +115,26 @@ export function GeneratePlanModal({ open, onClose, onDone }: GeneratePlanModalPr
               <option value="low-carb">Low carb</option>
             </select>
           </div>
+          */}
           <div>
-            <label className="mb-1 block text-sm font-medium text-gray-700">Location (for stores)</label>
+            <label className="mb-1 block text-sm font-medium text-gray-700">Store Preference</label>
+            <select
+              value={storePreference}
+              onChange={(e) => setStorePreference(e.target.value)}
+              className="w-full rounded-lg border border-gray-200 px-3 py-2 text-gray-700 bg-white focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+            >
+              <option value="">Auto (Find closest to zip code)</option>
+              <option value="Target">Target</option>
+              <option value="Walmart">Walmart</option>
+              <option value="BJs">BJ's Wholesale</option>
+              <option value="Whole Foods">Whole Foods</option>
+            </select>
+          </div>
+          <div>
+            <label className="mb-1 block text-sm font-medium text-gray-700">Location (Address or Zip)</label>
             <input
               type="text"
-              placeholder="City or ZIP"
+              placeholder="e.g. 123 Main St, NY or 10001"
               value={location}
               onChange={(e) => setLocation(e.target.value)}
               className="w-full rounded-lg border border-gray-200 px-3 py-2 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
