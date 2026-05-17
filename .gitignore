@@ -4,3 +4,5 @@ frontend/node_modules/
 *.pyc
 venv/
 .DS_Store
+.env
+**/.env
