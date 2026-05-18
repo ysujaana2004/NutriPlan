@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ShoppingCart, Plus, Trash2, RefreshCw, Settings2 } from 'lucide-react';
-import { MOCK_WEEK_PLAN, MOCK_RECIPES } from '../data/mock';
+import { ShoppingCart, Trash2, RefreshCw, Settings2 } from 'lucide-react';
+import { MOCK_WEEK_PLAN } from '../data/mock';
 import type { DayPlan, MealSlot, MealType, Recipe } from '../types';
 import { fetchMealPlan, replaceMealInPlan, type BackendWeeklyPlan } from '../services/api';
 import { transformBackendPlanToFrontend } from '../utils/transform';
@@ -76,24 +76,6 @@ export function MealPlans() {
     );
   };
 
-  const addMeal = (dayIndex: number, type: MealType) => {
-    const recipe = MOCK_RECIPES[Math.floor(Math.random() * MOCK_RECIPES.length)];
-    const newSlot: MealSlot = {
-      id: `new-${dayIndex}-${type}-${Date.now()}`,
-      type,
-      recipe,
-      day: plan[dayIndex].day,
-    };
-    setPlan((prev) => {
-      const next = [...prev];
-      const day = { ...next[dayIndex] };
-      day.meals = [...day.meals, newSlot];
-      day.totalCost += recipe.cost;
-      day.totalCalories += recipe.calories;
-      next[dayIndex] = day;
-      return next;
-    });
-  };
 
   const isRefreshableMealType = (type: MealType): type is 'breakfast' | 'lunch' | 'dinner' =>
     type === 'breakfast' || type === 'lunch' || type === 'dinner';

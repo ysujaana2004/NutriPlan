@@ -151,7 +151,7 @@ export function Budget() {
               <BarChart data={dailyCostData} barSize={28}>
                 <XAxis dataKey="name" tick={{ fontSize: 12 }} />
                 <YAxis tick={{ fontSize: 12 }} tickFormatter={(v) => `$${v}`} width={42} />
-                <Tooltip formatter={(v: number) => [`$${v.toFixed(2)}`, 'Est. cost']} />
+                <Tooltip formatter={(v) => [`$${typeof v === 'number' ? v.toFixed(2) : '0.00'}`, 'Est. cost']} />
                 <Bar dataKey="cost" fill="#6366f1" radius={[4, 4, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
@@ -218,7 +218,7 @@ export function Budget() {
                       <Cell key={i} fill={CATEGORY_COLORS[i % CATEGORY_COLORS.length]} />
                     ))}
                   </Pie>
-                  <Tooltip formatter={(v: number) => [`$${v.toFixed(2)}`, 'Cost']} />
+                  <Tooltip formatter={(v) => [`$${typeof v === 'number' ? v.toFixed(2) : '0.00'}`, 'Cost']} />
                   <Legend />
                 </PieChart>
               </ResponsiveContainer>

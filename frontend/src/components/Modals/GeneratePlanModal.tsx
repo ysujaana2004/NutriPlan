@@ -27,7 +27,7 @@ function mapGoalToDiet(goal: string): 'none' | 'vegetarian' | 'high_protein' | '
 export function GeneratePlanModal({ open, onClose, onDone }: GeneratePlanModalProps) {
   const [budget, setBudget] = useState('100');
   const [calories, setCalories] = useState('2000');
-  const [goal, setGoal] = useState('balanced');
+  // goal/setGoal removed — health goal UI is temporarily disabled
   const [location, setLocation] = useState('');
   const [storePreference, setStorePreference] = useState('');
   const [loading, setLoading] = useState(false);
