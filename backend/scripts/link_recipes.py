@@ -26,7 +26,6 @@ DATA_DIR = BACKEND_DIR / "data"
 
 RECIPES_PATH = DATA_DIR / "recipes" / "recipes-full.json"
 CANONICAL_PATH = DATA_DIR / "recipes" / "canonical_ingredients.json"
-CANONICAL_FALLBACK_PATH = DATA_DIR / "recipes" / "canconical_ingredients.json"
 
 PANTRY_IGNORE_TERMS = {
     "salt",
@@ -128,7 +127,7 @@ def main(argv: list[str] | None = None) -> None:
 
     products_flat_path = DATA_DIR / "stores" / store_key / "products_flat.json"
     out_path = DATA_DIR / "stores" / store_key / "recipes-with-canonical.json"
-    canonical_path = CANONICAL_PATH if CANONICAL_PATH.exists() else CANONICAL_FALLBACK_PATH
+    canonical_path = CANONICAL_PATH
 
     for path in (RECIPES_PATH, products_flat_path, canonical_path):
         if not path.exists():

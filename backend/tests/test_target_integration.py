@@ -32,7 +32,6 @@ class TestTargetIntegration(unittest.TestCase):
         self.tmp_dir = Path(self.tmp.name)
 
         self.canonical_path = self.tmp_dir / "canonical_ingredients.json"
-        self.fallback_canonical_path = self.tmp_dir / "canconical_ingredients.json"
         self.target_flat_path = self.tmp_dir / "target_products_flat.json"
         self.recipes_with_canonical_path = self.tmp_dir / "recipes-with-canonical-target.json"
         self.recipes_nutrition_path = self.tmp_dir / "recipes-nutrition.json"
@@ -201,7 +200,6 @@ class TestTargetIntegration(unittest.TestCase):
 
         self._original_paths = {
             "CANONICAL_INGREDIENTS_PATH": data_access.CANONICAL_INGREDIENTS_PATH,
-            "CANONICAL_INGREDIENTS_FALLBACK_PATH": data_access.CANONICAL_INGREDIENTS_FALLBACK_PATH,
             "TARGET_PRODUCTS_FLAT_PATH": data_access.TARGET_PRODUCTS_FLAT_PATH,
             "RECIPES_WITH_CANONICAL_PATH": data_access.RECIPES_WITH_CANONICAL_PATH,
             "RECIPES_NUTRITION_PATH": data_access.RECIPES_NUTRITION_PATH,
@@ -209,7 +207,6 @@ class TestTargetIntegration(unittest.TestCase):
         }
 
         data_access.CANONICAL_INGREDIENTS_PATH = self.canonical_path
-        data_access.CANONICAL_INGREDIENTS_FALLBACK_PATH = self.fallback_canonical_path
         data_access.TARGET_PRODUCTS_FLAT_PATH = self.target_flat_path
         data_access.RECIPES_WITH_CANONICAL_PATH = self.recipes_with_canonical_path
         data_access.RECIPES_NUTRITION_PATH = self.recipes_nutrition_path
@@ -220,7 +217,6 @@ class TestTargetIntegration(unittest.TestCase):
     def tearDown(self) -> None:
         """Restore global planner paths and clear caches between tests."""
         data_access.CANONICAL_INGREDIENTS_PATH = self._original_paths["CANONICAL_INGREDIENTS_PATH"]
-        data_access.CANONICAL_INGREDIENTS_FALLBACK_PATH = self._original_paths["CANONICAL_INGREDIENTS_FALLBACK_PATH"]
         data_access.TARGET_PRODUCTS_FLAT_PATH = self._original_paths["TARGET_PRODUCTS_FLAT_PATH"]
         data_access.RECIPES_WITH_CANONICAL_PATH = self._original_paths["RECIPES_WITH_CANONICAL_PATH"]
         data_access.RECIPES_NUTRITION_PATH = self._original_paths["RECIPES_NUTRITION_PATH"]
